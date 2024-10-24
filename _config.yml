@@ -12,7 +12,7 @@ show_excerpts: true # set to true to show excerpts on the homepage
 minima:
   date_format: "%b %-d, %Y"
   skin: auto
-  copyright_time: "2022-2024"
+  copyright_time: "2024"
   # generate social links in footer
   social_links:
     - {
