@@ -3,7 +3,7 @@ title: Datnd35's Blog
 author:
   name: Dat Nguyen
   email: datcoder.it@gmail.com
-description: “万物皆有裂痕，那是光照进来的地方。”
+description: “Xin chào! Hi vọng bạn sẽ kiếm được gì hay ho ở đây hihi。”
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -15,9 +15,10 @@ minima:
   copyright_time: "2022-2024"
   # generate social links in footer
   social_links:
-    - { platform: github, user_url: "https://github.com/jekyll/minima" }
-    - { platform: telegram, user_url: "https://t.me/YURLAK" }
-    - { platform: twitter, user_url: "https://twitter.com/jekyllrb" }
+    - {
+        platform: linkedin,
+        user_url: "https://www.linkedin.com/in/nguyendinhdat/",
+      }
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
