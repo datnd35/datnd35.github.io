@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Tôi là một thằng thợ cốt già 😄!
+Xin chào! Tôi là một coder già 😄!
 
 <!-- [Mời ghé Linkedin của tui](https://www.linkedin.com/in/nguyendinhdat/) -->
 
