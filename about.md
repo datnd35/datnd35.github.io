@@ -1,33 +1,26 @@
 ---
 layout: base
-title: Chia sẻ 1
+title: Chia sẻ 2
 permalink: /about/
 ---
 <div class="home">
 
-  {% if site.paginate %}
-    {% assign experiences = paginator.experiences %}
-  {% else %}
-    {% assign experiences = site.experiences %}
-  {% endif %}
-
-
-  {%- if experiences.size > 0 -%}
+{%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for experience in experiences -%}
+      {%- for post in posts -%}
       <li>
-        <span class="post-meta">{{ experience.date | date: date_format }}</span>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ experience.url | relative_url }}">
-            {{ experience.title | escape }}
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ experience.excerpt }}
+          {{ post.excerpt }}
         {%- endif -%}
       </li>
       {%- endfor -%}
