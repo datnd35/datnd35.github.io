@@ -16,7 +16,7 @@ SimpleJekyllSearch({
     resultsContainer: document.getElementById('results-container'),
     json: '/search.json',
     searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-    noResultsText: '没有搜索到文章',
+    noResultsText: 'Not Found',
     limit: 20,
     fuzzy: false
   })
