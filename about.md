@@ -22,7 +22,7 @@ permalink: /about/
       <li>
         <span class="post-meta">{{ experience.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+          <a class="post-link" href="{{ experience.url | relative_url }}">
             {{ experience.title | escape }}
           </a>
         </h3>
