@@ -4,12 +4,6 @@ title: Giới thiệu
 permalink: /about/
 ---
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
