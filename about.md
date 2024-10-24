@@ -10,6 +10,8 @@ Xin chào! Tôi là thợ cốt 😄! -->
 
 ---
 layout: base
+title: Giới thiệu
+permalink: /about/
 ---
 
 <div class="home">
