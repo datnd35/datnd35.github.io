@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Search
+title: Tìm kiếm
 ---
 
 <!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="Search..." style="width:380px;height:2rem;border-radius: 5px;"/>
+<input type="text" id="search-input" placeholder="Tìm kiếm..." style="width:380px;height:2rem;border-radius: 5px;"/>
 <ul id="results-container"></ul>
 
 <!-- script pointing to jekyll-search.js -->
@@ -16,7 +16,7 @@ SimpleJekyllSearch({
     resultsContainer: document.getElementById('results-container'),
     json: '/search.json',
     searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-    noResultsText: 'Not Found',
+    noResultsText: 'Không tìm thấy!',
     limit: 20,
     fuzzy: false
   })
