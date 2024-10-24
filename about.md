@@ -6,19 +6,19 @@ permalink: /about/
 <div class="home">
 
   {% if site.paginate %}
-    {% assign posts = paginator.posts %}
+    {% assign experience = paginator.experience %}
   {% else %}
-    {% assign posts = site.posts %}
+    {% assign experience = site.experience %}
   {% endif %}
 
 
-  {%- if posts.size > 0 -%}
+  {%- if experience.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
+      {%- for post in experience -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
