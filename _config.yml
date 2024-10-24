@@ -1,4 +1,4 @@
-title: Dat Nguyen
+title: Your awesome title
 author:
   name: GitHub User
   email: your-email@domain.com
@@ -6,7 +6,9 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Xin chào mình là Cốt Đơ với 5 năm kinh nghiệm trong phát triển phần mềm. Hi vong bạn sẽ tìm được gì đó hay ho ở đây.
+  Write an awesome description for your new site here. You can edit this line
+  in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
 
 # Build settings
 
@@ -60,7 +62,7 @@ minima:
   #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
   #  - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
   #  - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
-   - { platform: linkedin,       user_url: "https://www.linkedin.com/in/nguyendinhdat/" }
+  #  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
   #  - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
   #  - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
   #  - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
