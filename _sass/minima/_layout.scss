@@ -312,6 +312,9 @@
 .social-media-list {
   display: table;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 
   li {
     float: left;
