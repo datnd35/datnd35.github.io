@@ -1,11 +1,18 @@
 ---
 layout: base
-title: Chia sẻ 2
+title: Chia sẻ 1
 permalink: /about/
 ---
 <div class="home">
 
-{%- if posts.size > 0 -%}
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+
+  {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
