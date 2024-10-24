@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resource
+title: Chia sẻ
 permalink: /resource/
 ---
 ## 在这里下载相关资源：
