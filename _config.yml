@@ -2,5 +2,5 @@
 title: Dat Nguyen
 logo: /assets/img/datnd35.png
 #description: text below image
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-minimal
