@@ -1,19 +1,8 @@
-<!-- ---
-layout: page
-title: Giới thiệu
-permalink: /about/
----
-
-Xin chào! Tôi là thợ cốt 😄! -->
-
-<!-- [Mời ghé Linkedin của tui](https://www.linkedin.com/in/nguyendinhdat/) -->
-
 ---
 layout: base
 title: Giới thiệu
 permalink: /about/
 ---
-
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -71,3 +60,8 @@ permalink: /about/
   {%- endif -%}
 
 </div>
+
+<!-- Xin chào! Tôi là thợ cốt 😄! -->
+
+<!-- [Mời ghé Linkedin của tui](https://www.linkedin.com/in/nguyendinhdat/) -->
+
