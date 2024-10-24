@@ -1,2 +1,11 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
