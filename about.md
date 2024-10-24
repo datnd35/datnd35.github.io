@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 title: Giới thiệu
 permalink: /about/
 ---
