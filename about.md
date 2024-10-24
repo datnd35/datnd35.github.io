@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Giới thiệu
+title: Chia sẻ
 permalink: /about/
 ---
 <div class="home">
