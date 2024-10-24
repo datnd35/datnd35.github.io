@@ -16,7 +16,7 @@ SimpleJekyllSearch({
     resultsContainer: document.getElementById('results-container'),
     json: '/search.json',
     searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-    noResultsText: 'Không tìm thấy!ư',
+    noResultsText: 'Không tìm thấy!',
     limit: 20,
     fuzzy: false
   })
