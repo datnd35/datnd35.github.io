@@ -4,11 +4,11 @@ title: "Communication  Framework"
 categories: misc
 ---
 
-Phương pháp tiếp cận nào chúng ta có thể áp dụng khi:
- - ĐỐI MẶT VỚI MỘT CÂU HỎI? (có thể đó là một câu hỏi ở buổi phỏng vấn)
- - MUỐN PHÂN THÍCH MỘT VẤN ĐỀ hoặc THU THẬP THÔNG TIN MỘT CÁCH ĐẨY ĐỦ?
- - MUỐN KHẲNG ĐỊNH NHU CẦU & BẢO VỆ QUYỀN LỢI nhưng vẫn muốn DUY TRÌ MUỐI QUAN HỆ
- - THUYẾT TRÌNH, TRẢ LỜI CÂU HỎI và trình bày thông tin một cách RÕ RÀNG và LOGIC
+>Phương pháp tiếp cận nào chúng ta có thể áp dụng khi:
+ >- ĐỐI MẶT VỚI MỘT CÂU HỎI? (có thể đó là một câu hỏi ở buổi phỏng vấn)
+ >- MUỐN PHÂN THÍCH MỘT VẤN ĐỀ hoặc THU THẬP THÔNG TIN MỘT CÁCH ĐẨY ĐỦ?
+ >- MUỐN KHẲNG ĐỊNH NHU CẦU & BẢO VỆ QUYỀN LỢI nhưng vẫn muốn DUY TRÌ MUỐI QUAN HỆ
+ >- THUYẾT TRÌNH, TRẢ LỜI CÂU HỎI và trình bày thông tin một cách RÕ RÀNG và LOGIC
 
 ## Plan
 * [STAR Method](#functional-requirements)
