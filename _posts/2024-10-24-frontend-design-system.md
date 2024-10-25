@@ -35,7 +35,7 @@ Chúng ta cần định nghĩa một số YÊU CẦU về TECHNICAL để sản 
 Các câu hỏi cần đặt ra:
  - Sản phẩm sẽ hoạt động trên những thiết bị nào?
  - Câu hỏi củ thể của dự án:
-   - chúng có cần infinity scroll không
+   - Chúng có cần infinity scroll không
    - Chúng có cần offline mode không 
    - Chúng có cần real-time update không 
  - Chúng có cần module cấu hình không (thường được dùng nếu chúng ta thiết kế sản phẩm theo dạng module)
@@ -43,6 +43,7 @@ Các câu hỏi cần đặt ra:
 
 ## Components Architecture
 In this section, it makes sense to draw basic UI parts to later refer to those pieces defining state and components API.
+Trong phần này chúng ta sẽ thiết kế UI đơn giản cũng để tiếp tục cho những phần tiếp theo
 
 ![Components architecture example](images/components_architecture.png)
 
