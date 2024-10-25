@@ -23,12 +23,12 @@ categories: misc
 
 Phỏng vấn xin việc có thể gây căng thẳng, đặc biệt khi bạn phải đối mặt với các câu hỏi hành vi yêu cầu bạn đưa ra những ví dụ chi tiết về kinh nghiệm trong quá khứ. Một trong những cách hiệu quả nhất để xử lý những câu hỏi này là sử dụng kỹ thuật STAR—một phương pháp có cấu trúc giúp bạn đưa ra những phản hồi ngắn gọn, rõ ràng và hấp dẫn.
 
-![STAR Method](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/frontend-design-system/components_architecture.png)
+![STAR Method](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/communication-frameworks/star-method.png)
 
-## Components Architecture
-Trong phần này chúng ta sẽ thiết kế UI đơn giản cũng để tiếp tục cho những phần tiếp theo
+## 5Ws & H framework - phân tích vấn đề hoặc thu thập thông tin
+Khung 5W's&H (Tình huống 5W và Cách) là một phương pháp phân tích và giải quyết vấn đề bằng cách đặt ra những câu hỏi cơ bản giúp hiểu rõ tình huống và tìm ra giải pháp hiệu quả. 
 
-![Components architecture example](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/frontend-design-system/components_architecture.png)
+![5Ws & H framework](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/communication-frameworks/5ws-h.png)
 
 Nó sẽ không đại diện cho thiết kế cuối cùng của sản phẩm. Chỉ là high-level blocks nó sẽ giúp cho chúng ta thấy concept của sản phẩm.
 
