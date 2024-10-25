@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Chia sẻ 
-permalink: /experiences-home/
+permalink: /about/
 ---
 <div class="home">
 
