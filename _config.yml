@@ -40,5 +40,5 @@ plugins:
   - jekyll-katex
 
 collections:
-  experience:
+  experiences:
     output: true
