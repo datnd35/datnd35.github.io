@@ -11,26 +11,24 @@ categories: misc
  >- THUYẾT TRÌNH, TRẢ LỜI CÂU HỎI và trình bày thông tin một cách RÕ RÀNG và LOGIC
 
 ## Frameworks chúng ta sẽ đề cập trong bài
-* [STAR Method - Áp dụng vào phỏng vấn](#star-method)
-* [5Ws & H framework - phân tích vấn đề hoặc thu thập thông tin](#components-architecture)
+* [STAR Method](#star-method)
+* [5Ws & H framework](#5ws-&-h-framework)
 * [DEAR MAN](#dependencies)
 * [PREP framework](#data-entities)
 * [But & Therefore](#api-design)
 
  Communication framework là một cấu trúc giao tiếp - và thường là cả cách suy nghĩ - để thông diệp của chúng ta trở nên đễ tiếp cận hơn với người khác.
 
-## STAR Method - Áp dụng vào phỏng vấn
+## STAR Method
 
 Phỏng vấn xin việc có thể gây căng thẳng, đặc biệt khi bạn phải đối mặt với các câu hỏi hành vi yêu cầu bạn đưa ra những ví dụ chi tiết về kinh nghiệm trong quá khứ. Một trong những cách hiệu quả nhất để xử lý những câu hỏi này là sử dụng kỹ thuật STAR—một phương pháp có cấu trúc giúp bạn đưa ra những phản hồi ngắn gọn, rõ ràng và hấp dẫn.
 
 ![STAR Method](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/communication-frameworks/star-method.png)
 
-## 5Ws & H framework - phân tích vấn đề hoặc thu thập thông tin
+## 5Ws & H framework
 Khung 5W's&H (Tình huống 5W và Cách) là một phương pháp phân tích và giải quyết vấn đề bằng cách đặt ra những câu hỏi cơ bản giúp hiểu rõ tình huống và tìm ra giải pháp hiệu quả. 
 
 ![5Ws & H framework](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/communication-frameworks/5ws-h.png)
-
-Nó sẽ không đại diện cho thiết kế cuối cùng của sản phẩm. Chỉ là high-level blocks nó sẽ giúp cho chúng ta thấy concept của sản phẩm.
 
 ## Dependencies
 Sau khi chuẩn bị kiến trúc thiết kế tất cả các phần quan trong của sản phẩm chúng ta tiếp tục xác định những phụ thuộc (chức năng) của chúng.
