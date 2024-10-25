@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Frontend System Design 123"
-categories: misc
+# categories: misc
 ---
 
 ![Alt Text](assets/images/life_path_waitbywhy.jpeg)
