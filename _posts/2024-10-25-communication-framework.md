@@ -14,7 +14,7 @@ categories: misc
 * [STAR Method](#star-method)
 * [5Ws&H framework](#5Ws&H-framework)
 * [DEAR MAN](#dear-man)
-* [PREP framework](#PREP-framework)
+* [PREP framework](#prep-framework)
 * [But&Therefore framework](#api-design)
 
  Communication framework là một cấu trúc giao tiếp - và thường là cả cách suy nghĩ - để thông diệp của chúng ta trở nên đễ tiếp cận hơn với người khác.
