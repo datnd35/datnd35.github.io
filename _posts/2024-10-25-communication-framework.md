@@ -13,7 +13,7 @@ categories: misc
 ## Frameworks chúng ta sẽ đề cập trong bài
 * [STAR Method](#star-method)
 * [5Ws & H framework](#5ws-&-h-framework)
-* [DEAR MAN](#dependencies)
+* [DEAR MAN](#dear-man)
 * [PREP framework](#data-entities)
 * [But & Therefore](#api-design)
 
@@ -30,12 +30,10 @@ Khung 5W's&H (Tình huống 5W và Cách) là một phương pháp phân tích v
 
 ![5Ws & H framework](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/communication-frameworks/5ws-h.png)
 
-## Dependencies
-Sau khi chuẩn bị kiến trúc thiết kế tất cả các phần quan trong của sản phẩm chúng ta tiếp tục xác định những phụ thuộc (chức năng) của chúng.
+## DEAR MAN
+DEAR MAN framework là một kỹ thuật giao tiếp hữu ích trong trị liệu hành vi biện chứng (DBT) giúp người dùng thể hiện nhu cầu và cảm xúc của mình một cách rõ ràng và hiệu quả.
 
-![Dependencies graph](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/frontend-design-system/dependencies.png)
-
-Dự vào đây chúng ta cũng sẽ xác định được component hierarchy của project.
+![Dependencies graph](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/frontend-design-system/dear-man.png)
 
 ## Data entities
 Giờ là lúc nói về endpoints cần để hệ thống chúng ta có thể hoạt động. Nhưng trước hết hãy chọn công nghệ sẽ được sử dụng để kết nối giữ frontend và backend.
