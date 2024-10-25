@@ -4,9 +4,9 @@ title: "Frontend System Design"
 categories: misc
 ---
 
-In the first section we should define the scope of the project and the general requirements. The questions that will help us define the right architecture:
- - What the product should we have in the end
- - What the typical user flow
+Trong bài này chúng ta cố gắng trả lời 2 câu hỏi:
+ - Sản phẩm cuối cùng chúng ta cần là gì?
+ - Quy trình trải nghiệm điển hình của người dùng là gì?
 
 ## Plan
 * [Functional requirements](#functional-requirements)
@@ -19,7 +19,7 @@ In the first section we should define the scope of the project and the general r
 * [Accessibility](#accessibility)
 * [Distribution](#distribution)
 
-Example _(imagine we are designing Instagram)_:
+Ví dụ _(hãy tưởng tượng chúng ta đang thiết kế một ứng dụng Instagram)_:
 
 > The user should be able to
 > - upload media content (photo/video)
@@ -30,16 +30,16 @@ Example _(imagine we are designing Instagram)_:
 > - ...
 
 ## Functional requirements
-Here we should define more technical requirements about how should our product work.
+Chúng ta cần định nghĩa một số YÊU CẦU về TECHNICAL để sản phẩm có thể hoàn thành.
 
-Questions to ask:
- - on which devices should it work
- - project-specific question:
-   - should it have an infinity scroll
-   - should it have an offline mode
-   - should it have a real-time update
- - should it have configuration (make sense if we design module)
- - requirements about accessibility
+Các câu hỏi cần đặt ra:
+ - Sản phẩm sẽ hoạt động trên những thiết bị nào?
+ - Câu hỏi củ thể của dự án:
+   - chúng có cần infinity scroll không
+   - Chúng có cần offline mode không 
+   - Chúng có cần real-time update không 
+ - Chúng có cần module cấu hình không (thường được dùng nếu chúng ta thiết kế sản phẩm theo dạng module)
+ - [Khả năng tiếp cận](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
 
 ## Components Architecture
 In this section, it makes sense to draw basic UI parts to later refer to those pieces defining state and components API.
