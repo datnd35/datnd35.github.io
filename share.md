@@ -1,7 +1,7 @@
 ---
 layout: base
-title: Chia sẻ 
-permalink: /about/
+title: Chia sẻ 1
+permalink: /share/
 ---
 <div class="home">
 
