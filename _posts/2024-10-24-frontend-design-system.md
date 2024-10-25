@@ -4,7 +4,7 @@ title: "Frontend System Design"
 categories: misc
 ---
 
-![Alt Text](assets/images/life_path_waitbywhy.jpeg)
+![Alt Text](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/introduction.png)
 
 ![image](https://user-images.githubusercontent.com/77920708/226150556-dd83e1b3-561c-4463-a066-70ade7d1913d.png)
 ![image](https://user-images.githubusercontent.com/77920708/226150561-307cb09a-343a-4cd1-9207-164f7e9a33f2.png)
