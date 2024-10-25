@@ -166,9 +166,9 @@ Ví dụ, chúng ta thiết kế một API cho Calendar component. Nó có thể
 
 
 ## Store design
-The next important section is a store design. We should define how we will store and work with data in our application. To define it I also recommend to use something like typescript types.
+Phần quan trong tiếp theo là thiết kế kho dữ liệu (store design). Chúng ta cũng nên xác định cách lưu trữ và làm việc với dữ liệu trong ứng dụng của chúng ta.
 
-For example, let us see what the store of our posts application might look like:
+Ví dụ hãy xem kho dữ liệu của ứng dụng chúng ta trông như thế nào:
 
 ```typescript
 type User = {
@@ -210,8 +210,9 @@ type Store = {
 ```
 
 Here is a basic store definition where we have defined the main entities in our application. From this point, we can think about some further optimizations.
+Đây là định nghĩa lưu trữ đơn giản chúng ta đã xác định được entities chính cho ứng dụng. Từ đây chúng ta có thể nghĩ đến một số tối ưu hóa tiếp theo.
 
-For example, let us imagine that we have requirements to have real-time updates for Likes in the post cards. This means that we have a websocket or SSE subscription and receive messages as follows:
+Ví dụ, hãy tưởng tượng rằng chúng ta có yêu cầu về việc cập nhật thời gian thực cho số lượt Thích (Likes) trong các bài viết. Điều này có nghĩa là chúng ta có một subscription sử dụng websocket hoặc SSE và nhận các thông tin như sau:
 ```json
 {
    "type": "likesUpdate",
@@ -222,7 +223,7 @@ For example, let us imagine that we have requirements to have real-time updates 
 }
 ```
 
-As we can see here, our store design is not optimal, as it is now necessary to find post in an array and then update the likes there. We could make a map to keep such statistics separate, for example:
+Như chúng ta thấy ở đây, thiết kế kho dữ liệu của chúng ta chưa tối ưu, vì bây giờ cần phải tìm bài viết trong một mảng và sau đó cập nhật số lượt thích (likes) ở đó. Chúng ta có thể tạo một bản đồ (map) để giữ riêng những thống kê như vậy, ví dụ:
 
 ```typescript
 type Store = {
@@ -233,21 +234,21 @@ type Store = {
 };
 ```
 
-Now we can easily update the likes for each post in O(1) and read the value with the same complexity. In a similar way, we can easily highlight all the data flow challenges and solve them.
+Bây giờ chúng ta có thể dễ dàng cập nhật số lượt thích (likes) cho mỗi bài viết trong O(1) và đọc giá trị với cùng độ phức tạp. Tương tự như vậy, chúng ta có thể dễ dàng làm nổi bật tất cả các thách thức về luồng dữ liệu và giải quyết chúng.
 
 ## Optimization
-The next important part we should think about is optimization. Here I have prepared the main points that we should discuss in this section:
+Phần này chúng ta sẽ xem xét về tối ưu hoá ứng dụng.
 
 **Network**
 * http 2
   * multiplexing
   * multiple connections
-  * bundle splitting _(main bundle, vendor bundles etc.)_
-* es6 bundle for modern devices
-* webp for images (and fallback to png)
-* minify resources
-* non-critical resources with link ‘preconnect’
-* debouncing requests
+  * chia tách bundle _(main bundle, vendor bundles etc.)_
+* es6 bundle
+* Chuyển đổi hình ảnh về dạng WebP (hoặc png)   
+* Nén tài nguyên
+* non-critical resources với link ‘preconnect’
+* giảm tần suất của các requests
 * caching 
   * server cache
   * browser cache
@@ -255,12 +256,12 @@ The next important part we should think about is optimization. Here I have prepa
 * gzip
 * throttle
 * [brotli](https://github.com/google/brotli)
-* use CDN
+* sử dụng CDN
 
 **Rendering**
-* inline critical resources and put inside page
-* non-critical resources - defer mode
-* load ‘analytics’ scripts later
+* Tài nguyên quan trọng được nhúng thẳng vào bên trong trang
+* non-critical resources - ở chế độ lazy load
+* tải các ‘analytics’ scripts sau
 * SSR
 
 **DOM**
@@ -275,31 +276,31 @@ The next important part we should think about is optimization. Here I have prepa
 * use css naming convention like BEM _(to avoid complex nested selectors)_
 
 **JS**
-* do stuff async
-* web workers for complex staff
-* do some operation on server side
-* ship as fewer polyfills as we can
-* service workers
+* Thực hiện các tác vụ không đồng bộ (async)
+* Sử dụng web workers cho các tác vụ phức tạp
+* Thực hiện một số thao tác ở phía server
+* Chuyển giao càng ít polyfills càng tốt
+* Sử dụng service workers
 
 ## Accessibility
-Very often, people with disabilities are simply ignored in web services. This is also an important issue to discuss.
-Here I have prepared some points to talk about:
+Những người khuyết tật thời bị bỏ qua trong các dịch vụ web. Dưới dây là một số vấn đề chúng ta cần thảo luận:
 
-* keyboard navigation
-  * list of shortcuts
-  * tappable items
-  * close shortcut
-  * main functionality shortcuts
-* visual optimisation _(we should use rems instead of px and so on)_
-* screen reader friendly _(aria-live attributes for fields, aria-role's and so on)_
-* color schemas _(for people with color disabilities)_
-* images should have correct alt attribute
-* semantic with HTML5
+* Điều hướng bằng bàn phím
+  * Danh sách phím tắt
+  * Các mục có thể nhấn (tappable items)
+  * Phím tắt để đóng
+  * Phím tắt cho các chức năng chính
+* Tối ưu hoá trực quan _(chúng ta nên sử dụng rem thay vì px và các đơn vị khác)_
+* Thân thiện với trình đọc màn hình _(thuộc tính aria-live cho các trường, aria-role, v.v.)_
+* Màu sắc _(cho những người có khuyết tật về màu sắc)_
+* Hình ảnh cần có thuộc tính alt chính xác
+* Ngữ nghĩa với HTML5
 
 ## Distribution
-This small section only makes sense if we are designing a specific type of system. For example:
-* reusable component
-* embeddable script
+Phần nhỏ này chỉ có ý nghĩa nếu chúng ta đang thiết kế một loại hệ thống cụ thể. Ví dụ:
 
-So we just need to specify how we want to deliver our package to the customer. Will it be available in a private registry, or maybe we should specify a process to deliver it to a CDN and have versioning.
+* thành phần tái sử dụng (reusable component)
+* script có thể nhúng (embeddable script)
+
+Vì vậy, chúng ta chỉ cần xác định cách chúng ta muốn cung cấp gói (package) của mình cho khách hàng. Nó sẽ có sẵn trong một registry riêng tư, hay có thể chúng ta nên xác định một quy trình để cung cấp nó cho một CDN và có quản lý phiên bản (versioning)
 
