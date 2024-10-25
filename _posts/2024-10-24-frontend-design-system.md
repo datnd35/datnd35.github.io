@@ -53,75 +53,76 @@ Sau khi chuẩn bị kiến trúc thiết kế tất cả các phần quan trong
 
 ![Dependencies graph](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/frontend-design-system/dependencies.png)
 
-Dự vào đây chúng ta cũng sẽ xác định được component hierarchy.
+Dự vào đây chúng ta cũng sẽ xác định được component hierarchy của project.
 
 ## Data entities
-Now it's time to discuss the endpoints we need to make our system work. But before that, let us choose the technology we will use to connect the frontend to the backend.
-Let us take a look at what options we have:
+Giờ là lúc nói về endpoints cần để hệ thống chúng ta có thể hoạt động. Nhưng trước hết hãy chọn công nghệ sẽ được sử dụng để kết nối giữ frontend và backend.
+
+Hãy xem chúng ta có những lựa chọn nào? :
 * REST API
 * GraphQL
 * Websocket
 * Long polling
 * SSE
-* Something else?
+* Một phương án khác?
 
-But how do we decide what to use? What should we consider when making our decision?
-Let us compare different options and choose the most appropriate one based on our requirements.
+Chúng ta nên lựa chọn phương án nào? Những yếu tố nào đưa chúng ta đến quyết định đó?
+Hãy so sánh những lựa chọn khác nhau và chọn phương án phù hợp nhất dự trên những yêu cầu của chúng ta.
 
 **REST API:**
-* ✅ http benefits
-* ✅ http2 compatibility
-* ✅ simplicity
-* ✅ easy to load balance
-* ❗ can have long latency
-* ❗ connections timeouts
-* ❗ traffic overhead
+* ✅ lợi ích của gia thức http
+* ✅ tương thích với http2
+* ✅ đơn giản
+* ✅ dễ dàng để load balance
+* ❗ có thể độ trễ cao
+* ❗ có khả năng bị ngắn kết nối
+* ❗ có thể traffic quá tải
 
 **GraphQL:**
-* ✅ nice modern API
-* ✅ type safety
-* ✅ advanced caching tools
-* ✅ http benefits
-* ✅ http2 compatibility
-* ✅ easy to load balance
-* ❗ can have long latency
-* ❗ connections timeouts
-* ❗ traffic overhead
-* ❗ possibility to "DDoS" server _(in comparison to REST, which has the static interface of response, GQL offers clients to decide what data should be selected)_
+* ✅ API hiện đại, thân thiện
+* ✅ an toàn
+* ✅ tận dụng công cụ caching
+* ✅ lợi ích của gia thức http
+* ✅ tương thích với http2
+* ✅ dễ dàng để load balance
+* ❗ có thể độ trễ cao
+* ❗ có khả năng bị ngắn kết nối
+* ❗ có thể traffic quá tải
+* ❗ khả năng gây quá tải do server "DDoS" _(so với REST, server luôn trả về các thông tin cố định bất kể client có cần hay có data hay không, GraphQL cho phép client tự quyết định dữ liệu cần truy vấn)_
 
 **Websocket:**
-* ✅ duplex communication
-* ✅ super fast
-* ❗ expensive
-* ❗ http2 compatibility
-* ❗ load-balancing problem
-* ❗ need to do stuff to get http2 benefits
-* ❗ firewall/proxies problem
+* ✅ giao thiếp 2 chiều (duplex communication)
+* ✅ tốc độ gia tiếp nhanh
+* ❗ chi phí cao
+* ❗ không tương thích hoàn toàn với http2
+* ❗ vấn đề cân bằng tải
+* ❗ cần tinh chỉnh để tận dụng lợi ích của http2
+* ❗ gặp vấn đề với tường lửa/proxy
 
 **Long polling**
-* ✅ http benefits
-* ✅ simplicity
-* ❗ can have long latency
-* ❗ connections timeouts
-* ❗ traffic overhead
+* ✅ tận dụng lợi ích của http
+* ✅ đơn giản
+* ❗ có thể độ trễ cao
+* ❗ có khả năng bị ngắn kết nối
+* ❗ có thể traffic quá tải
 
 **SSE**
-* ✅ http2 benefits (gzipping, multiplexing…)
-* ✅ receive only necessary information as text
-* ✅ efficiency - don’t waste resources
-* ✅ easy to load balance
-* ❗ weird api
-* ❗ unidirectional (we can’t send, only receive data)
-* ❗ only text data
+* ✅ tận dụng lợi ích của http2 (nén gzip, ghép kênh, v.v.)
+* ✅ chỉ nhận những thông tin cần thiết dưới dạng text
+* ✅ hiệu quả - không lãng phí tài nguyên
+* ✅ dễ dàng để load balance
+* ❗ api không thân thiện
+* ❗ chỉ truyền dữ liệu một chiều (chỉ nhận, không gửi dữ liệu)
+* ❗ chỉ hỗ trợ dữ liệu dạng text
 
-> Maybe the list here is not quite complete, but I will try to update it as soon as I know something new.
+> Danh sách ở đây chưa hoàn toàn đầy đủ, nhưng tôi sẽ có gắng update khi biết thêm điều gì mới.
 
-So we can easily decide what we should choose based on our requirements. For example - do we need real time in our application? If yes - should it be bidirectional real-time?
-If we need unidirectional messaging - then we can consider SSE, in other cases Websocket makes more sense.
+Vì vậy giờ chúng ta đã đã có thể dễ dàng quyết định dựa trên các yêu cầu của mình. Ví dụ chúng ta có cần tính năng thời gian thực trong ứng dụng không ? Nếu có - tính năng này có cần 2 chiều không?
+Nếu chỉ cần tải một chiều, chúng ta có thể xem xét SSE, còn trong các trường hợp khác thì Websocket sẽ hợp lý hơn
 
-After we have made a decision about the technology, it makes sense to define the endpoints we need and the data structures we want to work with.
+Sau khi xác định công nghệ mà chúng ta cần,bây giờ chúng ta cần xác định các endpoints cần thiết và cấu trúc dữ liệu chúng ta muốn làm việc.
 
-**Examples of endpoints we might have:**
+**Ví dụ endpoints có thể có:**
 ```
    login(email, password): Token
    posts(token, { limit, cursor }): Post[]
@@ -130,10 +131,10 @@ After we have made a decision about the technology, it makes sense to define the
 ```
 
 ## API design
-This section is usually make sense in case we are designing a component rather than a service. For example, our task is to build a reusable DataTable or Calendar component.
-We are building a component that will be used by other developers, and we need to cover as many use cases as possible. Also, our component should be customizable and extensible.
+Phần này hữu ích trong trường hợp chúng ta thiết kế một component thay vì một service. Ví dụ chúng ta có thể xây dự một ccomponent DataTable và DataTable có thể mở rộng và tái sử dụng.
+Chúng ta đang build một component có thể sử dụng bởi nhũng developers khác, nên nó sẽ yêu cầu chúng ta cần cover những trường hợp có thể có cũng như component có thể customize và mở rộng
 
-For example, let us design an API for the Calendar component. It could look like the following:
+Ví dụ, chúng ta thiết kế một API cho Calendar component. Nó có thể như sau:
 ```typescript
   type Calendar = {
     calendarType: "month" | "week";
