@@ -15,7 +15,7 @@ categories: misc
 * [5Ws&H framework](#5Ws&H-framework)
 * [DEAR MAN](#dear-man)
 * [PREP framework](#PREP-framework)
-* [But & Therefore](#api-design)
+* [But&Therefore framework](#api-design)
 
  Communication framework là một cấu trúc giao tiếp - và thường là cả cách suy nghĩ - để thông diệp của chúng ta trở nên đễ tiếp cận hơn với người khác.
 
@@ -39,4 +39,9 @@ DEAR MAN framework là một kỹ thuật giao tiếp hữu ích trong trị li�
 PREP framework là một phương pháp giúp tổ chức và trình bày ý tưởng một cách rõ ràng và logic.
 
 ![PREP framework](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/communication-frameworks/prep-framework.png)
+
+## But&Therefore framework
+But & Therefore framework là một phương pháp đơn giản để tổ chức và truyền đạt thông điệp trong giao tiếp, thường được sử dụng trong các cuộc thảo luận, bài thuyết trình, hoặc khi viết để giúp người nghe hoặc người đọc dễ dàng theo dõi lập luận của bạn.
+
+![But&Therefore framework](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/communication-frameworks/but-therefore.png)
 
