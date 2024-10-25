@@ -11,8 +11,8 @@ categories: misc
  >- THUYẾT TRÌNH, TRẢ LỜI CÂU HỎI và trình bày thông tin một cách RÕ RÀNG và LOGIC
 
 ## Frameworks chúng ta sẽ đề cập trong bài
-* [STAR Method](#star-method)
-* [5Ws & H framework](#components-architecture)
+* [STAR Method - Áp dụng vào phỏng vấn](#star-method)
+* [5Ws & H framework - phân tích vấn đề hoặc thu thập thông tin](#components-architecture)
 * [DEAR MAN](#dependencies)
 * [PREP framework](#data-entities)
 * [But & Therefore](#api-design)
