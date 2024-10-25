@@ -5,6 +5,8 @@ permalink: /share/
 ---
 <div class="home">
 
+  <!-- this is HOME page of experiences -->
+
     {% if site.paginate %}
     {% assign experiences = paginator.experiences %}
   {% else %}
