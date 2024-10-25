@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Chia sẻ 1
+title: Chia sẻ 
 permalink: /about/
 ---
 <div class="home">
