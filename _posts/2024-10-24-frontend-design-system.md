@@ -4,10 +4,11 @@ title: "Frontend System Design"
 categories: misc
 ---
 
-# Frontend System Design Framework
+In the first section we should define the scope of the project and the general requirements. The questions that will help us define the right architecture:
+ - What the product should we have in the end
+ - What the typical user flow
 
 ## Plan
-* [General requirements](#general-requirements)
 * [Functional requirements](#functional-requirements)
 * [Components architecture](#components-architecture)
 * [Dependencies](#dependencies)
@@ -17,11 +18,6 @@ categories: misc
 * [Optimization](#optimisation)
 * [Accessibility](#accessibility)
 * [Distribution](#distribution)
-
-## General requirements
-In the first section we should define the scope of the project and the general requirements. The questions that will help us define the right architecture:
- - What the product should we have in the end
- - What the typical user flow
 
 Example _(imagine we are designing Instagram)_:
 
