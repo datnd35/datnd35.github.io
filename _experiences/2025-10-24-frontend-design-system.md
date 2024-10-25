@@ -1,5 +1,5 @@
 ---
-layout: experience
+layout: post
 title: "Frontend System Design 123"
 categories: misc
 ---
