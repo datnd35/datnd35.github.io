@@ -7,27 +7,19 @@ categories: misc
 >Phương pháp tiếp cận nào chúng ta có thể áp dụng khi:
  >- ĐỐI MẶT VỚI MỘT CÂU HỎI? (có thể đó là một câu hỏi ở buổi phỏng vấn)
  >- MUỐN PHÂN THÍCH MỘT VẤN ĐỀ hoặc THU THẬP THÔNG TIN MỘT CÁCH ĐẨY ĐỦ?
- >- MUỐN KHẲNG ĐỊNH NHU CẦU & BẢO VỆ QUYỀN LỢI nhưng vẫn muốn DUY TRÌ MUỐI QUAN HỆ
+ >- MUỐN KHẲNG ĐỊNH NHU CẦU & BẢO VỆ QUYỀN LỢI nhưng vẫn muốn DUY TRÌ MỐI QUAN HỆ
  >- THUYẾT TRÌNH, TRẢ LỜI CÂU HỎI và trình bày thông tin một cách RÕ RÀNG và LOGIC
 
-## Plan
-* [STAR Method](#functional-requirements)
+## Frameworks chúng ta sẽ đề cập trong bài
+* [STAR Method](#star-method)
 * [5Ws & H framework](#components-architecture)
 * [DEAR MAN](#dependencies)
 * [PREP framework](#data-entities)
 * [But & Therefore](#api-design)
 
-Ví dụ _(hãy tưởng tượng chúng ta đang thiết kế một ứng dụng Instagram)_:
+ Communication framework là một cấu trúc giao tiếp - và thường là cả cách suy nghĩ của bạn - để thông diệp của bạn trở nên đễ tiếp cận hơn với người khác.
 
-> The user should be able to
-> - upload media content (photo/video)
-> - follow friends
-> - see his friends' photos in the feed
-> - add comments under the photo
-> - add likes
-> - ...
-
-## Functional requirements
+## STAR Method
 Chúng ta cần định nghĩa một số YÊU CẦU về TECHNICAL để sản phẩm có thể hoàn thành.
 
 Các câu hỏi cần đặt ra:
