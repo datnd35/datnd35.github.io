@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Frontend System Design 123"
+title: "Frontend System Design 1"
 # categories: misc
 ---
 
