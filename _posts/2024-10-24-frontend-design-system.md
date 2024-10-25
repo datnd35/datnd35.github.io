@@ -42,19 +42,18 @@ Các câu hỏi cần đặt ra:
  - [Khả năng tiếp cận](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
 
 ## Components Architecture
-In this section, it makes sense to draw basic UI parts to later refer to those pieces defining state and components API.
 Trong phần này chúng ta sẽ thiết kế UI đơn giản cũng để tiếp tục cho những phần tiếp theo
 
-![Components architecture example](images/components_architecture.png)
+![Components architecture example](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/frontend-design-system/components_architecture.png)
 
-It shouldn't be like a final design. Just high-level blocks that show how you see the final product conceptually.
+Nó sẽ không đại diện cho thiết kế cuối cùng của sản phẩm. Chỉ là high-level blocks nó sẽ giúp cho chúng ta thấy concept của sản phẩm.
 
 ## Dependencies
-After preparing and agreeing on the architectural vision of all important parts of our application, we should draw a dependencies graph for them.
+Sau khi chuẩn bị kiến trúc thiết kế tất cả các phần quan trong của sản phẩm chúng ta tiếp tục xác định những phụ thuộc (chức năng) của chúng.
 
-![Dependencies graph](images/dependencies.png)
+![Dependencies graph](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/frontend-design-system/dependencies.png)
 
-As we can see here, it defines what approximately the component hierarchy will look like.
+Dự vào đây chúng ta cũng sẽ xác định được component hierarchy.
 
 ## Data entities
 Now it's time to discuss the endpoints we need to make our system work. But before that, let us choose the technology we will use to connect the frontend to the backend.
