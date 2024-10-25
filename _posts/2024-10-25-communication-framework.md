@@ -17,19 +17,13 @@ categories: misc
 * [PREP framework](#data-entities)
 * [But & Therefore](#api-design)
 
- Communication framework là một cấu trúc giao tiếp - và thường là cả cách suy nghĩ của bạn - để thông diệp của bạn trở nên đễ tiếp cận hơn với người khác.
+ Communication framework là một cấu trúc giao tiếp - và thường là cả cách suy nghĩ - để thông diệp của chúng ta trở nên đễ tiếp cận hơn với người khác.
 
 ## STAR Method
-Chúng ta cần định nghĩa một số YÊU CẦU về TECHNICAL để sản phẩm có thể hoàn thành.
 
-Các câu hỏi cần đặt ra:
- - Sản phẩm sẽ hoạt động trên những thiết bị nào?
- - Câu hỏi củ thể của dự án:
-   - Chúng có cần infinity scroll không
-   - Chúng có cần offline mode không 
-   - Chúng có cần real-time update không 
- - Chúng có cần module cấu hình không (thường được dùng nếu chúng ta thiết kế sản phẩm theo dạng module)
- - [Khả năng tiếp cận](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
+Phỏng vấn xin việc có thể gây căng thẳng, đặc biệt khi bạn phải đối mặt với các câu hỏi hành vi yêu cầu bạn đưa ra những ví dụ chi tiết về kinh nghiệm trong quá khứ. Một trong những cách hiệu quả nhất để xử lý những câu hỏi này là sử dụng kỹ thuật STAR—một phương pháp có cấu trúc giúp bạn đưa ra những phản hồi ngắn gọn, rõ ràng và hấp dẫn.
+
+![STAR Method](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/frontend-design-system/components_architecture.png)
 
 ## Components Architecture
 Trong phần này chúng ta sẽ thiết kế UI đơn giản cũng để tiếp tục cho những phần tiếp theo
