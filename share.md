@@ -1,7 +1,7 @@
 ---
-layout: base
-title: Chia sẻ 4
-permalink: /share/
+# layout: base
+# title: Chia sẻ 
+# permalink: /share/
 ---
 <div class="home">
 
