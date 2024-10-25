@@ -19,7 +19,7 @@ categories: misc
 
  Communication framework là một cấu trúc giao tiếp - và thường là cả cách suy nghĩ - để thông diệp của chúng ta trở nên đễ tiếp cận hơn với người khác.
 
-## STAR Method
+## STAR Method - Áp dụng vào phỏng vấn
 
 Phỏng vấn xin việc có thể gây căng thẳng, đặc biệt khi bạn phải đối mặt với các câu hỏi hành vi yêu cầu bạn đưa ra những ví dụ chi tiết về kinh nghiệm trong quá khứ. Một trong những cách hiệu quả nhất để xử lý những câu hỏi này là sử dụng kỹ thuật STAR—một phương pháp có cấu trúc giúp bạn đưa ra những phản hồi ngắn gọn, rõ ràng và hấp dẫn.
 
