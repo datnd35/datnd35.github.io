@@ -14,18 +14,18 @@ categories: misc
 
 ## Đọc như một học sinh {#student}
 
-1. Đọc kỹ đề cương để xem xét những bài học nào thật sự quan trọng đến mục tiêu của mình.
-  - Ban đầu sẽ thấy choáng ngợp nhưng hầu hết thầy cô giáo sẽ không kỳ vọng sinh viên mình có thể đọc được tất cả tài liệu.
+- Đọc kỹ đề cương để xem xét những bài học nào thật sự quan trọng đến mục tiêu của mình.
+ - Ban đầu sẽ thấy choáng ngợp nhưng hầu hết thầy cô giáo sẽ không kỳ vọng sinh viên mình có thể đọc được tất cả tài liệu.
 
-2. Nắm rõ cấu trúc và xác định các chương cần chú ý nhất
+- Nắm rõ cấu trúc và xác định các chương cần chú ý nhất
   - Vào đầu mỗi tuần hãy xem phần mục lục của các sách và tài liệu đọc để nắm rõ cấu trúc và xác định các chương cần chú ý
   - Ví dụ, là một sinh viên quan tâm đến lịch sử chế độ nô lệ và luật pháp, tôi có khả năng sẽ được yêu cầu trả lời các câu hỏi liên quan đến chủ đề của mình trong buổi thảo luận. Do đó, tôi luôn xem qua các bài đọc và cân nhắc chương nào trong sách hoặc phần nào trong bài báo có chứa thông tin tôi cần ghi nhớ nhất. Từ đó, tôi chuẩn bị ghi chú cho bài học của mình.
 
-3. Sử dụng Notion để take note 
+- Sử dụng Notion để take note 
   - Có thể sắp xép theo 3 phần chính:
-    a.  các chủ đề chính
-    b.  nguồn nghiên cứu
-    c.  các câu hỏi
+    -  các chủ đề chính
+    -  nguồn nghiên cứu
+    -  các câu hỏi
     
 4. Thảo luận và ghi chú  giúp khơi gợi trí nhớ và mang lại hiểu quả rất nhiều
 
