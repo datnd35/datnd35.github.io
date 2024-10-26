@@ -5,14 +5,14 @@ categories: misc
 ---
 
 
-## Frameworks chúng ta sẽ đề cập trong bài
-* [Đọc tại lớp](#star-method)
+### Trong bài này chúng ta sẽ đều cập tới 3 kiểu đọc sách.
+* [Đọc như một học sinh](#star-method)
 * [Đọc để ghi nhớ](#5Ws&H-framework)
 * [Đọc để nghiên cứu](#dear-man)
 
  Communication framework là một cấu trúc giao tiếp - và thường là cả cách suy nghĩ - để thông diệp của chúng ta trở nên đễ tiếp cận hơn với người khác.
 
-## Đọc tại lớp {#star-method}
+## Đọc như một học sinh {#star-method}
 Introduction
 
 The act of reading is central to the experience and research of graduate students and scholars, but it is a skill that's mastered over time. To read is not simply to glance over the words, but to process their meaning, the structure of one's argument, and to develop a strategy for retention and understanding. That is what we'll be covering in today's Video: Hello Everyone and welcome or welcome back to my channel If you're new here my name is Kalyn. I am a second year Phd student in History and African American Studies at Yale University and today I have a much awaited many times requested video for you. This is how to read like a Phd student. I've been asked to make this video since I started my channel and I have put it off time and time again because I wanted it to be perfect. But now I think I've come up with my formula. I have a distinct system for how it is that I read as a Phd student. I'm gonna be sharing all of my best tips and tricks and really focusing on the different applications of reading and note-taking So that way you can perform the best that you can as a student.
