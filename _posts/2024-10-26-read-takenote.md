@@ -5,45 +5,31 @@ categories: misc
 ---
 
 
-### Trong bài này chúng ta sẽ đều cập tới 3 kiểu đọc sách.
+### Trong bài này chúng ta sẽ đều cập tới 3 kiểu đọc sách:
 * [Đọc như một học sinh](#star-method)
 * [Đọc để ghi nhớ](#5Ws&H-framework)
 * [Đọc để nghiên cứu](#dear-man)
 
- Communication framework là một cấu trúc giao tiếp - và thường là cả cách suy nghĩ - để thông diệp của chúng ta trở nên đễ tiếp cận hơn với người khác.
+ Đọc là một kỹ năng vô cùng quan trong đối với tất cả mọi người để tăng thêm sự hiểu biết về thế giới tươi đẹp này, nhưng nó là một kỹ năng được rèn luyện qua thời gian. Đọc không đơn thuần là luớt qua nhưng từ ngữ mà xử lý ý nghĩa của chúng, cấu trúc lập luận, và cần phát triển một phương pháp để có thể ghi nhớ & hiểu.  
 
 ## Đọc như một học sinh {#star-method}
-Introduction
 
-The act of reading is central to the experience and research of graduate students and scholars, but it is a skill that's mastered over time. To read is not simply to glance over the words, but to process their meaning, the structure of one's argument, and to develop a strategy for retention and understanding. That is what we'll be covering in today's Video: Hello Everyone and welcome or welcome back to my channel If you're new here my name is Kalyn. I am a second year Phd student in History and African American Studies at Yale University and today I have a much awaited many times requested video for you. This is how to read like a Phd student. I've been asked to make this video since I started my channel and I have put it off time and time again because I wanted it to be perfect. But now I think I've come up with my formula. I have a distinct system for how it is that I read as a Phd student. I'm gonna be sharing all of my best tips and tricks and really focusing on the different applications of reading and note-taking So that way you can perform the best that you can as a student.
+1. Đọc kỹ đề cương để xem xét những bài học nào thật sự quan trọng đến mục tiêu của mình.
+  - Ban đầu sẽ thấy choáng ngợp nhưng hầu hết thầy cô giáo sẽ không kỳ vọng sinh viên mình có thể đọc được tất cả tài liệu.
 
-Whether you're in high school, undergrad, or a current graduate student, I think this video is going to be useful for everyone. So grab a cup of coffee and let's go ahead and get started when considering all of my tactics for reading and how to effectively take notes.
+2. Nắm rõ cấu trúc và xác định các chương cần chú ý nhất
+  - Vào đầu mỗi tuần hãy xem phần mục lục của các sách và tài liệu đọc để nắm rõ cấu trúc và xác định các chương cần chú ý
+  - Ví dụ, là một sinh viên quan tâm đến lịch sử chế độ nô lệ và luật pháp, tôi có khả năng sẽ được yêu cầu trả lời các câu hỏi liên quan đến chủ đề của mình trong buổi thảo luận. Do đó, tôi luôn xem qua các bài đọc và cân nhắc chương nào trong sách hoặc phần nào trong bài báo có chứa thông tin tôi cần ghi nhớ nhất. Từ đó, tôi chuẩn bị ghi chú cho bài học của mình.
 
-Three Types of Reading
+3. Sử dụng Notion để take note 
+  - Có thể sắp xép theo 3 phần chính:
+    a.  các chủ đề chính
+    b.  nguồn nghiên cứu
+    c.  các câu hỏi
+    
+4. Thảo luận và ghi chú  giúp khơi gợi trí nhớ và mang lại hiểu quả rất nhiều
 
-There were three primary things that came to mind in today's Video: We're gonna be covering these three different types of reading: One how to read for class, two, how to read for retention, and three How to Read for research. First, we'll begin with the most applicable lesson for students across fields, which is how to read and take notes for class at the beginning of a new term.
-
-How to Read for Class
-
-It's important to read through your syllabi and determine which readings are the most pertinent to your long-term goals in research. While it may be initially overwhelming, most professors don't actually expect their students to do all of the reading. As a student who studied at universities across the world, I can tell you it's important to read with a strategy in mind rather than to waste your time on subjects you may never come across again.
-
-At the beginning of each week, go to the index of your books and readings to determine the structure and which chapters you may want to pay attention to the most. For example, as a student interested in the history of Slavery and the law, I'm likely to be called upon in seminar to answer questions related to my subject matter. Therefore, I always go through the readings and consider which chapters in books or sections and articles will have the information I most need to retain. From there, I set up my class notes for my class notes. I use none other than the versatile and best organization app on the market notion. for this, I break my notes into three primary sections: major themes, scholarship and questions. After years of taking inefficient notes on all the quotes and nitty-gritty information in my readings, I soon found that having talking points and notes which helped jog my memory during class were so much more efficient.
-
-While there may be readings that you wish to read more thoroughly for retention, I want you to think of your class notes as a set of talking points and examples which you can use to feel confident participating in class and preparing for exams.
-
-One quick side note: Attend office hours for exam-based courses. so you're also reading based on the key takeaways they recommend to be a successful student.
-
-And now for a quick message about the sponsor of today's Video Notion If anybody's been watching my channel for any period of time, you know how much I absolutely love Notion.
-
-Note Taking with Notion
-
-I not only use it as a student I've been using it for three years now, but I also use it as a business owner. I have the business subscription for my team at Accepted Consulting and Accepted Society. I use it for my research. I use it for content planning for my youtube channel. I just think it's the most useful application out there. I've tried everything and I just think that Notion is truly a perfect application for organization and for tracking your progress. But even more so, I think it is the perfect app for capturing all of your notes. and here's Why?
-
-In addition to being the best team and project management resource I've tried Notion is the ultimate tool for your notes and research. With integrations with citation management software such as Zotero templates for dissertation projects and the ability to create a database of all of your readings, Notion is the ideal tool for students. Over the past few months, I've actually been using Notion to keep track of the 200 plus books I have to read for comprehensive exams and its customizable format has allowed me to track which books are in progress. Those I've completed notes from meetings with my examiners and so much more!
-
-Thank you so much again to Notion for sponsoring today's video to download Notion go ahead and check out the description down below and let's go ahead and head on to part number two, which is all about reading for retention.
-
-How to Read for Retention
+## Đọc để ghi nhớ {#5Ws&H-framework}
 
 Unlike how you might read for class where key arguments and main points will get you by, reading for attention is all about long-term recall. The advice in this section is for students taking comprehensive exams, preparing for Phd admissions, or who want to master the literature for their research and as future educators, one of the most important takeaways in this section is about active recall. Reading and taking notes alone will not help you remember all of the details of a text. Grab a friend, meet with your professors, or like me, grab a camera and start discussing what you've Read through. teaching the subject to others and integrating your readings into research papers. You'll begin to establish long-term memory. However, like learning a language, reading and the knowledge it produces must be practiced. So where your brain may be faulty, it's Best to have a repository of notes.
 
