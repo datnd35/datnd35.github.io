@@ -97,7 +97,7 @@ Cách đọc một cuốn sách hiệu quả. Tài liệu học thuật có bố
 - Đừng bỏ qua mục lục, mục lục của một cuốn sách hoặc tính năng tìm kiếm trên một tệp PDF là bạn thân tốt nhất của bạn. Xác định một bộ từ khóa chính, tìm chúng trong mục lục và xem những trang và phần nào trực tiếp tham khảo về chủ đề của bạn. 
 - Ghi chú: Xác định một danh sách dài các thuật ngữ áp dụng, vì văn bản có thể không sử dụng ngôn ngữ giống như bạn trong việc viết lách của bạn.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=EOX6PAFMy3Y&t=585s" frameborder="0" allowfullscreen></iframe>
+<iframe width="1206" height="678" src="https://www.youtube.com/embed/EOX6PAFMy3Y" title="How to Read &amp; Take Notes Like a PhD Student | Tips for Reading Fast &amp; Efficiently for Slow Readers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Tôi hy vọng rằng nó đã hữu ích cho bạn và bạn đã nhận được một số mẹo hữu ích từ nó.
 
