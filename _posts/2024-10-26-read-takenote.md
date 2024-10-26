@@ -27,7 +27,7 @@ categories: misc
     -  nguồn nghiên cứu
     -  các câu hỏi
     
-4. Thảo luận và ghi chú  giúp khơi gợi trí nhớ và mang lại hiểu quả rất nhiều
+- Thảo luận và ghi chú  giúp khơi gợi trí nhớ và mang lại hiểu quả rất nhiều
 
 ## Cách đọc để ghi nhớ {#remember} 
 - Đọc để ghi nhớ hoàn toàn liên quan đến việc nhớ lâu dài. 
@@ -38,7 +38,7 @@ categories: misc
 
 Bài học 1: Ghi chú hiệu quả
 
-Lời nhắc nhanh: Một số điểm được nêu ở đây có thể có thể điều chỉnh để phù hợp với nhu cầu và nghiên cứu của bạn.
+>> Lời nhắc nhanh: Một số điểm được nêu ở đây có thể có thể điều chỉnh để phù hợp với nhu cầu và nghiên cứu của bạn.
 
 Bắt đầu ghi chú trên Notion với các tiêu đề sau:
 
