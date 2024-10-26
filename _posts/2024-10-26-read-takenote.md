@@ -31,19 +31,34 @@ categories: misc
 
 ## Đọc để ghi nhớ {#5Ws&H-framework}
 
-Unlike how you might read for class where key arguments and main points will get you by, reading for attention is all about long-term recall. The advice in this section is for students taking comprehensive exams, preparing for Phd admissions, or who want to master the literature for their research and as future educators, one of the most important takeaways in this section is about active recall. Reading and taking notes alone will not help you remember all of the details of a text. Grab a friend, meet with your professors, or like me, grab a camera and start discussing what you've Read through. teaching the subject to others and integrating your readings into research papers. You'll begin to establish long-term memory. However, like learning a language, reading and the knowledge it produces must be practiced. So where your brain may be faulty, it's Best to have a repository of notes.
+Không giống như cách bạn có thể đọc cho lớp học, nơi chỉ cần nắm được các luận điểm chính là đủ, đọc để ghi nhớ dài hạn đòi hỏi khả năng hồi tưởng lâu dài.Một trong những điểm quan trọng nhất ở đây là khả năng hồi tưởng chủ động. Chỉ đọc và ghi chú sẽ không giúp bạn nhớ hết các chi tiết của một tài liệu. Hãy gặp bạn bè, thảo luận với giáo sư, hoặc như tôi, hãy sử dụng máy quay để bắt đầu bàn luận về những gì bạn đã đọc. Giảng dạy chủ đề cho người khác và tích hợp những gì đã đọc vào các bài nghiên cứu sẽ giúp bạn xây dựng trí nhớ dài hạn. Tuy nhiên, cũng giống như học một ngôn ngữ, đọc và kiến thức mà nó tạo ra cần được rèn luyện. Vì vậy, khi trí nhớ của bạn có thể không hoàn hảo, tốt nhất là có một kho ghi chú.
 
-Lesson 2.1: Note Taking for Diligent Students
+    # Ghi chú hiệu quả cho Kỹ sư Phần mềm
 
-Lesson 2.1 Note Taking For diligent students when taking notes for retention, there are several categories worth highlighting. Quick disclaimer: Some of the points made here are more history specific, but can be adjusted to suit your needs and research.
+    Khi nghiên cứu và ghi chú về các công nghệ hoặc nguyên lý phần mềm phức tạp, bạn có thể áp dụng phương pháp ghi chú dưới đây để xây dựng kiến thức bền vững và có thể truy xuất nhanh khi cần. Một số điểm dưới đây đã được điều chỉnh phù hợp cho kỹ sư phần mềm:
 
-Questions Begin by setting up your notes on notion with the following headers:
+    1. **Ý chính (Core Concept)**  
+    Đây là trọng tâm của tài liệu hoặc công nghệ bạn đang tìm hiểu. Hãy xác định rõ khái niệm cốt lõi mà tác giả hoặc tài liệu muốn truyền đạt và xem đây như là đóng góp chính cho lĩnh vực của bạn. Điều này sẽ cực kỳ hữu ích khi cần áp dụng công nghệ đó hoặc giải thích cho người khác.
 
-Main Argument supporting Arguments Subjects and Sites Sources, Methods, scholarly debate, terms and Themes Questions and Notes: While your notes may be more extensive, the three most important features of retention when thinking about academic articles or books are the main argument: how the argument was supported with evidence, and who that argument is in conversation with.
+    2. **Các điểm hỗ trợ (Supporting Points)**  
+    Là những khái niệm, quy tắc, hoặc thuật toán phụ trợ giúp củng cố ý chính. Những điểm này có thể không phải là trọng tâm nhưng sẽ giúp bạn hiểu sâu hơn về nguyên lý hoặc cách vận hành thực tế của công nghệ.
 
-The main argument or thesis is the center of the text. This is what the author believes is their contribution to the field and should be indicated clearly in your notes. This will come especially handy if you have to write any book reviews in the future.
+    3. **Bối cảnh ứng dụng (Contextual Application)**  
+    Liên quan đến môi trường, ngữ cảnh, hoặc hệ thống mà công nghệ hoặc phương pháp này áp dụng. Hãy xác định những yếu tố ảnh hưởng (như framework, nền tảng, hoặc quy mô dự án) để hiểu công nghệ hoạt động như thế nào và có thể áp dụng trong tình huống nào.
 
-Supporting arguments are claims made by the author, but which are not the central takeaway from the text. Subjects and sites have to do with people and location, who is involved in the study, and where was the study conducted, Sources and evidence include data, historical documents, pieces of art, surveys conducted, or anything used to corroborate the author's Thesis methods or theory is all about analysis. Ask yourself how has the author analyze their evidence to draw this conclusion?
+    4. **Nguồn và Ví dụ (Sources and Examples)**  
+    Ghi lại các nguồn như tài liệu tham khảo, ví dụ mã nguồn, API, hoặc các công cụ được sử dụng. Những bằng chứng thực tế này giúp xác thực và chứng minh ý chính và giúp bạn nắm bắt chi tiết khi triển khai trên dự án thực tế.
+
+    5. **Phương pháp và Lý thuyết (Methodology and Theory)**  
+    Liên quan đến phân tích sâu hơn về cách tiếp cận hoặc logic bên dưới công nghệ. Hãy hỏi bản thân: "Tại sao phương pháp này lại hoạt động hiệu quả?", "Tác giả đã giải quyết vấn đề bằng cách nào?" Những câu trả lời này sẽ giúp bạn hiểu nguyên lý và có thể tùy biến khi cần.
+
+    6. **Thuật ngữ và Từ khóa (Terms and Keywords)**  
+    Liệt kê các thuật ngữ và từ khóa liên quan để tra cứu nhanh khi cần, giúp bạn ghi nhớ và tìm lại dễ dàng khi cần ôn lại.
+
+    7. **Câu hỏi và Ghi chú (Questions and Notes)**  
+    Đặt câu hỏi về các khía cạnh bạn chưa rõ hoặc muốn tìm hiểu sâu hơn. Điều này giúp kích thích suy nghĩ phản biện và duy trì động lực học hỏi liên tục.
+
+    Với mỗi tài liệu kỹ thuật bạn nghiên cứu, bạn có thể sắp xếp các tiêu đề này trên Notion hoặc ứng dụng ghi chú khác để dễ dàng truy xuất và xây dựng hiểu biết lâu dài trong sự nghiệp kỹ sư của mình.
 
 Now on to questions. Questions are posed within the text by the author and are often used to support the thesis by indicating for the reader what the author believes are the most important takeaways. Scholarly debate is central to academic scholarship. While reading, check out who the author cites and mentions multiple times to see who they are influenced by or who they may be arguing against.
 
