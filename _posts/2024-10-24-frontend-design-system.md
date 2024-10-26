@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sharing: Frontend System Design"
+title: "Frontend System Design"
 categories: misc
 ---
 

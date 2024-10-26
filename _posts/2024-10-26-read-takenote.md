@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Sharing] Tips for Reading Fast & Efficiently"
+title: "Tips for Reading Fast & Efficiently"
 categories: misc
 ---
 
