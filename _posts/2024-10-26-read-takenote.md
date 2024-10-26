@@ -104,7 +104,7 @@ Cách đọc một cuốn sách hiệu quả. Tài liệu học thuật có bố
 
 Tôi hy vọng rằng nó đã hữu ích cho bạn và bạn đã nhận được một số mẹo hữu ích từ nó.
 
-### Dưới đây là video của tác giả
+**Dưới đây là video của tác giả**
 <iframe 
     src="https://www.youtube.com/embed/EOX6PAFMy3Y" 
     title="How to Read &amp; Take Notes Like a PhD Student | Tips for Reading Fast &amp; Efficiently for Slow Readers" 
