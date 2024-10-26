@@ -44,19 +44,19 @@ categories: misc
 
 >> Lời nhắc nhanh: Một số điểm được nêu ở đây có thể có thể điều chỉnh để phù hợp với nhu cầu và nghiên cứu của bạn.
 
-    Bắt đầu ghi chú trên Notion với các tiêu đề sau:
+Bắt đầu ghi chú trên Notion với các tiêu đề sau:
 
-    - Lập luận chính
-        - Cách mà lập luận được hỗ trợ bằng bằng chứng, và ai đang tham gia vào lập luận đó.Lập luận chính hoặc luận đề là trung tâm của văn bản. Đây là điều mà tác giả tin rằng đó là sự đóng góp của họ cho lĩnh vực này và nên được nêu rõ trong ghi chú của bạn. Điều này sẽ rất hữu ích nếu bạn phải viết bất kỳ đánh giá sách nào trong tương lai.
+- Lập luận chính
+    - Cách mà lập luận được hỗ trợ bằng bằng chứng, và ai đang tham gia vào lập luận đó.Lập luận chính hoặc luận đề là trung tâm của văn bản. Đây là điều mà tác giả tin rằng đó là sự đóng góp của họ cho lĩnh vực này và nên được nêu rõ trong ghi chú của bạn. Điều này sẽ rất hữu ích nếu bạn phải viết bất kỳ đánh giá sách nào trong tương lai.
 
-    - Các lập luận hỗ trợ
-        - Các lập luận hỗ trợ là những tuyên bố được tác giả đưa ra, nhưng không phải là điểm chính yếu của văn bản. Chủ đề và địa điểm liên quan đến những người và địa điểm nào có liên quan đến nghiên cứu, và nơi mà nghiên cứu được thực hiện. Nguồn và bằng chứng bao gồm dữ liệu, tài liệu lịch sử, tác phẩm nghệ thuật, khảo sát được thực hiện hoặc bất cứ thứ gì được sử dụng để xác nhận luận đề của tác giả. Phương pháp hoặc lý thuyết đều liên quan đến phân tích. Hãy tự hỏi bản thân xem tác giả đã phân tích bằng chứng của họ như thế nào để đưa ra kết luận này?
+- Các lập luận hỗ trợ
+    - Các lập luận hỗ trợ là những tuyên bố được tác giả đưa ra, nhưng không phải là điểm chính yếu của văn bản. Chủ đề và địa điểm liên quan đến những người và địa điểm nào có liên quan đến nghiên cứu, và nơi mà nghiên cứu được thực hiện. Nguồn và bằng chứng bao gồm dữ liệu, tài liệu lịch sử, tác phẩm nghệ thuật, khảo sát được thực hiện hoặc bất cứ thứ gì được sử dụng để xác nhận luận đề của tác giả. Phương pháp hoặc lý thuyết đều liên quan đến phân tích. Hãy tự hỏi bản thân xem tác giả đã phân tích bằng chứng của họ như thế nào để đưa ra kết luận này?
 
-    - Nguồn thông tin
-        - Các câu hỏi được nêu trong văn bản bởi tác giả và thường được sử dụng để hỗ trợ luận đề bằng cách chỉ ra cho người đọc những gì mà tác giả tin là các điểm quan trọng nhất. Tranh luận học thuật là trung tâm của học thuật. Trong khi đọc, hãy kiểm tra ai là người mà tác giả trích dẫn và đề cập nhiều lần để xem ai là người có ảnh hưởng đến họ hoặc ai mà họ có thể đang tranh luận.
+- Nguồn thông tin
+    - Các câu hỏi được nêu trong văn bản bởi tác giả và thường được sử dụng để hỗ trợ luận đề bằng cách chỉ ra cho người đọc những gì mà tác giả tin là các điểm quan trọng nhất. Tranh luận học thuật là trung tâm của học thuật. Trong khi đọc, hãy kiểm tra ai là người mà tác giả trích dẫn và đề cập nhiều lần để xem ai là người có ảnh hưởng đến họ hoặc ai mà họ có thể đang tranh luận.
 
-    - Cuối cùng là ghi chú của bạn. 
-         - Đây là nơi bạn sẽ theo dõi các trích dẫn mà bạn có thể muốn sử dụng trong tương lai, đặc biệt là cho các bài nghiên cứu của bạn.
+- Cuối cùng là ghi chú của bạn. 
+    - Đây là nơi bạn sẽ theo dõi các trích dẫn mà bạn có thể muốn sử dụng trong tương lai, đặc biệt là cho các bài nghiên cứu của bạn.
 
 **Bài học 2.2: Cách Đọc Một Bài Báo Khoa Học**
     - Các bài viết nên được đọc kỹ, nhưng hãy chú ý đến phần giới thiệu;
