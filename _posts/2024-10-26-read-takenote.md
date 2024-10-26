@@ -35,22 +35,28 @@ Không giống như cách bạn có thể đọc cho lớp học, nơi chỉ c�
 
     # Ghi chú hiệu quả cho Kỹ sư Phần mềm
 
-    Khi nghiên cứu và ghi chú về các công nghệ hoặc nguyên lý phần mềm phức tạp, bạn có thể áp dụng phương pháp ghi chú dưới đây để xây dựng kiến thức bền vững và có thể truy xuất nhanh khi cần. Một số điểm dưới đây đã được điều chỉnh phù hợp cho kỹ sư phần mềm:
-
     1. **Ý chính (Core Concept)**  
-    Đây là trọng tâm của tài liệu hoặc công nghệ bạn đang tìm hiểu. Hãy xác định rõ khái niệm cốt lõi mà tác giả hoặc tài liệu muốn truyền đạt và xem đây như là đóng góp chính cho lĩnh vực của bạn. Điều này sẽ cực kỳ hữu ích khi cần áp dụng công nghệ đó hoặc giải thích cho người khác.
+    Đây là trọng tâm của tài liệu hoặc công nghệ bạn đang tìm hiểu. Xác định rõ khái niệm cốt lõi mà tác giả hoặc tài liệu muốn truyền đạt và xem đây như là đóng góp của công nghệ này. Điều này sẽ cực kỳ hữu ích khi cần áp dụng công nghệ đó hoặc giải thích cho người khác.
 
     2. **Các điểm hỗ trợ (Supporting Points)**  
-    Là những khái niệm, quy tắc, hoặc thuật toán phụ trợ giúp củng cố ý chính. Những điểm này có thể không phải là trọng tâm nhưng sẽ giúp bạn hiểu sâu hơn về nguyên lý hoặc cách vận hành thực tế của công nghệ.
+    - khái niệm 
+    - quy tắc
+    - thuật toán
+    Những điểm này có thể không phải là trọng tâm nhưng sẽ giúp bạn hiểu sâu hơn về nguyên lý hoặc cách vận hành thực tế của công nghệ.
 
     3. **Bối cảnh ứng dụng (Contextual Application)**  
-    Liên quan đến môi trường, ngữ cảnh, hoặc hệ thống mà công nghệ hoặc phương pháp này áp dụng. Hãy xác định những yếu tố ảnh hưởng (như framework, nền tảng, hoặc quy mô dự án) để hiểu công nghệ hoạt động như thế nào và có thể áp dụng trong tình huống nào.
+    - Liên quan đến môi trường
+    - ngữ cảnh
+    - hệ thống mà công nghệ hoặc phương pháp này áp dụng
+    Hãy xác định những yếu tố ảnh hưởng (như framework, nền tảng, hoặc quy mô dự án) để hiểu công nghệ hoạt động như thế nào và có thể áp dụng trong tình huống nào.
 
     4. **Nguồn và Ví dụ (Sources and Examples)**  
-    Ghi lại các nguồn như tài liệu tham khảo, ví dụ mã nguồn, API, hoặc các công cụ được sử dụng. Những bằng chứng thực tế này giúp xác thực và chứng minh ý chính và giúp bạn nắm bắt chi tiết khi triển khai trên dự án thực tế.
+    - Ghi lại các nguồn như tài liệu tham khảo, ví dụ mã nguồn, API, hoặc các công cụ được sử dụng.
+    Những bằng chứng thực tế này giúp xác thực và chứng minh ý chính và giúp bạn nắm bắt chi tiết khi triển khai trên dự án thực tế.
 
     5. **Phương pháp và Lý thuyết (Methodology and Theory)**  
-    Liên quan đến phân tích sâu hơn về cách tiếp cận hoặc logic bên dưới công nghệ. Hãy hỏi bản thân: "Tại sao phương pháp này lại hoạt động hiệu quả?", "Tác giả đã giải quyết vấn đề bằng cách nào?" Những câu trả lời này sẽ giúp bạn hiểu nguyên lý và có thể tùy biến khi cần.
+    - Liên quan đến phân tích sâu hơn về cách tiếp cận hoặc logic bên dưới công nghệ. 
+    Hãy hỏi bản thân: "Tại sao phương pháp này lại hoạt động hiệu quả?", "Tác giả đã giải quyết vấn đề bằng cách nào?" Những câu trả lời này sẽ giúp bạn hiểu nguyên lý và có thể tùy biến khi cần.
 
     6. **Thuật ngữ và Từ khóa (Terms and Keywords)**  
     Liệt kê các thuật ngữ và từ khóa liên quan để tra cứu nhanh khi cần, giúp bạn ghi nhớ và tìm lại dễ dàng khi cần ôn lại.
