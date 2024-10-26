@@ -32,39 +32,39 @@ categories: misc
 ## Đọc để ghi nhớ {#5Ws&H-framework}
 
 Không giống như cách bạn có thể đọc cho lớp học, nơi chỉ cần nắm được các luận điểm chính là đủ, đọc để ghi nhớ dài hạn đòi hỏi khả năng hồi tưởng lâu dài.Một trong những điểm quan trọng nhất ở đây là khả năng hồi tưởng chủ động. Chỉ đọc và ghi chú sẽ không giúp bạn nhớ hết các chi tiết của một tài liệu. Hãy gặp bạn bè, thảo luận với giáo sư, hoặc như tôi, hãy sử dụng máy quay để bắt đầu bàn luận về những gì bạn đã đọc. Giảng dạy chủ đề cho người khác và tích hợp những gì đã đọc vào các bài nghiên cứu sẽ giúp bạn xây dựng trí nhớ dài hạn. Tuy nhiên, cũng giống như học một ngôn ngữ, đọc và kiến thức mà nó tạo ra cần được rèn luyện. Vì vậy, khi trí nhớ của bạn có thể không hoàn hảo, tốt nhất là có một kho ghi chú.
+# Ghi chú hiệu quả cho Kỹ sư Phần mềm
 
-    # Ghi chú hiệu quả cho Kỹ sư Phần mềm
-
-    1. **Ý chính (Core Concept)**  
+1. **Ý chính (Core Concept)**  
     Đây là trọng tâm của tài liệu hoặc công nghệ bạn đang tìm hiểu. Xác định rõ khái niệm cốt lõi mà tác giả hoặc tài liệu muốn truyền đạt và xem đây như là đóng góp của công nghệ này. Điều này sẽ cực kỳ hữu ích khi cần áp dụng công nghệ đó hoặc giải thích cho người khác.
 
-    2. **Các điểm hỗ trợ (Supporting Points)**  
+2. **Các điểm hỗ trợ (Supporting Points)**  
     - khái niệm 
     - quy tắc
     - thuật toán
     Những điểm này có thể không phải là trọng tâm nhưng sẽ giúp bạn hiểu sâu hơn về nguyên lý hoặc cách vận hành thực tế của công nghệ.
 
-    3. **Bối cảnh ứng dụng (Contextual Application)**  
+3. **Bối cảnh ứng dụng (Contextual Application)**  
     - Liên quan đến môi trường
     - ngữ cảnh
     - hệ thống mà công nghệ hoặc phương pháp này áp dụng
     Hãy xác định những yếu tố ảnh hưởng (như framework, nền tảng, hoặc quy mô dự án) để hiểu công nghệ hoạt động như thế nào và có thể áp dụng trong tình huống nào.
 
-    4. **Nguồn và Ví dụ (Sources and Examples)**  
+4. **Nguồn và Ví dụ (Sources and Examples)**  
     - Ghi lại các nguồn như tài liệu tham khảo, ví dụ mã nguồn, API, hoặc các công cụ được sử dụng.
     Những bằng chứng thực tế này giúp xác thực và chứng minh ý chính và giúp bạn nắm bắt chi tiết khi triển khai trên dự án thực tế.
 
-    5. **Phương pháp và Lý thuyết (Methodology and Theory)**  
+5. **Phương pháp và Lý thuyết (Methodology and Theory)**  
     - Liên quan đến phân tích sâu hơn về cách tiếp cận hoặc logic bên dưới công nghệ. 
     Hãy hỏi bản thân: "Tại sao phương pháp này lại hoạt động hiệu quả?", "Tác giả đã giải quyết vấn đề bằng cách nào?" Những câu trả lời này sẽ giúp bạn hiểu nguyên lý và có thể tùy biến khi cần.
 
-    6. **Thuật ngữ và Từ khóa (Terms and Keywords)**  
+6. **Thuật ngữ và Từ khóa (Terms and Keywords)**  
     Liệt kê các thuật ngữ và từ khóa liên quan để tra cứu nhanh khi cần, giúp bạn ghi nhớ và tìm lại dễ dàng khi cần ôn lại.
 
-    7. **Câu hỏi và Ghi chú (Questions and Notes)**  
+7. **Câu hỏi và Ghi chú (Questions and Notes)**  
     Đặt câu hỏi về các khía cạnh bạn chưa rõ hoặc muốn tìm hiểu sâu hơn. Điều này giúp kích thích suy nghĩ phản biện và duy trì động lực học hỏi liên tục.
 
     Với mỗi tài liệu kỹ thuật bạn nghiên cứu, bạn có thể sắp xếp các tiêu đề này trên Notion hoặc ứng dụng ghi chú khác để dễ dàng truy xuất và xây dựng hiểu biết lâu dài trong sự nghiệp kỹ sư của mình.
+    
 
 Now on to questions. Questions are posed within the text by the author and are often used to support the thesis by indicating for the reader what the author believes are the most important takeaways. Scholarly debate is central to academic scholarship. While reading, check out who the author cites and mentions multiple times to see who they are influenced by or who they may be arguing against.
 
