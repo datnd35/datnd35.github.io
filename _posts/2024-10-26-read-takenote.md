@@ -32,7 +32,8 @@ categories: misc
 ## Đọc để ghi nhớ {#5Ws&H-framework}
 
 Không giống như cách bạn có thể đọc cho lớp học, nơi chỉ cần nắm được các luận điểm chính là đủ, đọc để ghi nhớ dài hạn đòi hỏi khả năng hồi tưởng lâu dài.Một trong những điểm quan trọng nhất ở đây là khả năng hồi tưởng chủ động. Chỉ đọc và ghi chú sẽ không giúp bạn nhớ hết các chi tiết của một tài liệu. Hãy gặp bạn bè, thảo luận với giáo sư, hoặc như tôi, hãy sử dụng máy quay để bắt đầu bàn luận về những gì bạn đã đọc. Giảng dạy chủ đề cho người khác và tích hợp những gì đã đọc vào các bài nghiên cứu sẽ giúp bạn xây dựng trí nhớ dài hạn. Tuy nhiên, cũng giống như học một ngôn ngữ, đọc và kiến thức mà nó tạo ra cần được rèn luyện. Vì vậy, khi trí nhớ của bạn có thể không hoàn hảo, tốt nhất là có một kho ghi chú.
-# Ghi chú hiệu quả cho Kỹ sư Phần mềm
+
+Ghi chú hiệu quả cho Kỹ sư Phần mềm
 
 1. **Ý chính (Core Concept)**  
     Đây là trọng tâm của tài liệu hoặc công nghệ bạn đang tìm hiểu. Xác định rõ khái niệm cốt lõi mà tác giả hoặc tài liệu muốn truyền đạt và xem đây như là đóng góp của công nghệ này. Điều này sẽ cực kỳ hữu ích khi cần áp dụng công nghệ đó hoặc giải thích cho người khác.
@@ -63,7 +64,7 @@ Không giống như cách bạn có thể đọc cho lớp học, nơi chỉ c�
 7. **Câu hỏi và Ghi chú (Questions and Notes)**  
     Đặt câu hỏi về các khía cạnh bạn chưa rõ hoặc muốn tìm hiểu sâu hơn. Điều này giúp kích thích suy nghĩ phản biện và duy trì động lực học hỏi liên tục.
 
-    Với mỗi tài liệu kỹ thuật bạn nghiên cứu, bạn có thể sắp xếp các tiêu đề này trên Notion hoặc ứng dụng ghi chú khác để dễ dàng truy xuất và xây dựng hiểu biết lâu dài trong sự nghiệp kỹ sư của mình.
+Với mỗi tài liệu kỹ thuật bạn nghiên cứu, bạn có thể sắp xếp các tiêu đề này trên Notion hoặc ứng dụng ghi chú khác để dễ dàng truy xuất và xây dựng hiểu biết lâu dài trong sự nghiệp kỹ sư của mình.
     
 
 Now on to questions. Questions are posed within the text by the author and are often used to support the thesis by indicating for the reader what the author believes are the most important takeaways. Scholarly debate is central to academic scholarship. While reading, check out who the author cites and mentions multiple times to see who they are influenced by or who they may be arguing against.
