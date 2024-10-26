@@ -90,6 +90,7 @@ categories: misc
 - Đừng bỏ qua mục lục, mục lục của một cuốn sách hoặc tính năng tìm kiếm trên một tệp PDF là bạn thân tốt nhất của bạn. Xác định một bộ từ khóa chính, tìm chúng trong mục lục và xem những trang và phần nào trực tiếp tham khảo về chủ đề của bạn. 
 - Ghi chú: Xác định một danh sách dài các thuật ngữ áp dụng, vì văn bản có thể không sử dụng ngôn ngữ giống như bạn trong việc viết lách của bạn.
 
+[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://www.youtube.com/watch?v=EOX6PAFMy3Y&t=585s)
 
 Tôi hy vọng rằng nó đã hữu ích cho bạn và bạn đã nhận được một số mẹo hữu ích từ nó.
 
