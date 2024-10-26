@@ -15,7 +15,7 @@ categories: misc
 ## Đọc như một học sinh {#student}
 
 - Đọc kỹ đề cương để xem xét những bài học nào thật sự quan trọng đến mục tiêu của mình.
- - Ban đầu sẽ thấy choáng ngợp nhưng hầu hết thầy cô giáo sẽ không kỳ vọng sinh viên mình có thể đọc được tất cả tài liệu.
+  - Ban đầu sẽ thấy choáng ngợp nhưng hầu hết thầy cô giáo sẽ không kỳ vọng sinh viên mình có thể đọc được tất cả tài liệu.
 
 - Nắm rõ cấu trúc và xác định các chương cần chú ý nhất
   - Vào đầu mỗi tuần hãy xem phần mục lục của các sách và tài liệu đọc để nắm rõ cấu trúc và xác định các chương cần chú ý
@@ -30,10 +30,14 @@ categories: misc
 - Thảo luận và ghi chú  giúp khơi gợi trí nhớ và mang lại hiểu quả rất nhiều
 
 ## Cách đọc để ghi nhớ {#remember} 
-- Đọc để ghi nhớ hoàn toàn liên quan đến việc nhớ lâu dài. 
+- Đọc để ghi nhớ hoàn toàn liên quan đến việc nhớ lâu dài.
+
 - Review lại một cách chủ động.  
+
 - Việc đọc và ghi chú một mình sẽ không giúp bạn nhớ tất cả các chi tiết của một văn bản. Hãy tìm một người bạn, thảo luận với đồng nghiệp, hoặc cầm một chiếc camera và bắt đầu thảo luận về những gì bạn đã đọc. 
+
 - Việc giảng dạy môn học cho người khác và tích hợp các tài liệu của bạn vào các bài nghiên cứu sẽ giúp bạn hình thành ký ức lâu dài.
+
 - Nên có một kho lưu trữ ghi chú.
 
  **Bài học 2.1: Ghi chú hiệu quả**
