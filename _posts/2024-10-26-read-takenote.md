@@ -90,14 +90,20 @@ Cách đọc một cuốn sách hiệu quả. Tài liệu học thuật có bố
 ## Đọc để nghiên cứu {#reseach} 
 
 - Việc đọc cho nghiên cứu hoàn toàn là tìm thông tin phù hợp nhất với dự án của bạn một cách kịp thời.
+
 - Khi đọc cho nghiên cứu, tôi muốn bạn tập trung vào những điểm rút ra chính của dự án của bạn.
+
 - Bạn sẽ tìm kiếm các thuật ngữ khác nhau để tìm văn bản phù hợp nhất với nghiên cứu của bạn. Nhưng bên cạnh đó, bạn cũng cần sử dụng một bộ chiến thuật cụ thể khi vào văn bản để tìm những gì bạn đang tìm kiếm.
 
 - Hãy áp dụng các mẹo mà tôi đã cung cấp cho bạn trong phần 2.3 nhưng chỉ tập trung vào các chương trực tiếp liên quan đến dự án của bạn.
-- Đừng bỏ qua mục lục, mục lục của một cuốn sách hoặc tính năng tìm kiếm trên một tệp PDF là bạn thân tốt nhất của bạn. Xác định một bộ từ khóa chính, tìm chúng trong mục lục và xem những trang và phần nào trực tiếp tham khảo về chủ đề của bạn. 
-- Ghi chú: Xác định một danh sách dài các thuật ngữ áp dụng, vì văn bản có thể không sử dụng ngôn ngữ giống như bạn trong việc viết lách của bạn.
 
+- Đừng bỏ qua mục lục, mục lục của một cuốn sách hoặc tính năng tìm kiếm trên một tệp PDF là bạn thân tốt nhất của bạn. Xác định một bộ từ khóa chính, tìm chúng trong mục lục và xem những trang và phần nào trực tiếp tham khảo về chủ đề của bạn. 
+
+- Ghi chú: Xác định một danh sách dài các thuật ngữ áp dụng, vì văn bản có thể không sử dụng ngôn ngữ giống như bạn trong việc viết lách của bạn.
+Tôi hy vọng rằng nó đã hữu ích cho bạn và bạn đã nhận được một số mẹo hữu ích từ nó.
+
+### Dưới đây là video của tác giả
 <iframe height="678" src="https://www.youtube.com/embed/EOX6PAFMy3Y" title="How to Read &amp; Take Notes Like a PhD Student | Tips for Reading Fast &amp; Efficiently for Slow Readers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Tôi hy vọng rằng nó đã hữu ích cho bạn và bạn đã nhận được một số mẹo hữu ích từ nó.
+
 
