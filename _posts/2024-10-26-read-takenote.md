@@ -84,8 +84,8 @@ Cách đọc một cuốn sách hiệu quả. Tài liệu học thuật có bố
     - Bước số ba: 
         - Phần kết luận: Đọc bốn đến năm trang cuối cùng của mỗi chương để xem tác giả tuyên bố rằng các ví dụ của họ đã hỗ trợ lập luận của họ như thế nào. Điều này sẽ giúp bạn thấy rõ những gì họ cho là những điểm quan trọng nhất.
 
-    - Phần kết luận và thư mục.
-        - Phần cuối cùng: Phần kết luận của cuốn sách: Giống như phần giới thiệu, phần kết luận thường phong phú với lập luận của tác giả. Hãy đọc kỹ và ghi chú. Điều này sẽ hữu ích.
+- Phần kết luận và thư mục.
+    - Phần cuối cùng: Phần kết luận của cuốn sách: Giống như phần giới thiệu, phần kết luận thường phong phú với lập luận của tác giả. Hãy đọc kỹ và ghi chú. Điều này sẽ hữu ích.
 
 ## Đọc để nghiên cứu {#reseach} 
 
