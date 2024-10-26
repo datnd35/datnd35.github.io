@@ -59,6 +59,7 @@ Bắt đầu ghi chú trên Notion với các tiêu đề sau:
     - Đây là nơi bạn sẽ theo dõi các trích dẫn mà bạn có thể muốn sử dụng trong tương lai, đặc biệt là cho các bài nghiên cứu của bạn.
 
 **Bài học 2.2: Cách Đọc Một Bài Báo Khoa Học**
+
     - Các bài viết nên được đọc kỹ, nhưng hãy chú ý đến phần giới thiệu;
     - Lập luận chính hoặc luận điểm thường ở gần đầu;
     - Hãy chú ý đến những cuộc thảo luận mà họ đang tham gia. Các bài viết thường trực tiếp hơn và đề cập đến các học giả khác và công việc của họ.
@@ -94,7 +95,7 @@ Bắt đầu ghi chú trên Notion với các tiêu đề sau:
 - Đừng bỏ qua mục lục, mục lục của một cuốn sách hoặc tính năng tìm kiếm trên một tệp PDF là bạn thân tốt nhất của bạn. Xác định một bộ từ khóa chính, tìm chúng trong mục lục và xem những trang và phần nào trực tiếp tham khảo về chủ đề của bạn. 
 - Ghi chú: Xác định một danh sách dài các thuật ngữ áp dụng, vì văn bản có thể không sử dụng ngôn ngữ giống như bạn trong việc viết lách của bạn.
 
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://www.youtube.com/watch?v=EOX6PAFMy3Y&t=585s)
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=EOX6PAFMy3Y&t=585s" frameborder="0" allowfullscreen></iframe>
 
 Tôi hy vọng rằng nó đã hữu ích cho bạn và bạn đã nhận được một số mẹo hữu ích từ nó.
 
