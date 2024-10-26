@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Sharing] Communication  Framework"
+title: "Sharing: Communication  Framework"
 categories: misc
 ---
 
