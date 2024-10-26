@@ -60,30 +60,32 @@ Bắt đầu ghi chú trên Notion với các tiêu đề sau:
 
 **Bài học 2.2: Cách Đọc Một Bài Báo Khoa Học**
 
-    - Các bài viết nên được đọc kỹ, nhưng hãy chú ý đến phần giới thiệu;
-    - Lập luận chính hoặc luận điểm thường ở gần đầu;
-    - Hãy chú ý đến những cuộc thảo luận mà họ đang tham gia. Các bài viết thường trực tiếp hơn và đề cập đến các học giả khác và công việc của họ.
+- Các bài viết nên được đọc kỹ, nhưng hãy chú ý đến phần giới thiệu;
+
+- Lập luận chính hoặc luận điểm thường ở gần đầu;
+
+- Hãy chú ý đến những cuộc thảo luận mà họ đang tham gia. Các bài viết thường trực tiếp hơn và đề cập đến các học giả khác và công việc của họ.
 
 **Bài học 2.3: Cách đọc một cuốn sách**
-    Cách đọc một cuốn sách hiệu quả. Tài liệu học thuật có bốn phần rõ ràng:
+Cách đọc một cuốn sách hiệu quả. Tài liệu học thuật có bốn phần rõ ràng:
 
-    -  Phần giới thiệu
-        - Đây là phần, cùng với phần kết luận, mà bạn nên chú ý nhất trong các tài liệu học thuật hiện đại. Đây là nơi chứa đựng lập luận chính và diễn ngôn học thuật. Vì vậy, đây không phải là phần bạn nên bỏ qua. Hãy đọc kỹ và dành thời gian, ghi chú dựa trên các danh mục mà chúng ta đã thảo luận, và xem xét các chương hoặc phần nào thu hút sự quan tâm của bạn. Trong phần này của cuốn sách, bạn sẽ tìm thấy một cái nhìn tổng quát về cuốn sách, điều này sẽ giúp bạn xác định những phần nào có thể thú vị nhất. Mục lục cũng sẽ giúp bạn thấy được dòng chảy tổng thể của cuốn sách, cho phép bạn đặt ra các câu hỏi về thời gian có thể hữu ích cho bạn sau này.
+-  Phần giới thiệu
+    - Đây là phần, cùng với phần kết luận, mà bạn nên chú ý nhất trong các tài liệu học thuật hiện đại. Đây là nơi chứa đựng lập luận chính và diễn ngôn học thuật. Vì vậy, đây không phải là phần bạn nên bỏ qua. Hãy đọc kỹ và dành thời gian, ghi chú dựa trên các danh mục mà chúng ta đã thảo luận, và xem xét các chương hoặc phần nào thu hút sự quan tâm của bạn. Trong phần này của cuốn sách, bạn sẽ tìm thấy một cái nhìn tổng quát về cuốn sách, điều này sẽ giúp bạn xác định những phần nào có thể thú vị nhất. Mục lục cũng sẽ giúp bạn thấy được dòng chảy tổng thể của cuốn sách, cho phép bạn đặt ra các câu hỏi về thời gian có thể hữu ích cho bạn sau này.
 
-    - Các chương
-        - Bước số một: 
-            - Đọc bốn đến năm trang đầu tiên của chương. Đây thường là nơi đề tài và lập luận của chương sẽ được trình bày và nên được đọc kỹ.
+- Các chương
+    - Bước số một: 
+        - Đọc bốn đến năm trang đầu tiên của chương. Đây thường là nơi đề tài và lập luận của chương sẽ được trình bày và nên được đọc kỹ.
 
-        - Bước số hai: 
-            - Đọc ba câu đầu tiên của mỗi đoạn và lướt qua phần còn lại. Các phần giữa của các chương tập trung chủ yếu vào bằng chứng, phân tích và lý thuyết. Vì vậy, khác với phần giới thiệu, nơi có những điểm rút ra rõ ràng, các phần chương sẽ yêu cầu bạn chỉ ra một vài ví dụ hoặc giai thoại hỗ trợ cho luận điểm của tác giả.
+    - Bước số hai: 
+        - Đọc ba câu đầu tiên của mỗi đoạn và lướt qua phần còn lại. Các phần giữa của các chương tập trung chủ yếu vào bằng chứng, phân tích và lý thuyết. Vì vậy, khác với phần giới thiệu, nơi có những điểm rút ra rõ ràng, các phần chương sẽ yêu cầu bạn chỉ ra một vài ví dụ hoặc giai thoại hỗ trợ cho luận điểm của tác giả.
 
-            - Luận điểm: Ghi chú nhanh: Chỉ ra từ một đến bốn ví dụ về cách tác giả sử dụng bằng chứng để hỗ trợ luận điểm của họ. Đối với các văn bản dựa trên khoa học hoặc định lượng, hãy tập trung vào các phương pháp phân tích thống kê của họ.
+        - Luận điểm: Ghi chú nhanh: Chỉ ra từ một đến bốn ví dụ về cách tác giả sử dụng bằng chứng để hỗ trợ luận điểm của họ. Đối với các văn bản dựa trên khoa học hoặc định lượng, hãy tập trung vào các phương pháp phân tích thống kê của họ.
 
-        - Bước số ba: 
-            - Phần kết luận: Đọc bốn đến năm trang cuối cùng của mỗi chương để xem tác giả tuyên bố rằng các ví dụ của họ đã hỗ trợ lập luận của họ như thế nào. Điều này sẽ giúp bạn thấy rõ những gì họ cho là những điểm quan trọng nhất.
+    - Bước số ba: 
+        - Phần kết luận: Đọc bốn đến năm trang cuối cùng của mỗi chương để xem tác giả tuyên bố rằng các ví dụ của họ đã hỗ trợ lập luận của họ như thế nào. Điều này sẽ giúp bạn thấy rõ những gì họ cho là những điểm quan trọng nhất.
 
-        - Phần kết luận và thư mục.
-            - Phần cuối cùng: Phần kết luận của cuốn sách: Giống như phần giới thiệu, phần kết luận thường phong phú với lập luận của tác giả. Hãy đọc kỹ và ghi chú. Điều này sẽ hữu ích.
+    - Phần kết luận và thư mục.
+        - Phần cuối cùng: Phần kết luận của cuốn sách: Giống như phần giới thiệu, phần kết luận thường phong phú với lập luận của tác giả. Hãy đọc kỹ và ghi chú. Điều này sẽ hữu ích.
 
 ## Đọc để nghiên cứu {#reseach} 
 
