@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DOM - Document Object Model"
+title: "Document Object Model"
 categories: misc
 ---
 
