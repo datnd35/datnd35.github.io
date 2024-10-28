@@ -40,7 +40,7 @@ categories: misc
   - Đính kèm event listener vào HTML elements
   - Tạo HTML element mới 
   - ...
-  - **Ví dụ về một Element"
+  - **Ví dụ của một Element**
   ![window](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/document-object-model/element.png)
 
 
