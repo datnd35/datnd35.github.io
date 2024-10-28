@@ -95,15 +95,24 @@ categories: misc
   Xóa 1 nút con khỏi nút hiện tại.
 
 ## NODE {#node}
-Giờ là lúc nói về endpoints cần để hệ thống chúng ta có thể hoạt động. Nhưng trước hết hãy chọn công nghệ sẽ được sử dụng để kết nối giữ frontend và backend.
+- Tất cả các phần tử trong DOM đều được định nghĩa là các nút (node). Có nhiều loại nút khác nhau, nhưng có ba loại chính mà chúng ta thường làm việc:
+    - Nút phần tử (Element nodes)
+    - Nút văn bản (Text nodes)
+    - Nút chú thích (Comment nodes)
 
-Hãy xem chúng ta có những lựa chọn nào? :
-* REST API
-* GraphQL
-* Websocket
-* Long polling
-* SSE
-* Một phương án khác?
+```html
+<!DOCTYPE html>
+<html>
 
-Chúng ta nên lựa chọn phương án nào? Những yếu tố nào đưa chúng ta đến quyết định đó?
-Hãy so sánh những lựa chọn khác nhau và chọn phương án phù hợp nhất dự trên những yêu cầu của chúng ta.
+  <head>
+    <title>Learning About Nodes</title>
+  </head>
+
+  <body>
+    <h1>An element node</h1>
+    <!-- a comment node -->
+    A text node.
+  </body>
+
+</html> 
+```
