@@ -12,6 +12,7 @@ categories: misc
 
 ## Window {#window}
 - Trong trình browser, mỗi tab được đại diện bởi một đối tượng Window riêng (Window instance).
+
 - Window gồm nhiều properies như:
     - Closed
     - History
@@ -23,16 +24,22 @@ categories: misc
 
 
 ## Giới thiệu {#introduction}
-Chúng ta cần định nghĩa một số YÊU CẦU về TECHNICAL để sản phẩm có thể hoàn thành.
+- DOM build từ file HTML và sẽ biến đổi file HTML tiêu chuẩn thành các đối tượng lồng vào sau và được sắp xếp theo CẤU TRÚC PHÂN CẤP (hierarchical structure) hay gọi là cây DOM.
 
-Các câu hỏi cần đặt ra:
- - Sản phẩm sẽ hoạt động trên những thiết bị nào?
- - Câu hỏi củ thể của dự án:
-   - Chúng có cần infinity scroll không
-   - Chúng có cần offline mode không 
-   - Chúng có cần real-time update không 
- - Chúng có cần module cấu hình không (thường được dùng nếu chúng ta thiết kế sản phẩm theo dạng module)
- - [Khả năng tiếp cận](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
+- Khi nói tới DOM thì có 2 đối tượng quan trọng cần chú ý 
+  - Window
+  - Document 
+
+- DOM sẽ tự động điều chỉnh và sửa lỗi những phần không hợp lệ trong mã HTML để đảm bảo luôn ở trạng thái hợp lệ (ví dụ: phải có body, head ...)
+
+- Sẽ không chứa bất kỳ css properies nào (ví dụ: before, after ...)
+
+- Cho phép Javascript truy cập element & text
+  - Thay đổi css styles áp dụng vào element 
+  - Thay đổi attribute value (e.g hfef, src, alt ...)
+  - Đính kèm event listener vào HTML elements
+  - Tạo HTML element mới 
+  - ...
 
 ## Javascript và DOM {#javascript}
 Trong phần này chúng ta sẽ thiết kế UI đơn giản cũng để tiếp tục cho những phần tiếp theo
