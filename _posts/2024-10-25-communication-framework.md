@@ -48,6 +48,7 @@ categories: misc
  >> Trong Browser thì sẽ bao gồm
  >> 1. DOM
  >> 2. JavaScript Engine (V8)
+
 - DOM là một đối tượng khác hoàn toàn với Javascript
 
 - Browser tạo DOM để render ra trang web
@@ -55,13 +56,43 @@ categories: misc
 - DOM không tồn tại trong Javascript engine 
 
 - Để Javascript có thể truy cập đến DOM thì ta cần có DOM API 
- 
+
 ## Truy cập DOM {#accessing}
-Sau khi chuẩn bị kiến trúc thiết kế tất cả các phần quan trong của sản phẩm chúng ta tiếp tục xác định những phụ thuộc (chức năng) của chúng.
+**Thuộc tính:** 
+- id:
+  Là duy nhất cho mỗi phần tử nên thường được dùng để truy xuất DOM trực tiếp và nhanh chóng.
+- className 
+  Dùng để truy xuất trực tiếp như id, nhưng 1 className có thể dùng cho nhiều phần tử.
+- tagName: 
+  Tên thẻ HTML.
+- innerHTML: 
+  Trả về mã HTML bên trong phần tử hiện tại. Đoạn mã HTML này là chuỗi kí tự chứa tất cả phần tử bên trong, bao gồm các nút phần tử và nút văn bản.
+- outerHTML: 
+  Trả về mã HTML của phần tử hiện tại. Nói cách khác, outerHTML = tagName + innerHTML.
+- textContent: 
+  Trả về 1 chuỗi kí tự chứa nội dung của tất cả nút văn bản bên trong phần tử hiện tại.
+- attributes: 
+  Tập các thuộc tính như id, name, class, href, title…
+- style: 
+  Tập các định dạng của phần tử hiện tại
+- value: 
+  Lấy giá trị của thành phần được chọn thành một biến.
 
-![Dependencies graph](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/frontend-design-system/dependencies.png)
-
-Dự vào đây chúng ta cũng sẽ xác định được component hierarchy của project.
+**Phương thức:**
+- getElementById(id): 
+  Tham chiếu đến 1 nút duy nhất có thuộc tính id giống với id cần tìm.
+- getElementsByTagName(tagname): 
+  Tham chiếu đến tất cả các nút có thuộc tính tagName giống với tên thẻ cần tìm, hay hiểu đơn giản hơn là tìm tất cả các phần tử DOM mang thẻ HTML cùng loại. Nếu muốn truy xuất đến toàn bộ thẻ trong tài liệu HTML thì hãy sử dụng document.getElementsByTagName('*').
+- getElementsByName(name): 
+  Tham chiếu đến tất cả các nút có thuộc tính name cần tìm.
+- getAttribute(attributeName): 
+  Lấy giá trị của thuộc tính.
+- setAttribute(attributeName, value): 
+  Sửa giá trị của thuộc tính.
+- appendChild(node): 
+  Thêm 1 nút con vào nút hiện tại.
+- removeChild(node): 
+  Xóa 1 nút con khỏi nút hiện tại.
 
 ## NODE {#node}
 Giờ là lúc nói về endpoints cần để hệ thống chúng ta có thể hoạt động. Nhưng trước hết hãy chọn công nghệ sẽ được sử dụng để kết nối giữ frontend và backend.
