@@ -9,8 +9,7 @@ permalink: /share/
   {% else %}
     {% assign experiences = site.experiences %}
   {% endif %}
-
-
+  
   {%- if experiences.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
