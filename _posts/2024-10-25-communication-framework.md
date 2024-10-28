@@ -119,7 +119,7 @@ categories: misc
 ```
 
 ## Kết {#inconclution}
-- Ngoài những thông tin ở trên thì ở đây mình có một một khái niệm nữa muốn chia sẻ đó là BOM (browser Object Model) cho phép Javascript có thể thao tác được với Browser 
+- Ngoài những thông tin ở trên thì ở đây mình có một một khái niệm nữa muốn chia sẻ đó là BOM (Browser Object Model) cho phép Javascript có thể thao tác được với Browser 
   - navigator 
   - location
   - screen 
