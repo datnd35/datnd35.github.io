@@ -10,24 +10,14 @@ categories: misc
 * [Truy cập DOM](#accessing)
 * [Node](#node)
 
-Ví dụ _(hãy tưởng tượng chúng ta đang thiết kế một ứng dụng Instagram)_:
-
-> The user should be able to
-> - upload media content (photo/video)
-> - follow friends
-> - see his friends' photos in the feed
-> - add comments under the photo
-> - add likes
-> - ...
-
 ## Window {#window}
 - Trong trình browser, mỗi tab được đại diện bởi một đối tượng Window riêng (Window instance).
-- Window gồm nhiều properies như 
- - Closed
- - History
- - Location
- - Document
- - ...
+- Window gồm nhiều properies như:
+    - Closed
+    - History
+    - Location
+    - Document
+    - ...
  
 ![window](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/document-object-model/window.png)
 
