@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Communication  Framework"
+title: "Document Object Model"
 categories: misc
 ---
 
