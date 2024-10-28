@@ -33,7 +33,8 @@ Ví dụ _(hãy tưởng tượng chúng ta đang thiết kế một ứng dụn
  - Location
  - Document
  - ...
-
+ 
+ [window](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/document-object-model/window.png)
 
 
 ## Giới thiệu {#introduction}
