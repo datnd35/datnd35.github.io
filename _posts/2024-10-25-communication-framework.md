@@ -23,7 +23,7 @@ categories: misc
 ![window](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/document-object-model/window.png)
 
 
-## Giới thiệu {#introduction}
+## Giới thiệu DOM {#introduction}
 - DOM build từ file HTML và sẽ biến đổi file HTML tiêu chuẩn thành các đối tượng lồng vào sau và được sắp xếp theo CẤU TRÚC PHÂN CẤP (hierarchical structure) hay gọi là cây DOM.
 
 - Khi nói tới DOM thì có 2 đối tượng quan trọng cần chú ý 
@@ -45,12 +45,17 @@ categories: misc
 
 
 ## Javascript và DOM {#javascript}
-Trong phần này chúng ta sẽ thiết kế UI đơn giản cũng để tiếp tục cho những phần tiếp theo
+ >> Trong Browser thì sẽ bao gồm
+ >> 1. DOM
+ >> 2. JavaScript Engine (V8)
+- DOM là một đối tượng khác hoàn toàn với Javascript
 
-![Components architecture example](https://raw.githubusercontent.com/datnd35/datnd35.github.io/refs/heads/master/assets/images/frontend-design-system/components_architecture.png)
+- Browser tạo DOM để render ra trang web
 
-Nó sẽ không đại diện cho thiết kế cuối cùng của sản phẩm. Chỉ là high-level blocks nó sẽ giúp cho chúng ta thấy concept của sản phẩm.
+- DOM không tồn tại trong Javascript engine 
 
+- Để Javascript có thể truy cập đến DOM thì ta cần có DOM API 
+ 
 ## Truy cập DOM {#accessing}
 Sau khi chuẩn bị kiến trúc thiết kế tất cả các phần quan trong của sản phẩm chúng ta tiếp tục xác định những phụ thuộc (chức năng) của chúng.
 
