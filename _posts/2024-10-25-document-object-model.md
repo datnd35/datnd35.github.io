@@ -128,5 +128,4 @@ categories: misc
 - Tài liệu tham khảo 
   - [Understanding the DOM Tree and Nodes](https://www.digitalocean.com/community/tutorials/understanding-the-dom-tree-and-nodes)
   - [Understanding Document Object Model (DOM) in Details](https://www.hongkiat.com/blog/understanding-document-object-model/#google_vignette)
-  - Advanced Document Object Model (DOM) course for everyone! Use JavaScript to Build Dynamic Websites with the DOM (udemy)
 
