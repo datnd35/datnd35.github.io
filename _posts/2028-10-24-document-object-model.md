@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Frontend System Design"
+title: "DOM - Document Object Model"
 categories: misc
 ---
 
