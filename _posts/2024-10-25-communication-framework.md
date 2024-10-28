@@ -35,6 +35,11 @@ categories: misc
 - Sẽ không chứa bất kỳ css properies nào (ví dụ: before, after ...)
 
 - Cho phép Javascript truy cập element & text
+    >> Ví dụ về cấu trúc của một element
+    >> <h1 id="heading">Hello</h1>
+    >> h1 is the tag
+    >> id is the attribute 
+    >> heading is the attribute value
   - Thay đổi css styles áp dụng vào element 
   - Thay đổi attribute value (e.g hfef, src, alt ...)
   - Đính kèm event listener vào HTML elements
