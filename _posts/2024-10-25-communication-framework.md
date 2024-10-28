@@ -9,6 +9,7 @@ categories: misc
 * [Javascript và DOM](#javascript)
 * [Truy cập DOM](#accessing)
 * [Node](#node)
+* [Kết](#inconclution)
 
 ## Window {#window}
 - Trong trình browser, mỗi tab được đại diện bởi một đối tượng Window riêng (Window instance).
@@ -116,3 +117,16 @@ categories: misc
 
 </html> 
 ```
+
+## Kết {#inconclution}
+- Ngoài những thông tin ở trên thì ở đây mình có một một khái niệm nữa muốn chia sẻ đó là BOM (browser Object Model) cho phép Javascript có thể thao tác được với Browser 
+  - navigator 
+  - location
+  - screen 
+  - history 
+
+- Tài liệu tham khảo 
+  - [Understanding the DOM Tree and Nodes](https://www.digitalocean.com/community/tutorials/understanding-the-dom-tree-and-nodes)
+  
+  - [Understanding Document Object Model (DOM) in Details](https://www.hongkiat.com/blog/understanding-document-object-model/#google_vignette)
+
