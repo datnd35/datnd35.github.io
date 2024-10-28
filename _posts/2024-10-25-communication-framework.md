@@ -3,7 +3,7 @@ layout: post
 title: "Document Object Model"
 categories: misc
 ---
-## Plan
+
 * [Window](#window)
 * [Giới thiệu DOM](#introduction)
 * [Javascript và DOM](#javascript)
@@ -12,9 +12,9 @@ categories: misc
 * [Kết](#inconclution)
 
 ## Window {#window}
-- Trong trình browser, mỗi tab được đại diện bởi một đối tượng Window riêng (Window instance).
+- Trong trình Browser, mỗi tab được đại diện bởi một đối tượng Window riêng (Window instance).
 
-- Window gồm nhiều properies như:
+- Window gồm nhiều Properies như:
     - Closed
     - History
     - Location
