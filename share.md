@@ -4,23 +4,27 @@ title: Chia sẻ
 permalink: /share/
 ---
 <div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
 
-  <!-- this is HOME page of experiences -->
+  {{ content }}
 
-    {% if site.paginate %}
-    {% assign experiences = paginator.experiences %}
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
   {% else %}
-    {% assign experiences = site.experiences %}
+    {% assign posts = site.posts %}
   {% endif %}
 
 
-  {%- if experiences.size > 0 -%}
+  {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in experiences -%}
+      {%- for post in posts -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
@@ -56,8 +60,4 @@ permalink: /share/
   {%- endif -%}
 
 </div>
-
-<!-- Xin chào! Tôi là thợ cốt 😄! -->
-
-<!-- [Mời ghé Linkedin của tui](https://www.linkedin.com/in/nguyendinhdat/) -->
 
