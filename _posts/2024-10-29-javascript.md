@@ -11,14 +11,14 @@ categories: misc
 - [ ] `<>`
 - [ ] `~`
 - [ ] `==!` 
-- [] `!==`
+- [ ] `!==`
 
 [Reference Javascript Comparison Operators](https://www.w3schools.com/js/js_operators.asp)
 
 #### Q2. How is a forEach statement different from a for statement?
 
 - [ ] Only a for statement uses a callback function.
-- [] A for statement is more generic and can be used with various iterable objects, while a forEach statement is mainly designed for arrays but can also be used with other iterable objects like Sets.
+- [ ] A for statement is more generic and can be used with various iterable objects, while a forEach statement is mainly designed for arrays but can also be used with other iterable objects like Sets.
 - [ ] Only a forEach statement lets you specify your own iterator.
 - [ ] A forEach statement is generic, but a for statement can be used only with an array.
 
@@ -34,14 +34,14 @@ function addTax(total) {
 
 - [ ] `addTax = 50;`
 - [ ] `return addTax 50;`
-- [] `addTax(50);`
+- [ ] `addTax(50);`
 - [ ] `addTax 50;`
 
 [Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
 
 #### Q4. Which statement is the correct way to create a variable called rate and assign it the value 100?
 
-- [] `let rate = 100;`
+- [ ] `let rate = 100;`
 - [ ] `let 100 = rate;`
 - [ ] `100 = let rate;`
 - [ ] `rate = 100;`
@@ -50,7 +50,7 @@ function addTax(total) {
 
 #### Q5. Which statement creates a new object using the Person constructor? Which statement creates a new Person object called "student"?
 
-- [] `var student = new Person();`
+- [ ] `var student = new Person();`
 - [ ] `var student = construct Person;`
 - [ ] `var student = Person();`
 - [ ] `var student = construct Person();`
@@ -70,7 +70,7 @@ console.log('Results shown');
 - [ ] after 10 second
 - [ ] after results are received from the HTTP request
 - [ ] after 10000 seconds
-- [] immediately
+- [ ] immediately
 
 [Reference Javascript is synchronous and single threaded](https://stackoverflow.com/a/2035662/15067394)
 
@@ -90,7 +90,7 @@ console.log(/* Snippet Here */); //Prints food
 
 - [ ] `a.prototype.belly[0]`
 - [ ] `Object.getPrototype0f (a).belly[0]`
-- [] `Animal.belly[0]`
+- [ ] `Animal.belly[0]`
 - [ ] `a.belly[0]`
 
 [Reference Javascript Class static Keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
@@ -129,7 +129,7 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [] `D`
+- [ ] `D`
 
 ```js
 for (var i = 1; i <= 4; i++) {
@@ -157,7 +157,7 @@ for (var j = 1; j <= 4; j++) {
 #### Q9. How does a function create a closure?
 
 - [ ] It reloads the document whenever the value changes.
-- [] It returns a reference to a variable in its parent scope.
+- [ ] It returns a reference to a variable in its parent scope.
 - [ ] It completes execution without returning.
 - [ ] It copies a local variable to the global scope.
 
@@ -165,7 +165,7 @@ for (var j = 1; j <= 4; j++) {
 
 #### Q10. Which statement creates a new function called discountPrice?
 
-- [] `A`
+- [ ] `A`
 
 ```js
 let discountPrice = function (price) {
@@ -189,7 +189,7 @@ let function = discountPrice(price) {
 };
 ```
 
-- [] `D`
+- [ ] `D`
 
 ```js
 discountPrice = function (price) {
@@ -214,14 +214,14 @@ console.log(bob.precip);
 - [ ] Storm()
 - [ ] undefined
 - [ ] 'rain'
-- [] 'snow'
+- [ ] 'snow'
 
 [Reference prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 #### Q12. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
 
 - [ ] `/[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/`
-- [] `/\d\d:\d\d:\d\d/`
+- [ ] `/\d\d:\d\d:\d\d/`
 - [ ] `/[0-9]+:[0-9]+:[0-9]+/`
 - [ ] `/ : : /`
 
@@ -245,7 +245,7 @@ new logThis();
 
 - [ ] `undefined`
 - [ ] `window`
-- [] `{desc: "logger"}`
+- [ ] `{desc: "logger"}`
 - [ ] `function`
 
 [Reference javascript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
@@ -259,7 +259,7 @@ let roadTypes = ['street', 'road', 'avenue', 'circle'];
 - [ ] roadTypes.2
 - [ ] roadTypes\[3\]
 - [ ] roadTypes.3
-- [] roadTypes\[2\]
+- [ ] roadTypes\[2\]
 
 [Reference accessing javascript arrays](https://www.w3schools.com/js/js_arrays.asp)
 
@@ -271,7 +271,7 @@ console.log(typeof 42);
 
 - [ ] `'float'`
 - [ ] `'value'`
-- [] `'number'`
+- [ ] `'number'`
 - [ ] `'integer'`
 
 [Reference javascript data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
@@ -280,7 +280,7 @@ console.log(typeof 42);
 
 - [ ] `self`
 - [ ] `object`
-- [] `target`
+- [ ] `target`
 - [ ] `source`
 
 [Reference DOM events](https://www.w3schools.com/jsref/dom_obj_event.asp)
@@ -297,14 +297,14 @@ function addNumbers(x, y) {
 - [ ] `exception('One or both parameters are not numbers')`
 - [ ] `catch('One or both parameters are not numbers')`
 - [ ] `error('One or both parameters are not numbers')`
-- [] `throw('One or both parameters are not numbers')`
+- [ ] `throw('One or both parameters are not numbers')`
 
 [Reference javascript throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
 
 #### Q18. Which method converts JSON data to a JavaScript object?
 
 - [ ] `JSON.fromString();`
-- [] `JSON.parse()`
+- [ ] `JSON.parse()`
 - [ ] `JSON.toObject()`
 - [ ] `JSON.stringify()`
 
@@ -313,7 +313,7 @@ function addNumbers(x, y) {
 #### Q19. When would you use a conditional statement?
 
 - [ ] When you want to reuse a set of statements multiple times.
-- [] When you want your code to choose between multiple options.
+- [ ] When you want your code to choose between multiple options.
 - [ ] When you want to group data together.
 - [ ] When you want to loop through a group of statement.
 
@@ -329,7 +329,7 @@ for (var i = 0; i < 5; i++) {
 
 - [ ] 1 2 3 4 5
 - [ ] 1 2 3 4
-- [] 0 1 2 3 4
+- [ ] 0 1 2 3 4
 - [ ] 0 1 2 3 4 5
 
 [Reference javascript for loops](https://www.w3schools.com/js/js_loop_for.asp)
@@ -339,7 +339,7 @@ for (var i = 0; i < 5; i++) {
 - [ ] `Object.get()`
 - [ ] `Object.loop()`
 - [ ] `Object.each()`
-- [] `Object.keys()`
+- [ ] `Object.keys()`
 
 [Reference javascript object static methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#static_methods)
 
@@ -351,7 +351,7 @@ a[100] = 'fox';
 console.log(a.length);
 ```
 
-- [] 101
+- [ ] 101
 - [ ] 3
 - [ ] 4
 - [ ] 100
@@ -359,7 +359,7 @@ console.log(a.length);
 #### Q23. What is one difference between collections created with Map and collections created with Object?
 
 - [ ] You can iterate over values in a Map in their insertion order.
-- [] You can count the records in a Map with a single method call.
+- [ ] You can count the records in a Map with a single method call.
 - [ ] Keys in Maps can be strings.
 - [ ] You can access values in a Map without iterating over the whole collection.
 
@@ -375,7 +375,7 @@ dessert.type = 'pudding';
 
 - [ ] pie
 - [ ] The code will throw an error.
-- [] pudding
+- [ ] pudding
 - [ ] undefined
 
 [Reference working with js objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
@@ -384,7 +384,7 @@ dessert.type = 'pudding';
 
 - [ ] ReferenceError
 - [ ] true
-- [] 0
+- [ ] 0
 - [ ] false
 
 [Reference boolean logic](https://ntgard.medium.com/https-medium-com-ntgard-boolean-logic-in-javascript-part-1-3371af974f19)
@@ -394,14 +394,14 @@ dessert.type = 'pudding';
 - [ ] `++`
 - [ ] `--`
 - [ ] `==`
-- [] `||`
+- [ ] `||`
 
 [Reference short circuit javascript](https://codeburst.io/javascript-what-is-short-circuit-evaluation-ff22b2f5608c)
 
 #### Q27. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?
 
 - [ ] `Student.parent = Person;`
-- [] `Student.prototype = new Person();`
+- [ ] `Student.prototype = new Person();`
 - [ ] `Student.prototype = Person;`
 - [ ] `Student.prototype = Person();`
 
@@ -410,7 +410,7 @@ dessert.type = 'pudding';
 #### Q28. Why would you include a "use strict" statement in a JavaScript file?
 
 - [ ] to tell parsers to interpret your JavaScript syntax loosely
-- [] to tell parsers to enforce all JavaScript syntax rules when processing your code
+- [ ] to tell parsers to enforce all JavaScript syntax rules when processing your code
 - [ ] to instruct the browser to automatically fix any errors it finds in the code
 - [ ] to enable ES6 features in your code
 
@@ -420,7 +420,7 @@ dessert.type = 'pudding';
 
 - [ ] all of them
 - [ ] `const`
-- [] `var`
+- [ ] `var`
 - [ ] `let`
 
 [Reference var vs let vs const in js](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
@@ -430,7 +430,7 @@ dessert.type = 'pudding';
 - [ ] `Boolean(0)`
 - [ ] `Boolean("")`
 - [ ] `Boolean(NaN)`
-- [] `Boolean("false")`
+- [ ] `Boolean("false")`
 
 [Reference boolean of a string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
@@ -439,13 +439,13 @@ dessert.type = 'pudding';
 - [ ] `this`
 - [ ] `catch`
 - [ ] `function`
-- [] `array`
+- [ ] `array`
 
 [Reference js reserved words](https://www.w3schools.com/js/js_reserved.asp)
 
 #### Q32. Which variable is an implicit parameter for every function in JavaScript?
 
-- [] arguments
+- [ ] arguments
 - [ ] args
 - [ ] argsArray
 - [ ] argumentsList
@@ -464,7 +464,7 @@ var x = new X();
 ```
 
 - [ ] `x.get('Y')`
-- [] `x.Y`
+- [ ] `x.Y`
 - [ ] `x.Y()`
 - [ ] `x.get().Y`
 
@@ -485,7 +485,7 @@ let diff = function (x, y) {
 ```
 
 - [ ] 30, ReferenceError, 30, -10
-- [] 30, ReferenceError
+- [ ] 30, ReferenceError
 - [ ] 30, -10
 - [ ] ReferenceError, -10
 
@@ -495,7 +495,7 @@ let diff = function (x, y) {
 
 - [ ] Objects are more efficient in terms of storage.
 - [ ] Adding a record to an object is significantly faster than pushing a record into an array.
-- [] Most operations involve looking up a record, and objects can do that better than arrays.
+- [ ] Most operations involve looking up a record, and objects can do that better than arrays.
 - [ ] Working with objects makes the code more readable.
 
 [Reference efficiency of lookups](https://stackoverflow.com/questions/17295056/array-vs-object-efficiency-in-javascript)
@@ -506,13 +506,13 @@ let diff = function (x, y) {
 - [ ] It can be used for both internal and external JavaScript code.
 - [ ] It can be used only for internal JavaScript code.
 - [ ] It can be used only for internal or external JavaScript code that exports a promise.
-- [] It can be used only for external JavaScript code.
+- [ ] It can be used only for external JavaScript code.
 
 [Reference async attribute for html](https://www.w3schools.com/tags/att_script_async.asp)
 
 #### Q37. How do you import the lodash library making it top-level Api available as the "\_" variable?
 
-- [] `import _ from 'lodash';`
+- [ ] `import _ from 'lodash';`
 - [ ] `import 'lodash' as _;`
 - [ ] `import '_' from 'lodash;`
 - [ ] `import lodash as _ from 'lodash';`
@@ -528,13 +528,13 @@ let diff = function (x, y) {
 - [ ] true
 - [ ] undefined
 - [ ] []
-- [] false
+- [ ] false
 
 [Reference arrays in js are objects](https://stackoverflow.com/questions/30820611/why-doesnt-equality-check-work-with-arrays)
 
 #### Q39. What type of function can have its execution suspended and then resumed at a later point?
 
-- [] Generator function
+- [ ] Generator function
 - [ ] Arrow function
 - [ ] Async/ Await function
 - [ ] Promise function
@@ -558,7 +558,7 @@ f2();
 ```
 
 - [ ] 2
-- [] 1
+- [ ] 1
 - [ ] Nothing - this code will throw an error.
 - [ ] undefined
 
@@ -569,13 +569,13 @@ f2();
 - [ ] Every object in the program has to be a function.
 - [ ] Code is grouped with the state it modifies.
 - [ ] Date fields and methods are kept in units.
-- [] Side effects are not allowed.
+- [ ] Side effects are not allowed.
 
 [Reference functional programming](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 
 #### Q42. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
 
-- [] You are calling a method named reduce on an object that's declared but has no value.
+- [ ] You are calling a method named reduce on an object that's declared but has no value.
 - [ ] You are calling a method named reduce on an object that does not exist.
 - [ ] You are calling a method named reduce on an empty array.
 - [ ] You are calling a method named reduce on an object that has a null value.
@@ -587,7 +587,7 @@ f2();
 `let arr = [];`
 
 - [ ] 3
-- [] 2
+- [ ] 2
 - [ ] 0
 - [ ] 1
 
@@ -597,7 +597,7 @@ f2();
 
 - [ ] `typeof`
 - [ ] `delete`
-- [] `instanceof`
+- [ ] `instanceof`
 - [ ] `void`
 
 [Reference js unary operators](https://www.digitalocean.com/community/tutorials/javascript-unary-operators-simple-and-useful#:~:text=A%20unary%20operation%20is%20an,therefore%20their%20functionality%20is%20guaranteed.)
@@ -612,7 +612,7 @@ if (start === 1) {
 ```
 
 - [ ] conditional
-- [] block
+- [ ] block
 - [ ] global
 - [ ] function
 
@@ -628,13 +628,13 @@ const y = x ? 'One' : 'Two';
 - [ ] One
 - [ ] undefined
 - [ ] TRUE
-- [] Two
+- [ ] Two
 
 [Reference ternary operator js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
 #### Q47. Which keyword is used to create an error?
 
-- [] `throw`
+- [ ] `throw`
 - [ ] `exception`
 - [ ] `catch`
 - [ ] `error`
@@ -646,7 +646,7 @@ const y = x ? 'One' : 'Two';
 - [ ] The defer attribute can work synchronously.
 - [ ] The defer attribute works only with generators.
 - [ ] The defer attribute works only with promises.
-- [] The defer attribute will asynchronously load the scripts in order.
+- [ ] The defer attribute will asynchronously load the scripts in order.
 
 [Reference async vs defer](https://www.digitalocean.com/community/tutorials/html-defer-async#:~:text=%3E-,Async%20vs%20Defer,order%20as%20they%20are%20called.)
 
@@ -657,7 +657,7 @@ var a;
 var b = (a = 3) ? true : false;
 ```
 
-- [] The condition in the ternary is using the assignment operator.
+- [ ] The condition in the ternary is using the assignment operator.
 - [ ] You can't define a variable without initializing it.
 - [ ] You can't use a ternary in the right-hand side of an assignment operator.
 - [ ] The code is using the deprecated var keyword.
@@ -671,7 +671,7 @@ var b = (a = 3) ? true : false;
 ```
 
 - [ ] `Document.querySelector('class.pull')`
-- [] `document.querySelector('.pull');`
+- [ ] `document.querySelector('.pull');`
 - [ ] `Document.querySelector('pull')`
 - [ ] `Document.querySelector('#pull')`
 
@@ -688,7 +688,7 @@ if (answer === false) {
 }
 ```
 
-- [] 10
+- [ ] 10
 - [ ] true
 - [ ] false
 - [ ] 0
@@ -708,7 +708,7 @@ console.log(end);
 
 - [ ] 10
 - [ ] 0
-- [] ReferenceError
+- [ ] ReferenceError
 - [ ] undefined
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
@@ -725,7 +725,7 @@ console.log(sayHello.prototype);
 
 - [ ] undefined
 - [ ] "hello"
-- [] an object with a constructor property
+- [ ] an object with a constructor property
 - [ ] an error message
 
 [Reference prototypes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
@@ -733,7 +733,7 @@ console.log(sayHello.prototype);
 #### Q54. Which collection object allows unique value to be inserted only once?
 
 - [ ] Object
-- [] Set
+- [ ] Set
 - [ ] Array
 - [ ] Map
 
@@ -752,7 +752,7 @@ printA();
 
 - [ ] `1` then `1`
 - [ ] `1` then `undefined`
-- [] `undefined` then `undefined`
+- [ ] `undefined` then `undefined`
 - [ ] `undefined` then `1`
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
@@ -761,7 +761,7 @@ printA();
 
 - [ ] forEach allows you to specify your own iterator, whereas for does not.
 - [ ] forEach can be used only with strings, whereas for can be used with additional data types.
-- [] forEach can be used only with an array, whereas for can be used with additional data types.
+- [ ] forEach can be used only with an array, whereas for can be used with additional data types.
 - [ ] for loops can be nested; whereas forEach loop cannot.
 
 [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
@@ -769,7 +769,7 @@ printA();
 #### Q57. Which choice is an incorrect way to define an arrow function that returns an empty object?
 
 - [ ] => `({})`
-- [] => `{}`
+- [ ] => `{}`
 - [ ] => `{ return {};}`
 - [ ] => `(({}))`
 
@@ -777,7 +777,7 @@ printA();
 
 #### Q58. Why might you choose to make your code asynchronous?
 
-- [] to start tasks that might take some time without blocking subsequent tasks from executing immediately
+- [ ] to start tasks that might take some time without blocking subsequent tasks from executing immediately
 - [ ] to ensure that tasks further down in your code are not initiated until earlier tasks have completed
 - [ ] to make your code faster
 - [ ] to ensure that the call stack maintains a LIFO (Last in, First Out) structure
@@ -787,7 +787,7 @@ printA();
 #### Q59. Which expression evaluates to true?
 
 - [ ] `[3] == [3]`
-- [] `3 == '3'`
+- [ ] `3 == '3'`
 - [ ] `3 != '3'`
 - [ ] `3 === '3'`
 
@@ -797,7 +797,7 @@ printA();
 #### Q60. Which of these is a valid variable name?
 
 - [ ] 5thItem
-- [] firstName
+- [ ] firstName
 - [ ] grand total
 - [ ] function
 
@@ -807,7 +807,7 @@ printA();
 
 - [ ] `cancel()`
 - [ ] `stop()`
-- [] `preventDefault()`
+- [ ] `preventDefault()`
 - [ ] `prevent()`
 
 [Reference javascript events](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
@@ -817,7 +817,7 @@ printA();
 - [ ] `attachNode()`
 - [ ] `getNode()`
 - [ ] `querySelector()`
-- [] `appendChild()`
+- [ ] `appendChild()`
 
 [Reference Node interface](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
 
@@ -826,13 +826,13 @@ printA();
 - [ ] `break`
 - [ ] `pass`
 - [ ] `skip`
-- [] `continue`
+- [ ] `continue`
 
 [Reference break vs continue](https://www.w3schools.com/js/js_break.asp)
 
 #### Q64. Which choice is a valid example for an arrow function?
 
-- [] `(a,b) => c`
+- [ ] `(a,b) => c`
 - [ ] `a, b => {return c;}`
 - [ ] `a, b => c`
 - [ ] `{ a, b } => c`
@@ -841,7 +841,7 @@ printA();
 
 #### Q65. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?
 
-- [] class
+- [ ] class
 - [ ] generator function
 - [ ] map
 - [ ] proxy
@@ -853,13 +853,13 @@ printA();
 - [ ] `! This is a comment`
 - [ ] `# This is a comment`
 - [ ] `\\ This is a comment`
-- [] `// This is a comment`
+- [ ] `// This is a comment`
 
 [Reference comments in javascript](https://www.w3schools.com/js/js_comments.asp)
 
 #### Q67. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?
 
-- [] TypeError
+- [ ] TypeError
 - [ ] SystemError
 - [ ] SyntaxError
 - [ ] LogicError
@@ -870,7 +870,7 @@ printA();
 
 - [ ] create()
 - [ ] new()
-- [] constructor()
+- [ ] constructor()
 - [ ] init()
 
 [Reference javascript constructors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
@@ -884,7 +884,7 @@ console.log(++a);
 
 - [ ] 4
 - [ ] 10
-- [] 6
+- [ ] 6
 - [ ] 5
 
 [Reference ++x vs x++](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment)
@@ -904,7 +904,7 @@ button.addEventListener(
 - [ ] `e.blockReload();`
 - [ ] `button.preventDefault();`
 - [ ] `button.blockReload();`
-- [] `e.preventDefault();`
+- [ ] `e.preventDefault();`
 
 [Reference events in javascript](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
@@ -912,7 +912,7 @@ button.addEventListener(
 
 - [ ] `function() { console.log('lorem ipsum'); }()();`
 - [ ] `function() { console.log('lorem ipsum'); }();`
-- [] `(function() { console.log('lorem ipsum'); })();`
+- [ ] `(function() { console.log('lorem ipsum'); })();`
 
 [Reference what is an Immediately Invoked Function Expression](https://javascript.plainenglish.io/https-medium-com-javascript-in-plain-english-stop-feeling-iffy-about-using-an-iife-7b0292aba174)
 
@@ -920,7 +920,7 @@ button.addEventListener(
 
 - [ ] `Document.querySelector('img')`
 - [ ] `Document.querySelectorAll('<img>')`
-- [] `Document.querySelectorAll('img')`
+- [ ] `Document.querySelectorAll('img')`
 - [ ] `Document.querySelector('<img>')`
 
 [Reference query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
@@ -928,7 +928,7 @@ button.addEventListener(
 #### Q73. Why would you choose an asynchronous structure for your code?
 
 - [ ] To use ES6 syntax
-- [] To start tasks that might take some time without blocking subsequent tasks from executing immediately
+- [ ] To start tasks that might take some time without blocking subsequent tasks from executing immediately
 - [ ] To ensure that parsers enforce all JavaScript syntax rules when processing your code
 - [ ] To ensure that tasks further down in your code aren't initiated until earlier tasks have completed
 
@@ -937,7 +937,7 @@ button.addEventListener(
 #### Q74. What is the HTTP verb to request the contents of an existing resource?
 
 - [ ] DELETE
-- [] GET
+- [ ] GET
 - [ ] PATCH
 - [ ] POST
 
@@ -945,7 +945,7 @@ button.addEventListener(
 
 #### Q75. Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?
 
-- [] focus
+- [ ] focus
 - [ ] blur
 - [ ] hover
 - [ ] enter
@@ -964,7 +964,7 @@ logThis();
 - [ ] function
 - [ ] undefined
 - [ ] Function.prototype
-- [] window
+- [ ] window
 
 [Reference what is the javascript window](https://www.w3schools.com/js/js_window.asp)
 
@@ -974,7 +974,7 @@ logThis();
 const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 ```
 
-- [] `class Greeting extends React.Component { render() { return <h1>Hello {this.props.name}!</h1>; } }`
+- [ ] `class Greeting extends React.Component { render() { return <h1>Hello {this.props.name}!</h1>; } }`
 - [ ] `class Greeting extends React.Component { constructor() { return <h1>Hello {this.props.name}!</h1>; } }`
 - [ ] `class Greeting extends React.Component { <h>Hello {this.props.name}!</h>; } }`
 - [ ] `class Greeting extends React.Component { render({ name }) { return <h1>Hello {name}!</h1>; } }`
@@ -988,7 +988,7 @@ console.log(obj);
 
 - [ ] `ReferenceError: obj is not defined`
 - [ ] `{}`
-- [] `undefined`
+- [ ] `undefined`
 - [ ] `null`
 
 [Reference working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
@@ -1005,7 +1005,7 @@ class TaxCalculator {
 
 - [ ] calculate(50);
 - [ ] new TaxCalculator().calculate(\$50);
-- [] TaxCalculator.calculate(50);
+- [ ] TaxCalculator.calculate(50);
 - [ ] new TaxCalculator().calculate(50);
 
 [Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
@@ -1025,7 +1025,7 @@ const foo = {
 - [ ] The function bar needs to be defined as a key/value pair.
 - [ ] Trailing commas are not allowed in JavaScript.
 - [ ] Functions cannot be declared as properties of objects.
-- [] Nothing, there are no errors.
+- [ ] Nothing, there are no errors.
 
 1. [Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
 2. [Reference working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
@@ -1040,7 +1040,7 @@ setTimeout(() => {
 console.log('Javascript!');
 ```
 
-- [] .
+- [ ] .
 
 ```plaintext
 I
@@ -1077,7 +1077,7 @@ const [n] = foo;
 console.log(n);
 ```
 
-- [] 1
+- [ ] 1
 - [ ] undefined
 - [ ] NaN
 - [ ] Nothing--this is not proper JavaScript syntax and will throw an error.
@@ -1093,7 +1093,7 @@ const foo = {
 ```
 
 - [ ] delete name from foo;
-- [] delete foo.name;
+- [ ] delete foo.name;
 - [ ] del foo.name;
 - [ ] remove foo.name;
 
@@ -1103,7 +1103,7 @@ const foo = {
 
 - [ ] There is no difference.
 - [ ] The `forEach()` method returns a single output value, whereas the `map()` method performs operation on each value in the array.
-- [] The map() method returns a new array with a transformation applied on each item in the original array, whereas the `forEach()` method iterates through an array with no return value.
+- [ ] The map() method returns a new array with a transformation applied on each item in the original array, whereas the `forEach()` method iterates through an array with no return value.
 - [ ] The `forEach()` method returns a new array with a transformation applied on each item in the original array, whereas the `map()` method iterates through an array with no return value.
 
 1. [Reference map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
@@ -1124,14 +1124,14 @@ console.log(addFive(3));
 
 - [ ] overloading
 - [ ] closure
-- [] currying
+- [ ] currying
 - [ ] overriding
 
 [Reference currying](https://javascript.info/currying-partials)
 
 #### Q87. Which tag pair is used in HTML to embed JavaScript?
 
-- [] `<script></script>`
+- [ ] `<script></script>`
 - [ ] `<js></js>`
 - [ ] `<javascript></javascript>`
 - [ ] `<code></code>`
@@ -1141,7 +1141,7 @@ console.log(addFive(3));
 #### Q88. If your app receives data from a third-party API, which HTTP response header must the server specify to allow exceptions to the same-origin policy?
 
 - [ ] Security-Mode
-- [] Access-Control-Allow-Origin
+- [ ] Access-Control-Allow-Origin
 - [ ] Different-Origin
 - [ ] Same-Origin
 
@@ -1156,7 +1156,7 @@ console.log(rainForests);
 ```
 
 - [ ] `["Amazon","Borneo","Cerrado","Congo"]`
-- [] `["Cerrado", "Congo"]`
+- [ ] `["Cerrado", "Congo"]`
 - [ ] `["Congo"]`
 - [ ] `["Amazon","Borneo"]`
 
@@ -1169,7 +1169,7 @@ const numbers = [1, 2, 3, 4, 5];
 //MISSING LINE
 ```
 
-- [] `const [one,two,three,four,five]=numbers`
+- [ ] `const [one,two,three,four,five]=numbers`
 - [ ] `const {one,two,three,four,five}=numbers`
 - [ ] `const [one,two,three,four,five]=[numbers]`
 - [ ] `const {one,two,three,four,five}={numbers}`
@@ -1194,7 +1194,7 @@ console.log(obj2.a, obj2.b);
 ```
 
 - [ ] Nothing, it will throw an error
-- [] 0 2
+- [ ] 0 2
 - [ ] undefined 2
 - [ ] undefined 2
 
@@ -1211,7 +1211,7 @@ console.log(animals.pop()); //Prints jaguar
 - [ ] `animals.filter(e => e === "jaguar");`
 - [ ] `animals.reverse();`
 - [ ] `animals.shift();`
-- [] `animals.pop();`
+- [ ] `animals.pop();`
 
 [Reference Javascript Array pop()](https://www.w3schools.com/jsref/jsref_pop.asp)
 
@@ -1241,7 +1241,7 @@ for (var i = 0; i < vowels.length; i++) {
 - [ ] `let vowels = "aeiou".toArray();`
 - [ ] `let vowels = Array.of("aeiou");`
 - [ ] `let vowels = {"a", "e", "i", "o", "u"};`
-- [] `let vowels = "aeiou";`
+- [ ] `let vowels = "aeiou";`
 
 [Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
 
@@ -1256,7 +1256,7 @@ console.log(y);
 - [ ] undefined
 - [ ] One
 - [ ] true
-- [] Two
+- [ ] Two
 
 **Note:** `this question is same with Q46.`
 [Reference ternary operator js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
@@ -1266,7 +1266,7 @@ console.log(y);
 `let matrix = [["You","Can"],["Do","It"],["!","!","!"]];`
 
 - [ ] `matrix[1[2]]`
-- [] `matrix[1][1]`
+- [ ] `matrix[1][1]`
 - [ ] `matrix[1,2]`
 - [ ] `matrix[1][2]`
 
@@ -1277,7 +1277,7 @@ const animals = ['Rabbit', 'Dog', 'Cat'];
 animals.unshift('Lizard');
 ```
 
-- [] It adds "Lizard" to the start of the animals array.
+- [ ] It adds "Lizard" to the start of the animals array.
 - [ ] It adds "Lizard" to the end of the animals array.
 - [ ] It replaces "Rabbit" with "Lizard" in the animals array.
 - [ ] It replaces "Cat" with "Lizard" in the animals array.
@@ -1291,7 +1291,7 @@ let x = 6 + 3 + '3';
 console.log(x);
 ```
 
-- [] 93
+- [ ] 93
 - [ ] 12
 - [ ] 66
 - [ ] 633
@@ -1303,7 +1303,7 @@ console.log(x);
 - [ ] else
 - [ ] when
 - [ ] if
-- [] switch
+- [ ] switch
 
 [Reference switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
@@ -1319,7 +1319,7 @@ function roar() {
 
 - [ ] `bear.bind(roar);`
 - [ ] `roar.bind(bear);`
-- [] `roar.apply(bear);`
+- [ ] `roar.apply(bear);`
 - [ ] `bear[roar]();`
 
 1. [Reference Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
@@ -1331,7 +1331,7 @@ function roar() {
 - [ ] `a, b => { return c; }`
 - [ ] `a, b => c`
 - [ ] `{ a, b } => c`
-- [] `(a,b) => c`
+- [ ] `(a,b) => c`
 
 [Reference arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
@@ -1343,7 +1343,7 @@ export const printMe = (str) => console.log(str);
 ```
 
 - [ ] `import printMe from './some-file';`
-- [] `import { printMe } from './some-file';`
+- [ ] `import { printMe } from './some-file';`
 - [ ] `import default as printMe from './some-file';`
 - [ ] `const printMe = import './some-file';`
 
@@ -1362,14 +1362,14 @@ console.log([...arr1, ...arr2]);
 - [ ] `[3,5,7,2,4,6]`
 - [ ] `[3, 5, 7, 2, 4, 6]`
 - [ ] `[[2, 4, 6], [3, 5, 7]]`
-- [] `[2, 4, 6, 3, 5, 7]`
+- [ ] `[2, 4, 6, 3, 5, 7]`
 
 [Reference spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
 #### Q103. Which method call is chained to handle a successful response returned by `fetch()`?
 
 - [ ] `done()`
-- [] `then()`
+- [ ] `then()`
 - [ ] `finally()`
 - [ ] `catch()`
 
@@ -1380,13 +1380,13 @@ console.log([...arr1, ...arr2]);
 - [ ] `array.slice()`
 - [ ] `array.shift()`
 - [ ] `array.push()`
-- [] `array.replace()`
+- [ ] `array.replace()`
 
 [Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
 
 #### Q105. Which JavaScript loop ensures that at least a singular iteration will happen?
 
-- [] do…while
+- [ ] do…while
 - [ ] forEach
 - [ ] while
 - [ ] for
@@ -1399,7 +1399,7 @@ console.log([...arr1, ...arr2]);
 console.log(typeof 'blueberry');
 ```
 
-- [] `string`
+- [ ] `string`
 - [ ] `array`
 - [ ] `Boolean`
 - [ ] `object`
@@ -1424,7 +1424,7 @@ document.querySelectorAll('div').forEach((e) => {
 });
 ```
 
-- [] C B A
+- [ ] C B A
 - [ ] A
 - [ ] C
 - [ ] A B C
@@ -1445,7 +1445,7 @@ console.log(myFunction(myNumbers));
 - [ ] `[4,5,6,7,8,9,10]`
 - [ ] `[4,5,6,7]`
 - [ ] `[1,2,3,4,5,6]`
-- [] `[4,5,6]`
+- [ ] `[4,5,6]`
 
 [Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
 
@@ -1465,7 +1465,7 @@ console.log(animals);
 
 - [ ] 2
 - [ ] 4
-- [] 6
+- [ ] 6
 - [ ] 8
 
 [Reference MDN JavaScript Looping code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)
@@ -1497,7 +1497,7 @@ for (let [index, value] of cipherText.entries()) {
 }
 ```
 
-- [] C
+- [ ] C
 
 ```js
 for (let [index, value] of cipherText.entries()) {
@@ -1525,7 +1525,7 @@ pokedex.pop();
 console.log(pokedex.pop());
 ```
 
-- [] Charmander
+- [ ] Charmander
 - [ ] Jigglypuff
 - [ ] Snorlax
 - [ ] Squirtle
@@ -1544,13 +1544,13 @@ console.log(pokedex.pop());
 ```
 
 - [ ] document.querySelector("div.content")
-- [] document.querySelector("span.content")
+- [ ] document.querySelector("span.content")
 - [ ] document.querySelector(".content")
 - [ ] document.querySelector("div.span")
 
 #### Q113. Which value is not falsey?
 
-- [] `[]`
+- [ ] `[]`
 - [ ] `undefined`
 - [ ] `0`
 - [ ] `null`
@@ -1569,7 +1569,7 @@ bear += lion + tiger;
 tiger++;
 ```
 
-- [] `line 5, because lion cannot be reassigned a value`
+- [ ] `line 5, because lion cannot be reassigned a value`
 - [ ] `line 6, because the += operator cannot be used with the undefined variable bear`
 - [ ] `line 5, because the prefix (++) operator does not exist in JavaScript`
 - [ ] `line 3, because the variable bear is left undefined`
@@ -1587,7 +1587,7 @@ const result = Object.keys(person).map((x) => x.toUpperCase());
 - [ ] It will throw a TypeError.
 - [ ] `["Name", "Age", "HairColor"]`
 - [ ] `["DAVE", 40, "BLUE"]`
-- [] `["NAME", "AGE", "HAIRCOLOR"]`
+- [ ] `["NAME", "AGE", "HAIRCOLOR"]`
 
 1. [Reference Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
 2. [Reference Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
@@ -1607,7 +1607,7 @@ if(/* Insert Snippet Here */){
 - [ ] `animals.every(key)`
 - [ ] `animals.some(key).length === 1`
 - [ ] `animals.filter(key) === true`
-- [] `animals.some(key)`
+- [ ] `animals.some(key)`
 
 [Reference Array.prototype.some](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 
@@ -1623,7 +1623,7 @@ RainForest.minimumRainFall = 80;
 console.log(congo.minimumRainFall);
 ```
 
-- [] `undefined`
+- [ ] `undefined`
 - [ ] `None of these answers, as static is not a feature in Javascript.`
 - [ ] `60`
 - [ ] `80`
@@ -1637,7 +1637,7 @@ let obj = {};
 ```
 
 - [ ] `obj?.a.b`
-- [] `obj.a?.b`
+- [ ] `obj.a?.b`
 - [ ] `obj[a][b]`
 - [ ] `obj.?a.?b`
 
@@ -1657,7 +1657,7 @@ console.log(x + y + z);
 - [ ] It will throw a `ReferenceError` about `x`.
 - [ ] It will print `18`.
 - [ ] It will print `undefined`.
-- [] It will throw a `ReferenceError` about `y`.
+- [ ] It will throw a `ReferenceError` about `y`.
 
 [Reference let statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 
@@ -1670,7 +1670,7 @@ const z = [...x, ...y];
 console.log(z);
 ```
 
-- [] `[1,2,5,7]`
+- [ ] `[1,2,5,7]`
 - [ ] `[[1, 2], [5, 7]]`
 - [ ] `[2,7]`
 - [ ] `[2,1,7,5]`
@@ -1686,7 +1686,7 @@ const b = { x: 1 };
 
 - [ ] `a['x'] === b['x']`
 - [ ] `a != b`
-- [] `a === b`
+- [ ] `a === b`
 - [ ] `a.x === b.x`
 
 [Reference](http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html)
@@ -1700,7 +1700,7 @@ console.log(typeof 41.1);
 - [ ] `Nothing. It resuults in a ReferenceError.`
 - [ ] `decimal`
 - [ ] `float`
-- [] `number`
+- [ ] `number`
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#basic_usage)
 
@@ -1717,7 +1717,7 @@ console.log(score);
 ```
 
 - [ ] `3`
-- [] `4`
+- [ ] `4`
 - [ ] `6`
 - [ ] `7`
 
@@ -1742,7 +1742,7 @@ bearSound();
 
 - [ ] `Nothing is printed to the console.`
 - [ ] `grunt`
-- [] `undefined`
+- [ ] `undefined`
 - [ ] `roar`
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
@@ -1762,7 +1762,7 @@ console.log(cat.name);
 ```
 
 - [ ] undefined
-- [] Wild
+- [ ] Wild
 - [ ] Tabby
 - [ ] Athena
 
@@ -1780,7 +1780,7 @@ func(null);
 - [ ] null no arg
 - [ ] no arg no arg
 - [ ] null null
-- [] no arg null
+- [ ] no arg null
 
 #### Q127. What will this code print to the console?
 
@@ -1797,7 +1797,7 @@ test();
 - [ ] a is 1
 - [ ] a is undefined
 - [ ] It won't print anything.
-- [] a is 2
+- [ ] a is 2
 
 #### Q128. What will this code print to the console?
 
@@ -1810,7 +1810,7 @@ const test = myFunc(2, ...values);
 console.log(test);
 ```
 
-- [] 8
+- [ ] 8
 - [ ] 6
 - [ ] 2
 - [ ] 12
@@ -1828,7 +1828,7 @@ var flagDatabase = JSON.parse(flagsJSON);
 ```
 
 - [ ] flagDatabase.countries[1].flag
-- [] flagDatabase.countries[0].flag
+- [ ] flagDatabase.countries[0].flag
 - [ ] flagDatabase[1].flag
 - [ ] flagsJSON.countries[0].flag
 
@@ -1843,14 +1843,14 @@ if (/* Snipped goes here */){
 }
 ```
 
-- [] conservation && !deforestation
+- [ ] conservation && !deforestation
 - [ ] !deforestation && !conservation
 - [ ] !conservation || deforestation
 - [ ] deforestation && conservation || deforestation
 
 #### Q131. Which of these evaluate to true?
 
-- [] Boolean("false")
+- [ ] Boolean("false")
 - [ ] Boolean("")
 - [ ] Boolean(0)
 - [ ] Boolean(NaN)
@@ -1860,7 +1860,7 @@ if (/* Snipped goes here */){
 - [ ] LocalStorage.setItem("animal","sloth");
 - [ ] document.localStorage.setItem("animal","sloth");
 - [ ] localStorage.setItem({animal:"sloth"});
-- [] localStorage.setItem("animal","sloth");
+- [ ] localStorage.setItem("animal","sloth");
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
 
@@ -1878,7 +1878,7 @@ console.log(copyCat.type, copyCat.size);
 
 - [ ] tiger large
 - [ ] lion undefined
-- [] undefined large
+- [ ] undefined large
 - [ ] lion large
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
@@ -1896,7 +1896,7 @@ console.log(animals[0].type, clones[0].type);
 console.log(animals[1], clones[1]);
 ```
 
-- [] bear bear
+- [ ] bear bear
       tiger sheep
 - [ ] lion bear
       sheep sheep
@@ -1917,7 +1917,7 @@ alert(a++(+(+(+b))));
 
 - [ ] 18
 - [ ] 10
-- [] 9
+- [ ] 9
 - [ ] 20
 
 #### Q136. Which snippet could you add to this code to print "{"type": "tiger"}" to the console?
@@ -1931,7 +1931,7 @@ console.log(json); // print {"type":"tiger"}
 ```
 
 - [ ] `cat.toJSON("type");`
-- [] `JSON.stringify(cat, ["type"]);`
+- [ ] `JSON.stringify(cat, ["type"]);`
 - [ ] `JSON.stringify(cat);`
 - [ ] `JSON.stringify(cat, /type/);`
 
@@ -1939,7 +1939,7 @@ console.log(json); // print {"type":"tiger"}
 
 #### Q137. Which document method is not used to get a reference to a DOM node?
 
-- [] document.getNode();
+- [ ] document.getNode();
 - [ ] document.getElementsByClassName();
 - [ ] document.querySelectorAll();
 - [ ] document.querySelector();
@@ -1950,7 +1950,7 @@ console.log(json); // print {"type":"tiger"}
 
 - [ ] node
 - [ ] instance variable
-- [] prototype
+- [ ] prototype
 - [ ] accessor
 
 [Reference](https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/)
@@ -1958,7 +1958,7 @@ console.log(json); // print {"type":"tiger"}
 #### Q139. Which of the following are not server-side Javascript objects?
 
 - [ ] Date
-- [] FileUpload
+- [ ] FileUpload
 - [ ] Function
 - [ ] All of the above
 
@@ -1972,13 +1972,13 @@ console.log(obj1);
 ```
 
 - [ ] first: 30 , second: 50
-- [] first: 50 , second: 30
+- [ ] first: 50 , second: 30
 - [ ] first: 30 , second: 20
 - [ ] None of the above
 
 #### Q141. Which object in Javascript doesn’t have a prototype?
 
-- [] Base Object
+- [ ] Base Object
 - [ ] All objects have prototype
 - [ ] None of the objects have prototype
 - [ ] None of the above
@@ -1987,14 +1987,14 @@ console.log(obj1);
 
 #### Q142. What does … operator do in JS?
 
-- [] Used to spread iterables to individual elements
+- [ ] Used to spread iterables to individual elements
 - [ ] Describe datatype of undefined
 - [ ] No such operator exists
 - [ ] None of the above
 
 #### Q143. How to stop an interval timer in Javascript?
 
-- [] clearInterval
+- [ ] clearInterval
 - [ ] clearTimer
 - [ ] intervalOver
 - [ ] None of the above
@@ -2008,7 +2008,7 @@ print(typeof NaN);
 ```
 
 - [ ] Object
-- [] Number
+- [ ] Number
 - [ ] String
 - [ ] None of the above
 
@@ -2021,14 +2021,14 @@ print(typeof NaN);
 - [ ] Compilation Error
 - [ ] 14
 - [ ] Runtime Error
-- [] 59
+- [ ] 59
 
 #### Q146. Which of the following methods can be used to display data in some form using Javascript?
 
 - [ ] document.write()
 - [ ] console.log()
 - [ ] window.alert()
-- [] all of the above
+- [ ] all of the above
 
 #### Q147. What value is assigned to total after this code executes?
 
@@ -2040,7 +2040,7 @@ let values = [1, 5];
 let total = sum(4, ...values);
 ```
 
-- [] 10
+- [ ] 10
 - [ ] 6
 - [ ] 7
 - [ ] 8
@@ -2049,7 +2049,7 @@ let total = sum(4, ...values);
 
 #### Q148. Which statement is applicable to the defer attribute of the HTML <script> tag?
 
-- [] defer allows the browser to continue processing the page while the script loads in the background.
+- [ ] defer allows the browser to continue processing the page while the script loads in the background.
 - [ ] defer causes the script to be loaded from the backup content delivery network (CDN).
 - [ ] defer blocks the browser from processing HTML below the tag until the script is completely loaded.
 - [ ] defer lazy loads the script, causing it to download only when it is called by another script on the page.
@@ -2061,7 +2061,7 @@ let total = sum(4, ...values);
 - [ ] init()
 - [ ] create()
 - [ ] new()
-- [] constructor()
+- [ ] constructor()
 
 [Reference: constructor method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
 
@@ -2069,7 +2069,7 @@ let total = sum(4, ...values);
 
 - [ ] Boolean(NaN)
 - [ ] Boolean(0)
-- [] Boolean("false")
+- [ ] Boolean("false")
 - [ ] Boolean("")
 
 [Reference: Boolean object](https://www.w3schools.com/js/js_booleans.asp)
@@ -2078,7 +2078,7 @@ let total = sum(4, ...values);
 
 - [ ] "pot".indexOf("potato") !== -1
 - [ ] "potato".includes("Pot")
-- [] "potato".includes("pot")
+- [ ] "potato".includes("pot")
 - [ ] "potato".contains("pot");
 
 [Reference: String.prototype.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
@@ -2087,7 +2087,7 @@ let total = sum(4, ...values);
 
 - [ ] Map
 - [ ] Array
-- [] Set
+- [ ] Set
 - [ ] Object
 
 [Reference: developer.mozilla Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
@@ -2101,7 +2101,7 @@ let total = sum(4, ...values);
 - [ ] document.getElementByName("cleverest").style.color = "pink";
 - [ ] document.getElementsByTagName("h2").style.color = "pink";
 - [ ] document.getElementByName("h2").style.color = "pink";
-- [] document.getElementById("cleverest").style.color = "pink";
+- [ ] document.getElementById("cleverest").style.color = "pink";
 
 [Reference: W3Schools HTML DOM Style color Property](https://www.w3schools.com/jsref/prop_style_color.asp)
 
@@ -2117,7 +2117,7 @@ compare(1078, '1078'); // yields true
 
 - [ ] `test1==test2;`
 - [ ] return test1===test2;
-- [] return test1==test2;
+- [ ] return test1==test2;
 - [ ] return test1!=test2;
 
 [Reference: MDN Equality Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality)
@@ -2139,7 +2139,7 @@ console.log(second);
 
 - [ ] You  
        undefined
-- [] You  
+- [ ] You  
        ReferenceError
 - [ ] undefined  
        undefined
@@ -2154,7 +2154,7 @@ console.log(second);
 console.log('hello' + 'world' + '!');
 ```
 
-- [] helloworld!
+- [ ] helloworld!
 - [ ] helloworld !
 - [ ] hello world!
 - [ ] hello world !
@@ -2166,14 +2166,14 @@ console.log(10 + 10);
 ```
 
 - [ ] 10
-- [] 20
+- [ ] 20
 - [ ] 30
 - [ ] 40
 
 #### Q158. Events related to the browser window can be handled by?
 
 - [ ] Onclicks
-- [] Window
+- [ ] Window
 - [ ] querySelector
 - [ ] None of the above
 
@@ -2181,7 +2181,7 @@ console.log(10 + 10);
 
 #### Q159. How do you define a function in JavaScript?
 
-- [] function myFunction() {}
+- [ ] function myFunction() {}
 - [ ] def myFunction() {}
 - [ ] var myFunction = () => {}
 - [ ] func myFunction() {}
@@ -2190,7 +2190,7 @@ console.log(10 + 10);
 
 #### Q160. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
 
-- [] You are calling a method named reduce on an object that's declared but has no value.
+- [ ] You are calling a method named reduce on an object that's declared but has no value.
 - [ ] You are calling a method named reduce on an object that does not exist.
 - [ ] You are calling a method named reduce on an empty array.
 - [ ] You are calling a method named reduce on an object that has a null value.
@@ -2200,11 +2200,11 @@ console.log(10 + 10);
 - [ ] document.write()
 - [ ] console.log()
 - [ ] window.alert()
-- [] all of the above
+- [ ] all of the above
 
 #### Q162. Which document method is not used to get a reference to a DOM node?
 
-- [] document.getNode();
+- [ ] document.getNode();
 - [ ] document.getElementsByClassName();
 - [ ] document.querySelectorAll();
 - [ ] document.querySelector();
@@ -2212,13 +2212,13 @@ console.log(10 + 10);
 #### Q163. Which of these is a valid variable name?
 
 - [ ] 5thItem
-- [] firstName
+- [ ] firstName
 - [ ] grand total
 - [ ] function
 
 #### Q164. What function is used in JavaScript to schedule a function to run after a specified number of milliseconds?
 
-- [] setTimeout()
+- [ ] setTimeout()
 - [ ] setInterval()
 - [ ] delay()
 - [ ] wait()
@@ -2228,7 +2228,7 @@ console.log(10 + 10);
 #### Q165. Which of the following is a server-side Java Script object?
 
 - [ ] Function
-- [] File
+- [ ] File
 - [ ] FileUpload
 - [ ] Date
 
@@ -2237,7 +2237,7 @@ console.log(10 + 10);
 #### Q166. Which statement best describes the var keyword's scope in JavaScript?
 
 - [ ] Block scope
-- [] Function scope
+- [ ] Function scope
 - [ ] Global scope
 - [ ] Instance scope
 
@@ -2252,7 +2252,7 @@ console.log('Third');
 ```
 
 - [ ] Second, First, Third
-- [] First, Third, Second
+- [ ] First, Third, Second
 - [ ] First, Second, Third
 - [ ] Third, First, Second
 
@@ -2266,7 +2266,7 @@ function scream(words) {
 scream('yay');
 ```
 
-- [] YAY!!!
+- [ ] YAY!!!
 - [ ] ReferenceError
 - [ ] Undefined
 - [ ] TypeError
