@@ -4,13 +4,13 @@ title: "Bài tập JavaScript"
 categories: misc
 ---
 
-❗As of December 2023 skills assessments are no longer available on LinkedIn, but you can still master your knowledge here❗
+❗Kể từ tháng 12 năm 2023, các bài đánh giá kỹ năng không còn có trên LinkedIn nữa nhưng bạn vẫn có thể nắm vững kiến ​​thức của mình tại đây❗
 
 #### Q1. Which operator returns true if the two compared values are not equal?
 
 - [ ] `<>`
 - [ ] `~`
-- [ ] `==!`
+- [ ] `==!` 
 - [x] `!==`
 
 [Reference Javascript Comparison Operators](https://www.w3schools.com/js/js_operators.asp)
