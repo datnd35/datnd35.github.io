@@ -3,7 +3,6 @@ layout: post
 title: "Bài tập JavaScript"
 categories: misc
 ---
-[Assessment link(linkedin)](https://www.linkedin.com/skill-assessments/JavaScript/quiz-intro/)
 
 #### Q1. Which operator returns true if the two compared values are not equal?
 
