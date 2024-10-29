@@ -4,6 +4,8 @@ title: "Bài tập JavaScript"
 categories: misc
 ---
 
+❗As of December 2023 skills assessments are no longer available on LinkedIn, but you can still master your knowledge here❗
+
 #### Q1. Which operator returns true if the two compared values are not equal?
 
 - [ ] `<>`
