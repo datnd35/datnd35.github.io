@@ -14,7 +14,7 @@ Case study sử dụng lý thuyết để nghiên cứu và phân tích tình hu
 
 - Đưa ra giải lập về vấn đề, tình huống tương tự như vị trí ứng viên làm việc.
 
-- Đánh giá chuyên môn qua 
+- Đánh giá chuyên môn qua:
     - Tính cách 
     - Hành trình trải qua
     - Có khả năg tiếp thu lắng nghe từ phải hồi hay không
