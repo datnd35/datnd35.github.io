@@ -49,6 +49,6 @@ Case study sử dụng lý thuyết để nghiên cứu và phân tích tình hu
 
 **Tham khảo**
 
-<iframe width="1206" height="678" src="https://www.youtube.com/embed/cKZqp303-Xo" title="Tuyển dụng người chuyên môn giỏi bằng phỏng vấn case study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%; min-height: 500px;"></iframe>
+[Tuyển dụng người chuyên môn giỏi bằng phỏng vấn case study](https://www.youtube.com/watch?v=cKZqp303-Xo&t=29s)
 
-<iframe width="1206" height="678" src="https://www.youtube.com/embed/nGzYzq3Wsos" title="Interviewing with McKinsey: Case study interview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%; min-height: 500px;"></iframe>
+[Interviewing with McKinsey: Case study interview](https://www.youtube.com/watch?v=nGzYzq3Wsos)
