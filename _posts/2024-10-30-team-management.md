@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "software development team roles"
+title: "Software Development Team Roles"
 categories: misc
 ---
 
