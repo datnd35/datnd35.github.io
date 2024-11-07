@@ -19,7 +19,7 @@ Trong phần này chúng ta sẽ trả lời những câu hỏi sau:
 **Các Nguyên tắc Cốt lõi**
 Để hiểu rõ hơn về vai trò Developer chúng ta nên nắm bắt các nguyên tắc cốt lõi sau đây.
 
-### I. Tư Duy Sở Hữu - Ownership Mindset
+### [!I. Tư Duy Sở Hữu - Ownership Mindset]
 
 **1. Ownership Mindset** là một trong những giá trị cốt lõi của công ty. Tư duy này đóng vai trò quan trọng trong cách mỗi thành viên trong nhóm được kỳ vọng hành xử và làm việc trong nhóm kỹ thuật. Thực tế, trong một cơ cấu tổ chức do lãnh đạo điều hành/từ trên xuống, kết quả của dự án chỉ nằm trên vai của Team Leader. Tuy nhiên, trong một nhóm tự tổ chức và đa chức năng, mỗi thành viên đều ảnh hưởng trực tiếp đến kết quả của dự án. Do đó, mỗi Developer cần coi từng dự án như dự án của riêng mình.
 
