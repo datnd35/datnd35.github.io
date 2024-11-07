@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quản lý đội nhóm tốt dẫn tới làm việc hiệu quả hơn"
+title: "software development team roles"
 categories: misc
 ---
 
@@ -49,4 +49,20 @@ Cuối cùng, là một thành viên trong nhóm có nghĩa là mỗi cá nhân 
 
 ### Trách nhiệm - Responsibilities
 
+**Viết Code**
 
+Trách nhiệm chính của các Developer là viết code cho các ứng dụng phần mềm dưới vai trò là những người đóng góp cá nhân. Điều này có nghĩa là họ không có bất kỳ nhiệm vụ lãnh đạo hay quản lý nào; họ có thể hoàn toàn tập trung vào công việc cần thiết để hoàn thành các tính năng, nhiệm vụ và sửa lỗi cho các dự án được giao. Vì mỗi nhóm (squad) chỉ tập trung vào một dự án duy nhất, nên mỗi Developer có thể thật sự tập trung vào các công việc phát triển chỉ cho một dự án của khách hàng tại một thời điểm.
+
+Phát triển phần mềm nghĩa là viết code bảo trì được, hiệu suất cao và bảo mật. Tuy nhiên, việc phát triển phần mềm còn đi xa hơn định nghĩa giới hạn này. Developer không chỉ viết code để đáp ứng các yêu cầu trong các nhiệm vụ được giao mà còn phải viết các test cases tự động (như unit tests, integration tests, and UI tests) đồng thời với việc implement features. Developer chịu trách nhiệm viết các bài kiểm thử để xác minh rằng code họ viết hoạt động tốt. Ngoài ra, các Developer phải liên tục ghi lại các quyết định kỹ thuật, chi tiết triển khai và thông tin hỗ trợ cho đồng nghiệp của họ. Tài liệu kỹ thuật chất lượng nhất đạt được khi nó được thực hiện ngay trong quá trình phát triển (tức là không phải sau khi phát triển hoàn thành) bởi chính những Developer viết code ứng dụng.
+
+Bên cạnh đó, các Developer còn phải làm việc trên tất cả các mảng, bao gồm frontend, backend và cơ sở hạ tầng. Cũng giống như không có đội ngũ chuyên biệt chỉ để viết test cases, nhiều cty cũng không có đội ngũ chuyên biệt cho frontend, backend hay cơ sở hạ tầng. Các nhóm làm việc là những team nhỏ đa chức năng, bao gồm các Developer linh hoạt có thể làm việc trong mọi lĩnh vực. Mặc dù các thành viên mới có thể gia nhập với kỹ năng chuyên môn mạnh hơn trong một lĩnh vực, Developer nên được đào tạo và phân công làm việc trong tất cả các lĩnh vực phát triển của một dự án khách hàng. Họ thậm chí còn được khuyến khích tham gia vào các nhiệm vụ cụ thể để trau dồi kỹ năng trong một lĩnh vực nhất định khi cần thiết.
+
+Cuối cùng, ngoài việc viết code, test cases và tài liệu kỹ thuật, Developer không chỉ đơn giản là thực hiện các nhiệm vụ. Họ không phải là máy móc hay rô-bốt. Họ là những con người có tư duy, tiếp cận từng dự án như dự án của chính mình, hiểu rõ từng cơ sở code để nắm bắt đầy đủ ứng dụng đang được phát triển, và thực hiện mọi công việc với sự suy xét kỹ càng và mục tiêu mang lại kết quả tốt nhất. Bộ phân hợp tác cùng khách hàng để cung cấp code và giải pháp chất lượng nhằm đạt được các mục tiêu kinh doanh của họ. Developer là nhân tố chủ chốt trong việc hiện thực hóa điều này.
+
+**Review Code**
+
+Dù các Developer là những người đóng góp cá nhân, họ vẫn có trách nhiệm với các đồng nghiệp khác: review code của chính mình. Trách nhiệm này quan trọng không kém so với trách nhiệm chính của họ là phát triển phần mềm. Trong thực tế, điều này có nghĩa là đối với các Developer, việc review code cũng quan trọng như việc xử lý các công việc được giao trong backlog. Vì vậy, các đánh giá mã nguồn cần được ưu tiên và thực hiện với sự tập trung tương đương với việc viết code.
+
+Khác với phát triển phần mềm, nơi các Developer có thể tập trung vào một dự án khách hàng duy nhất, họ thường phải thực hiện đánh giá code không chỉ trên dự án khách hàng hiện tại mà còn trên các dự án nội bộ, các dự án cá nhân và đôi khi là trên một dự án khách hàng thứ hai (khi nhóm không có đủ số lượng Developer để đáp ứng yêu cầu tối thiểu về phê duyệt pull request).
+
+Engineering team có các hướng dẫn và công cụ để làm cho quá trình đánh giá code trở nên hiệu quả. Ngoài ra, các nhà quản lý kỹ thuật sử dụng phân tích git để đảm bảo rằng các nhóm được giao có hiệu suất đánh giá code ổn định trong mỗi sprint. Điều này cho thấy rằng đánh giá code là một thành phần quan trọng của văn hóa đội ngũ kỹ thuật. Do đó, các Developer cần liên tục chứng minh rằng họ là những người đánh giá code hiệu quả và có ảnh hưởng.
