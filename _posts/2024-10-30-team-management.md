@@ -75,3 +75,62 @@ Trong thực tế, các Developer cần phải liên tục trao đổi các gi�
 Thứ hai, các Developer tham gia một cách tích cực và có ý nghĩa vào các quyết định kỹ thuật của dự án mà họ đang làm. Nhóm phát triển thường xuyên tổ chức các cuộc thảo luận kỹ thuật trên Slack và trong các cuộc họp. Mặc dù Team Leader là người có quyết định cuối cùng, các Developer có cơ hội đề xuất các ý tưởng kỹ thuật của họ, các mục backlog tập trung vào kỹ thuật mới (ví dụ: các công việc cải thiện source code, các bug được phát hiện khi testing, v.v.), và các ưu tiên kỹ thuật (tức là nhóm nên tập trung vào điều gì). Vì vậy, các Developer cần đảm bảo rằng họ là những người tham gia tích cực chứ không chỉ là người tham dự thụ động.
 
 Cuối cùng, bên cạnh các đồng nghiệp kỹ thuật, các Developer còn phải hợp tác hiệu quả với các cá nhân không thuộc lĩnh vực kỹ thuật, cụ thể là Product Manager và các nhà Thiết kế UX/UI. Họ cần biết cách điều chỉnh cách giao tiếp của mình để các chuyên gia không thuộc lĩnh vực phát triển có thể hiểu và làm việc hiệu quả với họ. Hoặc khi có tiêu chí chấp nhận nào đó do Product Manager viết không rõ ràng, các Developer cần giải thích chi tiết kỹ thuật theo cách dễ hiểu và có thể giúp Product Manager có thể dễ dàng điều chỉnh hoặc đưa ra quyết định.
+
+
+**Hiệu suất**
+
+**Các chỉ số đánh giá**
+
+Khi đảm nhiệm một vai trò, bên cạnh việc nắm rõ các trách nhiệm, một cá nhân cũng cần hiểu các chỉ số quan trọng để đánh giá mức độ hoàn thành của mình.
+
+Nhóm nhận thấy rằng các điều kiện cụ thể đôi khi có thể ảnh hưởng đến hiệu suất. Do đó, các chỉ số dưới đây không được sử dụng riêng lẻ mà kết hợp với nhau để cung cấp cái nhìn đáng tin cậy trong hầu hết các tình huống. Chẳng hạn, dù tốc độ hoàn thành trong một sprint có thấp, một nhà phát triển vẫn có thể đạt hiệu suất cao với Thời gian chu kỳ ngắn và nhất quán cùng độ sâu đánh giá mã cao.
+
+**Tốc độ cao và nhất quán**
+
+Là người đóng góp cá nhân, khác với Trưởng nhóm, người phải dành thời gian cho các hoạt động phối hợp, một nhà phát triển có thể tập trung hoàn toàn vào việc thực thi. Do đó, họ được kỳ vọng sẽ là người đóng góp hiệu quả nhất cho dự án, đo bằng tốc độ (velocity) của họ trong mỗi sprint, tức là số điểm câu chuyện hoàn thành.
+
+Hiệu suất tốt trong khía cạnh này có nghĩa là:
+
+- **Tốc độ càng cao càng tốt.** Càng nhiều điểm câu chuyện hoàn thành trong mỗi sprint, càng nhiều giá trị được mang lại cho người dùng.
+- **Tốc độ càng nhất quán càng tốt.** Tốc độ ổn định giúp Quản lý Sản phẩm và Trưởng nhóm lên kế hoạch chính xác hơn cho các sprint trong tương lai.
+  
+Vì thành phần backlog có thể ảnh hưởng đến tốc độ của nhà phát triển, cần cân nhắc loại công việc được lên kế hoạch để làm cho chỉ số này có ý nghĩa.
+
+**Thời gian chu kỳ ngắn và nhất quán**
+
+Là một chỉ số quan trọng trong đo lường hiệu suất, Thời gian chu kỳ cung cấp một thước đo rõ ràng về thời gian để mã nguồn được chuyển đến người dùng. Vì vậy, nhà phát triển cần đảm bảo mã của mình được xuất bản nhanh nhất có thể để mang lại lợi ích cho người dùng.
+
+Hiệu suất tốt trong khía cạnh này có nghĩa là:
+
+- **Thời gian chu kỳ càng ngắn càng tốt.** Nhà phát triển cần đảm bảo rằng họ có quy trình hiệu quả để giảm thiểu cả thời gian viết mã và thời gian đánh giá mã.
+- **Thời gian chu kỳ càng nhất quán càng tốt.** Nhà phát triển cần thể hiện khả năng đạt hiệu suất nhất quán trong mọi nhiệm vụ.
+
+Chất lượng mã, cách triển khai, và phong cách viết mã là kết quả của Thời gian chu kỳ hiệu quả. Với quy trình đánh giá mã, mã có chất lượng cao sẽ được hợp nhất nhanh hơn và cần ít nỗ lực hơn.
+
+**Đánh giá mã đúng hạn và có ảnh hưởng**
+
+Vì mã cần được nhiều thành viên trong nhóm xem xét và phê duyệt trước khi hợp nhất, nhà phát triển phải kịp thời trong việc 1) xem xét mã của đồng nghiệp và 2) xử lý các nhận xét trong quá trình đánh giá mã. Tính kịp thời trong xử lý đánh giá mã là rất quan trọng để đảm bảo quá trình này không gây chậm trễ.
+
+Hiệu suất tốt trong khía cạnh này có nghĩa là:
+
+- **Xử lý các yêu cầu kéo và đánh giá mã càng sớm càng tốt.** Tốc độ cung cấp phản hồi và khắc phục vấn đề ảnh hưởng trực tiếp đến thời điểm mã có thể được hợp nhất.
+- **Đánh giá mã càng chi tiết càng tốt.** Người đánh giá mã đóng vai trò quan trọng trong việc đảm bảo mã nguồn có chất lượng cao, hiệu quả và an toàn.
+- **Xem xét càng nhiều yêu cầu kéo càng tốt.** Càng nhiều mã được xem xét, nhà phát triển càng có khả năng tác động tích cực đến chất lượng mã.
+
+**Giao tiếp kịp thời và hiệu quả**
+
+Nhà phát triển phải thường xuyên đối mặt với các vấn đề chưa rõ và trở ngại. Điểm khác biệt là cách họ giải quyết và hợp tác với đồng nghiệp để giải quyết chúng. Mặc dù là người đóng góp cá nhân, nhà phát triển làm việc như một phần của nhóm nên cần biết cách hợp tác hiệu quả với những người khác.
+
+Hiệu suất tốt trong khía cạnh này có nghĩa là:
+
+- **Càng sớm đưa ra vấn đề càng tốt.** Vì sprint có giới hạn thời gian, phát hiện sớm các trở ngại giúp nhóm có thêm thời gian để giải quyết và đạt mục tiêu của sprint.
+- **Giải quyết vấn đề càng nhanh càng tốt.** Nhà phát triển cần cung cấp đủ thông tin để đồng nghiệp dễ dàng hỗ trợ và xử lý vấn đề kịp thời.
+
+**Đóng góp thường xuyên cho Dự án nội bộ**
+
+Bất kể thâm niên, một nhà phát triển cần thể hiện rằng họ có thể đóng góp vào công cụ và quy trình của đội ngũ kỹ thuật. Ngoài ra, họ cần chứng tỏ khả năng cân bằng giữa công việc dự án khách hàng và công việc nội bộ.
+
+Hiệu suất tốt trong khía cạnh này có nghĩa là:
+
+- **Đóng góp thường xuyên có giá trị hơn.** Các nhà phát triển thường xuyên hỗ trợ các dự án nội bộ sẽ có tác động lớn hơn.
+- **Càng tham gia tích cực càng tốt.** Các thành viên trong đội ngũ kỹ thuật là người định hướng cho các dự án nội bộ, vì vậy sự chủ động và trao đổi ý tưởng giúp duy trì và cải thiện các dự án này.
