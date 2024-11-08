@@ -200,18 +200,23 @@ Good performance ở đây có nghĩa là:
 </p>
 </div>
 
+<p>**NÊN** làm việc trong các khoảng thời gian dài (tức là 2-3 giờ).</p>
+<p>**KHÔNG NÊN** cố gắng làm nhiều việc cùng lúc để đạt được nhiều công việc hơn.  
+👉  Tôn trọng nhu cầu làm việc trong trạng thái tập trung sâu (flow). Phát triển phần mềm là một quá trình sáng tạo, vì vậy Developer nên làm việc theo [lịch trình của người sáng tạo](https://www.paulgraham.com/makersschedule.html). Trên thực tế, Developer nên thực hiện các review code trong một khoảng thời gian và làm phát triển code trong một khoảng thời gian khác. Có thể có nhiều khoảng thời gian review code và phát triển code mỗi ngày, nhưng tập trung vào một hoạt động cụ thể là điều quan trọng để đạt hiệu quả.</p>
 
-**NÊN** làm việc trong các khoảng thời gian dài (tức là 2-3 giờ).  
-**KHÔNG NÊN** cố gắng làm nhiều việc cùng lúc để đạt được nhiều công việc hơn.  
-👉  Tôn trọng nhu cầu làm việc trong trạng thái tập trung sâu (flow). Phát triển phần mềm là một quá trình sáng tạo, vì vậy Developer nên làm việc theo [lịch trình của người sáng tạo](https://www.paulgraham.com/makersschedule.html). Trên thực tế, Developer nên thực hiện các review code trong một khoảng thời gian và làm phát triển code trong một khoảng thời gian khác. Có thể có nhiều khoảng thời gian review code và phát triển code mỗi ngày, nhưng tập trung vào một hoạt động cụ thể là điều quan trọng để đạt hiệu quả.
+<p>**NÊN** xem review code quan trọng ngang với việc hoàn thành các câu chuyện được giao.</p>
+<p>**KHÔNG NÊN** lên lịch review code là việc cuối cùng trong ngày.  
+👉  review code quan trọng như việc hoàn thành các câu chuyện được giao, vì vậy chúng cần được ưu tiên. Làm review code vào cuối ngày thường gây ra các tác động tiêu cực sau:</p>
 
-**NÊN** xem review code quan trọng ngang với việc hoàn thành các câu chuyện được giao.  
-**KHÔNG NÊN** lên lịch review code là việc cuối cùng trong ngày.  
-👉  review code quan trọng như việc hoàn thành các câu chuyện được giao, vì vậy chúng cần được ưu tiên. Làm review code vào cuối ngày thường gây ra các tác động tiêu cực sau:
-
+<p>
 - Cản trở công việc của các Developer khác. Thường thì họ cần các pull request của mình được merge để tiếp tục công việc được giao.
+</p>
+<p>
 - Chỉ đánh giá một vài pull requests thay vì xem xét hết tất cả do thời gian còn lại bị hạn chế hoặc không còn.
+</p>
+<p>
 - Bỏ qua review code hoàn toàn khi cá nhân cảm thấy quá mệt mỏi để cung cấp phản hồi chất lượng.
+</p>
 
 **Lời Kết**
 
