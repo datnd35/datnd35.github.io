@@ -21,11 +21,11 @@ Trong phần này chúng ta sẽ trả lời những câu hỏi sau:
 
 ### I. Tư Duy Sở Hữu - Ownership Mindset
 
-**1. Ownership Mindset** là một trong những giá trị cốt lõi của công ty. Tư duy này đóng vai trò quan trọng trong cách mỗi thành viên trong nhóm được kỳ vọng hành xử và làm việc trong nhóm kỹ thuật. Thực tế, trong một cơ cấu tổ chức do lãnh đạo điều hành/từ trên xuống, kết quả của dự án chỉ nằm trên vai của Team Leader. Tuy nhiên, trong một nhóm tự tổ chức và đa chức năng, mỗi thành viên đều ảnh hưởng trực tiếp đến kết quả của dự án. Do đó, mỗi Developer cần coi từng dự án như dự án của riêng mình.
+**1. Ownership Mindset** là một trong những giá trị cốt lõi của công ty. Tư duy này đóng vai trò quan trọng trong cách mỗi thành viên trong Team được kỳ vọng hành xử và làm việc trong Team kỹ thuật. Thực tế, trong một cơ cấu tổ chức do lãnh đạo điều hành/từ trên xuống, kết quả của dự án chỉ nằm trên vai của Team Leader. Tuy nhiên, trong một Team tự tổ chức và đa chức năng, mỗi thành viên đều ảnh hưởng trực tiếp đến kết quả của dự án. Do đó, mỗi Developer cần coi từng dự án như dự án của riêng mình.
 
-Trong phát triển phần mềm, luôn có nhiều hướng triển khai khác nhau. Rất hiếm khi hướng triển khai được biết rõ ràng — dù là bởi Team Leader hay các Developer khác trong nhóm — trước khi bắt đầu thực hiện nhiệm vụ. Developer được giao nhiệm vụ phải suy nghĩ kỹ lưỡng về vấn đề, thực hiện nghiên cứu để loại bỏ các điểm chưa rõ ràng, kiểm tra ý tưởng của mình (ví dụ: tìm kiếm các bug, sử dụng các công cụ phân tích, lấy ý kiến phản hồi từ người khác) và cuối cùng là chọn và triển khai giải pháp khả thi nhất cho dự án. Vì họ là những người dành nhiều thời gian nhất để giải quyết các vấn đề được giao, nên họ phải trở thành những người hiểu rõ nhất về vấn đề và giải pháp cho nó; nói cách khác, họ phải trở thành chuyên gia về các mục trong backlog mà họ được phân công. Trên thực tế, khi các mục trong backlog được giao cho một Developer, họ trở thành người chịu trách nhiệm cho các câu chuyện của mình, tức là họ được giao nhiệm vụ cung cấp kết quả tốt nhất có thể và thuyết phục những người khác rằng giải pháp mà họ đã chọn thực sự là kết quả tốt nhất có thể.
+Trong phát triển phần mềm, luôn có nhiều hướng triển khai khác nhau. Rất hiếm khi hướng triển khai được biết rõ ràng — dù là bởi Team Leader hay các Developer khác trong Team — trước khi bắt đầu thực hiện nhiệm vụ. Developer được giao nhiệm vụ phải suy nghĩ kỹ lưỡng về vấn đề, thực hiện nghiên cứu để loại bỏ các điểm chưa rõ ràng, kiểm tra ý tưởng của mình (ví dụ: tìm kiếm các bug, sử dụng các công cụ phân tích, lấy ý kiến phản hồi từ người khác) và cuối cùng là chọn và triển khai giải pháp khả thi nhất cho dự án. Vì họ là những người dành nhiều thời gian nhất để giải quyết các vấn đề được giao, nên họ phải trở thành những người hiểu rõ nhất về vấn đề và giải pháp cho nó; nói cách khác, họ phải trở thành chuyên gia về các mục trong backlog mà họ được phân công. Trên thực tế, khi các mục trong backlog được giao cho một Developer, họ trở thành người chịu trách nhiệm cho các câu chuyện của mình, tức là họ được giao nhiệm vụ cung cấp kết quả tốt nhất có thể và thuyết phục những người khác rằng giải pháp mà họ đã chọn thực sự là kết quả tốt nhất có thể.
 
-Tinh thần sở hữu cũng liên quan đến tính đáng tin cậy, đây là một giá trị cốt lõi khác của công ty. Một nhóm chỉ có thể đạt được các mục tiêu của dự án một cách hiệu quả nếu mỗi thành viên đều đáng tin cậy. Thực tế, sẽ không hiệu quả nếu một Developer chỉ dựa vào Team Leader hoặc các Developer khác để phát hiện tất cả các bug trong **Pull requests** của họ sau khi hoàn thành công việc, hoặc nếu một Developer không thông báo về các trở ngại mà họ gặp phải khi thực hiện các câu chuyện được giao. Thay vào đó, các Developer cần truyền đạt về nghiên cứu của mình, thông báo về các trở ngại mà họ gặp phải, đề xuất kế hoạch triển khai trước khi bắt tay vào viết Code, và tự thực hiện kiểm tra Code để tìm ra tất cả các bug nhỏ nảy sinh trong quá trình phát triển. Càng thể hiện tinh thần Ownership Mindset đối với nhiệm vụ của mình, các Developer càng trở nên đáng tin cậy.
+Tinh thần sở hữu cũng liên quan đến tính đáng tin cậy, đây là một giá trị cốt lõi khác của công ty. Một Team chỉ có thể đạt được các mục tiêu của dự án một cách hiệu quả nếu mỗi thành viên đều đáng tin cậy. Thực tế, sẽ không hiệu quả nếu một Developer chỉ dựa vào Team Leader hoặc các Developer khác để phát hiện tất cả các bug trong **Pull requests** của họ sau khi hoàn thành công việc, hoặc nếu một Developer không thông báo về các trở ngại mà họ gặp phải khi thực hiện các câu chuyện được giao. Thay vào đó, các Developer cần truyền đạt về nghiên cứu của mình, thông báo về các trở ngại mà họ gặp phải, đề xuất kế hoạch triển khai trước khi bắt tay vào viết Code, và tự thực hiện kiểm tra Code để tìm ra tất cả các bug nhỏ nảy sinh trong quá trình phát triển. Càng thể hiện tinh thần Ownership Mindset đối với nhiệm vụ của mình, các Developer càng trở nên đáng tin cậy.
 
 **2. Phạm vi Kỹ năng Rộng**
 
@@ -33,9 +33,9 @@ Lộ trình phát triển của Developer bao gồm mười cấp độ, với m
 
 Trong lộ trình chung, các Developer cần mở rộng kỹ năng kỹ thuật của mình để bao quát tất cả các lĩnh vực của phát triển phần mềm (back end, front end, hạ tầng và testing) và thành thạo ít nhất hai ngôn ngữ lập trình (tức là có thể phát triển phần mềm cho một dự án bằng một trong hai ngôn ngữ lập trình đó). Các Developer sẽ phát triển thanh ngang của chữ “T”. Ở giai đoạn này, đối với các cấp độ từ junior đến mid-senior, càng rộng càng tốt.
 
-Nhờ phạm vi kỹ năng rộng, các Developer có nhiều cơ hội phát triển cá nhân hơn. Trên thực tế, họ có thể làm việc trên nhiều dự án khách hàng đa dạng, các sáng kiến kỹ thuật nội bộ và các dự án Phát triển, từ đó thu nhận thêm kỹ năng và kinh nghiệm. Ngược lại, một Developer chỉ làm việc trong một lĩnh vực chuyên môn với một ngôn ngữ lập trình duy nhất sẽ có ít lựa chọn hơn. Bên cạnh các dự án và sáng kiến, các hoạt động học tập liên tục là yếu tố quan trọng để mở rộng kỹ năng của các Developer. Các mục tiêu cá nhân, chứng chỉ và nỗ lực tự học là cần thiết. Ngoài kiến thức kỹ thuật, các Developer cũng nâng cao kỹ năng mềm khi họ tiếp xúc với nhiều lĩnh vực kỹ thuật khác nhau. Điều này giúp họ trở nên cởi mở hơn (tức là không bị đóng khung trong một tư duy cụ thể) và đồng cảm hơn (ví dụ, họ hiểu được mức độ khó khăn của frontend hay hạ tầng), từ đó hợp tác hiệu quả hơn trong các nhóm làm việc.
+Nhờ phạm vi kỹ năng rộng, các Developer có nhiều cơ hội phát triển cá nhân hơn. Trên thực tế, họ có thể làm việc trên nhiều dự án khách hàng đa dạng, các sáng kiến kỹ thuật nội bộ và các dự án Phát triển, từ đó thu nhận thêm kỹ năng và kinh nghiệm. Ngược lại, một Developer chỉ làm việc trong một lĩnh vực chuyên môn với một ngôn ngữ lập trình duy nhất sẽ có ít lựa chọn hơn. Bên cạnh các dự án và sáng kiến, các hoạt động học tập liên tục là yếu tố quan trọng để mở rộng kỹ năng của các Developer. Các mục tiêu cá nhân, chứng chỉ và effort tự học là cần thiết. Ngoài kiến thức kỹ thuật, các Developer cũng nâng cao kỹ năng mềm khi họ tiếp xúc với nhiều lĩnh vực kỹ thuật khác nhau. Điều này giúp họ trở nên cởi mở hơn (tức là không bị đóng khung trong một tư duy cụ thể) và đồng cảm hơn (ví dụ, họ hiểu được mức độ khó khăn của frontend hay hạ tầng), từ đó hợp tác hiệu quả hơn trong các Team làm việc.
 
-Mỗi Developer đều trên hành trình khám phá cách thức và lĩnh vực mà họ thích làm việc. Rất hiếm khi Developer biết sớm rằng nhánh chuyên môn hoặc ngôn ngữ lập trình nào là phù hợp nhất với mình. Đây là lý do tại sao việc phát triển kỹ năng ở nhiều lĩnh vực và tích lũy kinh nghiệm ở nhiều mảng khác nhau là cách tốt nhất để chuẩn bị cho Developer xác định con đường phù hợp với mình một cách độc lập.
+Mỗi Developer đều trên hành trình khám phá cách thức và lĩnh vực mà họ thích làm việc. Rất hiếm khi Developer biết sớm rằng nhánh chuyên môn hoặc ngôn ngữ lập trình nào là phù merge với mình. Đây là lý do tại sao việc phát triển kỹ năng ở nhiều lĩnh vực và tích lũy kinh nghiệm ở nhiều mảng khác nhau là cách tốt nhất để chuẩn bị cho Developer xác định con đường phù hợp với mình một cách độc lập.
 
 **3. Tinh Thần Làm Việc Nhóm**
 
@@ -61,7 +61,7 @@ Cuối cùng, ngoài việc viết code, test cases và tài liệu kỹ thuật
 
 **Review Code**
 
-Dù các Developer là những người đóng góp cá nhân, họ vẫn có trách nhiệm với các đồng nghiệp khác: review code của chính mình. Trách nhiệm này quan trọng không kém so với trách nhiệm chính của họ là phát triển phần mềm. Trong thực tế, điều này có nghĩa là đối với các Developer, việc review code cũng quan trọng như việc xử lý các công việc được giao trong backlog. Vì vậy, các đánh giá mã nguồn cần được ưu tiên và thực hiện với sự tập trung tương đương với việc viết code.
+Dù các Developer là những người đóng góp cá nhân, họ vẫn có trách nhiệm với các đồng nghiệp khác: review code của chính mình. Trách nhiệm này quan trọng không kém so với trách nhiệm chính của họ là phát triển phần mềm. Trong thực tế, điều này có nghĩa là đối với các Developer, việc review code cũng quan trọng như việc xử lý các công việc được giao trong backlog. Vì vậy, các Review code nguồn cần được ưu tiên và thực hiện với sự tập trung tương đương với việc viết code.
 
 Khác với phát triển phần mềm, nơi các Developer có thể tập trung vào một dự án khách hàng duy nhất, họ thường phải thực hiện review code không chỉ trên dự án khách hàng hiện tại mà còn trên các dự án nội bộ, các dự án cá nhân và đôi khi là trên một dự án khách hàng thứ hai (khi nhóm không có đủ số lượng Developer để đáp ứng yêu cầu tối thiểu về phê duyệt pull request).
 
@@ -83,54 +83,66 @@ Cuối cùng, bên cạnh các đồng nghiệp kỹ thuật, các Developer cò
 
 Khi đảm nhiệm một vai trò, bên cạnh việc nắm rõ các trách nhiệm, một cá nhân cũng cần hiểu các chỉ số quan trọng để đánh giá mức độ hoàn thành của mình.
 
-Nhóm nhận thấy rằng các điều kiện cụ thể đôi khi có thể ảnh hưởng đến hiệu suất. Do đó, các chỉ số dưới đây không được sử dụng riêng lẻ mà kết hợp với nhau để cung cấp cái nhìn đáng tin cậy trong hầu hết các tình huống. Chẳng hạn, dù tốc độ hoàn thành trong một sprint có thấp, một nhà phát triển vẫn có thể đạt hiệu suất cao với Thời gian chu kỳ ngắn và nhất quán cùng độ sâu đánh giá mã cao.
+Team nhận thấy rằng các điều kiện cụ thể đôi khi có thể ảnh hưởng đến hiệu suất. Do đó, các chỉ số dưới đây không được sử dụng riêng lẻ mà kết hợp với nhau để cung cấp cái nhìn đáng tin cậy trong hầu hết các tình huống. Chẳng hạn, dù tốc độ hoàn thành trong một sprint có thấp, một Developer vẫn có thể đạt hiệu suất cao với Thời gian chu kỳ ngắn và nhất quán Review code kỹ lưỡng.
 
 **Tốc độ cao và nhất quán**
 
-Là người đóng góp cá nhân, khác với Trưởng nhóm, người phải dành thời gian cho các hoạt động phối hợp, một nhà phát triển có thể tập trung hoàn toàn vào việc thực thi. Do đó, họ được kỳ vọng sẽ là người đóng góp hiệu quả nhất cho dự án, đo bằng tốc độ (velocity) của họ trong mỗi sprint, tức là số điểm câu chuyện hoàn thành.
+Là người đóng góp cá nhân, khác với Team Leader, người phải dành thời gian cho các hoạt động phối hợp, một Developer có thể tập trung hoàn toàn vào việc thực thi. Do đó, họ được kỳ vọng sẽ là người đóng góp hiệu quả nhất cho dự án, đo bằng tốc độ (velocity) của họ trong mỗi sprint, tức là số điểm câu chuyện hoàn thành.
 
-Hiệu suất tốt trong khía cạnh này có nghĩa là:
+Good performance ở đây có nghĩa là:
 
-- **Tốc độ càng cao càng tốt.** Càng nhiều điểm câu chuyện hoàn thành trong mỗi sprint, càng nhiều giá trị được mang lại cho người dùng.
-- **Tốc độ càng nhất quán càng tốt.** Tốc độ ổn định giúp Quản lý Sản phẩm và Trưởng nhóm lên kế hoạch chính xác hơn cho các sprint trong tương lai.
-  
-Vì thành phần backlog có thể ảnh hưởng đến tốc độ của nhà phát triển, cần cân nhắc loại công việc được lên kế hoạch để làm cho chỉ số này có ý nghĩa.
+- **Tốc độ càng nhanh càng tốt.** Càng nhiều điểm câu chuyện hoàn thành trong mỗi sprint, càng nhiều giá trị được mang lại cho người dùng.
+- **Tốc độ càng nhất quán càng tốt.** Tốc độ ổn định giúp Quản lý Sản phẩm và Team Leader lên kế hoạch chính xác hơn cho các sprint trong tương lai.
 
 **Thời gian chu kỳ ngắn và nhất quán**
 
-Là một chỉ số quan trọng trong đo lường hiệu suất, Thời gian chu kỳ cung cấp một thước đo rõ ràng về thời gian để mã nguồn được chuyển đến người dùng. Vì vậy, nhà phát triển cần đảm bảo mã của mình được xuất bản nhanh nhất có thể để mang lại lợi ích cho người dùng.
+Là một chỉ số quan trọng trong [đo lường hiệu suất](https://nimblehq.co/compass/development/git-analytics/#delivery-metrics), Thời gian chu kỳ cung cấp một thước đo rõ ràng về thời gian để code nguồn được chuyển đến người dùng. Vì vậy, Developer cần đảm bảo code của mình được xuất bản nhanh nhất có thể để mang lại lợi ích cho người dùng.
 
-Hiệu suất tốt trong khía cạnh này có nghĩa là:
+Good performance ở đây có nghĩa là:
 
-- **Thời gian chu kỳ càng ngắn càng tốt.** Nhà phát triển cần đảm bảo rằng họ có quy trình hiệu quả để giảm thiểu cả thời gian viết mã và thời gian đánh giá mã.
-- **Thời gian chu kỳ càng nhất quán càng tốt.** Nhà phát triển cần thể hiện khả năng đạt hiệu suất nhất quán trong mọi nhiệm vụ.
+- **Thời gian chu kỳ càng ngắn càng tốt.** Developer cần đảm bảo rằng họ có quy trình hiệu quả để giảm thiểu cả thời gian viết code và thời gian Review code.
+- **Thời gian chu kỳ càng nhất quán càng tốt.** Developer cần thể hiện khả năng đạt hiệu suất nhất quán trong mọi nhiệm vụ.
 
-Chất lượng mã, cách triển khai, và phong cách viết mã là kết quả của Thời gian chu kỳ hiệu quả. Với quy trình đánh giá mã, mã có chất lượng cao sẽ được hợp nhất nhanh hơn và cần ít nỗ lực hơn.
+Chất lượng code, cách triển khai, và phong cách viết code là kết quả của Thời gian chu kỳ hiệu quả. Với quy trình Review code, code có chất lượng cao sẽ được merge nhanh hơn và cần ít effort hơn.
 
-**Đánh giá mã đúng hạn và có ảnh hưởng**
+**Review code đúng hạn và có ảnh hưởng**
 
-Vì mã cần được nhiều thành viên trong nhóm xem xét và phê duyệt trước khi hợp nhất, nhà phát triển phải kịp thời trong việc 1) xem xét mã của đồng nghiệp và 2) xử lý các nhận xét trong quá trình đánh giá mã. Tính kịp thời trong xử lý đánh giá mã là rất quan trọng để đảm bảo quá trình này không gây chậm trễ.
+Vì code cần được nhiều thành viên trong nhóm reviewed and approved trước khi merge, Developer phải kịp thời trong việc 
+ 1. xem xét code của đồng nghiệp và 
+ 2.xử lý các nhận xét trong quá trình Review code. 
+Tính kịp thời trong xử lý Review code là rất quan trọng để đảm bảo quá trình này không gây chậm trễ.
 
-Hiệu suất tốt trong khía cạnh này có nghĩa là:
+Good performance ở đây có nghĩa là:
 
-- **Xử lý các yêu cầu kéo và đánh giá mã càng sớm càng tốt.** Tốc độ cung cấp phản hồi và khắc phục vấn đề ảnh hưởng trực tiếp đến thời điểm mã có thể được hợp nhất.
-- **Đánh giá mã càng chi tiết càng tốt.** Người đánh giá mã đóng vai trò quan trọng trong việc đảm bảo mã nguồn có chất lượng cao, hiệu quả và an toàn.
-- **Xem xét càng nhiều yêu cầu kéo càng tốt.** Càng nhiều mã được xem xét, nhà phát triển càng có khả năng tác động tích cực đến chất lượng mã.
+- **Xử lý các pull requests và Review code càng sớm càng tốt.** Tốc độ cung cấp phản hồi và khắc phục vấn đề ảnh hưởng trực tiếp đến thời điểm code có thể được merge.
+- **Review code càng chi tiết càng tốt.** Người Review code đóng vai trò quan trọng trong việc đảm bảo code nguồn có chất lượng cao, hiệu quả và an toàn.
+- **Xem xét càng nhiều pull requests càng tốt.** Càng nhiều code được review, Developer càng có khả năng tác động tích cực đến chất lượng code.
 
 **Giao tiếp kịp thời và hiệu quả**
 
-Nhà phát triển phải thường xuyên đối mặt với các vấn đề chưa rõ và trở ngại. Điểm khác biệt là cách họ giải quyết và hợp tác với đồng nghiệp để giải quyết chúng. Mặc dù là người đóng góp cá nhân, nhà phát triển làm việc như một phần của nhóm nên cần biết cách hợp tác hiệu quả với những người khác.
+Developer phải thường xuyên đối mặt với các vấn đề chưa rõ và trở ngại. Điểm khác biệt là cách họ giải quyết và hợp tác với đồng nghiệp để giải quyết chúng. Mặc dù là người đóng góp cá nhân, Developer làm việc như một phần của nhóm nên cần biết cách hợp tác hiệu quả với những người khác.
 
-Hiệu suất tốt trong khía cạnh này có nghĩa là:
+Good performance ở đây có nghĩa là:
 
 - **Càng sớm đưa ra vấn đề càng tốt.** Vì sprint có giới hạn thời gian, phát hiện sớm các trở ngại giúp nhóm có thêm thời gian để giải quyết và đạt mục tiêu của sprint.
-- **Giải quyết vấn đề càng nhanh càng tốt.** Nhà phát triển cần cung cấp đủ thông tin để đồng nghiệp dễ dàng hỗ trợ và xử lý vấn đề kịp thời.
+- **Giải quyết vấn đề càng nhanh càng tốt.** Developer cần cung cấp đủ thông tin để đồng nghiệp dễ dàng hỗ trợ và xử lý vấn đề kịp thời.
 
-**Đóng góp thường xuyên cho Dự án nội bộ**
+**Các Thực Hành Tốt Nhất**
 
-Bất kể thâm niên, một nhà phát triển cần thể hiện rằng họ có thể đóng góp vào công cụ và quy trình của đội ngũ kỹ thuật. Ngoài ra, họ cần chứng tỏ khả năng cân bằng giữa công việc dự án khách hàng và công việc nội bộ.
+Để tránh một số lỗi phổ biến, cần tuân theo các hướng dẫn sau:
 
-Hiệu suất tốt trong khía cạnh này có nghĩa là:
+**NÊN** sắp xếp và ưu tiên đóng góp cho Team vào một khoảng thời gian cố định hàng tuần.  
+**KHÔNG NÊN** xem việc đóng góp cho Team như một điều gì đó để làm khi còn thừa thời gian trong ngày.  
+👉  Dù thời gian làm việc trong Team chiếm phần lớn lịch trình của Developer, họ luôn có thể dành ra 2-3 giờ mỗi tuần để đóng góp cho các công cụ và quy trình kỹ thuật. Dành một khoảng thời gian cố định giúp Developer duy trì sự đều đặn và nhất quán trong những nỗ lực này.
 
-- **Đóng góp thường xuyên có giá trị hơn.** Các nhà phát triển thường xuyên hỗ trợ các dự án nội bộ sẽ có tác động lớn hơn.
-- **Càng tham gia tích cực càng tốt.** Các thành viên trong đội ngũ kỹ thuật là người định hướng cho các dự án nội bộ, vì vậy sự chủ động và trao đổi ý tưởng giúp duy trì và cải thiện các dự án này.
+**NÊN** làm việc trong các khoảng thời gian dài (tức là 2-3 giờ).  
+**KHÔNG NÊN** cố gắng làm nhiều việc cùng lúc để đạt được nhiều công việc hơn.  
+👉  Tôn trọng nhu cầu làm việc trong trạng thái tập trung sâu (flow). Phát triển phần mềm là một quá trình sáng tạo, vì vậy Developer nên làm việc theo lịch trình của người sáng tạo. Trên thực tế, Developer nên thực hiện các review code trong một khoảng thời gian và làm phát triển code trong một khoảng thời gian khác. Có thể có nhiều khoảng thời gian review code và phát triển code mỗi ngày, nhưng tập trung vào một hoạt động cụ thể là điều quan trọng để đạt hiệu quả.
+
+**NÊN** xem review code quan trọng ngang với việc hoàn thành các câu chuyện được giao.  
+**KHÔNG NÊN** lên lịch review code là việc cuối cùng trong ngày.  
+👉  review code quan trọng như việc hoàn thành các câu chuyện được giao, vì vậy chúng cần được ưu tiên. Làm review code vào cuối ngày thường gây ra các tác động tiêu cực sau:
+
+- Cản trở công việc của các Developer khác. Thường thì họ cần các pull request của mình được merge để tiếp tục công việc được giao.
+- Chỉ đánh giá một vài pull requests thay vì xem xét hết tất cả do thời gian còn lại bị hạn chế hoặc không còn.
+- Bỏ qua review code hoàn toàn khi cá nhân cảm thấy quá mệt mỏi để cung cấp phản hồi chất lượng.
