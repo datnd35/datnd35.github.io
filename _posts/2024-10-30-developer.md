@@ -4,8 +4,6 @@ title: "Developer"
 categories: misc
 ---
 
-## Sổ tay của Developer {#defination}
-
 Trong phần này chúng ta sẽ trả lời những câu hỏi sau:
 
 - Vai trò của một developer là gì ?.
