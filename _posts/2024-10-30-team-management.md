@@ -152,7 +152,7 @@ Good performance ở đây có nghĩa là:
 - **Thời gian chu kỳ càng nhất quán càng tốt.** Developer cần thể hiện khả năng đạt hiệu suất nhất quán trong mọi nhiệm vụ.
 <p style="color:#202020;"></p>
 Chất lượng code, cách triển khai, và phong cách viết code là kết quả của Thời gian chu kỳ hiệu quả. Với quy trình Review code, code có chất lượng cao sẽ được merge nhanh hơn và cần ít effort hơn.
-
+<br/>
 <p style="font-weight: bold;">3. Review code đúng hạn và có ảnh hưởng</p>
 <p style="color:#202020;"></p>
 Vì code cần được nhiều thành viên trong nhóm reviewed and approved trước khi merge, Developer phải kịp thời trong việc 
@@ -167,6 +167,7 @@ Good performance ở đây có nghĩa là:
 - **Xử lý các pull requests và Review code càng sớm càng tốt.** Tốc độ cung cấp phản hồi và khắc phục vấn đề ảnh hưởng trực tiếp đến thời điểm code có thể được merge.
 - **Review code càng chi tiết càng tốt.** Người Review code đóng vai trò quan trọng trong việc đảm bảo code nguồn có chất lượng cao, hiệu quả và an toàn.
 - **Xem xét càng nhiều pull requests càng tốt.** Càng nhiều code được review, Developer càng có khả năng tác động tích cực đến chất lượng code.
+<br/>
 
 <p style="font-weight: bold;">4. Giao tiếp kịp thời và hiệu quả</p>
 
@@ -177,13 +178,19 @@ Good performance ở đây có nghĩa là:
 - **Càng sớm đưa ra vấn đề càng tốt.** Vì sprint có giới hạn thời gian, phát hiện sớm các trở ngại giúp nhóm có thêm thời gian để giải quyết và đạt mục tiêu của sprint.
 - **Giải quyết vấn đề càng nhanh càng tốt.** Developer cần cung cấp đủ thông tin để đồng nghiệp dễ dàng hỗ trợ và xử lý vấn đề kịp thời.
 
-**Các Thực Hành Tốt Nhất**
+<h3 style="color:orange;">IV. Nên và Không nên</h3>
 
 Để tránh một số lỗi phổ biến, cần tuân theo các hướng dẫn sau:
-
+<div>
+<p>
 **NÊN** sắp xếp và ưu tiên đóng góp cho Team vào một khoảng thời gian cố định hàng tuần.  
+</p>
+<p>
 **KHÔNG NÊN** xem việc đóng góp cho Team như một điều gì đó để làm khi còn thừa thời gian trong ngày.  
 👉  Dù thời gian làm việc trong Team chiếm phần lớn lịch trình của Developer, họ luôn có thể dành ra 2-3 giờ mỗi tuần để đóng góp cho các công cụ và quy trình kỹ thuật. Dành một khoảng thời gian cố định giúp Developer duy trì sự đều đặn và nhất quán trong những nỗ lực này.
+</p>
+</div>
+
 
 **NÊN** làm việc trong các khoảng thời gian dài (tức là 2-3 giờ).  
 **KHÔNG NÊN** cố gắng làm nhiều việc cùng lúc để đạt được nhiều công việc hơn.  
