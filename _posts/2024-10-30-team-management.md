@@ -124,10 +124,10 @@ Team developers có các [hướng dẫn](https://nimblehq.co/compass/developmen
 
 <div style="color:#202020;">
 Khi đảm nhiệm một vai trò, bên cạnh việc nắm rõ các trách nhiệm, một cá nhân cũng cần hiểu các chỉ số quan trọng để đánh giá mức độ hoàn thành của mình.
-
+<br/>
 Team nhận thấy rằng các điều kiện cụ thể đôi khi có thể ảnh hưởng đến hiệu suất. Do đó, các chỉ số dưới đây không được sử dụng riêng lẻ mà kết hợp với nhau để cung cấp cái nhìn đáng tin cậy trong hầu hết các tình huống. Chẳng hạn, dù tốc độ hoàn thành trong một sprint có thấp, một Developer vẫn có thể đạt hiệu suất cao với Thời gian chu kỳ ngắn và nhất quán Review code kỹ lưỡng.
 </div>
-
+<br/>
 <p style="font-weight: bold;">1. Tốc độ cao và nhất quán</p>
 
 <p style="color:#202020;">
