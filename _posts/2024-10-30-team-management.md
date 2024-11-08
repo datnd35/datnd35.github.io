@@ -21,7 +21,8 @@ Trong phần này chúng ta sẽ trả lời những câu hỏi sau:
 
 ### <span style="color:orange;">I. Tư Duy Sở Hữu - Ownership Mindset</span>
 
-**1. Ownership Mindset** 
+<p style="font-weight: bold;">**1. Ownership Mindset** </p>
+
 <p style="color:#202020;">
 là một trong những giá trị cốt lõi của công ty. Tư duy này đóng vai trò quan trọng trong cách mỗi thành viên trong Team được kỳ vọng hành xử và làm việc trong Team kỹ thuật. Thực tế, trong một cơ cấu tổ chức do lãnh đạo điều hành/từ trên xuống, kết quả của dự án chỉ nằm trên vai của Team Leader. Tuy nhiên, trong một Team tự tổ chức và đa chức năng, mỗi thành viên đều ảnh hưởng trực tiếp đến kết quả của dự án. Do đó, mỗi Developer cần coi từng dự án như dự án của riêng mình.
 <p/>
@@ -33,6 +34,7 @@ Trong phát triển phần mềm, luôn có nhiều hướng triển khai khác 
 <p style="color:#202020;">
 Tinh thần sở hữu cũng liên quan đến tính đáng tin cậy, đây là một giá trị cốt lõi khác của công ty. Một Team chỉ có thể đạt được các mục tiêu của dự án một cách hiệu quả nếu mỗi thành viên đều đáng tin cậy. Thực tế, sẽ không hiệu quả nếu một Developer chỉ dựa vào Team Leader hoặc các Developer khác để phát hiện tất cả các bug trong **Pull requests** của họ sau khi hoàn thành công việc, hoặc nếu một Developer không thông báo về các trở ngại mà họ gặp phải khi thực hiện các câu chuyện được giao. Thay vào đó, các Developer cần truyền đạt về nghiên cứu của mình, thông báo về các trở ngại mà họ gặp phải, đề xuất kế hoạch triển khai trước khi bắt tay vào viết Code, và tự thực hiện kiểm tra Code để tìm ra tất cả các bug nhỏ nảy sinh trong quá trình phát triển. Càng thể hiện tinh thần Ownership Mindset đối với nhiệm vụ của mình, các Developer càng trở nên đáng tin cậy.
 </p>
+
 **2. Phạm vi Kỹ năng Rộng**
 
 Lộ trình phát triển của Developer bao gồm mười cấp độ, với một lộ trình chung từ cấp 1 đến cấp 7 và hai nhánh chuyên môn — nhánh Quản lý Nhân sự và nhánh Kỹ thuật — từ cấp 8 đến cấp 10. Trong suốt lộ trình này, các Developer được khuyến khích phát triển các kỹ năng kỹ thuật theo hình chữ T.
