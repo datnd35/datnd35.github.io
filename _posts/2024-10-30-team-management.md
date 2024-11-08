@@ -16,7 +16,7 @@ Trong phần này chúng ta sẽ trả lời những câu hỏi sau:
 - Chúng ta phải làm thế nào khi các vai trò giữa team chồng chép lên nhau?
 - Kỳ vong của team đối với chúng ta là gì?
 
-### <span style="color:orange;">I. Các Nguyên tắc Cốt lõi</span>
+<h3 style="color:orange;">I. Các Nguyên tắc Cốt lõi</h3>
 
 Để hiểu rõ hơn về vai trò Developer chúng ta nên nắm bắt các nguyên tắc cốt lõi sau đây.
 
@@ -118,15 +118,15 @@ Team developers có các [hướng dẫn](https://nimblehq.co/compass/developmen
 </p>
 
 
-**Hiệu suất**
+<h3 style="color:orange;">II. Hiệu suất- Performace</h3>
 
-**Các chỉ số đánh giá**
+<p style="font-weight: bold;">Các chỉ số đánh giá</p>
 
 Khi đảm nhiệm một vai trò, bên cạnh việc nắm rõ các trách nhiệm, một cá nhân cũng cần hiểu các chỉ số quan trọng để đánh giá mức độ hoàn thành của mình.
 
 Team nhận thấy rằng các điều kiện cụ thể đôi khi có thể ảnh hưởng đến hiệu suất. Do đó, các chỉ số dưới đây không được sử dụng riêng lẻ mà kết hợp với nhau để cung cấp cái nhìn đáng tin cậy trong hầu hết các tình huống. Chẳng hạn, dù tốc độ hoàn thành trong một sprint có thấp, một Developer vẫn có thể đạt hiệu suất cao với Thời gian chu kỳ ngắn và nhất quán Review code kỹ lưỡng.
 
-**Tốc độ cao và nhất quán**
+<p style="font-weight: bold;">1. Tốc độ cao và nhất quán</p>
 
 Là người đóng góp cá nhân, khác với Team Leader, người phải dành thời gian cho các hoạt động phối hợp, một Developer có thể tập trung hoàn toàn vào việc thực thi. Do đó, họ được kỳ vọng sẽ là người đóng góp hiệu quả nhất cho dự án, đo bằng tốc độ (velocity) của họ trong mỗi sprint, tức là số điểm câu chuyện hoàn thành.
 
@@ -135,7 +135,7 @@ Good performance ở đây có nghĩa là:
 - **Tốc độ càng nhanh càng tốt.** Càng nhiều điểm câu chuyện hoàn thành trong mỗi sprint, càng nhiều giá trị được mang lại cho người dùng.
 - **Tốc độ càng nhất quán càng tốt.** Tốc độ ổn định giúp Quản lý Sản phẩm và Team Leader lên kế hoạch chính xác hơn cho các sprint trong tương lai.
 
-**Thời gian chu kỳ ngắn và nhất quán**
+<p style="font-weight: bold;">2. Thời gian chu kỳ ngắn và nhất quán</p>
 
 Là một chỉ số quan trọng trong [đo lường hiệu suất](https://nimblehq.co/compass/development/git-analytics/#delivery-metrics), Thời gian chu kỳ cung cấp một thước đo rõ ràng về thời gian để code nguồn được chuyển đến người dùng. Vì vậy, Developer cần đảm bảo code của mình được xuất bản nhanh nhất có thể để mang lại lợi ích cho người dùng.
 
@@ -146,7 +146,7 @@ Good performance ở đây có nghĩa là:
 
 Chất lượng code, cách triển khai, và phong cách viết code là kết quả của Thời gian chu kỳ hiệu quả. Với quy trình Review code, code có chất lượng cao sẽ được merge nhanh hơn và cần ít effort hơn.
 
-**Review code đúng hạn và có ảnh hưởng**
+<p style="font-weight: bold;">3. Review code đúng hạn và có ảnh hưởng</p>
 
 Vì code cần được nhiều thành viên trong nhóm reviewed and approved trước khi merge, Developer phải kịp thời trong việc 
  1. xem xét code của đồng nghiệp và 
@@ -159,7 +159,7 @@ Good performance ở đây có nghĩa là:
 - **Review code càng chi tiết càng tốt.** Người Review code đóng vai trò quan trọng trong việc đảm bảo code nguồn có chất lượng cao, hiệu quả và an toàn.
 - **Xem xét càng nhiều pull requests càng tốt.** Càng nhiều code được review, Developer càng có khả năng tác động tích cực đến chất lượng code.
 
-**Giao tiếp kịp thời và hiệu quả**
+<p style="font-weight: bold;">4. Giao tiếp kịp thời và hiệu quả</p>
 
 Developer phải thường xuyên đối mặt với các vấn đề chưa rõ và trở ngại. Điểm khác biệt là cách họ giải quyết và hợp tác với đồng nghiệp để giải quyết chúng. Mặc dù là người đóng góp cá nhân, Developer làm việc như một phần của nhóm nên cần biết cách hợp tác hiệu quả với những người khác.
 
