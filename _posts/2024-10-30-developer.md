@@ -63,7 +63,7 @@ Mỗi Developer đóng vai trò quan trọng trong việc xây dựng một đ�
 Cuối cùng, là một thành viên trong nhóm có nghĩa là mỗi cá nhân đều thấu hiểu rằng họ có thể là một phần của giải pháp. Dù luôn có những thách thức cần giải quyết trong từng Module, thay vì đổ bug cho người khác hoặc cảm thấy thất vọng, họ có không gian để hành động và có quyền được cải thiện môi trường làm việc và các quy trình. Không phải là trách nhiệm của riêng ai để cải thiện, mà là trách nhiệm của tất cả mọi người. Những đội ngũ mạnh hiểu rằng họ cần di chuyển như một khối thống nhất để có thể tiến xa cùng nhau.
 </p>
 
-<h3 style="color:orange;">Trách nhiệm - Responsibilities</h3>
+<h3 style="color:orange;">Trách nhiệm</h3>
 
 <p style="font-weight: bold;">1.Viết Code</p>
 
@@ -112,7 +112,7 @@ Team developers có các [hướng dẫn](https://nimblehq.co/compass/developmen
 </p>
 
 
-<h3 style="color:orange;">Hiệu suất- Performace</h3>
+<h3 style="color:orange;">Hiệu suất</h3>
 
 <p style="font-weight: bold;">Các chỉ số đánh giá</p>
 
