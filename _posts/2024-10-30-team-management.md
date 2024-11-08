@@ -146,3 +146,7 @@ Good performance ở đây có nghĩa là:
 - Cản trở công việc của các Developer khác. Thường thì họ cần các pull request của mình được merge để tiếp tục công việc được giao.
 - Chỉ đánh giá một vài pull requests thay vì xem xét hết tất cả do thời gian còn lại bị hạn chế hoặc không còn.
 - Bỏ qua review code hoàn toàn khi cá nhân cảm thấy quá mệt mỏi để cung cấp phản hồi chất lượng.
+
+**Lời Kết**
+
+Cách tiếp cận có chủ đích này nhằm xây dựng một đội ngũ developer phần mềm linh hoạt, có kỹ năng và kinh nghiệm đa dạng, những người yêu thích làm việc cùng nhau và phát triển cá nhân trong khi vẫn cung cấp hiệu quả những gì công ty và khách hàng cần ở quy mô lớn.
