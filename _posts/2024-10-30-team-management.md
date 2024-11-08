@@ -121,6 +121,7 @@ Team developers có các [hướng dẫn](https://nimblehq.co/compass/developmen
 <h3 style="color:orange;">II. Hiệu suất- Performace</h3>
 
 <p style="font-weight: bold;">Các chỉ số đánh giá</p>
+
 <div style="color:#202020;">
 Khi đảm nhiệm một vai trò, bên cạnh việc nắm rõ các trách nhiệm, một cá nhân cũng cần hiểu các chỉ số quan trọng để đánh giá mức độ hoàn thành của mình.
 
