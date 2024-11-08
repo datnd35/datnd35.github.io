@@ -157,13 +157,15 @@ Chất lượng code, cách triển khai, và phong cách viết code là kết 
 <p style="font-weight: bold;">3. Review code đúng hạn và có ảnh hưởng</p>
 <p style="color:#202020;"></p>
 Vì code cần được nhiều thành viên trong nhóm reviewed and approved trước khi merge, Developer phải kịp thời trong việc 
-<p style="color:#202020;"></p>
- 1. xem xét code của đồng nghiệp 
- <p style="color:#202020;"></p>
- 2.xử lý các nhận xét trong quá trình Review code. 
+<p style="color:#202020;">
+1. xem xét code của đồng nghiệp <br/>
+2.xử lý các nhận xét trong quá trình Review code. 
+</p>
+ 
 Tính kịp thời trong xử lý Review code là rất quan trọng để đảm bảo quá trình này không gây chậm trễ.
-<p style="color:#202020;"></p>
+<p style="font-weight: 500;">
 Good performance ở đây có nghĩa là:
+</p>
 
 - **Xử lý các pull requests và Review code càng sớm càng tốt.** Tốc độ cung cấp phản hồi và khắc phục vấn đề ảnh hưởng trực tiếp đến thời điểm code có thể được merge.
 - **Review code càng chi tiết càng tốt.** Người Review code đóng vai trò quan trọng trong việc đảm bảo code nguồn có chất lượng cao, hiệu quả và an toàn.
@@ -176,7 +178,7 @@ Good performance ở đây có nghĩa là:
 <p>
 Developer phải thường xuyên đối mặt với các vấn đề chưa rõ và trở ngại. Điểm khác biệt là cách họ giải quyết và hợp tác với đồng nghiệp để giải quyết chúng. Mặc dù là người đóng góp cá nhân, Developer làm việc như một phần của nhóm nên cần biết cách hợp tác hiệu quả với những người khác.
 </p>
-<p>
+<p style="font-weight: 500;">
 Good performance ở đây có nghĩa là:
 </p>
 <p>
