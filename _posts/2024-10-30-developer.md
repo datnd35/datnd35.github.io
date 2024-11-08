@@ -39,7 +39,7 @@ Trong lộ trình chung, các Developer cần mở rộng kỹ năng kỹ thuậ
 </p>
 
 <p style="color:#202020;">
-Nhờ phạm vi kỹ năng rộng, các Developer có nhiều cơ hội phát triển cá nhân hơn. Trên thực tế, họ có thể làm việc trên nhiều dự án khách hàng đa dạng, các sáng kiến kỹ thuật nội bộ và các dự án Phát triển, từ đó thu nhận thêm kỹ năng và kinh nghiệm. Ngược lại, một Developer chỉ làm việc trong một lĩnh vực chuyên môn với một ngôn ngữ lập trình duy nhất sẽ có ít lựa chọn hơn. Bên cạnh các dự án và sáng kiến, các hoạt động học tập liên tục là yếu tố quan trọng để mở rộng kỹ năng của các Developer. Các mục tiêu cá nhân, chứng chỉ và effort tự học là cần thiết. Ngoài kiến thức kỹ thuật, các Developer cũng nâng cao kỹ năng mềm khi họ tiếp xúc với nhiều lĩnh vực kỹ thuật khác nhau. Điều này giúp họ trở nên cởi mở hơn (tức là không bị đóng khung trong một tư duy cụ thể) và đồng cảm hơn (ví dụ, họ hiểu được mức độ khó khăn của frontend hay hạ tầng), từ đó hợp tác hiệu quả hơn trong các Team làm việc.
+Nhờ phạm vi kỹ năng rộng, các Developer có nhiều cơ hội phát triển cá nhân hơn. Trên thực tế, họ có thể làm việc trên nhiều client project  đa dạng, các sáng kiến kỹ thuật nội bộ và các dự án Phát triển, từ đó thu nhận thêm kỹ năng và kinh nghiệm. Ngược lại, một Developer chỉ làm việc trong một lĩnh vực chuyên môn với một ngôn ngữ lập trình duy nhất sẽ có ít lựa chọn hơn. Bên cạnh các dự án và sáng kiến, các hoạt động học tập liên tục là yếu tố quan trọng để mở rộng kỹ năng của các Developer. Các mục tiêu cá nhân, chứng chỉ và effort tự học là cần thiết. Ngoài kiến thức kỹ thuật, các Developer cũng nâng cao kỹ năng mềm khi họ tiếp xúc với nhiều lĩnh vực kỹ thuật khác nhau. Điều này giúp họ trở nên cởi mở hơn (tức là không bị đóng khung trong một tư duy cụ thể) và đồng cảm hơn (ví dụ, họ hiểu được mức độ khó khăn của frontend hay hạ tầng), từ đó hợp tác hiệu quả hơn trong các Team làm việc.
 </p>
 
 <p style="color:#202020;">
@@ -76,7 +76,7 @@ Phát triển phần mềm nghĩa là viết code bảo trì được, hiệu su
 </p>
 
 <p style="color:#202020;">
-Bên cạnh đó, các Developer còn phải làm việc trên tất cả các mảng, bao gồm frontend, backend và cơ sở hạ tầng. Cũng giống như không có đội ngũ chuyên biệt chỉ để viết test cases, nhiều cty cũng không có đội ngũ chuyên biệt cho frontend, backend hay cơ sở hạ tầng. Các nhóm làm việc là những team nhỏ đa chức năng, bao gồm các Developer linh hoạt có thể làm việc trong mọi lĩnh vực. Mặc dù các thành viên mới có thể gia nhập với kỹ năng chuyên môn mạnh hơn trong một lĩnh vực, Developer nên được đào tạo và phân công làm việc trong tất cả các lĩnh vực phát triển của một dự án khách hàng. Họ thậm chí còn được khuyến khích tham gia vào các nhiệm vụ cụ thể để trau dồi kỹ năng trong một lĩnh vực nhất định khi cần thiết.
+Bên cạnh đó, các Developer còn phải làm việc trên tất cả các mảng, bao gồm frontend, backend và cơ sở hạ tầng. Cũng giống như không có đội ngũ chuyên biệt chỉ để viết test cases, nhiều cty cũng không có đội ngũ chuyên biệt cho frontend, backend hay cơ sở hạ tầng. Các nhóm làm việc là những team nhỏ đa chức năng, bao gồm các Developer linh hoạt có thể làm việc trong mọi lĩnh vực. Mặc dù các thành viên mới có thể gia nhập với kỹ năng chuyên môn mạnh hơn trong một lĩnh vực, Developer nên được đào tạo và phân công làm việc trong tất cả các lĩnh vực phát triển của một client project . Họ thậm chí còn được khuyến khích tham gia vào các nhiệm vụ cụ thể để trau dồi kỹ năng trong một lĩnh vực nhất định khi cần thiết.
 </p>
 
 <p style="color:#202020;">Cuối cùng, ngoài việc viết code, test cases và tài liệu kỹ thuật, Developer không chỉ đơn giản là thực hiện các nhiệm vụ. Họ không phải là máy móc hay rô-bốt. Họ là những con người có tư duy, tiếp cận từng dự án như dự án của chính mình, hiểu rõ từng cơ sở code để nắm bắt đầy đủ ứng dụng đang được phát triển, và thực hiện mọi công việc với sự suy xét kỹ càng và mục tiêu mang lại kết quả tốt nhất. Bộ phân hợp tác cùng khách hàng để cung cấp code và giải pháp chất lượng nhằm đạt được các mục tiêu kinh doanh của họ. Developer là nhân tố chủ chốt trong việc hiện thực hóa điều này.
@@ -89,7 +89,7 @@ Bên cạnh đó, các Developer còn phải làm việc trên tất cả các m
 </p>
 
 <p style="color:#202020;">
-Khác với phát triển phần mềm, nơi các Developer có thể tập trung vào một dự án khách hàng duy nhất, họ thường phải thực hiện review code không chỉ trên dự án khách hàng hiện tại mà còn trên các dự án nội bộ, các dự án cá nhân và đôi khi là trên một dự án khách hàng thứ hai (khi nhóm không có đủ số lượng Developer để đáp ứng yêu cầu tối thiểu về phê duyệt pull request).
+Khác với phát triển phần mềm, nơi các Developer có thể tập trung vào một client project  duy nhất, họ thường phải thực hiện review code không chỉ trên client project  hiện tại mà còn trên các dự án nội bộ, các dự án cá nhân và đôi khi là trên một client project  thứ hai (khi nhóm không có đủ số lượng Developer để đáp ứng yêu cầu tối thiểu về phê duyệt pull request).
 </p>
 
 <p style="color:#202020;">
@@ -152,7 +152,7 @@ Chất lượng code, cách triển khai, và phong cách viết code là kết 
 <p style="color:#202020;"></p>
 Vì code cần được nhiều thành viên trong nhóm reviewed and approved trước khi merge, Developer phải kịp thời trong việc 
 <p style="color:#202020;">
-1. xem xét code của đồng nghiệp <br/>
+1. Review code của đồng nghiệp <br/>
 2.xử lý các nhận xét trong quá trình Review code. 
 </p>
  
@@ -163,7 +163,7 @@ Good performance ở đây có nghĩa là:
 
 - **Xử lý các pull requests và Review code càng sớm càng tốt.** Tốc độ cung cấp phản hồi và khắc phục vấn đề ảnh hưởng trực tiếp đến thời điểm code có thể được merge.
 - **Review code càng chi tiết càng tốt.** Người Review code đóng vai trò quan trọng trong việc đảm bảo code nguồn có chất lượng cao, hiệu quả và an toàn.
-- **Xem xét càng nhiều pull requests càng tốt.** Càng nhiều code được review, Developer càng có khả năng tác động tích cực đến chất lượng code.
+- **Review càng nhiều pull requests càng tốt.** Càng nhiều code được review, Developer càng có khả năng tác động tích cực đến chất lượng code.
 <br/>
 
 <p style="font-weight: bold;">4. Giao tiếp kịp thời và hiệu quả</p>
@@ -211,45 +211,45 @@ Good performance ở đây có nghĩa là:
 - Cản trở công việc của các Developer khác. Thường thì họ cần các pull request của mình được merge để tiếp tục công việc được giao.
 </p>
 <p>
-- Chỉ đánh giá một vài pull requests thay vì xem xét hết tất cả do thời gian còn lại bị hạn chế hoặc không còn.
+- Chỉ đánh giá một vài pull requests thay vì Review hết tất cả do thời gian còn lại bị hạn chế hoặc không còn.
 </p>
 <p>
 - Bỏ qua review code hoàn toàn khi cá nhân cảm thấy quá mệt mỏi để cung cấp phản hồi chất lượng.
 </p>
 
 <h3 style="color:orange;">Quy tình điển hình của một Sprint</h3>
-<p>Vì các lập trình viên là thành viên của một đội cho một dự án khách hàng, một cách hiệu quả để hình dung cách thức thực hiện tất cả các trách nhiệm đã đề cập là sử dụng lịch trình sprint phát triển hai tuần điển hình:</p>
+<p>Vì các lập trình viên là thành viên của một đội cho một client project , một cách hiệu quả để hình dung cách thức thực hiện tất cả các trách nhiệm đã đề cập là sử dụng lịch trình sprint phát triển hai tuần điển hình:</p>
 
 <h3>Tuần #1</h3>
 
 <h4>Ngày #1:</h4>
 <ul>
-    <li>Xem xét các câu chuyện đã lên kế hoạch cho sprint hiện tại và chuẩn bị các câu hỏi hoặc mối quan tâm.</li>
-    <li>Tham gia cuộc họp lập kế hoạch sprint do Product Manager tổ chức cùng với đội và các lập trình viên khác. Đưa ra các câu hỏi hoặc mối quan tâm đã chuẩn bị.</li>
+    <li>Review các yêu cầu đã lên kế hoạch cho sprint hiện tại và chuẩn bị các câu hỏi hoặc mối quan tâm.</li>
+    <li>Tham gia cuộc họp lập kế hoạch sprint do Product Manager tổ chức cùng với team và các Developer khác. Đưa ra các câu hỏi hoặc mối quan tâm đã chuẩn bị.</li>
 </ul>
 
 <h4>Ngày #1 → Ngày #5 (Thứ Hai → Thứ Sáu):</h4>
 <ul>
-    <li>Xem xét tất cả các pull request trên dự án khách hàng.</li>
-    <li>Phát triển các câu chuyện người dùng, nhiệm vụ và lỗi trong dự án khách hàng.</li>
-    <li>Cập nhật thường xuyên cho Team Lead về tiến độ và các nút thắt trong các câu chuyện đã được giao.</li>
-    <li>Tùy chọn, khi được giao, xem xét các pull request trên một dự án khách hàng thứ hai hoặc dự án cá nhân (ví dụ: chứng chỉ nội bộ).</li>
+    <li>Review tất cả các pull request trên client project .</li>
+    <li>Phát triển các tính năng của người dùng, nhiệm vụ và bugs trong client project .</li>
+    <li>Cập nhật thường xuyên cho Team Lead về tiến độ và các nút thắt trong các tasks đã được giao.</li>
+    <li>Tùy chọn, khi được giao, Review các pull request trên một client project  thứ hai hoặc dự án cá nhân (ví dụ: chứng chỉ nội bộ).</li>
 </ul>
 
 <p>Vào bất kỳ ngày nào từ ngày #1 đến ngày #5, nhưng ít nhất một lần mỗi tuần, một trong các hoạt động sau cần phải thực hiện:</p>
 <ul>
-    <li>Xem xét pull request và đóng góp cho các kho lưu trữ được duy trì bởi Chapter và Guild(s) của họ.</li>
-    <li>Xem xét pull request và đóng góp cho Compass.</li>
+    <li>Review pull request và đóng góp cho các kho lưu trữ được duy trì bởi Chapter và Guild(s) của họ.</li>
+    <li>Review pull request và đóng góp cho Compass.</li>
 </ul>
 
 <h3>Tuần #2</h3>
 
 <h4>Ngày #6 → Ngày #10 (Thứ Hai → Thứ Sáu):</h4>
 <ul>
-    <li>Xem xét tất cả các pull request trên dự án khách hàng.</li>
-    <li>Phát triển các câu chuyện người dùng, nhiệm vụ và lỗi trong dự án khách hàng.</li>
+    <li>Review tất cả các pull request trên client project .</li>
+    <li>Phát triển các câu chuyện người dùng, nhiệm vụ và lỗi trong client project .</li>
     <li>Cập nhật thường xuyên cho Team Lead về tiến độ và các nút thắt trong các câu chuyện đã được giao.</li>
-    <li>Tùy chọn, khi được giao, xem xét các pull request trên một dự án khách hàng thứ hai hoặc dự án cá nhân (ví dụ: chứng chỉ nội bộ).</li>
+    <li>Tùy chọn, khi được giao, Review các pull request trên một client project  thứ hai hoặc dự án cá nhân (ví dụ: chứng chỉ nội bộ).</li>
 </ul>
 
 <h4>Ngày #8:</h4>
@@ -265,8 +265,8 @@ Good performance ở đây có nghĩa là:
 
 <p>Vào bất kỳ ngày nào từ ngày #6 đến ngày #10, nhưng ít nhất một lần mỗi tuần, một trong các hoạt động sau cần phải thực hiện:</p>
 <ul>
-    <li>Xem xét pull request và đóng góp cho các kho lưu trữ được duy trì bởi Chapter và Guild(s) của họ.</li>
-    <li>Xem xét pull request và đóng góp cho Compass.</li>
+    <li>Review pull request và đóng góp cho các kho lưu trữ được duy trì bởi Chapter và Guild(s) của họ.</li>
+    <li>Review pull request và đóng góp cho Compass.</li>
     <li>Làm việc trên một dự án Phát triển (Growth project).</li>
 </ul>
 
