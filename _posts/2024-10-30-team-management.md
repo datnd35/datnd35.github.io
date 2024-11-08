@@ -16,12 +16,11 @@ Trong phần này chúng ta sẽ trả lời những câu hỏi sau:
 - Chúng ta phải làm thế nào khi các vai trò giữa team chồng chép lên nhau?
 - Kỳ vong của team đối với chúng ta là gì?
 
-**Các Nguyên tắc Cốt lõi**
+### <span style="color:orange;">I. Các Nguyên tắc Cốt lõi</span>
+
 Để hiểu rõ hơn về vai trò Developer chúng ta nên nắm bắt các nguyên tắc cốt lõi sau đây.
 
-### <span style="color:orange;">I. Tư Duy Sở Hữu - Ownership Mindset</span>
-
-<p style="font-weight: bold;">1. Ownership Mindset</p>
+<p style="font-weight: bold;">1. Tư Duy Sở Hữu - Ownership Mindset</p>
 
 <p style="color:#202020;">
 Tư duy sở hữu là một trong những giá trị cốt lõi của công ty. Tư duy này đóng vai trò quan trọng trong cách mỗi thành viên trong Team được kỳ vọng hành xử và làm việc trong Team kỹ thuật. Thực tế, trong một cơ cấu tổ chức do lãnh đạo điều hành/từ trên xuống, kết quả của dự án chỉ nằm trên vai của Team Leader. Tuy nhiên, trong một Team tự tổ chức và đa chức năng, mỗi thành viên đều ảnh hưởng trực tiếp đến kết quả của dự án. Do đó, mỗi Developer cần coi từng dự án như dự án của riêng mình.
