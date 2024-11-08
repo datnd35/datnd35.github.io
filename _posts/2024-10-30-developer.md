@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Software Development Team Roles"
+title: "Developer"
 categories: misc
 ---
-
-* [Critical Rendering Path là gì?](#defination)
-* [Các bước trong Critical Rendering Path](#workflow)
-* [Kết](#inconclution)
 
 ## Sổ tay của Developer {#defination}
 
