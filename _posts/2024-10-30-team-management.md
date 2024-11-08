@@ -54,15 +54,21 @@ Mỗi Developer đều trên hành trình khám phá cách thức và lĩnh vự
 </p>
 
 
-**3. Tinh Thần Làm Việc Nhóm**
+<p style="font-weight: bold;">3. Tinh Thần Làm Việc Nhóm</p>
 
+<p style="color:#202020;">
 Mỗi Developer đóng vai trò quan trọng trong việc xây dựng một đội ngũ tốt nhất. Các Developer phải tích cực tham gia đóng góp vào modules của mình (micro-level). Sự tham gia liên tục của mỗi thành viên là cần thiết để xây dựng một cộng đồng phát triển bền vững, tức là một môi trường mà mọi người đều cảm thấy có tiếng nói, có tác động và thấy thoải mái khi làm việc.
+</p>
+<p style="color:#202020;">Dù các Developer thường được định nghĩa là những người đóng góp cá nhân (individual contributors), điều này có thể dẫn đến những hành vi bị coi là kém hiệu quả và không cần thiết khi trọng tâm chỉ đặt vào cá nhân thay vì nhóm. Tuy nhiên, những hành vi như "làm việc đơn độc" hoặc "điệu bộ ngôi sao", dù người đó là một individual contributors xuất sắc, vẫn không phù hợp với kỳ vọng của các Developer trong đội ngũ kỹ thuật.
+</p>
 
-Dù các Developer thường được định nghĩa là những người đóng góp cá nhân (individual contributors), điều này có thể dẫn đến những hành vi bị coi là kém hiệu quả và không cần thiết khi trọng tâm chỉ đặt vào cá nhân thay vì nhóm. Tuy nhiên, những hành vi như "làm việc đơn độc" hoặc "điệu bộ ngôi sao", dù người đó là một individual contributors xuất sắc, vẫn không phù hợp với kỳ vọng của các Developer trong đội ngũ kỹ thuật.
-
+<p style="color:#202020;">
 Ở bất kỳ cấp độ nào trong Lộ trình Developer, và thậm chí rất sớm từ các cấp độ khởi đầu, các Developer được hướng dẫn để trở thành những người cộng tác và giao tiếp tốt. Đó là lý do vì sao **Lộ trình Developer không chỉ bao gồm kỹ năng kỹ thuật mà còn đặt kỹ năng mềm ngang hàng với kỹ năng kỹ thuật.** Phát triển phần mềm là một quá trình đòi hỏi sự hợp tác, do đó, các Developer cần trau dồi kỹ năng làm việc nhóm để đạt hiệu quả cao.
+</p>
 
+<p style="color:#202020;">
 Cuối cùng, là một thành viên trong nhóm có nghĩa là mỗi cá nhân đều thấu hiểu rằng họ có thể là một phần của giải pháp. Dù luôn có những thách thức cần giải quyết trong từng Module, thay vì đổ bug cho người khác hoặc cảm thấy thất vọng, họ có không gian để hành động và có quyền được cải thiện môi trường làm việc và các quy trình. Không phải là trách nhiệm của riêng ai để cải thiện, mà là trách nhiệm của tất cả mọi người. Những đội ngũ mạnh hiểu rằng họ cần di chuyển như một khối thống nhất để có thể tiến xa cùng nhau.
+</p>
 
 ### II. Trách nhiệm - Responsibilities
 
