@@ -12,7 +12,7 @@ Trong phần này chúng ta sẽ trả lời những câu hỏi sau:
 - Chúng ta phải làm thế nào khi các vai trò giữa team chồng chép lên nhau?
 - Kỳ vong của team đối với chúng ta là gì?
 
-<h3 style="color:orange;">I. Các Nguyên tắc Cốt lõi</h3>
+<h3 style="color:orange;">Các Nguyên tắc Cốt lõi</h3>
 
 Để hiểu rõ hơn về vai trò Developer chúng ta nên nắm bắt các nguyên tắc cốt lõi sau đây.
 
@@ -65,7 +65,7 @@ Mỗi Developer đóng vai trò quan trọng trong việc xây dựng một đ�
 Cuối cùng, là một thành viên trong nhóm có nghĩa là mỗi cá nhân đều thấu hiểu rằng họ có thể là một phần của giải pháp. Dù luôn có những thách thức cần giải quyết trong từng Module, thay vì đổ bug cho người khác hoặc cảm thấy thất vọng, họ có không gian để hành động và có quyền được cải thiện môi trường làm việc và các quy trình. Không phải là trách nhiệm của riêng ai để cải thiện, mà là trách nhiệm của tất cả mọi người. Những đội ngũ mạnh hiểu rằng họ cần di chuyển như một khối thống nhất để có thể tiến xa cùng nhau.
 </p>
 
-<h3 style="color:orange;">II. Trách nhiệm - Responsibilities</h3>
+<h3 style="color:orange;">Trách nhiệm - Responsibilities</h3>
 
 <p style="font-weight: bold;">1.Viết Code</p>
 
@@ -114,7 +114,7 @@ Team developers có các [hướng dẫn](https://nimblehq.co/compass/developmen
 </p>
 
 
-<h3 style="color:orange;">III. Hiệu suất- Performace</h3>
+<h3 style="color:orange;">Hiệu suất- Performace</h3>
 
 <p style="font-weight: bold;">Các chỉ số đánh giá</p>
 
@@ -185,7 +185,7 @@ Good performance ở đây có nghĩa là:
 </p>
 </div>
 
-<h3 style="color:orange;">IV. Nên và Không nên</h3>
+<h3 style="color:orange;">Nên và Không nên</h3>
 
 Để tránh một số lỗi phổ biến, cần tuân theo các hướng dẫn sau:
 <div>
@@ -219,7 +219,60 @@ Good performance ở đây có nghĩa là:
 - Bỏ qua review code hoàn toàn khi cá nhân cảm thấy quá mệt mỏi để cung cấp phản hồi chất lượng.
 </p>
 
-<h3 style="color:orange;">V. Lời kết</h3>
+<h3 style="color:orange;">Quy tình điển hình của một Sprint</h3>
+<p>Vì các lập trình viên là thành viên của một đội cho một dự án khách hàng, một cách hiệu quả để hình dung cách thức thực hiện tất cả các trách nhiệm đã đề cập là sử dụng lịch trình sprint phát triển hai tuần điển hình:</p>
+
+<h3>Tuần #1</h3>
+
+<h4>Ngày #1:</h4>
+<ul>
+    <li>Xem xét các câu chuyện đã lên kế hoạch cho sprint hiện tại và chuẩn bị các câu hỏi hoặc mối quan tâm.</li>
+    <li>Tham gia cuộc họp lập kế hoạch sprint do Product Manager tổ chức cùng với đội và các lập trình viên khác. Đưa ra các câu hỏi hoặc mối quan tâm đã chuẩn bị.</li>
+</ul>
+
+<h4>Ngày #1 → Ngày #5 (Thứ Hai → Thứ Sáu):</h4>
+<ul>
+    <li>Xem xét tất cả các pull request trên dự án khách hàng.</li>
+    <li>Phát triển các câu chuyện người dùng, nhiệm vụ và lỗi trong dự án khách hàng.</li>
+    <li>Cập nhật thường xuyên cho Team Lead về tiến độ và các nút thắt trong các câu chuyện đã được giao.</li>
+    <li>Tùy chọn, khi được giao, xem xét các pull request trên một dự án khách hàng thứ hai hoặc dự án cá nhân (ví dụ: chứng chỉ nội bộ).</li>
+</ul>
+
+<p>Vào bất kỳ ngày nào từ ngày #1 đến ngày #5, nhưng ít nhất một lần mỗi tuần, một trong các hoạt động sau cần phải thực hiện:</p>
+<ul>
+    <li>Xem xét pull request và đóng góp cho các kho lưu trữ được duy trì bởi Chapter và Guild(s) của họ.</li>
+    <li>Xem xét pull request và đóng góp cho Compass.</li>
+</ul>
+
+<h3>Tuần #2</h3>
+
+<h4>Ngày #6 → Ngày #10 (Thứ Hai → Thứ Sáu):</h4>
+<ul>
+    <li>Xem xét tất cả các pull request trên dự án khách hàng.</li>
+    <li>Phát triển các câu chuyện người dùng, nhiệm vụ và lỗi trong dự án khách hàng.</li>
+    <li>Cập nhật thường xuyên cho Team Lead về tiến độ và các nút thắt trong các câu chuyện đã được giao.</li>
+    <li>Tùy chọn, khi được giao, xem xét các pull request trên một dự án khách hàng thứ hai hoặc dự án cá nhân (ví dụ: chứng chỉ nội bộ).</li>
+</ul>
+
+<h4>Ngày #8:</h4>
+<ul>
+    <li>Chuẩn bị một bài thuyết trình ngắn hoặc demo cho phiên họp tổng kết.</li>
+    <li>Tham gia vào phiên họp tổng kết của Chapter.</li>
+</ul>
+
+<h4>Ngày #10:</h4>
+<ul>
+    <li>Đảm bảo đủ thời gian hỗ trợ Team Lead cho việc phát hành sprint.</li>
+</ul>
+
+<p>Vào bất kỳ ngày nào từ ngày #6 đến ngày #10, nhưng ít nhất một lần mỗi tuần, một trong các hoạt động sau cần phải thực hiện:</p>
+<ul>
+    <li>Xem xét pull request và đóng góp cho các kho lưu trữ được duy trì bởi Chapter và Guild(s) của họ.</li>
+    <li>Xem xét pull request và đóng góp cho Compass.</li>
+    <li>Làm việc trên một dự án Phát triển (Growth project).</li>
+</ul>
+
+<h3 style="color:orange;">Lời kết</h3>
 
 <p>Cách tiếp cận có chủ đích này nhằm xây dựng một đội ngũ developer phần mềm linh hoạt, có kỹ năng và kinh nghiệm đa dạng, những người yêu thích làm việc cùng nhau và phát triển cá nhân trong khi vẫn cung cấp hiệu quả những gì công ty và khách hàng cần ở quy mô lớn.
 </p>
