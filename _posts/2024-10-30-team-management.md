@@ -195,18 +195,22 @@ Good performance ở đây có nghĩa là:
 **NÊN** sắp xếp và ưu tiên đóng góp cho Team vào một khoảng thời gian cố định hàng tuần.  
 </p>
 <p>
-**KHÔNG NÊN** xem việc đóng góp cho Team như một điều gì đó để làm khi còn thừa thời gian trong ngày.  
+**KHÔNG NÊN** xem việc đóng góp cho Team như một điều gì đó để làm khi còn thừa thời gian trong ngày.</p>
+<p>  
 👉  Dù thời gian làm việc trong Team chiếm phần lớn lịch trình của Developer, họ luôn có thể dành ra 2-3 giờ mỗi tuần để đóng góp cho các công cụ và quy trình kỹ thuật. Dành một khoảng thời gian cố định giúp Developer duy trì sự đều đặn và nhất quán trong những nỗ lực này.
 </p>
 </div>
 
 <p>**NÊN** làm việc trong các khoảng thời gian dài (tức là 2-3 giờ).</p>
-<p>**KHÔNG NÊN** cố gắng làm nhiều việc cùng lúc để đạt được nhiều công việc hơn.  
+<p>**KHÔNG NÊN** cố gắng làm nhiều việc cùng lúc để đạt được nhiều công việc hơn.</p>
+<p>
 👉  Tôn trọng nhu cầu làm việc trong trạng thái tập trung sâu (flow). Phát triển phần mềm là một quá trình sáng tạo, vì vậy Developer nên làm việc theo [lịch trình của người sáng tạo](https://www.paulgraham.com/makersschedule.html). Trên thực tế, Developer nên thực hiện các review code trong một khoảng thời gian và làm phát triển code trong một khoảng thời gian khác. Có thể có nhiều khoảng thời gian review code và phát triển code mỗi ngày, nhưng tập trung vào một hoạt động cụ thể là điều quan trọng để đạt hiệu quả.</p>
 
 <p>**NÊN** xem review code quan trọng ngang với việc hoàn thành các câu chuyện được giao.</p>
-<p>**KHÔNG NÊN** lên lịch review code là việc cuối cùng trong ngày.  
-👉  review code quan trọng như việc hoàn thành các câu chuyện được giao, vì vậy chúng cần được ưu tiên. Làm review code vào cuối ngày thường gây ra các tác động tiêu cực sau:</p>
+<p>**KHÔNG NÊN** lên lịch review code là việc cuối cùng trong ngày. </p>
+<p>
+👉  review code quan trọng như việc hoàn thành các câu chuyện được giao, vì vậy chúng cần được ưu tiên. Làm review code vào cuối ngày thường gây ra các tác động tiêu cực sau:
+</p>
 
 <p>
 - Cản trở công việc của các Developer khác. Thường thì họ cần các pull request của mình được merge để tiếp tục công việc được giao.
