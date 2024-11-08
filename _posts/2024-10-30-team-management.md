@@ -206,9 +206,8 @@ Good performance ở đây có nghĩa là:
 <p>
 👉  Tôn trọng nhu cầu làm việc trong trạng thái tập trung sâu (flow). Phát triển phần mềm là một quá trình sáng tạo, vì vậy Developer nên làm việc theo [lịch trình của người sáng tạo](https://www.paulgraham.com/makersschedule.html). Trên thực tế, Developer nên thực hiện các review code trong một khoảng thời gian và làm phát triển code trong một khoảng thời gian khác. Có thể có nhiều khoảng thời gian review code và phát triển code mỗi ngày, nhưng tập trung vào một hoạt động cụ thể là điều quan trọng để đạt hiệu quả.</p>
 
-<p>**NÊN** xem review code quan trọng ngang với việc hoàn thành các câu chuyện được giao.</p>
-<p>**KHÔNG NÊN** lên lịch review code là việc cuối cùng trong ngày. </p>
-<p>
+<p>**NÊN** xem review code quan trọng ngang với việc hoàn thành các câu chuyện được giao.<br/>
+**KHÔNG NÊN** lên lịch review code là việc cuối cùng trong ngày.<br/>
 👉  review code quan trọng như việc hoàn thành các câu chuyện được giao, vì vậy chúng cần được ưu tiên. Làm review code vào cuối ngày thường gây ra các tác động tiêu cực sau:
 </p>
 
