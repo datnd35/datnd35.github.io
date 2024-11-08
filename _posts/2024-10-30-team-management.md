@@ -35,15 +35,24 @@ Trong phát triển phần mềm, luôn có nhiều hướng triển khai khác 
 Tinh thần sở hữu cũng liên quan đến tính đáng tin cậy, đây là một giá trị cốt lõi khác của công ty. Một Team chỉ có thể đạt được các mục tiêu của dự án một cách hiệu quả nếu mỗi thành viên đều đáng tin cậy. Thực tế, sẽ không hiệu quả nếu một Developer chỉ dựa vào Team Leader hoặc các Developer khác để phát hiện tất cả các bug trong **Pull requests** của họ sau khi hoàn thành công việc, hoặc nếu một Developer không thông báo về các trở ngại mà họ gặp phải khi thực hiện các câu chuyện được giao. Thay vào đó, các Developer cần truyền đạt về nghiên cứu của mình, thông báo về các trở ngại mà họ gặp phải, đề xuất kế hoạch triển khai trước khi bắt tay vào viết Code, và tự thực hiện kiểm tra Code để tìm ra tất cả các bug nhỏ nảy sinh trong quá trình phát triển. Càng thể hiện tinh thần Ownership Mindset đối với nhiệm vụ của mình, các Developer càng trở nên đáng tin cậy.
 </p>
 
-**2. Phạm vi Kỹ năng Rộng**
+<p style="font-weight: bold;">2. Phạm vi Kỹ năng Rộng</p>
 
+<p style="color:#202020;">
 Lộ trình phát triển của Developer bao gồm mười cấp độ, với một lộ trình chung từ cấp 1 đến cấp 7 và hai nhánh chuyên môn — nhánh Quản lý Nhân sự và nhánh Kỹ thuật — từ cấp 8 đến cấp 10. Trong suốt lộ trình này, các Developer được khuyến khích phát triển các kỹ năng kỹ thuật theo hình chữ T.
+</p>
 
+<p style="color:#202020;">
 Trong lộ trình chung, các Developer cần mở rộng kỹ năng kỹ thuật của mình để bao quát tất cả các lĩnh vực của phát triển phần mềm (back end, front end, hạ tầng và testing) và thành thạo ít nhất hai ngôn ngữ lập trình (tức là có thể phát triển phần mềm cho một dự án bằng một trong hai ngôn ngữ lập trình đó). Các Developer sẽ phát triển thanh ngang của chữ “T”. Ở giai đoạn này, đối với các cấp độ từ junior đến mid-senior, càng rộng càng tốt.
+</p>
 
+<p style="color:#202020;">
 Nhờ phạm vi kỹ năng rộng, các Developer có nhiều cơ hội phát triển cá nhân hơn. Trên thực tế, họ có thể làm việc trên nhiều dự án khách hàng đa dạng, các sáng kiến kỹ thuật nội bộ và các dự án Phát triển, từ đó thu nhận thêm kỹ năng và kinh nghiệm. Ngược lại, một Developer chỉ làm việc trong một lĩnh vực chuyên môn với một ngôn ngữ lập trình duy nhất sẽ có ít lựa chọn hơn. Bên cạnh các dự án và sáng kiến, các hoạt động học tập liên tục là yếu tố quan trọng để mở rộng kỹ năng của các Developer. Các mục tiêu cá nhân, chứng chỉ và effort tự học là cần thiết. Ngoài kiến thức kỹ thuật, các Developer cũng nâng cao kỹ năng mềm khi họ tiếp xúc với nhiều lĩnh vực kỹ thuật khác nhau. Điều này giúp họ trở nên cởi mở hơn (tức là không bị đóng khung trong một tư duy cụ thể) và đồng cảm hơn (ví dụ, họ hiểu được mức độ khó khăn của frontend hay hạ tầng), từ đó hợp tác hiệu quả hơn trong các Team làm việc.
+</p>
 
+<p style="color:#202020;">
 Mỗi Developer đều trên hành trình khám phá cách thức và lĩnh vực mà họ thích làm việc. Rất hiếm khi Developer biết sớm rằng nhánh chuyên môn hoặc ngôn ngữ lập trình nào là phù merge với mình. Đây là lý do tại sao việc phát triển kỹ năng ở nhiều lĩnh vực và tích lũy kinh nghiệm ở nhiều mảng khác nhau là cách tốt nhất để chuẩn bị cho Developer xác định con đường phù hợp với mình một cách độc lập.
+</p>
+
 
 **3. Tinh Thần Làm Việc Nhóm**
 
