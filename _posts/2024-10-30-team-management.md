@@ -121,38 +121,45 @@ Team developers có các [hướng dẫn](https://nimblehq.co/compass/developmen
 <h3 style="color:orange;">II. Hiệu suất- Performace</h3>
 
 <p style="font-weight: bold;">Các chỉ số đánh giá</p>
-
+<div style="color:#202020;">
 Khi đảm nhiệm một vai trò, bên cạnh việc nắm rõ các trách nhiệm, một cá nhân cũng cần hiểu các chỉ số quan trọng để đánh giá mức độ hoàn thành của mình.
 
 Team nhận thấy rằng các điều kiện cụ thể đôi khi có thể ảnh hưởng đến hiệu suất. Do đó, các chỉ số dưới đây không được sử dụng riêng lẻ mà kết hợp với nhau để cung cấp cái nhìn đáng tin cậy trong hầu hết các tình huống. Chẳng hạn, dù tốc độ hoàn thành trong một sprint có thấp, một Developer vẫn có thể đạt hiệu suất cao với Thời gian chu kỳ ngắn và nhất quán Review code kỹ lưỡng.
+</div>
 
 <p style="font-weight: bold;">1. Tốc độ cao và nhất quán</p>
 
+<p style="color:#202020;">
 Là người đóng góp cá nhân, khác với Team Leader, người phải dành thời gian cho các hoạt động phối hợp, một Developer có thể tập trung hoàn toàn vào việc thực thi. Do đó, họ được kỳ vọng sẽ là người đóng góp hiệu quả nhất cho dự án, đo bằng tốc độ (velocity) của họ trong mỗi sprint, tức là số điểm câu chuyện hoàn thành.
+</p>
 
-Good performance ở đây có nghĩa là:
+<p style="color:#202020;">Good performance ở đây có nghĩa là:</p>
 
+<p style="color:#202020;">
 - **Tốc độ càng nhanh càng tốt.** Càng nhiều điểm câu chuyện hoàn thành trong mỗi sprint, càng nhiều giá trị được mang lại cho người dùng.
+
 - **Tốc độ càng nhất quán càng tốt.** Tốc độ ổn định giúp Quản lý Sản phẩm và Team Leader lên kế hoạch chính xác hơn cho các sprint trong tương lai.
-
+<p style="color:#202020;"></p>
 <p style="font-weight: bold;">2. Thời gian chu kỳ ngắn và nhất quán</p>
-
+<p style="color:#202020;"></p>
 Là một chỉ số quan trọng trong [đo lường hiệu suất](https://nimblehq.co/compass/development/git-analytics/#delivery-metrics), Thời gian chu kỳ cung cấp một thước đo rõ ràng về thời gian để code nguồn được chuyển đến người dùng. Vì vậy, Developer cần đảm bảo code của mình được xuất bản nhanh nhất có thể để mang lại lợi ích cho người dùng.
-
+<p style="color:#202020;"></p>
 Good performance ở đây có nghĩa là:
-
+<p style="color:#202020;"></p>
 - **Thời gian chu kỳ càng ngắn càng tốt.** Developer cần đảm bảo rằng họ có quy trình hiệu quả để giảm thiểu cả thời gian viết code và thời gian Review code.
 - **Thời gian chu kỳ càng nhất quán càng tốt.** Developer cần thể hiện khả năng đạt hiệu suất nhất quán trong mọi nhiệm vụ.
-
+<p style="color:#202020;"></p>
 Chất lượng code, cách triển khai, và phong cách viết code là kết quả của Thời gian chu kỳ hiệu quả. Với quy trình Review code, code có chất lượng cao sẽ được merge nhanh hơn và cần ít effort hơn.
 
 <p style="font-weight: bold;">3. Review code đúng hạn và có ảnh hưởng</p>
-
+<p style="color:#202020;"></p>
 Vì code cần được nhiều thành viên trong nhóm reviewed and approved trước khi merge, Developer phải kịp thời trong việc 
- 1. xem xét code của đồng nghiệp và 
+<p style="color:#202020;"></p>
+ 1. xem xét code của đồng nghiệp 
+ <p style="color:#202020;"></p>
  2.xử lý các nhận xét trong quá trình Review code. 
 Tính kịp thời trong xử lý Review code là rất quan trọng để đảm bảo quá trình này không gây chậm trễ.
-
+<p style="color:#202020;"></p>
 Good performance ở đây có nghĩa là:
 
 - **Xử lý các pull requests và Review code càng sớm càng tốt.** Tốc độ cung cấp phản hồi và khắc phục vấn đề ảnh hưởng trực tiếp đến thời điểm code có thể được merge.
