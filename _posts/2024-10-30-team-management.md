@@ -118,7 +118,7 @@ Team developers có các [hướng dẫn](https://nimblehq.co/compass/developmen
 </p>
 
 
-<h3 style="color:orange;">II. Hiệu suất- Performace</h3>
+<h3 style="color:orange;">III. Hiệu suất- Performace</h3>
 
 <p style="font-weight: bold;">Các chỉ số đánh giá</p>
 
@@ -218,6 +218,7 @@ Good performance ở đây có nghĩa là:
 - Bỏ qua review code hoàn toàn khi cá nhân cảm thấy quá mệt mỏi để cung cấp phản hồi chất lượng.
 </p>
 
-**Lời Kết**
+<h3 style="color:orange;">V. Lời kết</h3>
 
-Cách tiếp cận có chủ đích này nhằm xây dựng một đội ngũ developer phần mềm linh hoạt, có kỹ năng và kinh nghiệm đa dạng, những người yêu thích làm việc cùng nhau và phát triển cá nhân trong khi vẫn cung cấp hiệu quả những gì công ty và khách hàng cần ở quy mô lớn.
+<p>Cách tiếp cận có chủ đích này nhằm xây dựng một đội ngũ developer phần mềm linh hoạt, có kỹ năng và kinh nghiệm đa dạng, những người yêu thích làm việc cùng nhau và phát triển cá nhân trong khi vẫn cung cấp hiệu quả những gì công ty và khách hàng cần ở quy mô lớn.
+</p>
