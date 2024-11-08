@@ -171,12 +171,20 @@ Good performance ở đây có nghĩa là:
 
 <p style="font-weight: bold;">4. Giao tiếp kịp thời và hiệu quả</p>
 
+<div>
+<p>
 Developer phải thường xuyên đối mặt với các vấn đề chưa rõ và trở ngại. Điểm khác biệt là cách họ giải quyết và hợp tác với đồng nghiệp để giải quyết chúng. Mặc dù là người đóng góp cá nhân, Developer làm việc như một phần của nhóm nên cần biết cách hợp tác hiệu quả với những người khác.
-
+</p>
+<p>
 Good performance ở đây có nghĩa là:
-
+</p>
+<p>
 - **Càng sớm đưa ra vấn đề càng tốt.** Vì sprint có giới hạn thời gian, phát hiện sớm các trở ngại giúp nhóm có thêm thời gian để giải quyết và đạt mục tiêu của sprint.
+</p>
+<p>
 - **Giải quyết vấn đề càng nhanh càng tốt.** Developer cần cung cấp đủ thông tin để đồng nghiệp dễ dàng hỗ trợ và xử lý vấn đề kịp thời.
+</p>
+</div>
 
 <h3 style="color:orange;">IV. Nên và Không nên</h3>
 
