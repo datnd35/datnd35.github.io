@@ -4,7 +4,7 @@ title: "Nguyên tắc Kim Tự Tháp - Giao tiếp rõ ràng và hiệu quả"
 categories: misc
 ---
 
-## **Giới thiệu**
+### **Giới thiệu**
 
 Bạn đã bao giờ cảm thấy mình bị **quá tải thông tin** và không thể nắm bắt được ý chính?  
 Trong giao tiếp, để trình bày ý tưởng, đề xuất, hay bài thuyết trình một cách rõ ràng, chúng ta cần một **cấu trúc** rõ ràng. Đó là lý do vì sao **Nguyên tắc Kim Tự Tháp** ra đời.
@@ -13,7 +13,7 @@ Nguyên tắc Kim Tự Tháp là một phương pháp tư duy có cấu trúc gi
 
 ---
 
-## **Nguyên tắc Kim Tự Tháp hoạt động như thế nào?**
+### **Nguyên tắc Kim Tự Tháp hoạt động như thế nào?**
 
 Cấu trúc của nguyên tắc này bao gồm 3 phần chính:
 
@@ -23,7 +23,7 @@ Cấu trúc của nguyên tắc này bao gồm 3 phần chính:
 
 ---
 
-### **1. Ý chính (Main Idea)**
+#### **1. Ý chính (Main Idea)**
 
 - Bắt đầu bằng một tuyên bố ngắn gọn và súc tích.
 - **Ví dụ:**
@@ -31,7 +31,7 @@ Cấu trúc của nguyên tắc này bao gồm 3 phần chính:
 
 ---
 
-### **2. Lập luận hỗ trợ (Supporting Arguments)**
+#### **2. Lập luận hỗ trợ (Supporting Arguments)**
 
 - Giải thích lý do tại sao ý chính là đúng.
 - **Ví dụ:**
@@ -39,7 +39,7 @@ Cấu trúc của nguyên tắc này bao gồm 3 phần chính:
 
 ---
 
-### **3. Chi tiết bổ trợ (Sub Points)**
+#### **3. Chi tiết bổ trợ (Sub Points)**
 
 - Sử dụng dữ liệu, ví dụ thực tế hoặc nghiên cứu để củng cố lập luận.
 - **Ví dụ:**
@@ -47,7 +47,7 @@ Cấu trúc của nguyên tắc này bao gồm 3 phần chính:
 
 ---
 
-## **Tại sao Nguyên tắc Kim Tự Tháp hiệu quả?**
+### **Tại sao Nguyên tắc Kim Tự Tháp hiệu quả?**
 
 1. **Phù hợp với cách suy nghĩ tự nhiên của con người:**  
    Bộ não của chúng ta xử lý thông tin từ tổng quát đến chi tiết.
@@ -60,19 +60,19 @@ Cấu trúc của nguyên tắc này bao gồm 3 phần chính:
 
 ---
 
-## **Ví dụ thực tế**
+### **Ví dụ thực tế**
 
-### **Ý chính:**
+#### **Ý chính:**
 
 "Làm việc từ xa tăng năng suất."
 
-### **Lập luận hỗ trợ:**
+#### **Lập luận hỗ trợ:**
 
 1. Tiết kiệm thời gian đi lại.
 2. Lịch trình linh hoạt tối ưu hóa giờ làm việc.
 3. Giảm phiền nhiễu trong văn phòng.
 
-### **Chi tiết bổ trợ:**
+#### **Chi tiết bổ trợ:**
 
 - **Tiết kiệm thời gian đi lại:**
 
@@ -87,7 +87,7 @@ Cấu trúc của nguyên tắc này bao gồm 3 phần chính:
 
 ---
 
-## **Một số lưu ý khi áp dụng Nguyên tắc Kim Tự Tháp**
+### **Một số lưu ý khi áp dụng Nguyên tắc Kim Tự Tháp**
 
 1. **Tránh quá tải chi tiết:**  
    Tập trung vào các điểm chính và cung cấp dữ liệu hỗ trợ cần thiết.
@@ -100,7 +100,7 @@ Cấu trúc của nguyên tắc này bao gồm 3 phần chính:
 
 ---
 
-## **Lợi ích**
+### **Lợi ích**
 
 Trong một thế giới đầy rẫy thông tin, **Nguyên tắc Kim Tự Tháp** mang lại sự rõ ràng và mạch lạc. Bằng cách áp dụng phương pháp này, bạn không chỉ đảm bảo thông điệp của mình được **nghe** mà còn được **hiểu** và **nhớ**.
 
