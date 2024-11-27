@@ -4,9 +4,9 @@ title: "IELTS Speaking "
 categories: misc
 ---
 
-# I. Technical Skill
+# **_I. Technical Skill_**
 
-### 1. Pronunciation and Accent
+### **_1. Pronunciation and Accent_**
 
 **Phát âm (Pronunciation)** là cách bạn sử dụng cơ quan phát âm để tạo ra âm thanh của ngôn ngữ, điều này cần thiết trong bài thi IELTS Speaking. Phát âm rõ ràng và chính xác giúp bạn dễ hiểu hơn.
 
@@ -24,7 +24,7 @@ categories: misc
 
 - Có video và hướng dẫn từ BBC để luyện tập phát âm và giọng chuẩn.
 
-### 2. Fluency
+### **_2. Fluency_**
 
 **Phát âm đúng trước, sau đó tập trung vào lưu loát:**
 
@@ -46,7 +46,7 @@ categories: misc
 - Lặp lại lời thoại từ phim hoặc chương trình TV.
 - Giao tiếp với người bản ngữ để làm quen.
 
-### 3. Effective Answers
+### **_3. Effective Answers_**
 
 **Lắng nghe đầy đủ câu hỏi trước khi trả lời:**
 
@@ -82,9 +82,7 @@ categories: misc
 - Sử dụng ngôn ngữ linh hoạt và sáng tạo để tạo câu trả lời ý nghĩa.
 - Không cần câu trả lời hoàn hảo, chỉ cần xử lý thông minh và mạch lạc.
 
----
-
-### 4. Be Interesting
+### **_4. Be Interesting_**
 
 Để trở thành người thú vị và thu hút sự chú ý trong cuộc trò chuyện, bạn cần tránh những câu nói sáo rỗng và nhàm chán như "Sports is quite important" hay "There are many successful people in the world." Những câu như vậy làm cho cuộc trò chuyện trở nên gượng ép và thiếu hấp dẫn. Hãy tránh việc nói quá nhiều mà không có nội dung thực tế, và thay vào đó, sử dụng từ vựng đa dạng, cấu trúc câu phong phú để thể hiện sự thành thạo ngôn ngữ.
 
@@ -94,9 +92,7 @@ Khi trả lời câu hỏi, hãy chia sẻ những câu chuyện cá nhân và t
 
 Nếu gặp câu hỏi nhàm chán như "Tại sao trẻ em thích đồ chơi?", hãy phân tích câu hỏi từ nhu cầu học hỏi và sự phát triển của trẻ, đưa ra những lý do hợp lý về lý do tại sao đồ chơi hấp dẫn và có ích cho trẻ em. Cách trả lời mạch lạc, có lý do thuyết phục sẽ giúp bạn nổi bật trong kỳ thi.
 
----
-
-### 5. Be Logical
+### **_5. Be Logical_**
 
 **Phát triển tư duy logic và phản biện:** Việc huấn luyện khả năng lý luận và tư duy phản biện là quan trọng để lập luận của bạn trở nên thuyết phục. Ví dụ, khi giải thích lý do không tin tưởng vào quảng cáo, bạn không chỉ phân tích động cơ thương mại mà còn nên nêu ra ngoại lệ như quảng cáo dịch vụ công cộng, hoặc khen ngợi nỗ lực của chính phủ trong việc cải thiện luật lệ quảng cáo.
 
@@ -112,9 +108,7 @@ Nếu gặp câu hỏi nhàm chán như "Tại sao trẻ em thích đồ chơi?"
 
 **Tính nhất quán trong lập luận:** Trong bài thi, bạn cần duy trì tính nhất quán trong quan điểm và hành động. Nếu bạn nói rằng mình làm thể thao nhiều, đừng thay đổi và nói rằng bạn là người ít vận động trong phần sau.
 
----
-
-### 6. Be Genuine
+### **_6. Be Genuine_**
 
 **Tạo ấn tượng tự nhiên:** Trong bài thi, bạn cần tạo ấn tượng rằng cuộc trò chuyện là tự nhiên và thật sự. Dù có thể "faken" một số thông tin để làm cho câu trả lời thú vị hơn, bạn cần đảm bảo rằng lời nói của mình có vẻ tự phát và không giống như đang đọc thuộc lòng. Giọng điệu và cách nói cần tự nhiên, tránh làm cho câu trả lời trở nên cứng nhắc.
 
@@ -123,3 +117,44 @@ Nếu gặp câu hỏi nhàm chán như "Tại sao trẻ em thích đồ chơi?"
 **Đừng nói quá nhiều một lúc:** Đừng kể tất cả thông tin một lần, hãy để không gian cho giám khảo đưa ra câu hỏi thêm. Tránh tạo cảm giác bạn đang "biểu diễn" quá mức.
 
 **Tự nhiên và dễ dàng:** Hãy làm cho cuộc trò chuyện trở nên tự nhiên và dễ dàng, không cần quá cố gắng.
+
+Dưới đây là bản văn đã được format lại theo mẫu mà bạn yêu cầu:
+
+### **_7. Mastering Speech Structures_**
+
+**Tầm quan trọng của cấu trúc:**  
+Cấu trúc câu trả lời giúp tiết kiệm thời gian suy nghĩ và trả lời trực tiếp, điều này được đánh giá cao trong văn hóa phương Tây. Cấu trúc phổ biến cho hầu hết các câu hỏi là: câu mở đầu, thân bài và kết luận. Trong thân bài, có thể chia thành các bước nhỏ để làm rõ nội dung.
+
+**Cách trả lời câu hỏi mô tả:**  
+Khi mô tả một đối tượng hay quá trình (ví dụ: mô tả nơi bạn sống), cần trình bày từ tổng quan đến chi tiết, có thể sử dụng ba bước: không gian, thời gian, và tầm quan trọng. Cấu trúc câu trả lời có thể theo thứ tự thời gian hoặc độ quan trọng.
+
+**Câu hỏi ý kiến:**  
+Những câu hỏi yêu cầu bạn đưa ra ý kiến, so sánh hoặc thảo luận thường khó hơn và yêu cầu lập luận vững vàng. Cấu trúc hiệu quả là **ý kiến - lý do - bằng chứng**. Ví dụ: "Bạn có nghĩ rằng có quá nhiều khách du lịch sẽ tốt cho các địa điểm di tích không?" Bạn cần nêu ý kiến, lý do và dẫn chứng hỗ trợ.
+
+**Câu hỏi mô tả sự kiện:**  
+Khi được yêu cầu kể về một sự kiện (quá khứ hoặc tương lai), bạn cần chú ý đến cách sử dụng thì và cấu trúc câu. Đối với sự kiện quá khứ, bạn có thể mô tả tình huống và cách bạn vượt qua thử thách. Với sự kiện tương lai, mô tả sự thay đổi và lý do có thể xảy ra.
+
+**Lời khuyên bổ sung:**  
+Để trả lời các câu hỏi một cách hiệu quả, bạn không cần phải có cấu trúc hoàn hảo cho mọi câu trả lời. Hãy chọn những câu hỏi mà bạn có quan điểm mạnh và có thể thể hiện kỹ năng ngôn ngữ tốt nhất. Thực hành khi làm các công việc nhẹ nhàng như đi bộ hay tắm có thể giúp tăng khả năng sáng tạo và cải thiện khả năng nói.
+
+### **_8. Coming Up with Things to Say_**
+
+**Vấn đề thường gặp:**  
+Nhiều người gặp khó khăn trong việc mở rộng chủ đề và phát triển câu trả lời trong các bài kiểm tra nói và trong giao tiếp xã hội. Đây là vấn đề chung, và có thể cải thiện qua kinh nghiệm và luyện tập.
+
+**Phương pháp phát triển kỹ năng nói:**  
+**Bước đầu tiên:** Tìm kiếm manh mối. Trong các bài kiểm tra IELTS, mỗi câu hỏi đều cung cấp một vài từ khóa, trong khi trong cuộc sống xã hội, manh mối có thể đến từ môi trường xung quanh, sự kiện hiện tại hoặc những trải nghiệm gần đây. Cách hoạt động của bộ não là liên kết các ý tưởng và chọn ra một hoặc một vài ý tưởng để tiếp tục phát triển cuộc trò chuyện.
+
+**Các cấp độ giao tiếp:**
+
+- **Cấp độ cơ bản:** Người nói nói lung tung mà không có trọng tâm, giống như một người bạn hàng xóm hay tài xế taxi, thường khiến cuộc trò chuyện trở nên nhàm chán.
+- **Cấp độ tiêu chuẩn:** Người nói biết lọc các ý tưởng và giữ cuộc trò chuyện phù hợp và giá trị.
+- **Cấp độ nâng cao:** Người nói biết thêm vào yếu tố hài hước, cảm xúc, và sự mỉa mai, khiến cuộc trò chuyện trở nên thú vị và sống động.
+- **Cấp độ cao nhất:** Những người nói có khả năng kể những câu chuyện tuyệt vời, có sức ảnh hưởng và truyền cảm hứng. Họ thường trở thành người lãnh đạo hoặc cố vấn trong sự nghiệp và nổi tiếng trong xã hội.
+
+**Kết luận:**  
+Kỹ năng giao tiếp có thể được phát triển qua từng cấp độ, và nếu có cơ hội, tác giả có thể mở rộng thêm phần này thành một khóa học riêng hoặc thậm chí là một cuốn sách.
+
+```
+
+```
