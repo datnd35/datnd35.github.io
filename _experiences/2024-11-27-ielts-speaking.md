@@ -6,9 +6,7 @@ categories: misc
 
 # I. Technical Skill
 
----
-
-### Pronunciation and Accent
+### 1. Pronunciation and Accent
 
 **Phát âm (Pronunciation)** là cách bạn sử dụng cơ quan phát âm để tạo ra âm thanh của ngôn ngữ, điều này cần thiết trong bài thi IELTS Speaking. Phát âm rõ ràng và chính xác giúp bạn dễ hiểu hơn.
 
@@ -26,9 +24,7 @@ categories: misc
 
 - Có video và hướng dẫn từ BBC để luyện tập phát âm và giọng chuẩn.
 
----
-
-### Fluency
+### 2. Fluency
 
 **Phát âm đúng trước, sau đó tập trung vào lưu loát:**
 
@@ -50,9 +46,7 @@ categories: misc
 - Lặp lại lời thoại từ phim hoặc chương trình TV.
 - Giao tiếp với người bản ngữ để làm quen.
 
----
-
-### Effective Answers
+### 3. Effective Answers
 
 **Lắng nghe đầy đủ câu hỏi trước khi trả lời:**
 
@@ -90,7 +84,7 @@ categories: misc
 
 ---
 
-### Be Interesting
+### 4. Be Interesting
 
 Để trở thành người thú vị và thu hút sự chú ý trong cuộc trò chuyện, bạn cần tránh những câu nói sáo rỗng và nhàm chán như "Sports is quite important" hay "There are many successful people in the world." Những câu như vậy làm cho cuộc trò chuyện trở nên gượng ép và thiếu hấp dẫn. Hãy tránh việc nói quá nhiều mà không có nội dung thực tế, và thay vào đó, sử dụng từ vựng đa dạng, cấu trúc câu phong phú để thể hiện sự thành thạo ngôn ngữ.
 
@@ -102,7 +96,7 @@ Nếu gặp câu hỏi nhàm chán như "Tại sao trẻ em thích đồ chơi?"
 
 ---
 
-### Be Logical
+### 5. Be Logical
 
 **Phát triển tư duy logic và phản biện:** Việc huấn luyện khả năng lý luận và tư duy phản biện là quan trọng để lập luận của bạn trở nên thuyết phục. Ví dụ, khi giải thích lý do không tin tưởng vào quảng cáo, bạn không chỉ phân tích động cơ thương mại mà còn nên nêu ra ngoại lệ như quảng cáo dịch vụ công cộng, hoặc khen ngợi nỗ lực của chính phủ trong việc cải thiện luật lệ quảng cáo.
 
@@ -120,7 +114,7 @@ Nếu gặp câu hỏi nhàm chán như "Tại sao trẻ em thích đồ chơi?"
 
 ---
 
-### Be Genuine
+### 6. Be Genuine
 
 **Tạo ấn tượng tự nhiên:** Trong bài thi, bạn cần tạo ấn tượng rằng cuộc trò chuyện là tự nhiên và thật sự. Dù có thể "faken" một số thông tin để làm cho câu trả lời thú vị hơn, bạn cần đảm bảo rằng lời nói của mình có vẻ tự phát và không giống như đang đọc thuộc lòng. Giọng điệu và cách nói cần tự nhiên, tránh làm cho câu trả lời trở nên cứng nhắc.
 
