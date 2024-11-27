@@ -4,7 +4,6 @@ title: "IELTS Speaking "
 categories: misc
 ---
 
-```markdown
 # I. Technical Skill
 
 ---
@@ -130,4 +129,3 @@ Nếu gặp câu hỏi nhàm chán như "Tại sao trẻ em thích đồ chơi?"
 **Đừng nói quá nhiều một lúc:** Đừng kể tất cả thông tin một lần, hãy để không gian cho giám khảo đưa ra câu hỏi thêm. Tránh tạo cảm giác bạn đang "biểu diễn" quá mức.
 
 **Tự nhiên và dễ dàng:** Hãy làm cho cuộc trò chuyện trở nên tự nhiên và dễ dàng, không cần quá cố gắng.
-```
