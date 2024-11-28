@@ -14,7 +14,7 @@ categories: misc
 
 **Giọng (Accent)** là mô hình phát âm, không bắt buộc cho band 6-7 nhưng trở nên quan trọng khi muốn đạt band cao hơn. Accent thể hiện năng lực ngôn ngữ nâng cao nhưng không nên có giọng quê mạnh vì có thể gây khó khăn trong giao tiếp và nghe hiểu.
 
-### Luyện phát âm và giọng:
+**Luyện phát âm và giọng:**
 
 - Nghe và phân biệt các giọng khác nhau (Anh, Mỹ, Úc, Ấn, v.v.).
 - Học cách nhấn nhá, kết nối từ và điều chỉnh giọng điệu giống như nghe nhạc.
@@ -22,7 +22,7 @@ categories: misc
 - Kiên trì luyện tập để trung hòa giọng quê hoặc học cách thích ứng với giọng môi trường làm việc.
 - Giọng Anh-Anh (Received Pronunciation) được xem là chuẩn và lịch sự, bạn có thể học qua các nguồn như BBC English. Tuy nhiên, các giọng Anh-Mỹ, Anh-Úc hoặc Canada cũng được chấp nhận.
 
-### Tài nguyên:
+**Tài nguyên:**
 
 - Có video và hướng dẫn từ BBC để luyện tập phát âm và giọng chuẩn.
 
