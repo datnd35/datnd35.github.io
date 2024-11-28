@@ -436,3 +436,77 @@ Có niềm vui trong việc hài hước: Sự hài hước là về việc tậ
 **Kết luận**
 
 Sự hài hước là một kỹ năng giao tiếp tuyệt vời khi được sử dụng một cách hợp lý và tinh tế. Việc hiểu rõ văn hóa của người nghe và cảm nhận của họ có thể giúp bạn sử dụng hài hước một cách hiệu quả, tạo kết nối và duy trì mối quan hệ tích cực trong giao tiếp.
+
+### 9. Key Qualities to Portray
+
+**Các phẩm chất quan trọng trong giao tiếp và giá trị văn hóa**
+
+1. **Các phẩm chất cần phát triển**
+
+   - **Openness (Sự cởi mở):** Luôn sẵn sàng tiếp thu những quan điểm mới, lắng nghe và chia sẻ.
+   - **Confidence (Sự tự tin):** Tin vào bản thân và khả năng của mình trong mọi tình huống.
+   - **Respect (Sự tôn trọng):** Tôn trọng người khác, bất kể sự khác biệt về văn hóa, giới tính, hay lối sống.
+   - **Individuality (Cá tính):** Thể hiện bản sắc cá nhân, nhưng vẫn hòa nhập với cộng đồng.
+   - **Modesty (Khiêm tốn):** Đừng tự khoe khoang quá mức, luôn khiêm nhường trong mọi thành công.
+   - **Friendliness (Thân thiện):** Luôn tạo không khí thân thiện, dễ gần và tích cực.
+   - **Considerate (Sự chu đáo):** Quan tâm đến cảm xúc và nhu cầu của người khác.
+   - **Ethical (Đạo đức):** Làm đúng, ngay cả khi không ai đang quan sát.
+   - **Political Correctness (Chính trị đúng đắn):** Biết cách giao tiếp một cách tôn trọng và không xúc phạm người khác.
+   - **Freedom of Choice (Tự do lựa chọn):** Tôn trọng quyền tự do lựa chọn của mỗi người.
+   - **Equality (Bình đẳng):** Tôn trọng sự bình đẳng giữa mọi người.
+   - **Balanced View (Quan điểm cân bằng):** Đánh giá mọi tình huống một cách khách quan và công bằng.
+
+2. **Sự khác biệt văn hóa giữa Đông và Tây**
+
+   - **Giá trị chung:** Những phẩm chất như sự tôn trọng, đạo đức và sự thân thiện là giá trị chung giữa các nền văn hóa Đông và Tây.
+   - **Cần chú ý đặc biệt:** Các giá trị như cá tính, tự do lựa chọn, và bình đẳng là cốt lõi trong văn hóa phương Tây, và bạn cần đặc biệt chú ý đến những giá trị này khi giao tiếp với người phương Tây.
+
+3. **Sự đánh giá của người phương Tây**
+
+   - **Đánh giá hành vi, không phải con người:** Người phương Tây ít khi chỉ trích cá nhân dựa trên những yếu tố cố định như giới tính, tình trạng hôn nhân, hay thu nhập. Họ chủ yếu phê phán những hành vi không tôn trọng, thiếu trách nhiệm, hoặc thái độ kiêu ngạo.
+   - **Nhận xét tiêu cực:** Mặc dù đôi khi có thể có những nhận xét có phần phân biệt chủng tộc, nhưng đây thường là những nhóm người từ thế hệ trước, và những hành vi này không đại diện cho toàn bộ cộng đồng phương Tây.
+
+**Kết luận**
+Các giá trị như cởi mở, tự tin, tôn trọng và bình đẳng sẽ giúp bạn xây dựng mối quan hệ tốt và giao tiếp hiệu quả trong mọi tình huống, đặc biệt là khi giao tiếp giữa các nền văn hóa khác nhau.
+
+### 10. Landmines to Avoid
+
+**Các điểm cần tránh trong giao tiếp xã hội**
+
+1. **Tránh phân biệt chủng tộc, giới tính và bất kỳ hình thức bất bình đẳng nào**
+
+   - **Phân biệt chủng tộc và giới tính:** Không coi ai đó là thấp kém dựa trên chủng tộc, giới tính hay khuyết tật của họ. Tránh các định kiến như phụ nữ ít tham vọng trong sự nghiệp hoặc con gái chỉ nên chơi với búp bê và mặc đồ hồng.
+
+2. **Tránh chia sẻ quá mức**
+
+   - **Chia sẻ thông tin quá mức:** Đưa quá nhiều chi tiết cá nhân có thể làm người khác cảm thấy khó chịu. Hãy giữ câu chuyện ở mức độ vừa phải, đối xử với người khác như một người bạn thân thiện, không phải một bác sĩ tâm lý.
+
+3. **Tránh thảo luận các chủ đề tiêu cực hoặc quá nặng nề**
+
+   - **Chủ đề tiêu cực:** Tránh những cuộc thảo luận tiêu cực như chỉ trích chính trị, đặc biệt là khi bạn chỉ trích ai đó một cách mạnh mẽ. Những chủ đề này có thể nhanh chóng khiến cuộc trò chuyện trở nên buồn tẻ và có thể xúc phạm người khác.
+
+4. **Tránh khoe khoang**
+
+   - **Khoe khoang về cuộc sống cá nhân:** Chắc chắn rằng bạn không làm người khác cảm thấy mệt mỏi với những câu chuyện khoe khoang, như một đám cưới xa hoa hay những mối quan hệ tình cảm của bạn. Những câu chuyện này có thể chỉ thú vị đối với bạn, nhưng có thể khiến người khác cảm thấy nhàm chán.
+
+5. **Tránh tỏ ra quá thông minh**
+
+   - **Cố gắng tỏ ra thông minh hơn người khác:** Mặc dù bạn muốn thể hiện khả năng ngôn ngữ của mình, nhưng đừng cố gắng làm người khác cảm thấy bạn giỏi hơn họ. Điều này có thể gây ra cảm giác kiêu ngạo.
+
+6. **Tránh thái độ khinh miệt**
+
+   - **Khinh miệt người khác:** Đừng bao giờ ám chỉ rằng người khác kém cỏi hoặc thua kém bạn, kể cả khi đó là một trò đùa. Dù ở bất kỳ tình huống nào, sự khinh miệt sẽ chỉ khiến bạn bị đánh giá thấp.
+
+7. **Tránh quan điểm cực đoan**
+
+   - **Quan điểm cực đoan:** Tránh các quan điểm tiêu cực hoặc cực đoan. Ví dụ, thay vì nói "Tôi không thể chịu nổi những kẻ gian lận phúc lợi", bạn có thể nói "Tôi tin vào giá trị làm việc chăm chỉ và rằng mọi người nên đóng góp để kiếm sống."
+
+8. **Tránh những lời nói ác ý**
+
+   - **Lời nói ác ý:** Tránh sử dụng những câu nói vô đạo đức hoặc mang tính công kích. Ví dụ, một câu đùa về người khuyết tật có thể khiến bạn bị chỉ trích nếu không phải là một người chuyên nghiệp.
+
+9. **Ứng dụng các nguyên tắc này vào cuộc sống**  
+   Những nguyên tắc này không chỉ giúp bạn làm bài thi nói hiệu quả mà còn rất hữu ích trong các tình huống giao tiếp hàng ngày. Nếu bạn thực hành các lời khuyên trên và tránh những sai lầm này, bạn sẽ dễ dàng hòa nhập xã hội, kết bạn và nhận được sự tôn trọng từ mọi người.
+
+**Kết luận**  
+ Việc tuân thủ các nguyên tắc này sẽ giúp bạn có những cuộc giao tiếp xã hội thành công hơn, dễ dàng gây ấn tượng và đạt được các cơ hội nghề nghiệp tốt hơn.
