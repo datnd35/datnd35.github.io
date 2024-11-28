@@ -4,7 +4,7 @@ title: "IELTS Speaking "
 categories: misc
 ---
 
-# I. Technical Skills
+# **I. Technical Skills**
 
 ### 1. Pronunciation and Accent
 
@@ -155,35 +155,35 @@ Nhiều người gặp khó khăn trong việc mở rộng chủ đề và phát
 **Kết luận:**  
 Kỹ năng giao tiếp có thể được phát triển qua từng cấp độ, và nếu có cơ hội, tác giả có thể mở rộng thêm phần này thành một khóa học riêng hoặc thậm chí là một cuốn sách.
 
-# II. People Skills
+# **II. People Skills**
 
 ### 1. What other IELTS courses won't tell you
 
 Trong các phần I, chúng ta đã đi qua những kiến thức cơ bản. Chúng ta đã tìm hiểu quá trình cải thiện từ band IELTS 6 lên 9 trong phần thi Speaking, cùng với những kỹ năng kỹ thuật quan trọng.
 
-#### Yêu cầu cơ bản
+**Yêu cầu cơ bản**
 
 - **Từ vựng, ngữ pháp, sự lưu loát và phát âm**: Bốn yếu tố chính trong hệ thống chấm điểm chính thức của IELTS.
 
-#### Giữ câu trả lời liên quan
+**Giữ câu trả lời liên quan**
 
 - Cách giữ câu trả lời phù hợp và sử dụng ví dụ để phát triển suy nghĩ.
 
-#### Kỹ năng nâng cao
+**Kỹ năng nâng cao**
 
 - Làm cho bài nói thú vị, logic và chân thật.
 
-#### Cấu trúc bài nói
+**Cấu trúc bài nói**
 
 - Các cấu trúc bài nói có thể sử dụng để trả lời các câu hỏi khó khăn.
 
-#### Kỹ năng tìm ý tưởng
+**Kỹ năng tìm ý tưởng**
 
 - Tìm ra điều để nói bằng cách liên kết tư duy và các cấp độ kỹ năng giao tiếp.
 
 > Tuy nhiên, những kỹ năng này cần thời gian để nhận diện, luyện tập và hòa nhập vào phong cách giao tiếp của bạn.
 
-#### Phần tiếp theo: Kỹ năng giao tiếp
+**Phần tiếp theo: Kỹ năng giao tiếp**
 
 - **Tập trung vào cách truyền đạt nội dung** và tối đa hóa tác động.
 - Không chỉ hữu ích trong bài thi IELTS mà còn trong các tình huống xã hội.
@@ -192,23 +192,23 @@ Trong các phần I, chúng ta đã đi qua những kiến thức cơ bản. Ch�
 
 ### 2. The correct mindset
 
-#### 2.1. Bình đẳng
+**Bình đẳng**
 
 - Xem giám khảo như một đối tác. Bạn và giám khảo **bình đẳng**.
 
-#### 2.2. Sự đáng mến (Likability)
+**Sự đáng mến (Likability)**
 
 - Tìm một điểm bạn thích ở giám khảo để giảm căng thẳng và tạo sự kết nối.
 
-#### 2.3. Tích cực
+**Tích cực**
 
 - Tin rằng giám khảo muốn bạn làm tốt. Mục tiêu là khiến họ ngạc nhiên với phần thi của bạn.
 
-#### 2.4. Kiên nhẫn
+**Kiên nhẫn**
 
 - Giữ thái độ tích cực ngay cả khi giám khảo khó tính.
 
-#### 2.5. "Return On Luck"
+**"Return On Luck"**
 
 - Tận dụng vận may để đạt được thành công lâu dài.
 
@@ -218,20 +218,20 @@ Trong các phần I, chúng ta đã đi qua những kiến thức cơ bản. Ch�
 
 ### 3. First impressions: Body language & facial expressions
 
-#### 3.1. Tạo ấn tượng ban đầu
+**Tạo ấn tượng ban đầu**
 
 - **Ngôn ngữ cơ thể:** Mở rộng cánh tay, lộ lòng bàn tay.
 - **Biểu cảm khuôn mặt:** Mỉm cười lớn, duy trì ánh mắt thân thiện.
 
-#### 3.2. Sử dụng ngôn ngữ cơ thể khi nói
+**Sử dụng ngôn ngữ cơ thể khi nói**
 
 - Dùng cử chỉ tay để làm bài nói sống động.
 
-#### 3.3. Lợi ích từ việc luyện tập vũ đạo
+**Lợi ích từ việc luyện tập vũ đạo**
 
 - Nhảy múa giúp cải thiện sự linh hoạt và tâm trạng.
 
-#### 4.4. Nhận biết tín hiệu từ giám khảo
+**Nhận biết tín hiệu từ giám khảo**
 
 - Quan sát hành vi của giám khảo để điều chỉnh cách giao tiếp.
 
@@ -239,22 +239,22 @@ Trong các phần I, chúng ta đã đi qua những kiến thức cơ bản. Ch�
 
 ### 4. First impressions: Small talk
 
-#### 4.1. Mở đầu cuộc trò chuyện
+**Mở đầu cuộc trò chuyện**
 
 - **Chào hỏi thân thiện:** "Hi, how are you?"
 - **Small talk:** Thời tiết, giao thông, hoặc các sự kiện gần đây.
 
-#### 4.2. Gợi ý để xây dựng kết nối
+**Gợi ý để xây dựng kết nối**
 
 - Nhớ và sử dụng tên của giám khảo.
 - Khen ngợi tự nhiên: Quần áo, phụ kiện.
 
-#### 4.3. Duy trì và phát triển cuộc trò chuyện
+**Duy trì và phát triển cuộc trò chuyện**
 
 - Hỏi thêm chi tiết khi giám khảo chia sẻ.
 - Mở rộng câu trả lời của bạn.
 
-#### 4.4. Áp dụng trong bài thi IELTS
+**Áp dụng trong bài thi IELTS**
 
 - Phần 1 của bài thi giống như một cuộc trò chuyện xã hội.
 
