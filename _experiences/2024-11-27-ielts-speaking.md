@@ -261,3 +261,178 @@ Trong các phần I, chúng ta đã đi qua những kiến thức cơ bản. Ch�
 - Phần 1 của bài thi giống như một cuộc trò chuyện xã hội.
 
 **Kết luận:** Small talk giúp tạo thiện cảm, cải thiện khả năng giao tiếp và tạo ấn tượng tích cực với giám khảo.
+
+### 5. Stirring Emotions
+
+**Tầm quan trọng của cảm xúc trong giao tiếp**
+
+Cảm xúc là một yếu tố mạnh mẽ, kích thích trung tâm khen thưởng của não bộ, khiến con người yêu thích những câu chuyện kịch tính và cảm động.  
+Kết nối cảm xúc với người nghe bằng cách:
+
+- Chạm vào những cảm giác, nỗi sợ, hoặc ước mơ chung.
+- Nói về tuổi thơ, gia đình, hoặc những khó khăn bạn đã vượt qua.
+- Nếu câu chuyện khiến người nghe xúc động, bạn đã đưa họ vào một "chuyến đi cảm xúc".
+
+**Ứng dụng trong IELTS Speaking**
+
+Phù hợp khi mô tả:
+
+- Một người, một địa điểm, hoặc một sự kiện trong quá khứ.  
+  Ví dụ minh họa:
+  > "Người đầu tiên tôi nghĩ đến là cô giáo tiếng Anh đầu tiên của tôi, cô Chu Văn Hồng, ở trường tiểu học tại Quảng Châu.  
+  > Cô từng du học ở nước ngoài và rất hiện đại. Lúc đầu, tôi hơi e ngại phong cách của cô, nhưng sau đó tôi bị cuốn hút bởi thế giới mà cô giới thiệu.  
+  > Không chỉ bài giảng thú vị, cô còn rất động viên và luôn ủng hộ tôi.  
+  > Tôi không phải là học sinh xuất sắc, nhưng cô nhận ra tiềm năng của tôi, giúp tôi trau dồi kỹ năng tiếng Anh và tham gia các cuộc thi.  
+  > Ba năm ngắn ngủi đó đã thay đổi cuộc đời tôi mãi mãi. Tôi thật sự may mắn khi gặp được cô ấy."
+
+**Bí quyết sử dụng câu chuyện cảm xúc**
+
+- **Chân thực**: Câu chuyện không cần phải quá kịch tính, nhưng phải thật.
+- **Liên kết cá nhân**: Chia sẻ câu chuyện riêng tạo sự gần gũi và tin cậy.
+- **Khai thác ký ức đẹp**: Nhấn mạnh vào những thay đổi tích cực hoặc bài học quý giá từ trải nghiệm.
+
+**Lợi ích của cách kể chuyện cảm xúc**
+
+- Làm bài nói trở nên sống động, dễ dàng thu hút giám khảo.
+- Thể hiện chiều sâu trong suy nghĩ và khả năng giao tiếp.
+- Tạo ấn tượng sâu sắc, giúp bạn nổi bật hơn trong bài thi.
+
+**Kết luận**
+
+Sử dụng cảm xúc không chỉ khiến câu chuyện thêm hấp dẫn mà còn giúp bạn xây dựng kết nối mạnh mẽ với người nghe, đặc biệt hữu ích trong bài thi IELTS Speaking khi cần gây ấn tượng.
+
+### 6. Creating Curiosity - Tầm quan trọng của sự tò mò trong giao tiếp
+
+Sự tò mò là một cảm xúc tích cực, giúp cuộc trò chuyện trở nên mạch lạc và thú vị hơn.  
+Kích thích sự tò mò của người nghe có thể khiến họ tập trung hơn và tạo điều kiện để bạn thể hiện khả năng ngôn ngữ.
+
+**_Cách sử dụng sự tò mò hiệu quả_**
+
+**Gợi mở những chi tiết bất ngờ**
+
+Đưa ra một thông tin đáng ngạc nhiên, sau đó để người nghe tự suy nghĩ trước khi giải thích.  
+Ví dụ:
+
+> "Tôi vừa gặp một người bạn cũ vài ngày trước, thật sốc khi biết anh ấy giờ đang làm tài xế Uber. Tôi cứ nghĩ anh ấy đã tự do tài chính từ năm ngoái!"  
+> Sau đó, giải thích: "Thì ra anh ấy đã đầu tư hết tiền vào bitcoin."
+
+**Tạo kỳ vọng và kéo dài sự chú ý**
+
+Đặt câu mở đầu gây ấn tượng, khiến người nghe muốn biết thêm.  
+Ví dụ:
+
+> "Đây là điều tôi tin tưởng. Tôi tin rằng chúng ta nên dùng điện thoại thông minh nhiều hơn, chứ không phải ít hơn."  
+> Sử dụng khoảng dừng ngắn: Tạm ngừng vài giây trước khi giải thích để tăng hiệu ứng và kích thích sự chú ý.
+
+**Lợi ích của cách kể chuyện kích thích tò mò**
+
+- Khiến người nghe muốn dành nhiều thời gian hơn để lắng nghe bạn.
+- Tạo cơ hội để bạn trình bày ý tưởng mạch lạc và logic hơn.
+- Giúp bài nói trở nên tự nhiên, hấp dẫn, và thu hút giám khảo trong IELTS Speaking.
+
+**Lưu ý khi sử dụng sự tò mò**
+
+- Đừng phóng đại: Hãy giữ thông tin chân thực và hợp lý.
+- Đảm bảo nội dung hấp dẫn: Thông tin bạn chia sẻ cần đáng giá và đủ sức thuyết phục.
+- Đừng bỏ lỡ lời hứa: Nếu bạn tạo kỳ vọng, hãy đảm bảo giải thích rõ ràng và thỏa mãn sự chờ đợi của người nghe.
+
+**Kết luận**
+
+Sự tò mò là một công cụ giao tiếp mạnh mẽ, đặc biệt trong IELTS Speaking. Kỹ năng này không chỉ làm câu chuyện thêm thú vị mà còn giúp bạn xây dựng sự kết nối, tăng cường tính tự nhiên và hấp dẫn trong phần thi của mình.
+
+### 7. Humour - Sử dụng sự hài hước trong giao tiếp
+
+**Tầm quan trọng của sự hài hước**
+
+Sự hài hước tạo ra năng lượng tích cực, giúp cải thiện lòng tự trọng, giảm căng thẳng và xây dựng mối quan hệ.  
+Tuy không dễ dàng, nhưng có những cách nhanh chóng để áp dụng sự hài hước trong giao tiếp.
+
+**_Các phương pháp sử dụng sự hài hước_**
+
+**Cách dùng tương phản mạnh mẽ và bất ngờ**
+
+Ví dụ:
+
+> "Tôi lớn lên với sáu anh em. Đó là lý do tôi học được cách nhảy — chờ đến lượt đi toilet."
+
+**Phóng đại**
+
+Ví dụ:
+
+> "Tại sao Billy lại cười? Tôi nói một câu đùa hôm qua, giờ anh ấy mới hiểu."
+
+**Nhái giọng**
+
+Giả giọng người nổi tiếng, nhưng phải đảm bảo người nghe hiểu và không cảm thấy bị xúc phạm.
+
+**Biểu cảm thái quá hoặc ngôn ngữ cơ thể**
+
+Ví dụ:
+
+> Một người bạn mô tả tác động của jet lag bằng cách phóng đại sự mệt mỏi, rồi bất ngờ tỉnh giấc lúc 3 giờ sáng.
+
+**Tự châm biếm**
+
+Ví dụ:
+
+> "Bạn bè tốt nhất của tôi trong việc viết là rượu và spellcheck (kiểm tra chính tả)."
+
+**Khoe khoang không xứng đáng**
+
+Ví dụ:
+
+> "Tôi có một nốt ruồi lớn ở đây, khá dễ thương đấy chứ."
+
+**Chọc ghẹo nhẹ nhàng**
+
+Cười về những khuyết điểm nhỏ mà không làm người khác cảm thấy tự ti.
+
+**Tăng cường tự tôn**
+
+Đùa về thành tích của người khác để họ cảm thấy tuyệt vời.
+
+**Chơi chữ (pun)**
+
+Ví dụ:
+
+> Các nhân viên bán hàng thường dùng cụm từ "cắt tóc" khi nói về giảm giá lớn.
+
+**Cách dùng những cụm từ ngớ ngẩn hoặc thành ngữ**
+
+Ví dụ:
+
+> "Sitting on the fence" (Chần chừ, không quyết định): "Tôi vẫn chưa quyết định về vấn đề môi trường. Tôi yêu thiên nhiên, nhưng cũng quá lười để từ bỏ túi nilon."  
+> "Let oneself go" (Tự do, không còn giữ kỷ luật): "Leonardo DiCaprio là người tôi thích hồi nhỏ, nhưng giờ anh ấy đã ‘để bản thân đi’ rồi."  
+> "Hit it off" (Tương thích ngay lập tức): "Bố tôi và bạn trai tôi rất hợp nhau, và tôi cảm thấy như người thừa bây giờ."  
+> "Shock of one’s life" (Cú sốc đời người): "Tôi đã có cú sốc đời mình khi thấy kiểu tóc mới."
+
+**Lưu ý khi sử dụng sự hài hước**
+
+- Đừng ép mình phải đùa: Chỉ sử dụng những trò đùa khi có cơ hội và khi thích hợp.
+- Hài hước tự nhiên và không ép buộc: Sự hài hước chỉ có hiệu quả khi nó xuất phát từ một cách tự nhiên và không gây khó chịu cho người khác.
+- Cẩn thận với đối tượng: Đảm bảo rằng người nghe hiểu và không cảm thấy bị xúc phạm bởi những trò đùa của bạn.
+
+**Kết luận**
+
+Sử dụng sự hài hước một cách khéo léo trong giao tiếp có thể làm cho cuộc trò chuyện thêm sinh động, thoải mái và gần gũi. Tuy nhiên, cần phải sử dụng hợp lý, tránh lạm dụng và luôn chú ý đến cảm giác của người nghe.
+
+—---------------------------------------
+
+## 8. Humour (Part 2)
+
+**_ Sử dụng sự hài hước trong giao tiếp và những lưu ý văn hóa_**
+
+**1. Khuyến khích sự hài hước của người khác**
+
+Khuyến khích sự hài hước của người khác: Nhận ra và đánh giá cao sự hài hước của người khác cũng quan trọng như việc bạn là người hài hước.  
+Có niềm vui trong việc hài hước: Sự hài hước là về việc tận hưởng khoảnh khắc và mang lại niềm vui cho người khác.
+
+**2. Tương tác hài hước trong môi trường quốc tế**
+
+- Không phải tất cả mọi người đều có cùng một định nghĩa về sự hài hước. Điều này đặc biệt quan trọng khi bạn giao tiếp trong môi trường quốc tế.
+- Cảm giác hài hước của người này có thể khác với người khác, đặc biệt là khi bạn giao tiếp với những người từ nền văn hóa khác.
+- Một số trò đùa có thể không được hiểu đúng hoặc có thể bị hiểu sai nếu không hiểu rõ bối cảnh văn hóa.
+
+**Kết luận**
+
+Sự hài hước là một kỹ năng giao tiếp tuyệt vời khi được sử dụng một cách hợp lý và tinh tế. Việc hiểu rõ văn hóa của người nghe và cảm nhận của họ có thể giúp bạn sử dụng hài hước một cách hiệu quả, tạo kết nối và duy trì mối quan hệ tích cực trong giao tiếp.
