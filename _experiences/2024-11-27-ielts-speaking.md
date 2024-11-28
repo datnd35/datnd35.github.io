@@ -4,9 +4,9 @@ title: "IELTS Speaking "
 categories: misc
 ---
 
-# **_I. Technical Skill_**
+# I. Technical Skills
 
-### **_1. Pronunciation and Accent_**
+### 1. Pronunciation and Accent
 
 **Phát âm (Pronunciation)** là cách bạn sử dụng cơ quan phát âm để tạo ra âm thanh của ngôn ngữ, điều này cần thiết trong bài thi IELTS Speaking. Phát âm rõ ràng và chính xác giúp bạn dễ hiểu hơn.
 
@@ -24,7 +24,7 @@ categories: misc
 
 - Có video và hướng dẫn từ BBC để luyện tập phát âm và giọng chuẩn.
 
-### **_2. Fluency_**
+### 2. Fluency
 
 **Phát âm đúng trước, sau đó tập trung vào lưu loát:**
 
@@ -46,7 +46,7 @@ categories: misc
 - Lặp lại lời thoại từ phim hoặc chương trình TV.
 - Giao tiếp với người bản ngữ để làm quen.
 
-### **_3. Effective Answers_**
+### 3. Effective Answers
 
 **Lắng nghe đầy đủ câu hỏi trước khi trả lời:**
 
@@ -82,7 +82,7 @@ categories: misc
 - Sử dụng ngôn ngữ linh hoạt và sáng tạo để tạo câu trả lời ý nghĩa.
 - Không cần câu trả lời hoàn hảo, chỉ cần xử lý thông minh và mạch lạc.
 
-### **_4. Be Interesting_**
+### 4. Be Interesting
 
 Để trở thành người thú vị và thu hút sự chú ý trong cuộc trò chuyện, bạn cần tránh những câu nói sáo rỗng và nhàm chán như "Sports is quite important" hay "There are many successful people in the world." Những câu như vậy làm cho cuộc trò chuyện trở nên gượng ép và thiếu hấp dẫn. Hãy tránh việc nói quá nhiều mà không có nội dung thực tế, và thay vào đó, sử dụng từ vựng đa dạng, cấu trúc câu phong phú để thể hiện sự thành thạo ngôn ngữ.
 
@@ -92,7 +92,7 @@ Khi trả lời câu hỏi, hãy chia sẻ những câu chuyện cá nhân và t
 
 Nếu gặp câu hỏi nhàm chán như "Tại sao trẻ em thích đồ chơi?", hãy phân tích câu hỏi từ nhu cầu học hỏi và sự phát triển của trẻ, đưa ra những lý do hợp lý về lý do tại sao đồ chơi hấp dẫn và có ích cho trẻ em. Cách trả lời mạch lạc, có lý do thuyết phục sẽ giúp bạn nổi bật trong kỳ thi.
 
-### **_5. Be Logical_**
+### 5. Be Logical
 
 **Phát triển tư duy logic và phản biện:** Việc huấn luyện khả năng lý luận và tư duy phản biện là quan trọng để lập luận của bạn trở nên thuyết phục. Ví dụ, khi giải thích lý do không tin tưởng vào quảng cáo, bạn không chỉ phân tích động cơ thương mại mà còn nên nêu ra ngoại lệ như quảng cáo dịch vụ công cộng, hoặc khen ngợi nỗ lực của chính phủ trong việc cải thiện luật lệ quảng cáo.
 
@@ -108,7 +108,7 @@ Nếu gặp câu hỏi nhàm chán như "Tại sao trẻ em thích đồ chơi?"
 
 **Tính nhất quán trong lập luận:** Trong bài thi, bạn cần duy trì tính nhất quán trong quan điểm và hành động. Nếu bạn nói rằng mình làm thể thao nhiều, đừng thay đổi và nói rằng bạn là người ít vận động trong phần sau.
 
-### **_6. Be Genuine_**
+### 6. Be Genuine
 
 **Tạo ấn tượng tự nhiên:** Trong bài thi, bạn cần tạo ấn tượng rằng cuộc trò chuyện là tự nhiên và thật sự. Dù có thể "faken" một số thông tin để làm cho câu trả lời thú vị hơn, bạn cần đảm bảo rằng lời nói của mình có vẻ tự phát và không giống như đang đọc thuộc lòng. Giọng điệu và cách nói cần tự nhiên, tránh làm cho câu trả lời trở nên cứng nhắc.
 
@@ -120,7 +120,7 @@ Nếu gặp câu hỏi nhàm chán như "Tại sao trẻ em thích đồ chơi?"
 
 Dưới đây là bản văn đã được format lại theo mẫu mà bạn yêu cầu:
 
-### **_7. Mastering Speech Structures_**
+### 7. Mastering Speech Structures
 
 **Tầm quan trọng của cấu trúc:**  
 Cấu trúc câu trả lời giúp tiết kiệm thời gian suy nghĩ và trả lời trực tiếp, điều này được đánh giá cao trong văn hóa phương Tây. Cấu trúc phổ biến cho hầu hết các câu hỏi là: câu mở đầu, thân bài và kết luận. Trong thân bài, có thể chia thành các bước nhỏ để làm rõ nội dung.
@@ -137,7 +137,7 @@ Khi được yêu cầu kể về một sự kiện (quá khứ hoặc tương l
 **Lời khuyên bổ sung:**  
 Để trả lời các câu hỏi một cách hiệu quả, bạn không cần phải có cấu trúc hoàn hảo cho mọi câu trả lời. Hãy chọn những câu hỏi mà bạn có quan điểm mạnh và có thể thể hiện kỹ năng ngôn ngữ tốt nhất. Thực hành khi làm các công việc nhẹ nhàng như đi bộ hay tắm có thể giúp tăng khả năng sáng tạo và cải thiện khả năng nói.
 
-### **_8. Coming Up with Things to Say_**
+### 8. Coming Up with Things to Say
 
 **Vấn đề thường gặp:**  
 Nhiều người gặp khó khăn trong việc mở rộng chủ đề và phát triển câu trả lời trong các bài kiểm tra nói và trong giao tiếp xã hội. Đây là vấn đề chung, và có thể cải thiện qua kinh nghiệm và luyện tập.
@@ -155,6 +155,107 @@ Nhiều người gặp khó khăn trong việc mở rộng chủ đề và phát
 **Kết luận:**  
 Kỹ năng giao tiếp có thể được phát triển qua từng cấp độ, và nếu có cơ hội, tác giả có thể mở rộng thêm phần này thành một khóa học riêng hoặc thậm chí là một cuốn sách.
 
-```
+# II. People Skills
 
-```
+### 1. What other IELTS courses won't tell you
+
+Trong các phần I, chúng ta đã đi qua những kiến thức cơ bản. Chúng ta đã tìm hiểu quá trình cải thiện từ band IELTS 6 lên 9 trong phần thi Speaking, cùng với những kỹ năng kỹ thuật quan trọng.
+
+#### Yêu cầu cơ bản
+
+- **Từ vựng, ngữ pháp, sự lưu loát và phát âm**: Bốn yếu tố chính trong hệ thống chấm điểm chính thức của IELTS.
+
+#### Giữ câu trả lời liên quan
+
+- Cách giữ câu trả lời phù hợp và sử dụng ví dụ để phát triển suy nghĩ.
+
+#### Kỹ năng nâng cao
+
+- Làm cho bài nói thú vị, logic và chân thật.
+
+#### Cấu trúc bài nói
+
+- Các cấu trúc bài nói có thể sử dụng để trả lời các câu hỏi khó khăn.
+
+#### Kỹ năng tìm ý tưởng
+
+- Tìm ra điều để nói bằng cách liên kết tư duy và các cấp độ kỹ năng giao tiếp.
+
+> Tuy nhiên, những kỹ năng này cần thời gian để nhận diện, luyện tập và hòa nhập vào phong cách giao tiếp của bạn.
+
+#### Phần tiếp theo: Kỹ năng giao tiếp
+
+- **Tập trung vào cách truyền đạt nội dung** và tối đa hóa tác động.
+- Không chỉ hữu ích trong bài thi IELTS mà còn trong các tình huống xã hội.
+
+**Kết luận:** Nếu bạn có thể làm người khác cảm thấy hứng thú và kết nối, bạn sẽ tạo được ấn tượng tích cực. Ngược lại, sự thiếu kết nối có thể khiến người khác đánh giá bạn thấp hơn.
+
+### 2. The correct mindset
+
+#### 2.1. Bình đẳng
+
+- Xem giám khảo như một đối tác. Bạn và giám khảo **bình đẳng**.
+
+#### 2.2. Sự đáng mến (Likability)
+
+- Tìm một điểm bạn thích ở giám khảo để giảm căng thẳng và tạo sự kết nối.
+
+#### 2.3. Tích cực
+
+- Tin rằng giám khảo muốn bạn làm tốt. Mục tiêu là khiến họ ngạc nhiên với phần thi của bạn.
+
+#### 2.4. Kiên nhẫn
+
+- Giữ thái độ tích cực ngay cả khi giám khảo khó tính.
+
+#### 2.5. "Return On Luck"
+
+- Tận dụng vận may để đạt được thành công lâu dài.
+
+**Kết luận:** Tư duy đúng đắn giúp bạn tự tin và cải thiện khả năng giao tiếp.
+
+---
+
+### 3. First impressions: Body language & facial expressions
+
+#### 3.1. Tạo ấn tượng ban đầu
+
+- **Ngôn ngữ cơ thể:** Mở rộng cánh tay, lộ lòng bàn tay.
+- **Biểu cảm khuôn mặt:** Mỉm cười lớn, duy trì ánh mắt thân thiện.
+
+#### 3.2. Sử dụng ngôn ngữ cơ thể khi nói
+
+- Dùng cử chỉ tay để làm bài nói sống động.
+
+#### 3.3. Lợi ích từ việc luyện tập vũ đạo
+
+- Nhảy múa giúp cải thiện sự linh hoạt và tâm trạng.
+
+#### 4.4. Nhận biết tín hiệu từ giám khảo
+
+- Quan sát hành vi của giám khảo để điều chỉnh cách giao tiếp.
+
+**Kết luận:** Ngôn ngữ cơ thể và biểu cảm khuôn mặt giúp tăng cường kết nối và làm bài nói thêm hấp dẫn.
+
+### 4. First impressions: Small talk
+
+#### 4.1. Mở đầu cuộc trò chuyện
+
+- **Chào hỏi thân thiện:** "Hi, how are you?"
+- **Small talk:** Thời tiết, giao thông, hoặc các sự kiện gần đây.
+
+#### 4.2. Gợi ý để xây dựng kết nối
+
+- Nhớ và sử dụng tên của giám khảo.
+- Khen ngợi tự nhiên: Quần áo, phụ kiện.
+
+#### 4.3. Duy trì và phát triển cuộc trò chuyện
+
+- Hỏi thêm chi tiết khi giám khảo chia sẻ.
+- Mở rộng câu trả lời của bạn.
+
+#### 4.4. Áp dụng trong bài thi IELTS
+
+- Phần 1 của bài thi giống như một cuộc trò chuyện xã hội.
+
+**Kết luận:** Small talk giúp tạo thiện cảm, cải thiện khả năng giao tiếp và tạo ấn tượng tích cực với giám khảo.
