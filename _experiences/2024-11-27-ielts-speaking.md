@@ -216,8 +216,6 @@ Trong các phần I, chúng ta đã đi qua những kiến thức cơ bản. Ch�
 
 **Kết luận:** Tư duy đúng đắn giúp bạn tự tin và cải thiện khả năng giao tiếp.
 
----
-
 ### 3. First impressions: Body language & facial expressions
 
 **Tạo ấn tượng ban đầu**
@@ -416,9 +414,7 @@ Ví dụ:
 
 Sử dụng sự hài hước một cách khéo léo trong giao tiếp có thể làm cho cuộc trò chuyện thêm sinh động, thoải mái và gần gũi. Tuy nhiên, cần phải sử dụng hợp lý, tránh lạm dụng và luôn chú ý đến cảm giác của người nghe.
 
-—---------------------------------------
-
-## 8. Humour (Part 2)
+### 8. Humour (Part 2)
 
 **_ Sử dụng sự hài hước trong giao tiếp và những lưu ý văn hóa_**
 
