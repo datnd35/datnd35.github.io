@@ -4,8 +4,6 @@ title: "Git Review"
 categories: misc
 ---
 
-[Link](https://github.com/datnd35-angular/git-review/tree/main)
-
 ## Staging area & Working directory
 
 **_Staging area (Index):_**
