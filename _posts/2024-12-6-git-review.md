@@ -65,9 +65,9 @@ categories: misc
 - `git stash drop stash@{0}` Xóa một stash cụ thể.
 - `git stash clear` Xóa tất cả stash.
 
-  ## Git Reflog (reference log)
+## Git Reflog (reference log)
 
-  Nó ghi lại mọi thay đổi đối với các tham chiếu trong repository **_giúp khôi phục dữ liệu khi xóa commit, nhánh, hoặc thực hiện các thay đổi lịch sử không mong muốn_**, bao gồm:
+Nó ghi lại mọi thay đổi đối với các tham chiếu trong repository **_giúp khôi phục dữ liệu khi xóa commit, nhánh, hoặc thực hiện các thay đổi lịch sử không mong muốn_**, bao gồm:
 
 - Reset (git reset)
 - Merge (git merge)
