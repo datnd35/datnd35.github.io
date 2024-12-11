@@ -12,6 +12,8 @@ categories: misc
 
 - Điều đầu tiên tôi muốn nói là kinh nghiệm không đồng nghĩa với sự xuất sắc trong trường hợp này. Bạn nên nắm vững các nguyên tắc cơ bản về cấu trúc dữ liệu.
 
+**_Roman Elizarov - Project leader_**
+
 **_2. Các nguyên tắc cơ bản_**
 
 - Hiểu được cách mọi thứ vận hành từ bên trong giúp bạn trở thành một kỹ sư giỏi hơn, bởi bạn học được từ những quyết định kỹ thuật của người khác và rèn luyện tư duy phân tích của mình.
