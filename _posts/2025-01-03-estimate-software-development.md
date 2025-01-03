@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Estimate Software Development Time"
+title: "Estimate software development time"
 categories: misc
 ---
 

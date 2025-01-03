@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bài tập JavaScript"
+title: "Javascript quiz"
 categories: misc
 ---
 
@@ -10,7 +10,7 @@ categories: misc
 
 - [ ] `<>`
 - [ ] `~`
-- [ ] `==!` 
+- [ ] `==!`
 - [ ] `!==`
 
 [Reference Javascript Comparison Operators](https://www.w3schools.com/js/js_operators.asp)
@@ -60,11 +60,11 @@ function addTax(total) {
 #### Q6. When would the final statement in the code shown be logged to the console? When would 'results shown' be logged to the console?
 
 ```js
-let modal = document.querySelector('#result');
+let modal = document.querySelector("#result");
 setTimeout(function () {
-  modal.classList.remove('hidden');
+  modal.classList.remove("hidden");
 }, 10000);
-console.log('Results shown');
+console.log("Results shown");
 ```
 
 - [ ] after 10 second
@@ -80,7 +80,7 @@ console.log('Results shown');
 class Animal {
   static belly = [];
   eat() {
-    Animal.belly.push('food');
+    Animal.belly.push("food");
   }
 }
 let a = new Animal();
@@ -203,10 +203,10 @@ discountPrice = function (price) {
 
 ```js
 var Storm = function () {};
-Storm.prototype.precip = 'rain';
+Storm.prototype.precip = "rain";
 var WinterStorm = function () {};
 WinterStorm.prototype = new Storm();
-WinterStorm.prototype.precip = 'snow';
+WinterStorm.prototype.precip = "snow";
 var bob = new WinterStorm();
 console.log(bob.precip);
 ```
@@ -235,9 +235,9 @@ console.log(bob.precip);
 #### Q13. What is the result in the console of running this code?
 
 ```js
-'use strict';
+"use strict";
 function logThis() {
-  this.desc = 'logger';
+  this.desc = "logger";
   console.log(this);
 }
 new logThis();
@@ -253,7 +253,7 @@ new logThis();
 #### Q14. How would you reference the text 'avenue' in the code shown?
 
 ```js
-let roadTypes = ['street', 'road', 'avenue', 'circle'];
+let roadTypes = ["street", "road", "avenue", "circle"];
 ```
 
 - [ ] roadTypes.2
@@ -346,8 +346,8 @@ for (var i = 0; i < 5; i++) {
 #### Q22. What will be logged to the console?
 
 ```js
-var a = ['dog', 'cat', 'hen'];
-a[100] = 'fox';
+var a = ["dog", "cat", "hen"];
+a[100] = "fox";
 console.log(a.length);
 ```
 
@@ -369,8 +369,8 @@ console.log(a.length);
 #### Q24. What is the value of dessert.type after executing this code?
 
 ```js
-const dessert = { type: 'pie' };
-dessert.type = 'pudding';
+const dessert = { type: "pie" };
+dessert.type = "pudding";
 ```
 
 - [ ] pie
@@ -622,7 +622,7 @@ if (start === 1) {
 
 ```js
 const x = 6 % 2;
-const y = x ? 'One' : 'Two';
+const y = x ? "One" : "Two";
 ```
 
 - [ ] One
@@ -717,7 +717,7 @@ console.log(end);
 
 ```js
 function sayHello() {
-  console.log('hello');
+  console.log("hello");
 }
 
 console.log(sayHello.prototype);
@@ -893,11 +893,11 @@ console.log(++a);
 
 ```js
 button.addEventListener(
-  'click',
+  "click",
   function (e) {
-    button.className = 'clicked';
+    button.className = "clicked";
   },
-  false,
+  false
 );
 ```
 
@@ -1015,9 +1015,9 @@ class TaxCalculator {
 ```js
 const foo = {
   bar() {
-    console.log('Hello, world!');
+    console.log("Hello, world!");
   },
-  name: 'Albert',
+  name: "Albert",
   age: 26,
 };
 ```
@@ -1033,11 +1033,11 @@ const foo = {
 #### Q82. What will be logged to the console?
 
 ```js
-console.log('I');
+console.log("I");
 setTimeout(() => {
-  console.log('love');
+  console.log("love");
 }, 0);
-console.log('Javascript!');
+console.log("Javascript!");
 ```
 
 - [ ] .
@@ -1088,7 +1088,7 @@ console.log(n);
 
 ```js
 const foo = {
-  name: 'Albert',
+  name: "Albert",
 };
 ```
 
@@ -1150,7 +1150,7 @@ console.log(addFive(3));
 #### Q89. What is the output of this code?
 
 ```js
-let rainForests = ['Amazon', 'Borneo', 'Cerrado', 'Congo'];
+let rainForests = ["Amazon", "Borneo", "Cerrado", "Congo"];
 rainForests.splice(0, 2);
 console.log(rainForests);
 ```
@@ -1203,7 +1203,7 @@ console.log(obj2.a, obj2.b);
 #### Q92. Which line could you add to this code to print "jaguar" to the console?
 
 ```js
-let animals = ['jaguar', 'eagle'];
+let animals = ["jaguar", "eagle"];
 //Missing Line
 console.log(animals.pop()); //Prints jaguar
 ```
@@ -1249,7 +1249,7 @@ for (var i = 0; i < vowels.length; i++) {
 
 ```js
 const x = 6 % 2;
-const y = x ? 'One' : 'Two';
+const y = x ? "One" : "Two";
 console.log(y);
 ```
 
@@ -1273,8 +1273,8 @@ console.log(y);
 #### Q96. What does this code do?
 
 ```js
-const animals = ['Rabbit', 'Dog', 'Cat'];
-animals.unshift('Lizard');
+const animals = ["Rabbit", "Dog", "Cat"];
+animals.unshift("Lizard");
 ```
 
 - [ ] It adds "Lizard" to the start of the animals array.
@@ -1287,7 +1287,7 @@ animals.unshift('Lizard');
 #### Q97. What is the output of this code?
 
 ```js
-let x = 6 + 3 + '3';
+let x = 6 + 3 + "3";
 console.log(x);
 ```
 
@@ -1310,8 +1310,8 @@ console.log(x);
 #### Q99. Which statement prints "roar" to the console?
 
 ```js
-var sound = 'grunt';
-var bear = { sound: 'roar' };
+var sound = "grunt";
+var bear = { sound: "roar" };
 function roar() {
   console.log(this.sound);
 }
@@ -1396,7 +1396,7 @@ console.log([...arr1, ...arr2]);
 #### Q106. What will be logged to the console?
 
 ```js
-console.log(typeof 'blueberry');
+console.log(typeof "blueberry");
 ```
 
 - [ ] `string`
@@ -1419,7 +1419,7 @@ console.log(typeof 'blueberry');
 
 ```js
 //JavaScript
-document.querySelectorAll('div').forEach((e) => {
+document.querySelectorAll("div").forEach((e) => {
   e.onclick = (e) => console.log(e.currentTarget.id);
 });
 ```
@@ -1473,8 +1473,8 @@ console.log(animals);
 #### Q110. Which snippet could you add to this code to print "YOU GOT THIS" to the console?
 
 ```js
-let cipherText = [...'YZOGUT QGMORTZ MTRHTILS'];
-let plainText = '';
+let cipherText = [..."YZOGUT QGMORTZ MTRHTILS"];
+let plainText = "";
 
 /* Missing Snippet */
 
@@ -1485,7 +1485,7 @@ console.log(plainText); //Prints YOU GOT THIS
 
 ```js
 for (let key of cipherText.keys()) {
-  plainText += key % 2 === 0 ? key : ' ';
+  plainText += key % 2 === 0 ? key : " ";
 }
 ```
 
@@ -1493,7 +1493,7 @@ for (let key of cipherText.keys()) {
 
 ```js
 for (let [index, value] of cipherText.entries()) {
-  plainText += index % 2 !== 0 ? value : '';
+  plainText += index % 2 !== 0 ? value : "";
 }
 ```
 
@@ -1501,7 +1501,7 @@ for (let [index, value] of cipherText.entries()) {
 
 ```js
 for (let [index, value] of cipherText.entries()) {
-  plainText += index % 2 === 0 ? value : '';
+  plainText += index % 2 === 0 ? value : "";
 }
 ```
 
@@ -1520,7 +1520,7 @@ for (let value of cipherText) {
 #### Q111. Which Pokemon will be logged to the console?
 
 ```js
-var pokedex = ['Snorlax', 'Jigglypuff', 'Charmander', 'Squirtle'];
+var pokedex = ["Snorlax", "Jigglypuff", "Charmander", "Squirtle"];
 pokedex.pop();
 console.log(pokedex.pop());
 ```
@@ -1539,7 +1539,9 @@ console.log(pokedex.pop());
 ```html
 <h1 class="content">LinkedIn Learning</h1>
 <div class="content">
-  <span class="content">The LinkedIn Learning library has great JavaScript courses!</span>
+  <span class="content"
+    >The LinkedIn Learning library has great JavaScript courses!</span
+  >
 </div>
 ```
 
@@ -1580,7 +1582,7 @@ tiger++;
 #### Q115. What will be the value of `result` after running this code?
 
 ```js
-const person = { name: 'Dave', age: 40, hairColor: 'blue' };
+const person = { name: "Dave", age: 40, hairColor: "blue" };
 const result = Object.keys(person).map((x) => x.toUpperCase());
 ```
 
@@ -1729,13 +1731,13 @@ console.log(score);
 
 ```js
 let bear = {
-  sound: 'roar',
+  sound: "roar",
   roar() {
     console.log(this.sound);
   },
 };
 
-bear.sound = 'grunt';
+bear.sound = "grunt";
 let bearSound = bear.roar;
 bearSound();
 ```
@@ -1750,11 +1752,11 @@ bearSound();
 #### Q125. What is the output of this code?
 
 ```js
-var cat = { name: 'Athena' };
+var cat = { name: "Athena" };
 
 function swap(feline) {
-  feline.name = 'Wild';
-  feline = { name: 'Tabby' };
+  feline.name = "Wild";
+  feline = { name: "Tabby" };
 }
 
 swap(cat);
@@ -1770,7 +1772,7 @@ console.log(cat.name);
 
 ```js
 var thing;
-let func = (str = 'no arg') => {
+let func = (str = "no arg") => {
   console.log(str);
 };
 func(thing);
@@ -1787,7 +1789,7 @@ func(null);
 ```js
 const myFunc = () => {
   const a = 2;
-  return () => console.log('a is ' + a);
+  return () => console.log("a is " + a);
 };
 const a = 1;
 const test = myFunc();
@@ -1867,11 +1869,11 @@ if (/* Snipped goes here */){
 #### Q133. What value is printed to the console after this code execute?
 
 ```js
-let cat = Object.create({ type: 'lion' });
-cat.size = 'large';
+let cat = Object.create({ type: "lion" });
+cat.size = "large";
 
 let copyCat = { ...cat };
-cat.type = 'tiger';
+cat.type = "tiger";
 
 console.log(copyCat.type, copyCat.size);
 ```
@@ -1886,11 +1888,11 @@ console.log(copyCat.type, copyCat.size);
 #### Q134. What does this code print to the console?
 
 ```js
-let animals = [{ type: 'lion' }, 'tiger'];
+let animals = [{ type: "lion" }, "tiger"];
 let clones = animals.slice();
 
-clones[0].type = 'bear';
-clones[1] = 'sheep';
+clones[0].type = "bear";
+clones[1] = "sheep";
 
 console.log(animals[0].type, clones[0].type);
 console.log(animals[1], clones[1]);
@@ -2112,7 +2114,7 @@ var compare = function (test1, test2) {
   // Missing line
 };
 
-compare(1078, '1078'); // yields true
+compare(1078, "1078"); // yields true
 ```
 
 - [ ] `test1==test2;`
@@ -2126,11 +2128,11 @@ compare(1078, '1078'); // yields true
 
 ```js
 if (true) {
-  var first = 'You';
+  var first = "You";
 }
 
 function fScope() {
-  var second = 'got this!';
+  var second = "got this!";
 }
 fScope();
 console.log(first);
@@ -2151,7 +2153,7 @@ console.log(second);
 #### Q156. What is the output for the code given below?
 
 ```js
-console.log('hello' + 'world' + '!');
+console.log("hello" + "world" + "!");
 ```
 
 - [ ] helloworld!
@@ -2244,11 +2246,11 @@ console.log(10 + 10);
 #### Q167. What will be logged to the console?
 
 ```js
-const foo = () => console.log('First');
-const bar = () => setTimeout(() => console.log('Second'), 0);
+const foo = () => console.log("First");
+const bar = () => setTimeout(() => console.log("Second"), 0);
 foo();
 bar();
-console.log('Third');
+console.log("Third");
 ```
 
 - [ ] Second, First, Third
@@ -2260,10 +2262,10 @@ console.log('Third');
 
 ```js
 function scream(words) {
-  return words.toUpperCase() + '!!!';
+  return words.toUpperCase() + "!!!";
 }
 
-scream('yay');
+scream("yay");
 ```
 
 - [ ] YAY!!!

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Great Software Developer "
+title: "Great software developer "
 categories: misc
 ---
 
