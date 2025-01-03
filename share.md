@@ -1,8 +1,9 @@
 ---
 layout: base
-title: Chia sẻ 
+title: Chia sẻ
 permalink: /share/
 ---
+
 <div class="home">
   {% if site.paginate %}
     {% assign experiences = paginator.experiences %}
@@ -24,9 +25,10 @@ permalink: /share/
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
+        <!-- Disable hiện thị description -->
+        <!-- {%- if site.show_excerpts -%}
           {{ post.excerpt }}
-        {%- endif -%}
+        {%- endif -%} -->
       </li>
       {%- endfor -%}
     </ul>
@@ -49,7 +51,6 @@ permalink: /share/
       </div>
     {%- endif %}
 
-  {%- endif -%}
+{%- endif -%}
 
 </div>
-
