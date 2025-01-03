@@ -22,7 +22,7 @@ categories: misc
 
 - **Phương pháp Agile**: Áp dụng phương pháp Agile, tập trung vào nỗ lực thay vì chỉ ước tính thời gian. Thường sử dụng các câu chuyện người dùng (user stories) để chia nhỏ công việc.
 
-- **Cung cấp dự phòng khi cần đảm bảo:**: Nếu PM yêu cầu hạn chót chắc chắn, hãy thêm 50% thời gian dự phòng.
+- **Cung cấp dự phòng khi cần đảm bảo**: Nếu PM yêu cầu hạn chót chắc chắn, hãy thêm 50% thời gian dự phòng.
 
 ## 2. Các bước ước tính thời gian phát triển phần mềm:
 

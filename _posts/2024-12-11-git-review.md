@@ -177,3 +177,9 @@ Mô tả hành động (reset, checkout, commit): Cho biết loại thay đổi 
 ## Rebase commit
 
 - Hiện tại bạn đang đứng ở nhánh A và muốn đồng bộ code vào nhánh `develop` tránh trường hợp gây lộn xộn khi push code lên vì thứ tự code được sắp xếp theo lịch sử. Bạn có thể dùng **_Rebase commit_** push tất cả commit trên nhánh A vào đầu của nhánh `develop`. Giúp code gọn gàng hơn.
+
+## Tìm hiểu thêm
+
+<img width="763" alt="image" src="https://github.com/user-attachments/assets/4f24d9d6-b6fb-43bf-8d5f-ad3c5e82a4d4" />
+
+[Link](https://www.gitkraken.com/learn/git)
