@@ -6,7 +6,7 @@ categories: misc
 
 Mỗi khi nhắc đến lập trình mobile đa nền tảng (iOS & Android), hầu hết mọi người sẽ nghĩ đến React Native hoặc Flutter. Có một lựa chọn khác đang bị underrated nhưng thực chất vô cùng tiềm năng, đó chính là Ionic Framework.
 
-Tất nhiên không thể tự dưng mà đem Ionic so sánh với React Native hay Flutter được, vì chúng thuộc 2 loại framework khác nhau: một bên là `Hybrid sử dụng WebView để load và chạy HTML`, một bên là `Cross-platform build toàn bộ app thành các native control tương ứng với platform`. Tùy vào mỗi loại nghiệp vụ mà chúng sẽ phát huy thế mạnh khác nhau.
+Tất nhiên không thể tự dưng mà đem Ionic so sánh với React Native hay Flutter được, vì chúng thuộc 2 loại framework khác nhau: một bên là `Hybrid sử dụng [WebView](https://datnd35.github.io/misc/2025/01/03/web-view.html) để load và chạy HTML`, một bên là `Cross-platform build toàn bộ app thành các native control tương ứng với platform`. Tùy vào mỗi loại nghiệp vụ mà chúng sẽ phát huy thế mạnh khác nhau.
 
 Tuy nhiên, nếu ứng dụng không đặt nặng về việc tương tác phần cứng thiết bị (các tính năng native như `GPS, Bluetooth, NFC`...), hoặc không yêu cầu quá cao về mặt hiệu suất, thì `Ionic` là lựa chọn rất đáng xem xét, vì có lợi về mặt chi phí, hiệu quả cũng như thời gian phát triển sản phẩm.
 
@@ -43,7 +43,7 @@ Trong khi đó, React Native và Flutter biên dịch thành các native control
 
 Đây thường là yếu tố có tính quyết định chủ chốt. Phần lớn mọi người sẽ loại bỏ Ionic ra khỏi các lựa chọn khi xây dựng mobile app, bởi cơ chế hoạt động của Hybrid app được cho là "chậm hơn rất nhiều so với React Native & Flutter".
 
-> "Sử dụng WebView để chạy HTML CSS thì làm sao nhanh bằng việc build ra native app như React Native hay Flutter được?"
+> "Sử dụng [WebView](https://datnd35.github.io/misc/2025/01/03/web-view.html) để chạy HTML CSS thì làm sao nhanh bằng việc build ra native app như React Native hay Flutter được?"
 
 Tuy nhiên, Hybrid app có thật sự "chuối" như giang hồ vẫn hay đồn đại?
 
