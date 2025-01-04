@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hybrid & Cross-platform"
+title: "Mobile Hybrid & Cross-platform"
 categories: misc
 ---
 
@@ -35,7 +35,7 @@ Hiện tại trên thị trường có rất nhiều khóa đào tạo React Nat
 
 Bản chất của Hybrid là HTML, nên Ionic cho phép khả năng customize các component ở mức linh hoạt tối đa, như cách chúng ta style và animate HTML thông thường.
 
-![Components được custom từ Ionic](full.gif)
+![image](https://github.com/user-attachments/assets/a7ea0533-8ab9-4952-abb4-c259d9f3629c)
 
 Trong khi đó, React Native và Flutter biên dịch thành các native control. Native control mang lại ưu thế về mặt hiệu suất, nhưng bù lại việc customize và style không hề đơn giản. Trong hầu hết các trường hợp, việc google một thư viện có sẵn (thay vì đi code lại từ đầu) sẽ hiệu quả hơn về thời gian lẫn độ tối ưu của code. Bên cạnh đó, mỗi framework sẽ có một hệ thống animation riêng, sẽ tốn nhiều công sức để thành thạo chúng.
 
