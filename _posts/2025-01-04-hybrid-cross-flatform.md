@@ -73,3 +73,5 @@ Như vậy, số lượng tính năng phần cứng của Ionic sẽ bị phụ 
 ## 5. Development
 
 Một điểm trừ là Ionic không hỗ trợ hot-reload trên virtual & physical device. Nếu ứng dụng đặt nặng vấn đề tương tác phần cứng (GPS, Bluetooth...) thì việc phát triển sẽ tương đối tốn thời gian. Còn nếu không, tốc độ phát triển ứng dụng chỉ là chuyện nhỏ, bởi Ionic có khả năng live-reload ngay trên browser mà không cần mở virtual/physical device để hiển thị.
+
+[Coppy](https://viblo.asia/p/ionic-ung-vien-bi-underrated-trong-lang-mobile-framework-LzD5d964KjY)
