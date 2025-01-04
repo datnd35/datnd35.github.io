@@ -1,12 +1,10 @@
 ---
-layout: OAuth
+layout: OAuth (Open Authorization)
 title: "Authentication"
 categories: misc
 ---
 
-# OAuth (Open Authorization)
-
-- OAuth là một giao thức ủy quyền (authorization protocol) giúp ứng dụng có thể truy cập tài nguyên của người dùng trên một hệ thống khác mà không cần phải lưu trữ hoặc quản lý mật khẩu của người dùng.
+OAuth là một giao thức ủy quyền (authorization protocol) giúp ứng dụng có thể truy cập tài nguyên của người dùng trên một hệ thống khác mà không cần phải lưu trữ hoặc quản lý mật khẩu của người dùng.
 
 ## Mục đích
 
