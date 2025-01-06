@@ -74,11 +74,11 @@ https://yourwebsite.com/callback?code=AUTHORIZATION_CODE
 - **Chú ý:**
   - `Authorization Code` không chưa thông tin người dùng nhưng `Authorization Code` được cấp cho một phiên người dùng duy nhất trong quy trình `OAuth`. nên nó sẽ trả về `Access Token` chứa đúng thông tin người dùng đã login.
 
-\***_6. Website sử dụng Access Token để lấy thông tin người dùng_**
+**_6. Website sử dụng Access Token để lấy thông tin người dùng_**
 
 - Website sử dụng Access Token này để gửi yêu cầu tới Facebook API (Resource Server) để truy xuất thông tin người dùng (ví dụ: tên, email, ảnh đại diện).
 
-\***_7. Đăng nhập thành công_**
+**_7. Đăng nhập thành công_**
 
 - Website nhận thông tin người dùng từ Facebook và:
 - Tạo hoặc kiểm tra tài khoản người dùng trong cơ sở dữ liệu của bạn.
