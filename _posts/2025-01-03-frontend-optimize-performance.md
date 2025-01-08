@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Frontend optimize performance"
+title: "Performance"
 categories: misc
 ---
 
