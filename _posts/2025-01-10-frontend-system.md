@@ -4,6 +4,8 @@ title: "Frontend system design 2"
 categories: misc
 ---
 
+[Link](https://namastedev.com/roadmaps/frontend-system-design)
+
 ## **Networking**
 
 <img width="525" alt="image" src="https://github.com/user-attachments/assets/a0d8918c-43bc-4dd9-8b35-621b62f25b72" />
