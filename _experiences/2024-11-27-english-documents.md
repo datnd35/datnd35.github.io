@@ -23,6 +23,8 @@ categories: misc
 
 - [Dhar Mann Studios](https://www.youtube.com/@DharMann)
 - [studyphim](https://www.studyphim.vn/)
+- [vietnamese accent](https://www.youtube.com/watch?v=f9wvd8eYs9A)
+- [Leyna Nguyen](https://www.youtube.com/@LeynaNguyen)
 
 # **V. IELTS**
 
