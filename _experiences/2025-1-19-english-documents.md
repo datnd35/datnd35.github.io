@@ -24,6 +24,7 @@ categories: misc
 - [Dhar Mann Studios](https://www.youtube.com/@DharMann)
 - [studyphim](https://www.studyphim.vn/)
 - [vietnamese accent](https://www.youtube.com/@uyenninh)
+- [American accent](https://www.youtube.com/watch?v=hUVc4uN8kyc)
 - [Leyna Nguyen](https://www.youtube.com/@LeynaNguyen)
 
 # **V. IELTS**
