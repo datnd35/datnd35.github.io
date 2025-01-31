@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "flutter lifecycle"
+title: "Flutter lifecycle"
 categories: misc
 ---
 
