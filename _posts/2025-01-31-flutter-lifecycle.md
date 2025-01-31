@@ -4,6 +4,8 @@ title: "Flutter lifecycle"
 categories: misc
 ---
 
+[link bài viết](https://github.com/datnd35-angular/flutter-lifecycle)
+
 # Vòng đời trong Flutter
 
 Vòng đời trong flutter mình có thể phân biệt qua 3 loại vòng đời.
