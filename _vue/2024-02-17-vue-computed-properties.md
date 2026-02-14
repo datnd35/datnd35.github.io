@@ -13,6 +13,7 @@ excerpt: "Tìm hiểu về computed properties trong Vue.js, caching, writable c
 ### 1. Computed Properties Flow
 
 {% raw %}
+
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                   Reactive Dependencies                      │
@@ -44,6 +45,7 @@ excerpt: "Tìm hiểu về computed properties trong Vue.js, caching, writable c
             Template Usage
             {{ fullName }}
 ```
+
 {% endraw %}
 
 ### 2. Computed vs Methods
@@ -250,15 +252,18 @@ With COMPUTED:
 ### Vấn đề với Template Expression
 
 {% raw %}
+
 ```vue
 <template>
   <!-- Logic phức tạp trong template -->
-  <span>{{ author.books.length > 0 ? 'Yes' : 'No' }}</span>
+  <span>{{ author.books.length > 0 ? "Yes" : "No" }}</span>
 </template>
 ```
+
 {% endraw %}
 
 **Nhược điểm:**
+
 - Template phức tạp, khó đọc
 - Khó maintain
 - Lặp lại logic nếu dùng nhiều nơi
@@ -267,19 +272,22 @@ With COMPUTED:
 
 ```javascript
 const publishedBooksMessage = computed(() => {
-  return author.books.length > 0 ? 'Yes' : 'No'
-})
+  return author.books.length > 0 ? "Yes" : "No";
+});
 ```
 
 {% raw %}
+
 ```vue
 <template>
   <span>{{ publishedBooksMessage }}</span>
 </template>
 ```
+
 {% endraw %}
 
 **Ưu điểm:**
+
 - Template gọn, dễ đọc
 - Logic tách riêng
 - Tái sử dụng dễ dàng
@@ -289,44 +297,46 @@ const publishedBooksMessage = computed(() => {
 
 ### So sánh
 
-| Tiêu chí | Computed | Methods |
-|----------|----------|---------|
-| **Caching** | Có ✓ | Không ✗ |
-| **Re-run** | Chỉ khi dependency thay đổi | Mỗi lần re-render |
-| **Performance** | Tốt (cached) | Chậm hơn |
-| **Use case** | Derived state | Actions, side effects |
+| Tiêu chí        | Computed                    | Methods               |
+| --------------- | --------------------------- | --------------------- |
+| **Caching**     | Có ✓                        | Không ✗               |
+| **Re-run**      | Chỉ khi dependency thay đổi | Mỗi lần re-render     |
+| **Performance** | Tốt (cached)                | Chậm hơn              |
+| **Use case**    | Derived state               | Actions, side effects |
 
 ### Ví dụ
 
 **Computed (Cached):**
+
 ```javascript
 const publishedBooksMessage = computed(() => {
-  return author.books.length > 0 ? 'Yes' : 'No'
-})
+  return author.books.length > 0 ? "Yes" : "No";
+});
 
 // Gọi nhiều lần trong cùng render cycle
-publishedBooksMessage.value // Run getter
-publishedBooksMessage.value // Return cached ✓
-publishedBooksMessage.value // Return cached ✓
+publishedBooksMessage.value; // Run getter
+publishedBooksMessage.value; // Return cached ✓
+publishedBooksMessage.value; // Return cached ✓
 ```
 
 **Method (No Cache):**
+
 ```javascript
 function calculateBooksMessage() {
-  return author.books.length > 0 ? 'Yes' : 'No'
+  return author.books.length > 0 ? "Yes" : "No";
 }
 
 // Mỗi lần gọi đều chạy lại
-calculateBooksMessage() // Run function
-calculateBooksMessage() // Run function again ✗
-calculateBooksMessage() // Run function again ✗
+calculateBooksMessage(); // Run function
+calculateBooksMessage(); // Run function again ✗
+calculateBooksMessage(); // Run function again ✗
 ```
 
 ### Khi nào computed KHÔNG update?
 
 ```javascript
 // KHÔNG update vì Date.now() không phải reactive dependency
-const now = computed(() => Date.now())
+const now = computed(() => Date.now());
 
 // Luôn trả về giá trị cũ
 ```
@@ -337,11 +347,11 @@ const now = computed(() => Date.now())
 
 ```javascript
 const fullName = computed(() => {
-  return firstName.value + ' ' + lastName.value
-})
+  return firstName.value + " " + lastName.value;
+});
 
 // Không thể gán
-fullName.value = 'Jane Doe' // ⚠️ Runtime warning!
+fullName.value = "Jane Doe"; // ⚠️ Runtime warning!
 ```
 
 ### Tạo Writable Computed
@@ -350,19 +360,19 @@ fullName.value = 'Jane Doe' // ⚠️ Runtime warning!
 const fullName = computed({
   // Getter
   get() {
-    return firstName.value + ' ' + lastName.value
+    return firstName.value + " " + lastName.value;
   },
   // Setter
   set(newValue) {
-    [firstName.value, lastName.value] = newValue.split(' ')
-  }
-})
+    [firstName.value, lastName.value] = newValue.split(" ");
+  },
+});
 
 // Có thể đọc
-console.log(fullName.value) // 'John Doe'
+console.log(fullName.value); // 'John Doe'
 
 // Có thể ghi
-fullName.value = 'Jane Smith'
+fullName.value = "Jane Smith";
 // firstName.value = 'Jane'
 // lastName.value = 'Smith'
 ```
@@ -380,11 +390,11 @@ fullName.value = 'Jane Smith'
 ```javascript
 const alwaysSmall = computed((previous) => {
   if (count.value <= 3) {
-    return count.value
+    return count.value;
   }
   // Giữ giá trị cũ nếu count > 3
-  return previous
-})
+  return previous;
+});
 
 // count = 2 → alwaysSmall = 2
 // count = 3 → alwaysSmall = 3
@@ -398,14 +408,14 @@ const alwaysSmall = computed((previous) => {
 const alwaysSmall = computed({
   get(previous) {
     if (count.value <= 3) {
-      return count.value
+      return count.value;
     }
-    return previous
+    return previous;
   },
   set(newValue) {
-    count.value = newValue * 2
-  }
-})
+    count.value = newValue * 2;
+  },
+});
 ```
 
 ## Best Practices
@@ -413,55 +423,61 @@ const alwaysSmall = computed({
 ### 1. Getters Should Be Side-Effect Free
 
 **❌ Không nên:**
+
 ```javascript
 const badComputed = computed(() => {
   // Mutate state
-  otherState.value++
-  
+  otherState.value++;
+
   // Make API call
-  fetch('/api/data')
-  
+  fetch("/api/data");
+
   // Mutate DOM
-  document.title = 'New Title'
-  
-  return someValue
-})
+  document.title = "New Title";
+
+  return someValue;
+});
 ```
 
 **✓ Nên:**
+
 ```javascript
 const goodComputed = computed(() => {
   // Pure computation only
-  return data.value * 2
-})
+  return data.value * 2;
+});
 ```
 
 ### 2. Avoid Mutating Computed Value
 
 **❌ Không nên:**
+
 ```javascript
 const filteredItems = computed(() => {
-  return items.value.filter(item => item.active)
-})
+  return items.value.filter((item) => item.active);
+});
 
 // KHÔNG mutate computed value
-filteredItems.value.push(newItem) // ✗
+filteredItems.value.push(newItem); // ✗
 ```
 
 **✓ Nên:**
+
 ```javascript
 // Update source state
-items.value.push(newItem) // ✓
+items.value.push(newItem); // ✓
 ```
 
 ### 3. Computed vs Watchers
 
 **Dùng Computed khi:**
+
 - Derive value từ reactive state
 - Synchronous transformation
 - Cần cache result
 
 **Dùng Watchers khi:**
+
 - Side effects (API calls, logging)
 - Asynchronous operations
 - Mutate state dựa trên change
@@ -469,28 +485,30 @@ items.value.push(newItem) // ✓
 ### 4. Keep Computed Simple
 
 **❌ Quá phức tạp:**
+
 ```javascript
 const complexComputed = computed(() => {
-  let result = 0
+  let result = 0;
   for (let i = 0; i < 1000; i++) {
     for (let j = 0; j < 1000; j++) {
-      result += someCalculation(i, j)
+      result += someCalculation(i, j);
     }
   }
-  return result
-})
+  return result;
+});
 ```
 
 **✓ Tách logic:**
+
 ```javascript
 function expensiveCalculation(data) {
   // Complex logic here
-  return result
+  return result;
 }
 
 const simpleComputed = computed(() => {
-  return expensiveCalculation(data.value)
-})
+  return expensiveCalculation(data.value);
+});
 ```
 
 ## Common Use Cases
@@ -499,24 +517,24 @@ const simpleComputed = computed(() => {
 
 ```javascript
 const activeUsers = computed(() => {
-  return users.value.filter(user => user.active)
-})
+  return users.value.filter((user) => user.active);
+});
 ```
 
 ### 2. Sorting
 
 ```javascript
 const sortedItems = computed(() => {
-  return [...items.value].sort((a, b) => a.price - b.price)
-})
+  return [...items.value].sort((a, b) => a.price - b.price);
+});
 ```
 
 ### 3. Formatting
 
 ```javascript
 const formattedDate = computed(() => {
-  return new Date(date.value).toLocaleDateString()
-})
+  return new Date(date.value).toLocaleDateString();
+});
 ```
 
 ### 4. Aggregation
@@ -524,19 +542,17 @@ const formattedDate = computed(() => {
 ```javascript
 const total = computed(() => {
   return cart.value.reduce((sum, item) => {
-    return sum + item.price * item.quantity
-  }, 0)
-})
+    return sum + item.price * item.quantity;
+  }, 0);
+});
 ```
 
 ### 5. Conditional Logic
 
 ```javascript
 const canSubmit = computed(() => {
-  return form.value.email && 
-         form.value.password && 
-         !loading.value
-})
+  return form.value.email && form.value.password && !loading.value;
+});
 ```
 
 ## Kết luận

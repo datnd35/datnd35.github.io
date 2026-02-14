@@ -13,6 +13,7 @@ excerpt: "Tìm hiểu về cú pháp template trong Vue.js, bao gồm interpolat
 ### 1. Nhìn tổng quan
 
 {% raw %}
+
 ```
             Component Instance (Data / Methods / Computed)
                            |
@@ -34,6 +35,7 @@ excerpt: "Tìm hiểu về cú pháp template trong Vue.js, bao gồm interpolat
                        Real DOM Update
 
 ```
+
 {% endraw %}
 
 ### Luồng hoạt động khi state thay đổi
@@ -64,23 +66,25 @@ Patch only changed parts in Real DOM
 ## Text Interpolation (`{{ }}`)
 
 {% raw %}
+
 - Dùng `{{ }}` để chèn dữ liệu vào HTML.
 - Ví dụ: `{{ msg }}`
 - Khi `msg` thay đổi → giao diện tự cập nhật.
 - Là binding một chiều: **data → view**.
 - Chỉ render dạng text, không render HTML thật.
-{% endraw %}
+  {% endraw %}
 
 ## Raw HTML (`v-html`)
 
 {% raw %}
+
 - `{{ }}` không render HTML.
 - Muốn render HTML thật → dùng `v-html`.
 - Ví dụ: `<span v-html="rawHtml"></span>`
 - Nguy cơ bảo mật: có thể gây **XSS** nếu render nội dung người dùng nhập.
 - Không dùng để ghép template.
 - Muốn tái sử dụng UI → dùng component.
-{% endraw %}
+  {% endraw %}
 
 ## Attribute Binding (`v-bind` / `:`)
 
@@ -102,14 +106,14 @@ Patch only changed parts in Real DOM
 ## JavaScript Expressions trong Template
 
 - Chỉ dùng **expression**, không dùng statement.
-{% raw %}
+  {% raw %}
 - Hợp lệ:
   - `{{ number + 1 }}`
   - `{{ ok ? 'YES' : 'NO' }}`
 - Không hợp lệ:
   - `{{ var a = 1 }}`
   - `{{ if (...) {} }}`
-{% endraw %}
+    {% endraw %}
 - Template chỉ dùng để biểu đạt giá trị, không viết logic phức tạp.
 - Logic nên đặt trong `computed` hoặc `methods`.
 

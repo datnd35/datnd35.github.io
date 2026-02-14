@@ -75,6 +75,7 @@ excerpt: "Tìm hiểu về hệ thống reactivity trong Vue.js, bao gồm ref()
 ### 3. Dependency Tracking Flow
 
 {% raw %}
+
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                   Initial Render                             │
@@ -138,11 +139,13 @@ excerpt: "Tìm hiểu về hệ thống reactivity trong Vue.js, bao gồm ref()
         │  Re-render all queued        │
         └──────────────────────────────┘
 ```
+
 {% endraw %}
 
 ### 4. Ref Unwrapping Behavior
 
 {% raw %}
+
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                   Ref Unwrapping Rules                       │
@@ -186,6 +189,7 @@ excerpt: "Tìm hiểu về hệ thống reactivity trong Vue.js, bao gồm ref()
    │  arr[0].value  ← need .value ✗  │
    └─────────────────────────────────┘
 ```
+
 {% endraw %}
 
 ### Tổng quan
@@ -207,9 +211,9 @@ excerpt: "Tìm hiểu về hệ thống reactivity trong Vue.js, bao gồm ref()
 ### Trong Template
 
 - Tự động unwrap: không cần `.value`
-{% raw %}
+  {% raw %}
 - Ví dụ: `{{ count }}` thay vì `{{ count.value }}`
-{% endraw %}
+  {% endraw %}
 - Chỉ áp dụng với **top-level property**
 
 ### Với `<script setup>`
@@ -325,16 +329,16 @@ function increment() {
 ### 1. Top-level trong Template
 
 - Auto unwrap ✓
-{% raw %}
+  {% raw %}
 - `{{ count }}` thay vì `{{ count.value }}`
-{% endraw %}
+  {% endraw %}
 
 ### 2. Nested Property trong Template
 
 - **Không** auto unwrap ✗
-{% raw %}
+  {% raw %}
 - `{{ obj.id }}` → `[object Object]`
-{% endraw %}
+  {% endraw %}
 - Fix: destructure → `const { id } = obj`
 
 ### 3. Reactive Object Property
@@ -398,6 +402,7 @@ function increment() {
 - Hiểu rõ unwrapping rules → tránh bugs.
 - DOM updates async → dùng `nextTick()` khi cần.
 - Deep reactivity mặc định → dùng shallow khi cần optimize.
+
 ### Khi nào dùng ref()?
 
 - Primitive values: `string`, `number`, `boolean`
