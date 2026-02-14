@@ -2,6 +2,8 @@
 layout: post
 title: "Vue Template Syntax"
 categories: misc
+date: 2024-02-15
+excerpt: "Tìm hiểu về cú pháp template trong Vue.js, bao gồm interpolation, directives, binding và các khái niệm cơ bản."
 ---
 
 # Vue Template Syntax
