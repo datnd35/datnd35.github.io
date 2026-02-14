@@ -42,3 +42,6 @@ plugins:
 collections:
   experiences:
     output: true
+  vue:
+    output: true
+    permalink: /:collection/:path/
