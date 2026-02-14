@@ -52,15 +52,16 @@ excerpt: "Tìm hiểu về hệ thống reactivity trong Vue.js, bao gồm ref()
 │  Access: count.value         │  })                           │
 │  Modify: count.value++       │                               │
 │                              │  Access: state.count          │
-│  ┌────────────────┐          │  Modify: state.count++        │
-│  │ Ref Object     │          │                               │
-│  │ ┌────────────┐ │          │  ┌─────────────────┐         │
-│  │ │ .value: 0  │ │          │  │  Proxy Object   │         │
-│  │ │ getter ──► │ │          │  │  ┌────────────┐ │         │
-│  │ │ setter ──► │ │          │  │  │ count: 0   │ │         │
-│  │ └────────────┘ │          │  │  │ getter ──► │ │         │
-│  └────────────────┘          │  │  │ setter ──► │ │         │
-│                              │  │  └────────────┘ │         │
+│  Modify: state.count++        │                               │
+│  ┌────────────────┐          │  ┌─────────────────┐         │
+│  │ Ref Object     │          │  │  Proxy Object   │         │
+│  │ ┌────────────┐ │          │  │  ┌────────────┐ │         │
+│  │ │ .value: 0  │ │          │  │  │ count: 0   │ │         │
+│  │ │ getter ──► │ │          │  │  │ getter ──► │ │         │
+│  │ │ setter ──► │ │          │  │  │ setter ──► │ │         │
+│  │ └────────────┘ │          │  │  └────────────┘ │         │
+│  └────────────────┘          │  └─────────────────┘         │
+│                              │                               │
 │  ✓ Works with primitives     │  └─────────────────┘         │
 │  ✓ Works with objects        │                               │
 │  ✓ Auto-unwrap in template   │  ✓ Only objects/arrays       │
@@ -73,6 +74,7 @@ excerpt: "Tìm hiểu về hệ thống reactivity trong Vue.js, bao gồm ref()
 
 ### 3. Dependency Tracking Flow
 
+{% raw %}
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                   Initial Render                             │
@@ -136,9 +138,11 @@ excerpt: "Tìm hiểu về hệ thống reactivity trong Vue.js, bao gồm ref()
         │  Re-render all queued        │
         └──────────────────────────────┘
 ```
+{% endraw %}
 
 ### 4. Ref Unwrapping Behavior
 
+{% raw %}
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                   Ref Unwrapping Rules                       │
@@ -182,46 +186,9 @@ excerpt: "Tìm hiểu về hệ thống reactivity trong Vue.js, bao gồm ref()
    │  arr[0].value  ← need .value ✗  │
    └─────────────────────────────────┘
 ```
+{% endraw %}
 
-### 5. Deep Reactivity
-
-```
-┌──────────────────────────────────────────────────────────┐
-│              ref() - Deep Reactivity                      │
-├──────────────────────────────────────────────────────────┤
-│                                                           │
-│  const obj = ref({                                       │
-│    nested: {           ┌─────────────────┐              │
-│      count: 0   ────►  │  Proxy layer 1  │              │
-│    },                  │  ┌────────────┐ │              │
-│    arr: ['a', 'b']     │  │Proxy layer2│ │              │
-│  })                    │  └────────────┘ │              │
-│                        └─────────────────┘              │
-│                                                           │
-│  obj.value.nested.count++   ← Tracked ✓                 │
-│  obj.value.arr.push('c')    ← Tracked ✓                 │
-│                                                           │
-└──────────────────────────────────────────────────────────┘
-
-┌──────────────────────────────────────────────────────────┐
-│           shallowRef() - Shallow Reactivity               │
-├──────────────────────────────────────────────────────────┤
-│                                                           │
-│  const obj = shallowRef({                                │
-│    nested: {           ┌─────────────────┐              │
-│      count: 0   ────►  │  Only .value    │              │
-│    }                   │  is tracked     │              │
-│  })                    └─────────────────┘              │
-│                                                           │
-│  obj.value = { ... }            ← Tracked ✓              │
-│  obj.value.nested.count++       ← NOT Tracked ✗          │
-│                                                           │
-│  Use case: Performance optimization                      │
-│           External library integration                   │
-└──────────────────────────────────────────────────────────┘
-```
-
-## Tổng quan
+### Tổng quan
 
 - Vue sử dụng hệ thống **reactivity dựa trên Proxy** (Vue 3).
 - Khi state thay đổi → Vue **tự động cập nhật** DOM.
@@ -240,7 +207,9 @@ excerpt: "Tìm hiểu về hệ thống reactivity trong Vue.js, bao gồm ref()
 ### Trong Template
 
 - Tự động unwrap: không cần `.value`
+{% raw %}
 - Ví dụ: `{{ count }}` thay vì `{{ count.value }}`
+{% endraw %}
 - Chỉ áp dụng với **top-level property**
 
 ### Với `<script setup>`
@@ -356,12 +325,16 @@ function increment() {
 ### 1. Top-level trong Template
 
 - Auto unwrap ✓
+{% raw %}
 - `{{ count }}` thay vì `{{ count.value }}`
+{% endraw %}
 
 ### 2. Nested Property trong Template
 
 - **Không** auto unwrap ✗
+{% raw %}
 - `{{ obj.id }}` → `[object Object]`
+{% endraw %}
 - Fix: destructure → `const { id } = obj`
 
 ### 3. Reactive Object Property
@@ -398,6 +371,33 @@ function increment() {
 
 ## Best Practices
 
+### Khi nào dùng ref()?
+
+- Primitive values: `string`, `number`, `boolean`
+- Single reactive value
+- Cần reassign value
+- Cần pass vào function
+
+### Khi nào dùng reactive()?
+
+- Complex object state
+- Không cần reassign
+- Muốn code ngắn gọn (không `.value`)
+
+### Khuyến nghị
+
+- **Ưu tiên `ref()`** cho most cases (official recommendation)
+- Dễ consistent hơn
+- TypeScript inference tốt hơn
+- Tránh pitfalls của `reactive()`
+
+## Kết luận
+
+- Reactivity là **core feature** của Vue.
+- `ref()` và `reactive()` là hai cách khai báo state.
+- Hiểu rõ unwrapping rules → tránh bugs.
+- DOM updates async → dùng `nextTick()` khi cần.
+- Deep reactivity mặc định → dùng shallow khi cần optimize.
 ### Khi nào dùng ref()?
 
 - Primitive values: `string`, `number`, `boolean`

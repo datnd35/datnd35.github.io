@@ -47,8 +47,3 @@ collections:
     permalink: /:collection/:path/
 
 future: true
-
-liquid:
-  error_mode: warn
-  strict_filters: false
-  strict_variables: false
