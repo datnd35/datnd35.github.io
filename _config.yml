@@ -45,5 +45,8 @@ collections:
   vue:
     output: true
     permalink: /:collection/:path/
+  communication:
+    output: true
+    permalink: /:collection/:path/
 
 future: true
