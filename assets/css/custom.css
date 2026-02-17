@@ -134,27 +134,100 @@
   margin-bottom: 10px;
 }
 
-/* Responsive */
-@media screen and (max-width: 800px) {
-  .site-nav .trigger {
+/* Compact TOC khi có class hoặc front matter */===========================
+.compact-toc h1:first-of-type,
+article[data-toc-compact="true"] h1:first-of-type {===================== */
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;Mục lục - giảm size và compact hơn */
+}.post-content h1:first-of-type + h2 {
+
+.compact-toc h2,
+article[data-toc-compact="true"] h2 {5rem;
+  font-size: 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.4rem;
+}/
+2 + ul,
+.compact-toc ul,ul {
+article[data-toc-compact="true"] ul {em;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;argin-bottom: 0.5rem;
+}
+
+/* Responsive */*/
+@media screen and (max-width: 800px) {post-content h2 + ul a,
+  .site-nav .trigger {.post-content h2 + ul ul a {
     padding-top: 10px;
   }
 
-  .site-nav .page-link {
+  .search-container {
     display: block;
-    margin-left: 0;
+    width: 100%;.post-content h2 + ul a:hover,
+    margin: 10px 0; ul a:hover {
+  }
+n: underline;
+  #search-input {
+    width: 100%;
+    max-width: 100%;/* Giảm khoảng cách giữa items */
+  }+ ul li,
+ + ul ul li {
+  #search-input:focus {5rem;
+    width: 100%;adding-left: 0;
+  }}
+
+  .site-nav .page-link {ent nhẹ hơn */
+    display: block;st-content h2 + ul ul {
+    margin-left: 0;  margin-left: 1rem;
     padding: 8px 0;
   }
 
-  .search-modal-content {
-    width: 95%;
-    margin: 20px auto;
+  .search-modal-content { */
+    width: 95%;st-content > h1:first-child {
+    margin: 20px auto;  font-size: 1.5rem;
     padding: 20px;
-    max-height: 85vh;
+    max-height: 85vh;: 2px solid #e8e8e8;
+  }em;
+}
+  border-color: #e8e8e8;
+}
+
+/* Compact cho các section headers trong mục lục */
+.post-content ul > li > strong {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 600px) {
+  .post-content h1:first-of-type + h2 {
+    font-size: 1.1rem;
+  }
+  
+  .post-content h2 + ul,
+  .post-content h2 + ul ul {
+    font-size: 0.8rem;
+  }
+  
+  .post-content h2 + ul ul {
+    margin-left: 0.75rem;
   }
 }
-  font-size: 18px;
-  margin-bottom: 10px;
+
+/* ========================================
+   POST CONTENT IMPROVEMENTS
+   ======================================== */
+
+/* Giảm line-height cho post content để compact hơn */
+.post-content {
+  line-height: 1.6;
+}
+
+/* Code blocks trong mục lục */
+.post-content h2 + ul code {
+  font-size: 0.8rem;
+  padding: 0.1rem 0.3rem;
+  background-color: #f5f5f5;
+  border-radius: 3px;
 }
 
 /* Responsive */
