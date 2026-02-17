@@ -60,5 +60,8 @@ collections:
     permalink: /:collection/:path/
   experiences:
     output: true
+  senior:
+    output: true
+    permalink: /senior/:name
 
 future: true
