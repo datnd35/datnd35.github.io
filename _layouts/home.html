@@ -9,11 +9,32 @@ layout: default
 
   {{ content }}
 
-  <!-- Posts Section -->
-  {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  <!-- Development Section -->
+  {%- if site.development.size > 0 -%}
+  <h2 class="post-list-heading">💻 Development</h2>
   <ul class="post-list">
-    {%- for post in site.posts -%}
+    {%- for post in site.development -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+
+  <!-- Architecture Section -->
+  {%- if site.architecture.size > 0 -%}
+  <h2 class="post-list-heading">🏗️ Architecture & Design</h2>
+  <ul class="post-list">
+    {%- for post in site.architecture -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -32,7 +53,7 @@ layout: default
 
   <!-- Vue Section -->
   {%- if site.vue.size > 0 -%}
-  <h2 class="post-list-heading">Vue.js</h2>
+  <h2 class="post-list-heading">⚡ Vue.js</h2>
   <ul class="post-list">
     {%- for post in site.vue -%}
     <li>
@@ -51,11 +72,11 @@ layout: default
   </ul>
   {%- endif -%}
 
-  <!-- Experiences Section -->
-  {%- if site.experiences.size > 0 -%}
-  <h2 class="post-list-heading">Experiences</h2>
+  <!-- Communication Section -->
+  {%- if site.communication.size > 0 -%}
+  <h2 class="post-list-heading">💬 Communication</h2>
   <ul class="post-list">
-    {%- for post in site.experiences -%}
+    {%- for post in site.communication -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -72,11 +93,53 @@ layout: default
   </ul>
   {%- endif -%}
 
-  <!-- Communication Section -->
-  {%- if site.communication.size > 0 -%}
-  <h2 class="post-list-heading">Communication</h2>
+  <!-- Leadership Section -->
+  {%- if site.leadership.size > 0 -%}
+  <h2 class="post-list-heading">👔 Leadership</h2>
   <ul class="post-list">
-    {%- for post in site.communication -%}
+    {%- for post in site.leadership -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+
+  <!-- Learning Section -->
+  {%- if site.learning.size > 0 -%}
+  <h2 class="post-list-heading">📚 Learning & Growth</h2>
+  <ul class="post-list">
+    {%- for post in site.learning -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+
+  <!-- General Posts Section -->
+  {%- if site.posts.size > 0 -%}
+  <h2 class="post-list-heading">📝 All Posts</h2>
+  <ul class="post-list">
+    {%- for post in site.posts -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>

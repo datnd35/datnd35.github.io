@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Communication  Framework"
-categories: misc
+categories: communication
 ---
 
 >Phương pháp tiếp cận nào chúng ta có thể áp dụng khi:

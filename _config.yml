@@ -40,13 +40,25 @@ plugins:
   - jekyll-katex
 
 collections:
-  experiences:
-    output: true
   vue:
     output: true
     permalink: /:collection/:path/
   communication:
     output: true
     permalink: /:collection/:path/
+  development:
+    output: true
+    permalink: /:collection/:path/
+  architecture:
+    output: true
+    permalink: /:collection/:path/
+  leadership:
+    output: true
+    permalink: /:collection/:path/
+  learning:
+    output: true
+    permalink: /:collection/:path/
+  experiences:
+    output: true
 
 future: true

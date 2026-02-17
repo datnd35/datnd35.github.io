@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PREP Framework - Giao Tiếp Hiệu Quả"
-categories: misc
+categories: communication
 date: 2024-02-21
 excerpt: "Tìm hiểu về PREP framework - công cụ tư duy giúp giao tiếp rõ ràng, súc tích và có mục tiêu trong mọi tình huống."
 ---

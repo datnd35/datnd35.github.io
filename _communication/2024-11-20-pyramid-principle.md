@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nguyên tắc Kim Tự Tháp - Giao tiếp rõ ràng và hiệu quả"
-categories: misc
+categories: communication
 ---
 
 ### **Giới thiệu**
