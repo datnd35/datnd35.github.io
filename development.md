@@ -8,15 +8,6 @@ permalink: /development/
 
 Kiến thức nền tảng về lập trình web, JavaScript, và công cụ phát triển.
 
-**Topics covered:**
-
-- JavaScript fundamentals
-- DOM manipulation
-- Git & version control
-- Frontend systems
-- Security practices
-- Web technologies
-
 ---
 
 {% for post in site.development %}

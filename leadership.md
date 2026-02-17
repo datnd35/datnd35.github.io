@@ -8,15 +8,6 @@ permalink: /leadership/
 
 Kỹ năng quản lý, lãnh đạo và phát triển đội nhóm hiệu quả.
 
-**Topics covered:**
-
-- Team leadership
-- Project estimation
-- Meeting facilitation
-- Decision making
-- Conflict resolution
-- Performance management
-
 ---
 
 {% for post in site.leadership %}

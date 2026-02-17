@@ -8,15 +8,6 @@ permalink: /architecture/
 
 Kiến trúc phần mềm, design patterns, và best practices trong xây dựng hệ thống.
 
-**Topics covered:**
-
-- SOLID principles
-- Design patterns
-- System design
-- Microservices
-- Docker & containerization
-- Authentication & authorization
-
 ---
 
 {% for post in site.architecture %}

@@ -8,14 +8,6 @@ permalink: /learning/
 
 Học tập, phát triển bản thân và nâng cao kỹ năng chuyên môn & mềm.
 
-**Topics covered:**
-
-- English skills (IELTS, grammar)
-- Note-taking techniques
-- Self-improvement
-- Career development
-- Continuous learning
-
 ---
 
 {% for post in site.learning %}
