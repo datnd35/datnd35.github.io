@@ -145,19 +145,66 @@ graph TD;
 
 <h2 id="prep-diagram">Diagram PREP</h2>
 
-```mermaid
-graph TD;
-    A[PREP Framework] --> B[P - Point];
-    A --> C[R - Reason];
-    A --> D[E - Example];
-    A --> E[P - Point (Nhắc lại)];
-    B --> F[Nêu rõ ý chính];
-    C --> G[Đưa ra lý do, bằng chứng];
-    D --> H[Cung cấp ví dụ minh họa];
-    E --> I[Nhắc lại ý chính để củng cố];
 ```
+CÂU HỎI ĐƯỢC ĐẶT RA
+        |
+        v
++----------------------+
+| NÃO KHÔNG CÓ FRAMEWORK |
++----------------------+
+        |
+        v
+  Quá nhiều hướng nghĩ
+ (cảm xúc / ý kiến /
+  ví dụ / ngữ cảnh)
+        |
+        v
+   NÓI LAN MAN
+   "blah blah"
+        |
+        v
+  TỰ TRÁCH BẢN THÂN
+  "Mình suy nghĩ chậm"
+        X
+        |
+        v
+---------------------------------
 
----
+GIẢI PHÁP
+
+CÂU HỎI
+   |
+   v
++------------------+
+| CHỌN FRAMEWORK   |
+|      (PREP)      |
++------------------+
+   |
+   v
++---------+
+| POINT   | → Ý chính
++---------+
+     |
+     v
++---------+
+| REASON  | → Lý do
++---------+
+     |
+     v
++---------+
+| EXAMPLE | → Ví dụ
++---------+
+     |
+     v
++---------+
+| POINT   | → Nhấn mạnh lại
++---------+
+     |
+     v
+GIAO TIẾP RÕ RÀNG
+NGẮN GỌN – CÓ MỤC TIÊU
+
+```
 
 <h1 id="benefits">4. Lợi ích của PREP</h1>
 
