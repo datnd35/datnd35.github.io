@@ -4,12 +4,6 @@ title: Leadership
 permalink: /leadership/
 ---
 
-# 👔 Leadership & Management
-
-Kỹ năng quản lý, lãnh đạo và phát triển đội nhóm hiệu quả.
-
----
-
 {% for post in site.leadership %}
 
   <article class="post-preview">

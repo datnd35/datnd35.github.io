@@ -4,12 +4,6 @@ title: Learning
 permalink: /learning/
 ---
 
-# 📚 Learning & Personal Growth
-
-Học tập, phát triển bản thân và nâng cao kỹ năng chuyên môn & mềm.
-
----
-
 {% for post in site.learning %}
 
   <article class="post-preview">

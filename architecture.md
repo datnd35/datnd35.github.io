@@ -4,12 +4,6 @@ title: Architecture
 permalink: /architecture/
 ---
 
-# 🏗️ Architecture & Design
-
-Kiến trúc phần mềm, design patterns, và best practices trong xây dựng hệ thống.
-
----
-
 {% for post in site.architecture %}
 
   <article class="post-preview">

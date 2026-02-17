@@ -4,12 +4,6 @@ title: Development
 permalink: /development/
 ---
 
-# 💻 Development
-
-Kiến thức nền tảng về lập trình web, JavaScript, và công cụ phát triển.
-
----
-
 {% for post in site.development %}
 
   <article class="post-preview">
