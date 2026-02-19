@@ -102,11 +102,11 @@ TƯ DUY ĐẦU TƯ CHỨNG KHOÁN
 - **Khung thời gian?** (ngắn/trung/dài hạn)
 - **Chấp nhận rủi ro bao nhiêu?** (10%, 20%, 50%?)
 
-| Loại hình | Thời gian | Đặc điểm | Phù hợp với |
-|-----------|-----------|----------|-------------|
-| **Trading** | < 1 tháng | Rủi ro cao, lợi nhuận nhanh | Người có thời gian, kỹ thuật tốt |
-| **Trung hạn** | 3-12 tháng | Cân bằng rủi ro - lợi nhuận | Người bận rộn, có chiến lược |
-| **Dài hạn** | 3-10 năm | Rủi ro thấp, lợi nhuận ổn định | Nhà đầu tư giá trị |
+| Loại hình     | Thời gian  | Đặc điểm                       | Phù hợp với                      |
+| ------------- | ---------- | ------------------------------ | -------------------------------- |
+| **Trading**   | < 1 tháng  | Rủi ro cao, lợi nhuận nhanh    | Người có thời gian, kỹ thuật tốt |
+| **Trung hạn** | 3-12 tháng | Cân bằng rủi ro - lợi nhuận    | Người bận rộn, có chiến lược     |
+| **Dài hạn**   | 3-10 năm   | Rủi ro thấp, lợi nhuận ổn định | Nhà đầu tư giá trị               |
 
 ---
 
@@ -126,11 +126,12 @@ TƯ DUY ĐẦU TƯ CHỨNG KHOÁN
 Số lượng CP = (Vốn × % rủi ro) / (Giá mua - Điểm cắt lỗ)
 ```
 
-**Ví dụ:**  
-- Vốn: 100 triệu  
-- % rủi ro: 2% = 2 triệu  
-- Giá mua: 50k  
-- Cắt lỗ: 47k  
+**Ví dụ:**
+
+- Vốn: 100 triệu
+- % rủi ro: 2% = 2 triệu
+- Giá mua: 50k
+- Cắt lỗ: 47k
 
 → Số lượng = 2,000,000 / (50,000 - 47,000) = 666 CP
 
@@ -139,23 +140,27 @@ Số lượng CP = (Vốn × % rủi ro) / (Giá mua - Điểm cắt lỗ)
 ## 📊 3. Chiến Lược Đầu Tư
 
 ### 3.1 Value Investing (Giá Trị)
+
 - Tìm DN tốt, giá rẻ
 - P/E thấp, P/B < 1, ROE cao
 - Mua khi thị trường sợ hãi
 - **Người nổi tiếng:** Warren Buffett
 
 ### 3.2 Growth Investing (Tăng Trưởng)
+
 - DN doanh thu & lợi nhuận tăng đều
 - Ngành có tiềm năng (tech, y tế...)
 - Chấp nhận P/E cao nếu tăng trưởng tốt
 - **Ví dụ:** FPT, MWG giai đoạn 2015-2020
 
 ### 3.3 Cổ Tức (Dividend)
+
 - Doanh nghiệp ổn định, chi cổ tức đều
 - Tỷ lệ cổ tức > 5%/năm
 - **Ví dụ:** Ngân hàng, điện, viễn thông
 
 ### 3.4 Trading / Lướt Sóng
+
 - Phân tích kỹ thuật là chính
 - Vào lệnh theo xu hướng, khối lượng
 - Kỷ luật cắt lỗ nghiêm ngặt
@@ -166,13 +171,13 @@ Số lượng CP = (Vốn × % rủi ro) / (Giá mua - Điểm cắt lỗ)
 
 ### Phân Tích Cơ Bản (FA)
 
-| Chỉ số | Ý nghĩa | Tốt khi |
-|--------|---------|---------|
-| **P/E** | Giá / Thu nhập | < 15 (thị trường VN) |
-| **P/B** | Giá / Giá trị sổ sách | < 1.5 |
-| **ROE** | Lợi nhuận / Vốn chủ | > 15% |
-| **Nợ/Vốn** | Đòn bẩy tài chính | < 2 |
-| **EPS tăng trưởng** | Thu nhập/CP tăng | > 10%/năm |
+| Chỉ số              | Ý nghĩa               | Tốt khi              |
+| ------------------- | --------------------- | -------------------- |
+| **P/E**             | Giá / Thu nhập        | < 15 (thị trường VN) |
+| **P/B**             | Giá / Giá trị sổ sách | < 1.5                |
+| **ROE**             | Lợi nhuận / Vốn chủ   | > 15%                |
+| **Nợ/Vốn**          | Đòn bẩy tài chính     | < 2                  |
+| **EPS tăng trưởng** | Thu nhập/CP tăng      | > 10%/năm            |
 
 ### Phân Tích Kỹ Thuật (TA)
 
@@ -212,7 +217,7 @@ Số lượng CP = (Vốn × % rủi ro) / (Giá mua - Điểm cắt lỗ)
 ✅ **Kỷ luật** - Tuân thủ chiến lược đã đặt  
 ✅ **Kiên nhẫn** - Chờ cơ hội tốt  
 ✅ **Chấp nhận thua lỗ nhỏ** - Cắt lỗ không phải thất bại  
-✅ **Không so sánh** - Mỗi người một chiến lược  
+✅ **Không so sánh** - Mỗi người một chiến lược
 
 ---
 
@@ -263,20 +268,24 @@ Bài học: Nên chốt lời sớm hơn khi thị trường sideway
 ## 🚀 Bắt Đầu Ngay
 
 ### Bước 1: Tự đánh giá
+
 - Mục tiêu của tôi?
 - Chấp nhận rủi ro bao nhiêu?
 - Có bao nhiêu thời gian?
 
 ### Bước 2: Chọn chiến lược
+
 - Dài hạn → Value/Dividend
 - Ngắn hạn → Trading/Growth
 
 ### Bước 3: Học và thực hành
+
 - Đọc sách, khóa học
 - Tài khoản demo trước
 - Bắt đầu vốn nhỏ
 
 ### Bước 4: Ghi nhật ký & cải tiến
+
 - Mỗi lệnh đều ghi lại
 - Review và học hỏi
 - Không ngừng hoàn thiện
