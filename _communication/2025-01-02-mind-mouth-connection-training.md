@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Mind-Mouth Connection - Kỹ Năng Giao Tiếp Cần Luyện Tập"
-date: 2025-01-02
-categories: senior
+date: 2026-02-18
+categories: communication
 ---
 
 [randomwordgenerator.com](https://randomwordgenerator.com/) là công cụ tạo từ ngẫu nhiên để luyện tập kỹ năng nói.
