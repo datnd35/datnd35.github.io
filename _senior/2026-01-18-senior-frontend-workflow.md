@@ -40,7 +40,7 @@ categories: senior
 
 ---
 
-## 🔍 2. Review Flow – Senior’s code review pipeline
+## 🔍 2. Review Flow – Senior's code review pipeline
 
 ```
 [PR opened by teammate]
