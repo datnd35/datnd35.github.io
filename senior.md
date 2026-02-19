@@ -4,15 +4,13 @@ title: 🎯 Senior
 permalink: /senior/
 ---
 
-## Bài viết về Senior Developer
+{% for post in site.senior %}
 
-Kiến thức, workflow và trách nhiệm của Senior Frontend Developer.
-
-<ul>
-  {% for post in site.senior %}
-    <li>
-      <a href="{{ post.url | relative_url }}">👨‍💻 {{ post.title }}</a>
-      <span class="post-meta">{{ post.date | date: site.minima.date_format }}</span>
-    </li>
-  {% endfor %}
-</ul>
+  <article class="post-preview">
+    <h2>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+  </article>
+  <hr>
+{% endfor %}

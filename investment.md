@@ -6,13 +6,13 @@ permalink: /investment/
 
 ## Bài viết về Đầu tư
 
-Tổng hợp kiến thức về đầu tư, tài chính cá nhân và xây dựng dòng tiền bền vững.
+{% for post in site.investment %}
 
-<ul>
-  {% for post in site.investment %}
-    <li>
+  <article class="post-preview">
+    <h2>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <span class="post-meta">{{ post.date | date: site.minima.date_format }}</span>
-    </li>
-  {% endfor %}
-</ul>
+    </h2>
+    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+  </article>
+  <hr>
+{% endfor %}
