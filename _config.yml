@@ -22,8 +22,15 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+  - investment.md
+  - vue.md
+  - communication.md
+  - development.md
+  - architecture.md
+  - leadership.md
+  - learning.md
+  - senior.md
 
 navbar-links:
   Home: "https://datnd35.github.io"
