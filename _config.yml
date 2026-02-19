@@ -63,5 +63,8 @@ collections:
   senior:
     output: true
     permalink: /senior/:name
+  investment:
+    output: true
+    permalink: /:collection/:path/
 
 future: true
