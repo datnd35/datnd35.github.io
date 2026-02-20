@@ -4,8 +4,6 @@ title: 💰 Investment
 permalink: /investment/
 ---
 
-## Bài viết về Đầu tư
-
 {% for post in site.investment %}
 
   <article class="post-preview">
