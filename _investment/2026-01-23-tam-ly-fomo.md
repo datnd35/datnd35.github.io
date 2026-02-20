@@ -90,6 +90,7 @@ BẢN CHẤT TÂM LÝ FOMO
 > **Fear Of Missing Out (FOMO)** = Nỗi sợ bỏ lỡ cơ hội mà người khác đang có
 
 **Nguồn gốc tiến hóa:**
+
 ```
 Thời cổ đại:
 ├── Bộ lạc tìm thấy nguồn thức ăn
@@ -98,6 +99,7 @@ Thời cổ đại:
 ```
 
 **Ngày nay:**
+
 ```
 Thời hiện đại:
 ├── Mọi người mua Bitcoin
@@ -121,11 +123,11 @@ Hàng ngàn người thấy
 
 #### 2. So Sánh Với Người Khác
 
-| Tình huống | Cảm xúc |
-|------------|---------|
-| Bạn bè mua nhà mới | "Mình cũng phải mua" |
-| Đồng nghiệp lãi 100 triệu từ chứng khoán | "Mình đang bỏ lỡ" |
-| Hàng xóm mua xe sang | "Mình kém hơn" |
+| Tình huống                               | Cảm xúc              |
+| ---------------------------------------- | -------------------- |
+| Bạn bè mua nhà mới                       | "Mình cũng phải mua" |
+| Đồng nghiệp lãi 100 triệu từ chứng khoán | "Mình đang bỏ lỡ"    |
+| Hàng xóm mua xe sang                     | "Mình kém hơn"       |
 
 #### 3. Tâm Lý Bầy Đàn (Herd Mentality)
 
@@ -181,12 +183,12 @@ FOMO bùng phát
 
 #### Sản Phẩm Khai Thác FOMO
 
-| Sản phẩm | Mục đích | Rủi ro cho người dùng |
-|----------|----------|----------------------|
-| **Margin** | Vay tiền đầu tư | Mất sạch nếu giá giảm |
-| **Futures** | Đòn bẩy x10, x50 | Thanh lý nhanh chóng |
-| **Options** | "Cược" tăng/giảm | Mất 100% vốn |
-| **Crypto Leverage** | Đòn bẩy x100 | Cháy tài khoản trong phút |
+| Sản phẩm            | Mục đích         | Rủi ro cho người dùng     |
+| ------------------- | ---------------- | ------------------------- |
+| **Margin**          | Vay tiền đầu tư  | Mất sạch nếu giá giảm     |
+| **Futures**         | Đòn bẩy x10, x50 | Thanh lý nhanh chóng      |
+| **Options**         | "Cược" tăng/giảm | Mất 100% vốn              |
+| **Crypto Leverage** | Đòn bẩy x100     | Cháy tài khoản trong phút |
 
 #### Chiến Lược Marketing
 
@@ -225,6 +227,7 @@ FOMO lan rộng
 #### Ví Dụ Thực Tế
 
 **Bitcoin 2021:**
+
 ```
 Tháng 1: $30,000
 Truyền thông: "Bitcoin phá đỉnh mọi thời đại!"
@@ -320,6 +323,7 @@ Giá ↑                        ĐỈNH (Đám đông mua)
 ### Kịch Bản Người Mua Gần Đỉnh
 
 **Anh A - Mua tại đỉnh:**
+
 ```
 Tháng 10: Bitcoin $60,000
 ├── Thấy tin tức khắp nơi
@@ -405,12 +409,12 @@ Buộc phải bán lỗ
 
 #### 4. Quyết Định Theo Cảm Xúc
 
-| Tình huống | Cảm xúc | Hành động | Kết quả |
-|------------|---------|-----------|---------|
-| Giá tăng | Hưng phấn | Mua thêm | Mua đỉnh |
-| Giá giảm | Sợ hãi | Bán tháo | Bán đáy |
-| Lãi nhỏ | Tham lam | Giữ mãi | Mất lãi |
-| Lỗ nhiều | Hy vọng | Không cắt | Lỗ nặng hơn |
+| Tình huống | Cảm xúc   | Hành động | Kết quả     |
+| ---------- | --------- | --------- | ----------- |
+| Giá tăng   | Hưng phấn | Mua thêm  | Mua đỉnh    |
+| Giá giảm   | Sợ hãi    | Bán tháo  | Bán đáy     |
+| Lãi nhỏ    | Tham lam  | Giữ mãi   | Mất lãi     |
+| Lỗ nhiều   | Hy vọng   | Không cắt | Lỗ nặng hơn |
 
 #### 5. Tin Vào "Lần Này Khác"
 
@@ -451,6 +455,7 @@ Lần 3: Tiếp tục mua đỉnh → Lỗ
 ### Thua Lỗ Tài Chính
 
 **Thống kê:**
+
 ```
 90% trader thua lỗ trong năm đầu
 80% quỹ đầu tư không thắng được index
@@ -458,6 +463,7 @@ Lần 3: Tiếp tục mua đỉnh → Lỗ
 ```
 
 **Ví dụ cụ thể:**
+
 ```
 Đầu tư: 500 triệu
 Sau 1 năm FOMO:
@@ -535,6 +541,7 @@ HÃY:
 ```
 
 **Ví dụ:**
+
 ```
 ❌ Mua Bitcoin vì "sẽ lên $100K"
 ✅ Mua cổ phiếu cổ tức 7%/năm
@@ -551,6 +558,7 @@ THỊ TRƯỜNG CÓ CHU KỲ:
 ```
 
 **Hành động:**
+
 ```
 Tích lũy → MUA
 Tăng trưởng → GIỮ
