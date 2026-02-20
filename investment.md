@@ -9,9 +9,9 @@ permalink: /investment/
 {% for post in site.investment %}
 
   <article class="post-preview">
-    <h2>
+    <h3>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h2>
+    </h3>
     <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
   </article>
   <hr>
