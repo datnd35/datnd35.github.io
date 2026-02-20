@@ -75,3 +75,5 @@ collections:
     permalink: /:collection/:path/
 
 future: true
+
+url: "https://datnd35.github.io"
