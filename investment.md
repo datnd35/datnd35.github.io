@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 💰 Đầu tư
+title: 💰 Investment
 permalink: /investment/
 ---
 
