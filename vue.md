@@ -4,53 +4,13 @@ title: Vue
 permalink: /vue/
 ---
 
-<div class="home">
-  {% if site.paginate %}
-    {% assign vue = paginator.vue %}
-  {% else %}
-    {% assign vue = site.vue %}
-  {% endif %}
-  
-  {%- if vue.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in vue -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        <!-- Disable hiện thị description -->
-        <!-- {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%} -->
-      </li>
-      {%- endfor -%}
-    </ul>
+{% for post in site.vue %}
 
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
-
-{%- endif -%}
-
-</div>
+  <article class="post-preview">
+    <h2>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+  </article>
+  <hr>
+{% endfor %}
