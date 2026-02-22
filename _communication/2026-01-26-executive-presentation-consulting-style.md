@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Executive Presentation - Trình Bày Như Consultant Chuyên Nghiệp"
-date: 2026-01-26
+date: 2026-02-22
 categories: communication
 ---
 
