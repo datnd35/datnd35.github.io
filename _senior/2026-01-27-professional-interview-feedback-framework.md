@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Professional Interview Feedback Framework - Đánh Giá Ứng Viên Như Senior Thực Thụ"
+title: "Interview Feedback Framework"
 date: 2026-01-27
 categories: senior
 ---
