@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Playwright Architecture Deep Dive - Hiểu Kiến Trúc E2E Test Từ Big Picture Đến Chi Tiết"
+title: "Testing Series (Part 3) - Playwright Deep Dive: Internal Architecture & Parallel Testing"
 date: 2026-01-31
 categories: senior
 ---

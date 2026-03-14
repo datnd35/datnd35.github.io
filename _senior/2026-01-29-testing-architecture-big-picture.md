@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Testing Architecture Big Picture - E2E Nằm Ở Đâu Trong Hệ Thống Testing?"
+title: "Testing Series (Part 1) - Big Picture: Testing Pyramid & E2E Nằm Ở Đâu?"
 date: 2026-01-29
 categories: senior
 ---

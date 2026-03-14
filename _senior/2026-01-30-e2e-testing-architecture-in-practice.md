@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "E2E Testing Architecture In Practice - Kiến Trúc E2E Test Từ Góc Nhìn Senior Frontend"
+title: "Testing Series (Part 2) - E2E Architecture In Practice: Page Object, Debug & Flaky Test"
 date: 2026-01-30
 categories: senior
 ---
