@@ -69,7 +69,7 @@ collections:
     output: true
   senior:
     output: true
-    permalink: /senior/:name
+    permalink: /senior/:title/
   investment:
     output: true
     permalink: /:collection/:path/
