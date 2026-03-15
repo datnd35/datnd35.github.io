@@ -2,7 +2,7 @@
 layout: post
 title: "System Design Series (Part 2) - Crash Course: Architecture, Networking, Databases & Scalability"
 date: 2026-03-01
-categories: senior
+categories: architecture
 ---
 
 ## 🎯 Mục Tiêu Bài Viết
