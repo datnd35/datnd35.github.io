@@ -1,23 +1,19 @@
 ---
-layout: page
-title: English
+layout: default
+title: 🇬🇧 English
 permalink: /english/
 ---
 
-## 🇬🇧 English Learning
+# 🇬🇧 English
 
-Tổng hợp các bài viết học tiếng Anh cho Developer — từ Technical English, Communication Skills đến Interview Preparation.
+Technical English, Communication Skills, Interview Preparation và các kỹ năng tiếng Anh cho Developer.
 
----
-
-{% for post in site.english %}
-
-### [{{ post.title }}]({{ post.url }})
-
-<small>{{ post.date | date: "%Y-%m-%d" }}</small>
-
-{{ post.excerpt }}
-
----
-
-{% endfor %}
+<ul class="post-list">
+  {% assign sorted_posts = site.english | sort: 'date' | reverse %}
+  {% for post in sorted_posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
