@@ -1,16 +1,19 @@
 ---
-layout: page
-title: Leadership
+layout: default
+title: 👑 Leadership
 permalink: /leadership/
 ---
 
-{% for post in site.leadership %}
+# 👑 Leadership
 
-  <article class="post-preview">
-    <h3>
+Tech Lead, Engineering Manager, leadership mindset và team management.
+
+<ul class="post-list">
+  {% assign sorted_posts = site.leadership | sort: 'date' | reverse %}
+  {% for post in sorted_posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h3>
-    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-  </article>
-  <hr>
-{% endfor %}
+    </li>
+  {% endfor %}
+</ul>

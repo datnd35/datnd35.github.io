@@ -1,16 +1,19 @@
 ---
-layout: page
-title: Development
+layout: default
+title: 💻 Development
 permalink: /development/
 ---
 
-{% for post in site.development %}
+# 💻 Development
 
-  <article class="post-preview">
-    <h3>
+Kiến thức lập trình, best practices, design patterns và coding techniques.
+
+<ul class="post-list">
+  {% assign sorted_posts = site.development | sort: 'date' | reverse %}
+  {% for post in sorted_posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h3>
-    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-  </article>
-  <hr>
-{% endfor %}
+    </li>
+  {% endfor %}
+</ul>

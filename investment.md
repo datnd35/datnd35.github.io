@@ -1,16 +1,19 @@
 ---
-layout: page
+layout: default
 title: 💰 Investment
 permalink: /investment/
 ---
 
-{% for post in site.investment %}
+# 💰 Investment
 
-  <article class="post-preview">
-    <h3>
+Kiến thức đầu tư, tài chính cá nhân và quản lý tài sản.
+
+<ul class="post-list">
+  {% assign sorted_posts = site.investment | sort: 'date' | reverse %}
+  {% for post in sorted_posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h3>
-    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-  </article>
-  <hr>
-{% endfor %}
+    </li>
+  {% endfor %}
+</ul>

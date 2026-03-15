@@ -1,16 +1,19 @@
 ---
-layout: base
-title: Vue
+layout: default
+title: 💚 Vue
 permalink: /vue/
 ---
 
-{% for post in site.vue %}
+# 💚 Vue
 
-  <article class="post-preview">
-    <h2>
+Vue.js framework, components, state management, và các best practices.
+
+<ul class="post-list">
+  {% assign sorted_posts = site.vue | sort: 'date' | reverse %}
+  {% for post in sorted_posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h2>
-    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-  </article>
-  <hr>
-{% endfor %}
+    </li>
+  {% endfor %}
+</ul>

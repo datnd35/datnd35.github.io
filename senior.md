@@ -1,16 +1,19 @@
 ---
-layout: page
+layout: default
 title: 🎯 Senior
 permalink: /senior/
 ---
 
-{% for post in site.senior %}
+# 🎯 Senior
 
-  <article class="post-preview">
-    <h3>
+Senior Engineer mindset, system design, engineering excellence và career growth.
+
+<ul class="post-list">
+  {% assign sorted_posts = site.senior | sort: 'date' | reverse %}
+  {% for post in sorted_posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h3>
-    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-  </article>
-  <hr>
-{% endfor %}
+    </li>
+  {% endfor %}
+</ul>
