@@ -1,23 +1,40 @@
 --- --- @import "minima";
 
-// Custom Code Block Styles (ChatGPT-like)
-// Override ALL code blocks including plain text
-pre,
-code,
-.highlight,
-.highlighter-rouge {
+// Custom Code Block Styles - HIGH SPECIFICITY to override minima
+// Target the exact classes shown in DevTools
+.highlighter-rouge .highlight {
+  background: #2d2d2d !important;
   background-color: #2d2d2d !important;
 }
 
-pre {
+.highlight {
+  background: #2d2d2d !important;
+  background-color: #2d2d2d !important;
+}
+
+// Override pre, code with higher specificity
+body pre,
+body code,
+body .highlight,
+body .highlighter-rouge,
+body .highlighter-rouge .highlight,
+body div.highlighter-rouge,
+body div.highlight {
+  background: #2d2d2d !important;
+  background-color: #2d2d2d !important;
+}
+
+body pre {
   padding: 16px !important;
   overflow-x: auto !important;
+  background: #2d2d2d !important;
   background-color: #2d2d2d !important;
   border: 1px solid #404040 !important;
   border-radius: 8px !important;
 }
 
-pre code {
+body pre code {
+  background: transparent !important;
   background-color: transparent !important;
   border: none !important;
   padding: 0 !important;
@@ -25,13 +42,14 @@ pre code {
 }
 
 // Inline code (single backticks in paragraphs)
-p code,
-li code,
-td code,
-h1 code,
-h2 code,
-h3 code,
-h4 code {
+body p code,
+body li code,
+body td code,
+body h1 code,
+body h2 code,
+body h3 code,
+body h4 code {
+  background: #f3f4f6 !important;
   background-color: #f3f4f6 !important;
   color: #374151 !important;
   padding: 2px 6px !important;
@@ -41,34 +59,32 @@ h4 code {
 }
 
 // Code block container
-div.highlighter-rouge {
+body div.highlighter-rouge {
   margin: 1em 0 !important;
+  background: #2d2d2d !important;
   background-color: #2d2d2d !important;
   border-radius: 8px !important;
 }
 
-div.highlighter-rouge pre.highlight {
+body div.highlighter-rouge pre.highlight {
+  background: #2d2d2d !important;
   background-color: #2d2d2d !important;
   border-radius: 8px !important;
   border: 1px solid #404040 !important;
   margin: 0 !important;
 }
 
-// Plain text/diagram code blocks (no language specified)
-.language-plaintext,
-.language-text,
-.highlighter-rouge:not([class*="language-"]) {
+// Plain text/diagram code blocks
+body .language-plaintext,
+body .language-plaintext .highlight,
+body .language-text,
+body .language-text .highlight {
+  background: #2d2d2d !important;
   background-color: #2d2d2d !important;
 }
 
-.language-plaintext .highlight,
-.language-text .highlight {
-  background-color: #2d2d2d !important;
-}
-
-// Syntax highlighting (dark theme)
+// Syntax highlighting colors
 .highlight {
-  background-color: #2d2d2d !important;
 
   .c,
   .cm,
@@ -135,22 +151,23 @@ div.highlighter-rouge pre.highlight {
 
   .err {
     color: #f44747 !important;
-    background-color: transparent !important;
+    background: transparent !important;
   }
 }
 
-pre.highlight code {
+body pre.highlight code {
   color: #e0e0e0 !important;
   font-family: 'SF Mono', 'Menlo', 'Monaco', 'Consolas', monospace !important;
   font-size: 14px !important;
   line-height: 1.5 !important;
 }
 
-// Force override for any remaining white backgrounds
-figure.highlight,
-figure.highlight pre,
-div.highlight,
-div.highlight pre {
+// Force override figure.highlight
+body figure.highlight,
+body figure.highlight pre,
+body div.highlight,
+body div.highlight pre {
+  background: #2d2d2d !important;
   background-color: #2d2d2d !important;
   border: 1px solid #404040 !important;
 }
