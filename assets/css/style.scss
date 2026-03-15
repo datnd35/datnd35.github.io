@@ -1,11 +1,12 @@
---- # Only the main Sass file needs front matter (the dashes are enough) --- @import "minima";
+--- --- @import "minima";
 
 // Custom Code Block Styles (ChatGPT-like)
+// Override ALL code blocks including plain text
 pre,
-code {
-  background-color: #f7f7f8 !important;
-  border: 1px solid #e5e5e5 !important;
-  border-radius: 6px !important;
+code,
+.highlight,
+.highlighter-rouge {
+  background-color: #2d2d2d !important;
 }
 
 pre {
@@ -13,6 +14,7 @@ pre {
   overflow-x: auto !important;
   background-color: #2d2d2d !important;
   border: 1px solid #404040 !important;
+  border-radius: 8px !important;
 }
 
 pre code {
@@ -22,10 +24,14 @@ pre code {
   color: #e0e0e0 !important;
 }
 
-// Inline code
+// Inline code (single backticks in paragraphs)
 p code,
 li code,
-td code {
+td code,
+h1 code,
+h2 code,
+h3 code,
+h4 code {
   background-color: #f3f4f6 !important;
   color: #374151 !important;
   padding: 2px 6px !important;
@@ -37,12 +43,27 @@ td code {
 // Code block container
 div.highlighter-rouge {
   margin: 1em 0 !important;
+  background-color: #2d2d2d !important;
+  border-radius: 8px !important;
 }
 
 div.highlighter-rouge pre.highlight {
   background-color: #2d2d2d !important;
   border-radius: 8px !important;
   border: 1px solid #404040 !important;
+  margin: 0 !important;
+}
+
+// Plain text/diagram code blocks (no language specified)
+.language-plaintext,
+.language-text,
+.highlighter-rouge:not([class*="language-"]) {
+  background-color: #2d2d2d !important;
+}
+
+.language-plaintext .highlight,
+.language-text .highlight {
+  background-color: #2d2d2d !important;
 }
 
 // Syntax highlighting (dark theme)
@@ -125,24 +146,11 @@ pre.highlight code {
   line-height: 1.5 !important;
 }
 
-// Light theme alternative (uncomment if you prefer light)
-/*
-pre {
-  background-color: #f6f8fa !important;
-  border: 1px solid #e1e4e8 !important;
+// Force override for any remaining white backgrounds
+figure.highlight,
+figure.highlight pre,
+div.highlight,
+div.highlight pre {
+  background-color: #2d2d2d !important;
+  border: 1px solid #404040 !important;
 }
-
-pre code {
-  color: #24292e !important;
-}
-
-.highlight {
-  background-color: #f6f8fa !important;
-  
-  .c, .cm, .c1, .cs { color: #6a737d !important; }
-  .k, .kd, .kn, .kp, .kr, .kt { color: #d73a49 !important; }
-  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr { color: #032f62 !important; }
-  .m, .mf, .mh, .mi, .mo { color: #005cc5 !important; }
-  .n, .na, .nb, .nc, .nd, .ne, .nf, .ni, .nl, .nn, .no, .nt, .nv { color: #6f42c1 !important; }
-}}
-*/
