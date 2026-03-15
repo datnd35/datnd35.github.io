@@ -28,6 +28,7 @@ header_pages:
   - communication.md
   - development.md
   - architecture.md
+  - cloud.md
   - leadership.md
   - learning.md
   - senior.md
@@ -75,6 +76,7 @@ collections:
     permalink: /:collection/:path/
   cloud:
     output: true
+    permalink: /:collection/:path/
 
 future: true
 
