@@ -1,7 +1,148 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+--- # Only the main Sass file needs front matter (the dashes are enough) --- @import "minima";
 
-@import
-  "minima/skins/{{ site.minima.skin }}.scss",
-  "minima/initialize";
+// Custom Code Block Styles (ChatGPT-like)
+pre,
+code {
+  background-color: #f7f7f8 !important;
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 6px !important;
+}
+
+pre {
+  padding: 16px !important;
+  overflow-x: auto !important;
+  background-color: #2d2d2d !important;
+  border: 1px solid #404040 !important;
+}
+
+pre code {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  color: #e0e0e0 !important;
+}
+
+// Inline code
+p code,
+li code,
+td code {
+  background-color: #f3f4f6 !important;
+  color: #374151 !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  font-size: 0.9em !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+// Code block container
+div.highlighter-rouge {
+  margin: 1em 0 !important;
+}
+
+div.highlighter-rouge pre.highlight {
+  background-color: #2d2d2d !important;
+  border-radius: 8px !important;
+  border: 1px solid #404040 !important;
+}
+
+// Syntax highlighting (dark theme)
+.highlight {
+  background-color: #2d2d2d !important;
+
+  .c,
+  .cm,
+  .c1,
+  .cs {
+    color: #6a9955 !important;
+  }
+
+  .k,
+  .kd,
+  .kn,
+  .kp,
+  .kr,
+  .kt {
+    color: #569cd6 !important;
+  }
+
+  .s,
+  .s1,
+  .s2,
+  .sb,
+  .sc,
+  .sd,
+  .se,
+  .sh,
+  .si,
+  .sx,
+  .sr {
+    color: #ce9178 !important;
+  }
+
+  .m,
+  .mf,
+  .mh,
+  .mi,
+  .mo {
+    color: #b5cea8 !important;
+  }
+
+  .n,
+  .na,
+  .nb,
+  .nc,
+  .nd,
+  .ne,
+  .nf,
+  .ni,
+  .nl,
+  .nn,
+  .no,
+  .nt,
+  .nv {
+    color: #9cdcfe !important;
+  }
+
+  .o,
+  .ow {
+    color: #d4d4d4 !important;
+  }
+
+  .p {
+    color: #d4d4d4 !important;
+  }
+
+  .err {
+    color: #f44747 !important;
+    background-color: transparent !important;
+  }
+}
+
+pre.highlight code {
+  color: #e0e0e0 !important;
+  font-family: 'SF Mono', 'Menlo', 'Monaco', 'Consolas', monospace !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+}
+
+// Light theme alternative (uncomment if you prefer light)
+/*
+pre {
+  background-color: #f6f8fa !important;
+  border: 1px solid #e1e4e8 !important;
+}
+
+pre code {
+  color: #24292e !important;
+}
+
+.highlight {
+  background-color: #f6f8fa !important;
+  
+  .c, .cm, .c1, .cs { color: #6a737d !important; }
+  .k, .kd, .kn, .kp, .kr, .kt { color: #d73a49 !important; }
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr { color: #032f62 !important; }
+  .m, .mf, .mh, .mi, .mo { color: #005cc5 !important; }
+  .n, .na, .nb, .nc, .nd, .ne, .nf, .ni, .nl, .nn, .no, .nt, .nv { color: #6f42c1 !important; }
+}}
+*/
