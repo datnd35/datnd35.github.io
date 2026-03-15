@@ -657,7 +657,7 @@ Scenario:
 
   Step 2: UNDERSTAND ROOT CAUSE
   "Task này đang gặp khó ở đâu?"
-  
+
   Possible causes:
   ├─ Scope unclear → Clarify
   ├─ Technical blocker → Unblock
@@ -711,7 +711,7 @@ Scenario:
 
   Tech Lead: "OK, thêm vào sprint."
              (liên tục, không push back)
-  
+
   Hoặc:
   Tech Lead: "Không được, đã plan rồi."
              (rigid, không flexible)

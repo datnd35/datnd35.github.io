@@ -77,7 +77,14 @@ collections:
   cloud:
     output: true
     permalink: /:collection/:path/
+  english:
+    output: true
+    permalink: /english/:title/
 
 future: true
 
 url: "https://datnd35.github.io"
+
+navigation:
+  - title: English
+    url: /english/
