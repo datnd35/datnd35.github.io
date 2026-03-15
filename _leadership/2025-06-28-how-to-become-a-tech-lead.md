@@ -2,7 +2,7 @@
 layout: post
 title: "How to Become a Tech Lead — Career Path, Mindset & Responsibilities"
 date: 2025-06-28
-categories: learning
+categories: leadership
 ---
 
 ## 🎯 Mục Tiêu Bài Viết
@@ -81,12 +81,12 @@ Senior         → phụ thuộc 0-10%
 Tech Lead      → người khác phụ thuộc vào MÌNH
 ```
 
-| Level     | Dependency     | Focus chính                   |
-| --------- | -------------- | ----------------------------- |
-| Junior    | Cần hướng dẫn  | Học & hoàn thành task         |
-| Mid       | Khá độc lập    | Tự giải quyết + hỗ trợ       |
-| Senior    | Tự chủ         | Giải pháp + mentoring         |
-| Tech Lead | Team phụ thuộc | Delivery + team + business    |
+| Level     | Dependency     | Focus chính                |
+| --------- | -------------- | -------------------------- |
+| Junior    | Cần hướng dẫn  | Học & hoàn thành task      |
+| Mid       | Khá độc lập    | Tự giải quyết + hỗ trợ     |
+| Senior    | Tự chủ         | Giải pháp + mentoring      |
+| Tech Lead | Team phụ thuộc | Delivery + team + business |
 
 ---
 

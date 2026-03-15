@@ -2,7 +2,7 @@
 layout: post
 title: "Engineering Manager — Technical Skill, Leadership & Psychological Safety"
 date: 2025-06-28
-categories: learning
+categories: leadership
 ---
 
 ## 🎯 Mục Tiêu Bài Viết
