@@ -73,6 +73,8 @@ collections:
   investment:
     output: true
     permalink: /:collection/:path/
+  cloud:
+    output: true
 
 future: true
 
