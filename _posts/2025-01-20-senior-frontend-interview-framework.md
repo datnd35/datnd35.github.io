@@ -115,12 +115,12 @@ Dựa trên feedback của đàn anh và kinh nghiệm phỏng vấn **Senior Fr
 
 **Câu hỏi mẫu:**
 
-| Topic | Câu hỏi |
-|-------|---------|
+| Topic            | Câu hỏi                                                          |
+| ---------------- | ---------------------------------------------------------------- |
 | Change Detection | Khi nào bạn dùng `OnPush` strategy? Project bạn áp dụng thế nào? |
-| RxJS | Tại sao chọn `switchMap` thay vì `mergeMap` trong case cụ thể? |
-| Performance | Angular app bị slow, bạn debug như thế nào? |
-| Architecture | Project ~200 components, bạn tổ chức folder structure ra sao? |
+| RxJS             | Tại sao chọn `switchMap` thay vì `mergeMap` trong case cụ thể?   |
+| Performance      | Angular app bị slow, bạn debug như thế nào?                      |
+| Architecture     | Project ~200 components, bạn tổ chức folder structure ra sao?    |
 
 ### Stage 3: Fundamental Knowledge (10 phút)
 
@@ -356,23 +356,23 @@ Follow-up Question:
 
 ### Angular Deep Knowledge
 
-| # | Question | Purpose |
-|---|----------|---------|
-| 1 | Giải thích Change Detection trong Angular hoạt động thế nào? | Core understanding |
-| 2 | Khi nào dùng `OnPush`? Trade-offs là gì? | Performance awareness |
-| 3 | `Subject` vs `BehaviorSubject` vs `ReplaySubject` - khi nào dùng gì? | RxJS mastery |
-| 4 | Lazy loading modules có ảnh hưởng gì đến bundle size? | Optimization |
-| 5 | NgZone là gì? Khi nào cần `runOutsideAngular`? | Advanced concept |
+| #   | Question                                                             | Purpose               |
+| --- | -------------------------------------------------------------------- | --------------------- |
+| 1   | Giải thích Change Detection trong Angular hoạt động thế nào?         | Core understanding    |
+| 2   | Khi nào dùng `OnPush`? Trade-offs là gì?                             | Performance awareness |
+| 3   | `Subject` vs `BehaviorSubject` vs `ReplaySubject` - khi nào dùng gì? | RxJS mastery          |
+| 4   | Lazy loading modules có ảnh hưởng gì đến bundle size?                | Optimization          |
+| 5   | NgZone là gì? Khi nào cần `runOutsideAngular`?                       | Advanced concept      |
 
 ### Real Situation Questions
 
-| # | Scenario | Đánh giá |
-|---|----------|----------|
-| 1 | Production bug không reproduce được local | Debug methodology |
-| 2 | Memory leak trong SPA | Performance debugging |
-| 3 | API response 5s, UX bị ảnh hưởng | UX problem solving |
-| 4 | Team member push code không qua review | Process handling |
-| 5 | Client thay đổi requirement liên tục | Stakeholder management |
+| #   | Scenario                                  | Đánh giá               |
+| --- | ----------------------------------------- | ---------------------- |
+| 1   | Production bug không reproduce được local | Debug methodology      |
+| 2   | Memory leak trong SPA                     | Performance debugging  |
+| 3   | API response 5s, UX bị ảnh hưởng          | UX problem solving     |
+| 4   | Team member push code không qua review    | Process handling       |
+| 5   | Client thay đổi requirement liên tục      | Stakeholder management |
 
 ---
 
@@ -395,12 +395,3 @@ Follow-up Question:
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
-
----
-
-**Bạn muốn tìm hiểu thêm về:**
-- Bộ 50 câu hỏi chi tiết cho Senior Angular?
-- Framework đánh giá ứng viên với scorecard chuẩn?
-- Các red flags cần tránh khi phỏng vấn?
-
-Hãy để lại comment bên dưới! 👇
