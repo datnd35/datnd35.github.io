@@ -60,10 +60,10 @@ Senior dev **không nhảy vào code ngay**, họ model vấn đề trước.
 └─────────────────────────────────────────┘
 ```
 
-| Level  | Approach           |
-|--------|--------------------|
-| Junior | Code trước         |
-| Senior | **Model trước**    |
+| Level  | Approach        |
+| ------ | --------------- |
+| Junior | Code trước      |
+| Senior | **Model trước** |
 
 ---
 
@@ -95,12 +95,12 @@ Senior dev **không nhảy vào code ngay**, họ model vấn đề trước.
 
 💡 **Senior dev dành nhiều thời gian ở 3 tầng trên.**
 
-| Tầng     | Câu hỏi                                |
-|----------|----------------------------------------|
-| Business | Tại sao cần build feature này?         |
-| System   | Architecture nào phù hợp?              |
-| Logic    | Algorithm nào tối ưu?                  |
-| Code     | Syntax/framework nào implement nhanh?  |
+| Tầng     | Câu hỏi                               |
+| -------- | ------------------------------------- |
+| Business | Tại sao cần build feature này?        |
+| System   | Architecture nào phù hợp?             |
+| Logic    | Algorithm nào tối ưu?                 |
+| Code     | Syntax/framework nào implement nhanh? |
 
 ---
 
