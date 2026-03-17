@@ -32,6 +32,7 @@ header_pages:
   - leadership.md
   - learning.md
   - senior.md
+  - interview.md
 
 navbar-links:
   Home: "https://datnd35.github.io"
@@ -80,6 +81,9 @@ collections:
   english:
     output: true
     permalink: /english/:title/
+  interview:
+    output: true
+    permalink: /:collection/:path/
 
 future: true
 
