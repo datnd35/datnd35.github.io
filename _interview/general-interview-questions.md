@@ -243,7 +243,7 @@ Organizations:
 <button aria-label="Close"></button>
 ```
 
-````
+```
 
 - Screen reader: đọc nội dung cho người khiếm thị
 
@@ -354,6 +354,3 @@ Organizations:
 Nếu bạn đang target Senior Frontend → nên chuẩn bị answer dạng **story + impact (metrics)** thay vì trả lời lý thuyết.
 
 ```
-
-```
-````
