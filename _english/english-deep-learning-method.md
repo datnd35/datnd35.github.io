@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Learn English Deeply with Short Stories"
-date: 2026-03-19
+date: 2026-03-17
 categories: english
 ---
 
