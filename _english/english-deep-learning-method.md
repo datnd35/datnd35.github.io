@@ -2,7 +2,7 @@
 layout: post
 title: "How to Learn English Deeply with Short Stories"
 date: 2026-03-19
-categories: english learning
+categories: english
 ---
 
 Không chỉ đọc hiểu — mà nhớ từ vựng lâu dài, nâng cấp grammar + speaking, và tư duy bằng tiếng Anh.
