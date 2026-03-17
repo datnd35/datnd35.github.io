@@ -2,7 +2,7 @@
 layout: post
 title: "Interview Feedback Framework"
 date: 2026-01-27
-categories: senior
+categories: interview
 ---
 
 ## 🎯 Feedback Không Chỉ Là Chấm Điểm
