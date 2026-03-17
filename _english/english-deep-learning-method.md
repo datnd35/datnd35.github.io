@@ -7,6 +7,8 @@ categories: english learning
 
 Không chỉ đọc hiểu — mà nhớ từ vựng lâu dài, nâng cấp grammar + speaking, và tư duy bằng tiếng Anh.
 
+📚 **Nguồn học:** [EasyEnglish.com](https://easyenglish.com/) - Trang web cung cấp các short stories phù hợp cho phương pháp này.
+
 ---
 
 ## 🧩 1. Tổng quan phương pháp (Big Picture)
@@ -208,9 +210,9 @@ What would you do in that situation?
 
 ## 🚀 5. Routine đề xuất (30–45 phút/ngày)
 
-| Day | Focus |
-|-----|-------|
-| Day 1 | Read + vocab |
+| Day   | Focus                |
+| ----- | -------------------- |
+| Day 1 | Read + vocab         |
 | Day 2 | Sentence + shadowing |
 | Day 3 | Retelling + speaking |
 
