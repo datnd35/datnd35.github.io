@@ -1,19 +1,19 @@
 ---
-layout: page
-title: Interview
+layout: default
+title: 🎤 Interview
 permalink: /interview/
 ---
 
-{% assign interview_posts = site.interview | sort: 'date' | reverse %}
-{% for post in interview_posts %}
+# 🎤 Interview
 
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <p>{{ post.excerpt }}</p>
-{% endfor %}
-  {% for post in site.interview %}
+Tổng hợp các câu hỏi và kinh nghiệm phỏng vấn Frontend, Backend, System Design và các kỹ năng mềm.
+
+<ul class="post-list">
+  {% assign sorted_posts = site.interview | sort: 'date' | reverse %}
+  {% for post in sorted_posts %}
     <li>
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <span class="post-meta">{{ post.date | date: site.minima.date_format }}</span>
     </li>
   {% endfor %}
 </ul>
