@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTML Interview Questions (Part 2)"
+title: "HTML Interview Questions"
 date: 2026-03-18
 categories: interview html
 ---
