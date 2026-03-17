@@ -28,8 +28,6 @@ Các cách:
 <html lang="vi"></html>
 ```
 
-````
-
 - URL-based:
   - `/vi`, `/en`
 
@@ -315,6 +313,3 @@ Element không có content:
 ---
 
 👉 Đây là phần HTML khá “core” nhưng Senior vẫn bị hỏi rất nhiều — đặc biệt là các câu liên quan đến **browser behavior + performance + accessibility**.
-
-
-````
