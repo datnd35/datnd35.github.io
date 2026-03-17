@@ -243,8 +243,6 @@ Organizations:
 <button aria-label="Close"></button>
 ```
 
-```
-
 - Screen reader: đọc nội dung cho người khiếm thị
 
 👉 Best practices:
@@ -352,5 +350,7 @@ Organizations:
 👉 Bộ câu hỏi này thường dùng để đánh giá **tư duy, kinh nghiệm thực chiến và communication**, không chỉ knowledge.
 
 Nếu bạn đang target Senior Frontend → nên chuẩn bị answer dạng **story + impact (metrics)** thay vì trả lời lý thuyết.
+
+```
 
 ```
