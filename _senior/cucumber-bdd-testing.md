@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Cucumber & BDD: Viết Test Như Kể Chuyện"
-date: 2025-03-17
+title: "Testing Series (Part 5) - Cucumber & BDD: Viết Test Như Kể Chuyện"
+date: 2026-03-18
 categories: senior testing
 ---
 
@@ -95,19 +95,19 @@ Feature: User Login
 ### Code thực tế (TypeScript + Playwright)
 
 ```typescript
-import { Given, When, Then } from '@cucumber/cucumber';
+import { Given, When, Then } from "@cucumber/cucumber";
 
-Given('user đang ở trang login', async function() {
-  await this.page.goto('/login');
+Given("user đang ở trang login", async function () {
+  await this.page.goto("/login");
 });
 
-When('user nhập đúng username và password', async function() {
-  await this.page.fill('#username', 'admin');
-  await this.page.fill('#password', 'secret');
+When("user nhập đúng username và password", async function () {
+  await this.page.fill("#username", "admin");
+  await this.page.fill("#password", "secret");
 });
 
-Then('user được chuyển đến dashboard', async function() {
-  await expect(this.page).toHaveURL('/dashboard');
+Then("user được chuyển đến dashboard", async function () {
+  await expect(this.page).toHaveURL("/dashboard");
 });
 ```
 
@@ -212,13 +212,14 @@ npx playwright install
 ```
 
 **cucumber.js**
+
 ```javascript
 module.exports = {
   default: {
-    require: ['features/step_definitions/*.ts'],
-    format: ['progress', 'html:reports/cucumber.html'],
-    paths: ['features/*.feature']
-  }
+    require: ["features/step_definitions/*.ts"],
+    format: ["progress", "html:reports/cucumber.html"],
+    paths: ["features/*.feature"],
+  },
 };
 ```
 

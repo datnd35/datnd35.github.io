@@ -1,7 +1,7 @@
 ---
-title: "Cucumber + Playwright: Hướng dẫn thực chiến cho Frontend Engineer"
+title: "Testing Series (Part 6) - Cucumber + Playwright: Hướng dẫn thực chiến cho Frontend Engineer"
 description: "Setup và triển khai E2E testing với Cucumber + Playwright theo chuẩn production - kiến thức cần thiết cho Senior Frontend Engineer"
-date: 2025-01-20
+date: 2026-03-18
 tags: ["testing", "cucumber", "playwright", "e2e", "automation", "typescript"]
 category: "Testing"
 ---
@@ -101,7 +101,7 @@ When(
     await page.fill("#username", username);
     await page.fill("#password", password);
     await page.click("#login-btn");
-  }
+  },
 );
 
 Then("user thấy dashboard", async () => {
@@ -157,7 +157,7 @@ When(
   "user nhập username {string} và password {string}",
   async function (username, password) {
     await loginPage.login(username, password);
-  }
+  },
 );
 ```
 
@@ -182,6 +182,7 @@ After(async function () {
 ```
 
 👉 Lợi ích:
+
 - Clean code
 - Không lặp lại browser setup
 - Đảm bảo cleanup sau mỗi test
@@ -246,13 +247,13 @@ Generate report
 
 ## ⚠️ Sai lầm phổ biến (Senior hay hỏi)
 
-| ❌ Sai | ✅ Đúng |
-|--------|---------|
-| Viết selector trực tiếp trong step | Dùng Page Object Pattern |
-| Không dùng Page Object | Tách riêng page classes |
-| Test phụ thuộc nhau (state leak) | Mỗi test độc lập |
-| Không handle async properly | Dùng async/await đúng cách |
-| Selector yếu (brittle tests) | Dùng data-testid hoặc stable selectors |
+| ❌ Sai                             | ✅ Đúng                                |
+| ---------------------------------- | -------------------------------------- |
+| Viết selector trực tiếp trong step | Dùng Page Object Pattern               |
+| Không dùng Page Object             | Tách riêng page classes                |
+| Test phụ thuộc nhau (state leak)   | Mỗi test độc lập                       |
+| Không handle async properly        | Dùng async/await đúng cách             |
+| Selector yếu (brittle tests)       | Dùng data-testid hoặc stable selectors |
 
 ---
 
@@ -292,6 +293,7 @@ Examples:
 > **Playwright = thực thi automation mạnh mẽ, cross-browser**
 
 Kết hợp cả hai giúp bạn có:
+
 - ✅ Living documentation
 - ✅ Readable test cases
 - ✅ Powerful browser automation
