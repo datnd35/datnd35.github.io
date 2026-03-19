@@ -8,7 +8,9 @@ category: "Cloud"
 
 ## 🧠 1. AWS Architecture Overview (Text Diagram)
 
-```text
+{% raw %}
+
+```
 [ User (Browser) ]
         |
         v
@@ -17,8 +19,8 @@ category: "Cloud"
         v
 +----------------------+
 |  Security Layer      |
-|  - WAF              |
-|  - Shield           |
+|  - WAF               |
+|  - Shield            |
 +----------------------+
         |
         v
@@ -91,6 +93,10 @@ category: "Cloud"
 +----------------------+
 ```
 
+{% endraw %}
+
+---
+
 ## 🚀 2. Flow đơn giản (E-commerce Example)
 
 ```text
@@ -104,6 +110,8 @@ Event (order created)
    -> SNS -> multiple services
    -> SQS -> background processing
 ```
+
+---
 
 ## 📌 3. Giải thích từng Layer
 
@@ -123,6 +131,8 @@ Event (order created)
 | WAF     | Chống SQL injection, bot |
 | Shield  | Chống DDoS               |
 
+---
+
 ### ⚡ Layer 3: Static + CDN
 
 | Service    | Chức năng                  |
@@ -136,12 +146,16 @@ Event (order created)
 React/Angular build → S3 → CloudFront
 ```
 
+---
+
 ### 🔌 Layer 4: API Layer
 
 | Service       | Chức năng            | Use case        |
 | ------------- | -------------------- | --------------- |
 | API Gateway   | REST API / WebSocket | Serverless      |
 | Load Balancer | Phân phối traffic    | EC2 / Container |
+
+---
 
 ### 🔑 Layer 5: Authentication
 
@@ -151,6 +165,8 @@ React/Angular build → S3 → CloudFront
 - JWT Token
 - Phân quyền user
 - Social login (Google, Facebook)
+
+---
 
 ### 🧠 Layer 6: Compute (Core Logic)
 
@@ -163,10 +179,12 @@ React/Angular build → S3 → CloudFront
 👉 **Rule nhớ nhanh:**
 
 ```text
-Simple → Lambda
+Simple  → Lambda
 Complex → ECS
-Legacy → EC2
+Legacy  → EC2
 ```
+
+---
 
 ### 🗄️ Layer 7: Database
 
@@ -185,6 +203,8 @@ Legacy → EC2
 | ElastiCache | Redis/Memcached cache |
 | MemoryDB    | Cache + persistence   |
 
+---
+
 ### 🔄 Layer 9: Async / Event-driven
 
 | Service        | Pattern      | Use case           |
@@ -200,6 +220,8 @@ Legacy → EC2
 Order created → SNS → Email + Analytics + Shipping
 ```
 
+---
+
 ### 📊 Layer 10: Data & Analytics
 
 | Service  | Chức năng                      |
@@ -210,6 +232,8 @@ Order created → SNS → Email + Analytics + Shipping
 | Glue     | ETL (Extract, Transform, Load) |
 | Redshift | Data warehouse                 |
 
+---
+
 ### 📈 Layer 11: Monitoring
 
 | Service    | Chức năng            |
@@ -217,6 +241,8 @@ Order created → SNS → Email + Analytics + Shipping
 | CloudWatch | Logs + Metrics       |
 | CloudTrail | Audit (ai làm gì)    |
 | X-Ray      | Tracing (debug flow) |
+
+---
 
 ## 🎯 4. Kiến trúc AWS chuẩn (Summary)
 
@@ -231,6 +257,8 @@ Database (DynamoDB / RDS)
         ↓
 Event (SNS/SQS)
 ```
+
+---
 
 ## 💡 5. Tips cho Frontend Developer
 
@@ -250,32 +278,40 @@ Angular/React → S3 → CloudFront
              → API Gateway → Lambda → DynamoDB
 ```
 
+---
+
 ## 🔥 6. Real-world Architecture (E-commerce)
 
-```text
-                    ┌─────────────┐
-                    │   Route53   │
-                    └──────┬──────┘
-                           │
-              ┌────────────┴────────────┐
-              │                         │
-    ┌─────────▼─────────┐    ┌─────────▼─────────┐
-    │   CloudFront      │    │   API Gateway     │
-    │   (Static Web)    │    │   (REST API)      │
-    └─────────┬─────────┘    └─────────┬─────────┘
-              │                        │
-    ┌─────────▼─────────┐    ┌─────────▼─────────┐
-    │   S3 Bucket       │    │   Lambda / ECS    │
-    │   (React/Angular) │    │   (Business Logic)│
-    └───────────────────┘    └─────────┬─────────┘
-                                       │
-                    ┌──────────────────┼──────────────────┐
-                    │                  │                  │
-          ┌─────────▼───────┐ ┌───────▼───────┐ ┌───────▼───────┐
-          │   DynamoDB      │ │   RDS         │ │   ElastiCache │
-          │   (Products)    │ │   (Orders)    │ │   (Session)   │
-          └─────────────────┘ └───────────────┘ └───────────────┘
+{% raw %}
+
 ```
+                    +-----------+
+                    |  Route53  |
+                    +-----+-----+
+                          |
+             +------------+------------+
+             |                         |
+    +--------+--------+    +-----------+-------+
+    |   CloudFront    |    |   API Gateway     |
+    |   (Static Web)  |    |   (REST API)      |
+    +--------+--------+    +-----------+-------+
+             |                         |
+    +--------+--------+    +-----------+-------+
+    |   S3 Bucket     |    |   Lambda / ECS    |
+    | (React/Angular) |    |  (Business Logic) |
+    +-----------------+    +-----------+-------+
+                                       |
+                   +-------------------+-------------------+
+                   |                   |                   |
+          +--------+------+  +---------+-----+  +----------+----+
+          |   DynamoDB    |  |     RDS       |  |  ElastiCache  |
+          |  (Products)   |  |   (Orders)    |  |   (Session)   |
+          +---------------+  +---------------+  +---------------+
+```
+
+{% endraw %}
+
+---
 
 ## ⚠️ Common Mistakes (Senior Interview)
 
@@ -286,6 +322,8 @@ Angular/React → S3 → CloudFront
 | Database không có read replica | Setup read replica cho scale   |
 | Không monitor                  | CloudWatch + X-Ray             |
 | Hardcode credentials           | Dùng Secrets Manager / SSM     |
+
+---
 
 ## 🧠 7. Interview Questions (Senior Level)
 
@@ -325,6 +363,8 @@ Order → SNS Topic
 SQS (Buffer):
 Order → SQS Queue → Worker (process later)
 ```
+
+---
 
 ## 📚 Tài liệu tham khảo
 
