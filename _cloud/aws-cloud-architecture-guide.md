@@ -1,396 +1,374 @@
 ---
-title: "Interview Series (Part 2) - Funnel Interview Model: Framework Hỏi Chuẩn Của Senior Interviewer"
-description: "Bí mật đằng sau cách interviewer senior 'khai thác' năng lực thật của ứng viên — học để biết họ đang làm gì với bạn, và cách bạn phản ứng đúng"
-date: 2026-03-21
-tags: ["interview", "career", "mindset", "questioning", "senior"]
-category: "Interview"
+title: "Cloud Series (Part 1) - AWS Architecture: Hướng dẫn toàn diện cho Frontend Engineer"
+description: "Tổng quan kiến trúc AWS từ cơ bản đến nâng cao - kiến thức cần thiết cho Senior Frontend Engineer muốn hiểu về Cloud"
+date: 2026-03-19
+tags: ["aws", "cloud", "architecture", "serverless", "infrastructure"]
+category: "Cloud"
 ---
 
-## 🧠 1. Tại Sao Interviewer Senior Hỏi Rất Ít Nhưng Vẫn "Lột" Được Bạn?
+## 🧠 1. AWS Architecture Overview (Text Diagram)
 
-Interviewer kém hỏi nhiều câu, nhảy topic liên tục.  
-Interviewer giỏi hỏi **ít câu hơn nhưng đào sâu hơn**.
-
-> 💡 **Rule vàng:** `Ask less → Go deeper`
-
-Họ dùng một mô hình gọi là **Funnel Interview Model**:
+{% raw %}
 
 ```
-Broad ──▶ Narrow ──▶ Deep ──▶ Stress ──▶ Validate
-  │           │         │         │           │
-Cho        Tập       Đào       Test        Xác
-ứng viên   trung     sâu       giới        nhận
-nói thoải  1 vấn đề  năng lực  hạn         lại
-mái                  thật
+[ User (Browser) ]
+        |
+        v
+[ Route53 (DNS) ]
+        |
+        v
++----------------------+
+|  Security Layer      |
+|  - WAF               |
+|  - Shield            |
++----------------------+
+        |
+        v
++----------------------+
+|  CDN / Static        |
+|  - CloudFront        |
+|  - S3 (static files) |
++----------------------+
+        |
+        v
++----------------------+
+|  API Layer           |
+|  - API Gateway       |
+|  - Load Balancer     |
++----------------------+
+        |
+        v
++----------------------+
+|  Auth Layer          |
+|  - Cognito           |
++----------------------+
+        |
+        v
++----------------------+
+|  Compute Layer       |
+|  - EC2               |
+|  - ECS / Fargate     |
+|  - Lambda            |
++----------------------+
+        |
+        v
++----------------------+
+|  Database Layer      |
+|  - RDS / Aurora      |
+|  - DynamoDB          |
+|  - DocumentDB        |
++----------------------+
+        |
+        v
++----------------------+
+|  Cache Layer         |
+|  - ElastiCache       |
+|  - MemoryDB          |
++----------------------+
+        |
+        v
++----------------------+
+|  Async / Event       |
+|  - SNS               |
+|  - SQS               |
+|  - EventBridge       |
+|  - Step Functions    |
++----------------------+
+        |
+        v
++----------------------+
+|  Analytics / Data    |
+|  - S3 (data lake)    |
+|  - Athena / EMR      |
+|  - Glue              |
+|  - Redshift          |
++----------------------+
+        |
+        v
++----------------------+
+|  Monitoring          |
+|  - CloudWatch        |
+|  - CloudTrail        |
+|  - X-Ray             |
++----------------------+
 ```
 
----
-
-## 🧩 2. Mô Hình 5 Bước: "5-Step Questioning System"
-
-Đây là vòng lặp interviewer senior chạy **cho mỗi topic**:
-
-```
-┌──────────────────────────────────────────────────────────────┐
-│               5-STEP QUESTIONING SYSTEM                      │
-│                                                              │
-│  STEP 1        STEP 2        STEP 3    STEP 4    STEP 5      │
-│                                                              │
-│  🔵 OPEN  ──▶  🟡 DRILL  ──▶  🔴 WHY ──▶ 🟣 STRESS ──▶ 🟢 REFLECT│
-│                DOWN                                          │
-│                                                              │
-│  Cho nói      Chọn 1 điểm   Lật        Đẩy ra    Meta       │
-│  thoải mái    và "đào"      tư duy     comfort   level      │
-│                             sâu        zone                  │
-└──────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 🔵 Step 1: OPEN — Mở Câu Hỏi
-
-**Mục tiêu:** Cho ứng viên "show" một cách tự nhiên nhất.
-
-### Câu hỏi dạng này:
-
-```
-"Bạn hãy kể về một project gần đây bạn làm?"
-"Bạn đã từng optimize performance chưa?"
-"Describe kiến trúc hệ thống bạn tự hào nhất."
-```
-
-### Interviewer đang làm gì?
-
-```
-┌───────────────────────────────────────────────┐
-│  Interviewer KHÔNG interrupt                  │
-│  Interviewer QUAN SÁT:                        │
-│                                               │
-│  □ Ứng viên có structure câu trả lời không?  │
-│  □ Họ nói về problem hay chỉ nói về feature? │
-│  □ Có mention metric / result không?          │
-│  □ Năng lượng khi kể chuyện thế nào?         │
-└───────────────────────────────────────────────┘
-```
-
-> ⚠️ **Điều bạn cần biết:** Đây là bẫy dễ nhất. Nhiều ứng viên nói lan man, không structure → mất điểm ngay từ đầu.
-
----
-
-## 🟡 Step 2: DRILL DOWN — Đào Sâu
-
-**Mục tiêu:** Chọn **1 điểm cụ thể** ứng viên đề cập và khai thác tiếp.
-
-```
-Ứng viên nói:            Interviewer drill:
-─────────────────────────────────────────────────
-"Em optimize performance"  →  "Optimize cái gì cụ thể?"
-                              "Metric trước/sau ra sao?"
-                              "Đo bằng tool gì?"
-
-"Em dùng caching"          →  "Cache ở layer nào?"
-                              "Cache invalidation xử lý thế nào?"
-                              "TTL set bao lâu? Tại sao?"
-
-"Em refactor code cũ"      →  "Refactor scope bao lớn?"
-                              "Có test coverage không?"
-                              "Ai review? Rollback plan?"
-```
-
-### Rule quan trọng:
-
-```
-❌ Không chấp nhận câu trả lời chung chung
-✅ Luôn hỏi: "Cụ thể là gì? Số liệu? Bằng chứng?"
-```
-
-> 💡 Nếu ứng viên không có số liệu cụ thể → họ đang nói lý thuyết, không phải kinh nghiệm thật.
+{% endraw %}
 
 ---
 
-## 🔴 Step 3: WHY — Lật Tư Duy
+## 🚀 2. Flow đơn giản (E-commerce Example)
 
-**Đây là bước phân biệt Junior vs Senior rõ nhất.**
+```text
+User -> Route53 -> CloudFront -> S3 (static web)
 
-```
-┌────────────────────────────────────────────────────┐
-│                 WHY TEST                           │
-│                                                    │
-│  Junior:  Làm được → nhưng không biết TẠI SAO     │
-│  Senior:  Làm được + giải thích được trade-off     │
-│  Lead:    Làm được + trade-off + alternative       │
-└────────────────────────────────────────────────────┘
-```
+User -> API Gateway -> Lambda -> DynamoDB
 
-### Bộ câu hỏi WHY chuẩn:
+User -> API Gateway -> EC2 -> RDS
 
-```
-"Tại sao bạn chọn cách đó?"
-"Có cách nào khác không?"
-"Trade-off của quyết định này là gì?"
-"Tại sao không dùng [giải pháp X] thay thế?"
-```
-
-### Ví dụ thực tế:
-
-```
-Ứng viên: "Em dùng NgRx để quản lý state."
-
-WHY questions:
-├── "Tại sao dùng NgRx mà không dùng service + BehaviorSubject?"
-├── "App có bao nhiêu developer? Cần NgRx không?"
-└── "Trade-off của NgRx với app size nhỏ?"
-
-─────────────────────────────────────────────────
-Junior:  "Dạ vì NgRx tốt hơn..." (không có lý do)
-Senior:  "App có 5 dev, state phức tạp, cần
-          predictable + devtools → NgRx phù hợp.
-          Trade-off là boilerplate nhiều hơn."
+Event (order created)
+   -> SNS -> multiple services
+   -> SQS -> background processing
 ```
 
 ---
 
-## 🟣 Step 4: STRESS — Đẩy Ra Khỏi Comfort Zone
+## 📌 3. Giải thích từng Layer
 
-**Mục tiêu:** Test giới hạn tư duy — xem ứng viên xử lý khi không có câu trả lời sẵn.
+### 🌐 Layer 1: Entry Layer
 
-### Các dạng stress question:
-
-```
-┌─────────────────────────────────────────────────────┐
-│               STRESS QUESTION TYPES                 │
-├─────────────────┬───────────────────────────────────┤
-│  Scale up       │ "Nếu scale 10x thì sao?"          │
-│                 │ "Nếu 1M concurrent user?"          │
-├─────────────────┼───────────────────────────────────┤
-│  Failure case   │ "Nếu API fail thì xử lý thế nào?" │
-│                 │ "Database down thì UX ra sao?"     │
-├─────────────────┼───────────────────────────────────┤
-│  Constraint     │ "Nếu không được dùng library đó?" │
-│                 │ "Nếu chỉ có 1 tuần để làm?"       │
-├─────────────────┼───────────────────────────────────┤
-│  Conflict       │ "Nếu tech lead không đồng ý?"     │
-│                 │ "Nếu requirement thay đổi giữa     │
-│                 │  sprint?"                          │
-└─────────────────┴───────────────────────────────────┘
-```
-
-### Interviewer đang check gì?
-
-```
-Problem solving:      Có hướng tiếp cận không?
-System thinking:      Nghĩ đến dependency không?
-Calm under pressure:  Bình tĩnh hay panic?
-```
-
-> ⚠️ **Điều bạn cần biết:** Câu hỏi stress KHÔNG cần trả lời hoàn hảo. Interviewer muốn thấy **cách bạn suy nghĩ**, không phải đáp án đúng.
+| Service | Chức năng                        |
+| ------- | -------------------------------- |
+| Route53 | DNS (google.com → IP)            |
+|         | Điều hướng traffic (latency/geo) |
 
 ---
 
-## 🟢 Step 5: REFLECTION — Meta Level
+### 🔒 Layer 2: Security
 
-**Đây là câu hỏi mạnh nhất nhưng ít người biết dùng.**
+| Service | Chức năng                |
+| ------- | ------------------------ |
+| WAF     | Chống SQL injection, bot |
+| Shield  | Chống DDoS               |
 
-```
-"Nếu làm lại từ đầu, bạn sẽ làm gì khác?"
-"Quyết định nào bạn thấy mình đã sai?"
-"Bài học lớn nhất bạn rút ra từ project đó?"
-```
+---
 
-### Tại sao câu hỏi này mạnh?
+### ⚡ Layer 3: Static + CDN
 
-```
-┌────────────────────────────────────────────────────┐
-│              REFLECTION REVEALS                    │
-│                                                    │
-│  Growth mindset:   Tự nhận lỗi và học từ nó       │
-│  Self-awareness:   Biết điểm yếu của mình          │
-│  Maturity:         Không defensive khi nhìn lại    │
-│  Honesty:          Không tô hồng quá mức           │
-└────────────────────────────────────────────────────┘
-```
+| Service    | Chức năng                  |
+| ---------- | -------------------------- |
+| S3         | Chứa HTML/CSS/JS/images    |
+| CloudFront | Cache toàn cầu → nhanh hơn |
 
-```
-❌ Junior trả lời:
-"Dạ project em làm tốt lắm, không có gì cần thay đổi."
+👉 **Pattern phổ biến:**
 
-✅ Senior trả lời:
-"Nếu làm lại, em sẽ setup monitoring từ đầu thay vì
- sau khi có bug. Lúc đó mình không có metric nên debug
- rất mất thời gian — bài học là observability first."
+```text
+React/Angular build → S3 → CloudFront
 ```
 
 ---
 
-## 🔥 3. Signal Extraction Map
+### 🔌 Layer 4: API Layer
 
-Mỗi câu hỏi là để extract **1 signal cụ thể**. Đây là bản đồ:
+| Service       | Chức năng            | Use case        |
+| ------------- | -------------------- | --------------- |
+| API Gateway   | REST API / WebSocket | Serverless      |
+| Load Balancer | Phân phối traffic    | EC2 / Container |
 
-```
-┌───────────────────────────────────────────────────────────┐
-│                  SIGNAL MAP                               │
-├─────────────────────────────────────┬─────────────────────┤
-│  Câu hỏi                            │  Signal cần extract │
-├─────────────────────────────────────┼─────────────────────┤
-│ "Design feature này thế nào?"       │ System design       │
-│ "Tại sao dùng RxJS?"               │ Depth of knowledge  │
-│ "Bug khó nhất bạn từng gặp?"       │ Debug skill         │
-│ "Conflict với teammate?"            │ Soft skill          │
-│ "Optimize performance?"             │ Technical maturity  │
-│ "Làm thế nào onboard member mới?"  │ Leadership          │
-│ "Deadline không kịp xử lý sao?"    │ Ownership + pressure│
-└─────────────────────────────────────┴─────────────────────┘
+---
+
+### 🔑 Layer 5: Authentication
+
+**Cognito** cung cấp:
+
+- Login / Signup
+- JWT Token
+- Phân quyền user
+- Social login (Google, Facebook)
+
+---
+
+### 🧠 Layer 6: Compute (Core Logic)
+
+| Service       | Use case            |
+| ------------- | ------------------- |
+| EC2           | Server truyền thống |
+| ECS / Fargate | Container           |
+| Lambda        | Serverless          |
+
+👉 **Rule nhớ nhanh:**
+
+```text
+Simple  → Lambda
+Complex → ECS
+Legacy  → EC2
 ```
 
 ---
 
-## ❌ 4. Anti-Pattern: Interviewer Kém Làm Gì?
+### 🗄️ Layer 7: Database
 
-Phân biệt câu hỏi **có giá trị** vs **vô nghĩa**:
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                  QUESTION QUALITY                       │
-├──────────────────────────┬──────────────────────────────┤
-│  ❌ Trivia (vô nghĩa)    │  ✅ Signal-based (có giá trị) │
-├──────────────────────────┼──────────────────────────────┤
-│ "Angular lifecycle        │ "Kể project bạn dùng lifecycle│
-│  có mấy hook?"           │  để solve vấn đề gì?"        │
-│                          │                              │
-│ "RxJS là gì?"            │ "Bạn xử lý race condition    │
-│                          │  với RxJS thế nào?"          │
-│                          │                              │
-│ "Redux vs NgRx khác gì?" │ "Khi nào bạn chọn NgRx,     │
-│                          │  khi nào không?"             │
-└──────────────────────────┴──────────────────────────────┘
-```
-
-> 💡 **Trivia question** chỉ test trí nhớ. **Signal-based question** test tư duy thật.
+| Service      | Type               | Use case         |
+| ------------ | ------------------ | ---------------- |
+| RDS / Aurora | SQL                | Relational data  |
+| DynamoDB     | NoSQL (key-value)  | High performance |
+| DocumentDB   | MongoDB-compatible | Document storage |
 
 ---
 
-## 🚀 5. Real Interview Loop — Ví Dụ Hoàn Chỉnh
+### ⚡ Layer 8: Cache
 
-Xem cách 5 bước hoạt động liên tiếp trong thực tế:
+| Service     | Chức năng             |
+| ----------- | --------------------- |
+| ElastiCache | Redis/Memcached cache |
+| MemoryDB    | Cache + persistence   |
 
-```
-Topic: WebSocket trong project
+---
 
-┌─────────────────────────────────────────────────────────┐
-│  STEP 1 — OPEN                                          │
-│  "Bạn kể về project gần đây nhất?"                     │
-│  → Ứng viên: "Em làm real-time dashboard dùng          │
-│               WebSocket..."                             │
-└────────────────────────┬────────────────────────────────┘
-                         │ (pick: WebSocket)
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│  STEP 2 — DRILL DOWN                                    │
-│  "WebSocket — cụ thể bạn handle connection thế nào?"   │
-│  → Ứng viên: "Em dùng reconnect logic với              │
-│               exponential backoff..."                   │
-└────────────────────────┬────────────────────────────────┘
-                         │ (pick: tại sao exponential)
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│  STEP 3 — WHY                                           │
-│  "Tại sao exponential backoff? Không dùng fixed         │
-│   interval?"                                            │
-│  → Test: Ứng viên có hiểu thundering herd problem?     │
-└────────────────────────┬────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│  STEP 4 — STRESS                                        │
-│  "Nếu 10,000 user disconnect cùng lúc thì sao?"        │
-│  → Test: System thinking, scale awareness              │
-└────────────────────────┬────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│  STEP 5 — REFLECT                                       │
-│  "Nếu làm lại, bạn có dùng WebSocket không hay         │
-│   chọn SSE / Long polling?"                             │
-│  → Test: Growth mindset, trade-off awareness           │
-└─────────────────────────────────────────────────────────┘
+### 🔄 Layer 9: Async / Event-driven
+
+| Service        | Pattern      | Use case           |
+| -------------- | ------------ | ------------------ |
+| SNS            | Pub/Sub      | Broadcast messages |
+| SQS            | Queue        | Buffer / Decouple  |
+| EventBridge    | Event system | Event routing      |
+| Step Functions | Workflow     | Orchestration      |
+
+👉 **Pattern thực tế:**
+
+```text
+Order created → SNS → Email + Analytics + Shipping
 ```
 
 ---
 
-## 🧍 6. Góc Độ Ứng Viên: Bạn Phản Ứng Thế Nào?
+### 📊 Layer 10: Data & Analytics
 
-Bây giờ bạn đã biết interviewer đang làm gì — hãy chuẩn bị đúng cách:
+| Service  | Chức năng                      |
+| -------- | ------------------------------ |
+| S3       | Data lake                      |
+| Athena   | Query SQL trực tiếp S3         |
+| EMR      | Big data (Hadoop/Spark)        |
+| Glue     | ETL (Extract, Transform, Load) |
+| Redshift | Data warehouse                 |
 
-```
-┌─────────────────────────────────────────────────────────┐
-│            CANDIDATE RESPONSE GUIDE                     │
-├──────────────┬──────────────────────────────────────────┤
-│  Khi bị OPEN │ Structure ngay: "Tôi sẽ nói về 3 điểm..." │
-├──────────────┼──────────────────────────────────────────┤
-│  Khi bị DRILL│ Có số liệu sẵn: metric, tool, timeline   │
-├──────────────┼──────────────────────────────────────────┤
-│  Khi bị WHY  │ Trade-off trước: "Tôi chọn X vì...,     │
-│              │ trade-off là..., alternative là..."      │
-├──────────────┼──────────────────────────────────────────┤
-│  Khi bị      │ Không panic. Nói: "Let me think...       │
-│  STRESS      │ Tôi sẽ approach theo hướng..."           │
-├──────────────┼──────────────────────────────────────────┤
-│  Khi bị      │ Tự nhận lỗi + lesson learned.            │
-│  REFLECT     │ Đừng nói "không có gì sai cả"            │
-└──────────────┴──────────────────────────────────────────┘
+---
+
+### 📈 Layer 11: Monitoring
+
+| Service    | Chức năng            |
+| ---------- | -------------------- |
+| CloudWatch | Logs + Metrics       |
+| CloudTrail | Audit (ai làm gì)    |
+| X-Ray      | Tracing (debug flow) |
+
+---
+
+## 🎯 4. Kiến trúc AWS chuẩn (Summary)
+
+```text
+Frontend (S3 + CloudFront)
+        ↓
+API Gateway
+        ↓
+Lambda / ECS
+        ↓
+Database (DynamoDB / RDS)
+        ↓
+Event (SNS/SQS)
 ```
 
 ---
 
-## 📊 7. Tổng Hợp: Good Interviewer Formula
+## 💡 5. Tips cho Frontend Developer
 
-```
-┌─────────────────────────────────────────────────────────┐
-│             GOOD INTERVIEWER =                          │
-│                                                         │
-│   ✅ Right Question (signal-based, không trivia)        │
-│ + ✅ Follow-up đúng điểm (đào vào điểm yếu/mạnh)       │
-│ + ✅ Đào sâu liên tục (5-step loop)                     │
-│ - ❌ Hỏi nhiều topic nhảy qua lại                       │
-│ - ❌ Accept câu trả lời chung chung                      │
-│                                                         │
-│ ──────────────────────────────────────────────────────  │
-│ = Expose được năng lực thật của ứng viên               │
-└─────────────────────────────────────────────────────────┘
-```
+### 🔑 Core Services cần master:
 
----
+| Priority | Service              | Lý do               |
+| -------- | -------------------- | ------------------- |
+| 1        | S3 + CloudFront      | Deploy frontend app |
+| 2        | API Gateway + Lambda | Backend serverless  |
+| 3        | Cognito              | Authentication      |
+| 4        | DynamoDB             | Database đơn giản   |
 
-## 🔁 Quick Reference: 5-Step Cheat Sheet
+### 📦 Stack chuẩn cho Frontend:
 
-```
-┌──────────────────────────────────────────────────┐
-│          5-STEP QUESTIONING CHEAT SHEET          │
-│                                                  │
-│  1. OPEN                                         │
-│     → Câu hỏi rộng, để ứng viên tự structure    │
-│                                                  │
-│  2. DRILL DOWN                                   │
-│     → Chọn 1 điểm, hỏi cụ thể, yêu cầu metric  │
-│                                                  │
-│  3. WHY                                          │
-│     → "Tại sao? Trade-off? Alternative?"         │
-│                                                  │
-│  4. STRESS                                       │
-│     → Scale, failure, constraint, conflict       │
-│                                                  │
-│  5. REFLECT                                      │
-│     → "Làm lại bạn đổi gì? Quyết định nào sai?" │
-└──────────────────────────────────────────────────┘
+```text
+Angular/React → S3 → CloudFront
+             → API Gateway → Lambda → DynamoDB
 ```
 
 ---
 
-## 📚 Series tiếp theo
+## 🔥 6. Real-world Architecture (E-commerce)
 
-| Bài    | Nội dung                                                   |
-| ------ | ---------------------------------------------------------- |
-| Part 1 | Framework Tư Duy Interview: Nhìn Từ Góc Độ Interviewer     |
-| Part 3 | Frontend Technical Interview: Angular, RxJS, System Design |
-| Part 4 | Behavioral Interview — STAR Stories Thực Tế                |
-| Part 5 | Negotiate Offer — Framework Đàm Phán Lương                 |
+{% raw %}
+
+```
+                    +-----------+
+                    |  Route53  |
+                    +-----+-----+
+                          |
+             +------------+------------+
+             |                         |
+    +--------+--------+    +-----------+-------+
+    |   CloudFront    |    |   API Gateway     |
+    |   (Static Web)  |    |   (REST API)      |
+    +--------+--------+    +-----------+-------+
+             |                         |
+    +--------+--------+    +-----------+-------+
+    |   S3 Bucket     |    |   Lambda / ECS    |
+    | (React/Angular) |    |  (Business Logic) |
+    +-----------------+    +-----------+-------+
+                                       |
+                   +-------------------+-------------------+
+                   |                   |                   |
+          +--------+------+  +---------+-----+  +----------+----+
+          |   DynamoDB    |  |     RDS       |  |  ElastiCache  |
+          |  (Products)   |  |   (Orders)    |  |   (Session)   |
+          +---------------+  +---------------+  +---------------+
+```
+
+{% endraw %}
+
+---
+
+## ⚠️ Common Mistakes (Senior Interview)
+
+| ❌ Sai                         | ✅ Đúng                        |
+| ------------------------------ | ------------------------------ |
+| Dùng EC2 cho mọi thứ           | Chọn đúng service (Lambda/ECS) |
+| Không dùng CDN                 | CloudFront cho static assets   |
+| Database không có read replica | Setup read replica cho scale   |
+| Không monitor                  | CloudWatch + X-Ray             |
+| Hardcode credentials           | Dùng Secrets Manager / SSM     |
+
+---
+
+## 🧠 7. Interview Questions (Senior Level)
+
+### Q1: Khi nào dùng Lambda vs ECS?
+
+```text
+Lambda:
+- Short-lived tasks (< 15 min)
+- Event-driven
+- Auto-scale to zero
+
+ECS:
+- Long-running processes
+- Consistent workload
+- Need more control
+```
+
+### Q2: Làm sao optimize performance cho frontend trên AWS?
+
+```text
+1. S3 + CloudFront (CDN)
+2. Gzip/Brotli compression
+3. Cache headers
+4. Image optimization (WebP)
+5. Edge locations
+```
+
+### Q3: Giải thích event-driven architecture với SNS/SQS?
+
+```text
+SNS (Fan-out):
+Order → SNS Topic
+          ├→ Email Service
+          ├→ Analytics Service
+          └→ Inventory Service
+
+SQS (Buffer):
+Order → SQS Queue → Worker (process later)
+```
+
+---
+
+## 📚 Tài liệu tham khảo
+
+- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
+- [AWS Solutions Library](https://aws.amazon.com/solutions/)
+- [AWS Architecture Center](https://aws.amazon.com/architecture/)
+- [Serverless Land](https://serverlessland.com/)
