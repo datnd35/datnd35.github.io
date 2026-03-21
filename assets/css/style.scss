@@ -1,173 +1,75 @@
 --- --- @import "minima";
 
-// Custom Code Block Styles - HIGH SPECIFICITY to override minima
-// Target the exact classes shown in DevTools
-.highlighter-rouge .highlight {
-  background: #2d2d2d !important;
-  background-color: #2d2d2d !important;
+// ===== CONTENT CENTERING =====
+.post-content,
+.page-content .wrapper {
+  max-width: 860px;
+  margin: 0 auto;
 }
 
-.highlight {
-  background: #2d2d2d !important;
-  background-color: #2d2d2d !important;
+// ===== CODE BLOCK FIX (quan trọng nhất) =====
+pre,
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace !important;
+  font-size: 13px;
+  line-height: 1.5;
 }
 
-// Override pre, code with higher specificity
-body pre,
-body code,
-body .highlight,
-body .highlighter-rouge,
-body .highlighter-rouge .highlight,
-body div.highlighter-rouge,
-body div.highlight {
-  background: #2d2d2d !important;
-  background-color: #2d2d2d !important;
+pre {
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 16px;
+  overflow-x: auto;
+  white-space: pre; // giữ spacing của ASCII diagram
 }
 
-body pre {
-  padding: 16px !important;
-  overflow-x: auto !important;
-  background: #2d2d2d !important;
-  background-color: #2d2d2d !important;
-  border: 1px solid #404040 !important;
-  border-radius: 8px !important;
-}
-
-body pre code {
-  background: transparent !important;
-  background-color: transparent !important;
-  border: none !important;
-  padding: 0 !important;
-  color: #e0e0e0 !important;
-}
-
-// Inline code (single backticks in paragraphs)
-body p code,
-body li code,
-body td code,
-body h1 code,
-body h2 code,
-body h3 code,
-body h4 code {
-  background: #f3f4f6 !important;
-  background-color: #f3f4f6 !important;
-  color: #374151 !important;
-  padding: 2px 6px !important;
-  border-radius: 4px !important;
-  font-size: 0.9em !important;
-  border: 1px solid #e5e7eb !important;
-}
-
-// Code block container
-body div.highlighter-rouge {
-  margin: 1em 0 !important;
-  background: #2d2d2d !important;
-  background-color: #2d2d2d !important;
-  border-radius: 8px !important;
-}
-
-body div.highlighter-rouge pre.highlight {
-  background: #2d2d2d !important;
-  background-color: #2d2d2d !important;
-  border-radius: 8px !important;
-  border: 1px solid #404040 !important;
-  margin: 0 !important;
-}
-
-// Plain text/diagram code blocks
-body .language-plaintext,
-body .language-plaintext .highlight,
-body .language-text,
-body .language-text .highlight {
-  background: #2d2d2d !important;
-  background-color: #2d2d2d !important;
-}
-
-// Syntax highlighting colors
-.highlight {
-
-  .c,
-  .cm,
-  .c1,
-  .cs {
-    color: #6a9955 !important;
+// ===== MARKDOWN BODY STYLE =====
+.post-content {
+  h2 {
+    margin-top: 2rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #e1e4e8;
   }
 
-  .k,
-  .kd,
-  .kn,
-  .kp,
-  .kr,
-  .kt {
-    color: #569cd6 !important;
+  h3 {
+    margin-top: 1.5rem;
+    color: #444;
   }
 
-  .s,
-  .s1,
-  .s2,
-  .sb,
-  .sc,
-  .sd,
-  .se,
-  .sh,
-  .si,
-  .sx,
-  .sr {
-    color: #ce9178 !important;
+  blockquote {
+    border-left: 4px solid #0969da;
+    background: #f0f7ff;
+    padding: 8px 16px;
+    border-radius: 0 6px 6px 0;
+    color: #333;
   }
 
-  .m,
-  .mf,
-  .mh,
-  .mi,
-  .mo {
-    color: #b5cea8 !important;
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+
+    th,
+    td {
+      border: 1px solid #d0d7de;
+      padding: 8px 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f6f8fa;
+      font-weight: 600;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #f6f8fa;
+    }
   }
 
-  .n,
-  .na,
-  .nb,
-  .nc,
-  .nd,
-  .ne,
-  .nf,
-  .ni,
-  .nl,
-  .nn,
-  .no,
-  .nt,
-  .nv {
-    color: #9cdcfe !important;
+  hr {
+    border: none;
+    border-top: 1px solid #e1e4e8;
+    margin: 2rem 0;
   }
-
-  .o,
-  .ow {
-    color: #d4d4d4 !important;
-  }
-
-  .p {
-    color: #d4d4d4 !important;
-  }
-
-  .err {
-    color: #f44747 !important;
-    background: transparent !important;
-  }
-}
-
-body pre.highlight code {
-  color: #e0e0e0 !important;
-  font-family: 'SF Mono', 'Menlo', 'Monaco', 'Consolas', monospace !important;
-  font-size: 14px !important;
-  line-height: 1.5 !important;
-}
-
-// Force override figure.highlight
-body figure.highlight,
-body figure.highlight pre,
-body div.highlight,
-body div.highlight pre {
-  background: #2d2d2d !important;
-  background-color: #2d2d2d !important;
-  border: 1px solid #404040 !important;
 }
