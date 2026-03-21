@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nói Chuyện Trong Meeting Như Senior - Framework Áp Dụng Ngay"
-date: 2026-02-04
+date: 2026-03-21
 categories: communication
 ---
 
