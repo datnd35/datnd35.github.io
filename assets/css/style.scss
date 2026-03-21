@@ -1,80 +1,54 @@
---- --- @import "minima";
+@import "minima";
 
-// ===== CENTER CONTENT =====
+// Căn giữa toàn bộ trang
 .wrapper {
-  max-width: 860px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  padding: 0 20px;
 }
 
-// ===== CODE BLOCK — giữ alignment ASCII diagram =====
+// Container riêng cho nội dung bài viết để tối ưu trải nghiệm đọc
+.post-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.7;
+  color: #24292f;
+}
+
+// Giữ nguyên định dạng ASCII art cho sơ đồ
 pre {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-family: "SFMono-Regular", Consolas, monospace;
   font-size: 13px;
-  line-height: 1.6;
   background-color: #f6f8fa;
-  border: 1px solid #e1e4e8;
   border-radius: 6px;
   padding: 16px;
   overflow-x: auto;
-  white-space: pre;
+  border: 1px solid #e1e4e8;
 }
 
-code {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-  font-size: 13px;
+// Style cho các bảng số liệu
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+
+  th,
+  td {
+    border: 1px solid #d0d7de;
+    padding: 12px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f6f8fa;
+  }
 }
 
-// ===== POST CONTENT STYLE =====
-.post-content {
-
-  h1,
-  h2 {
-    border-bottom: 1px solid #e1e4e8;
-    padding-bottom: 0.4rem;
-    margin-top: 2rem;
-  }
-
-  h3 {
-    margin-top: 1.5rem;
-  }
-
-  blockquote {
-    border-left: 4px solid #0969da;
-    background: #f0f7ff;
-    padding: 10px 16px;
-    border-radius: 0 6px 6px 0;
-    color: #333;
-    margin: 1rem 0;
-  }
-
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1rem 0;
-    display: table;
-
-    th,
-    td {
-      border: 1px solid #d0d7de;
-      padding: 8px 12px;
-    }
-
-    th {
-      background-color: #f6f8fa;
-      font-weight: 600;
-    }
-
-    tr:nth-child(even) td {
-      background-color: #f6f8fa;
-    }
-  }
-
-  hr {
-    border: none;
-    border-top: 1px solid #e1e4e8;
-    margin: 2rem 0;
-  }
+// Blockquote làm nổi bật Rule vàng
+blockquote {
+  border-left: 4px solid #0969da;
+  background: #f0f7ff;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  font-style: italic;
 }

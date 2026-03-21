@@ -6,6 +6,8 @@ tags: ["interview", "career", "mindset", "questioning", "senior"]
 category: "Interview"
 ---
 
+<div class="post-wrapper">
+
 # Funnel Interview Model: Framework Hỏi Chuẩn Của Senior Interviewer
 
 > Bí mật đằng sau cách interviewer senior **"khai thác"** năng lực thật của ứng viên — học để biết họ đang làm gì với bạn, và cách bạn phản ứng đúng.
@@ -365,3 +367,5 @@ GOOD INTERVIEWER =
 | Part 3 | Frontend Technical Interview: Angular, RxJS, System Design |
 | Part 4 | Behavioral Interview — STAR Stories Thực Tế                |
 | Part 5 | Negotiate Offer — Framework Đàm Phán Lương                 |
+
+</div>
