@@ -21,7 +21,7 @@ Interviewer giỏi hỏi **ít câu hơn nhưng đào sâu hơn**.
 
 Họ dùng một mô hình gọi là **Funnel Interview Model** — bắt đầu rộng, thu hẹp dần, rồi đào sâu vào năng lực thật:
 
-```text
+```plaintext
 Broad ──▶ Narrow ──▶ Deep ──▶ Stress ──▶ Validate
   │           │         │         │           │
 Cho        Tập       Đào       Test        Xác
@@ -36,7 +36,7 @@ mái                  thật
 
 Đây là vòng lặp interviewer senior chạy **cho mỗi topic**:
 
-```text
+```plaintext
 +----------------------------------------------------------------+
 |                  5-STEP QUESTIONING SYSTEM                     |
 +----------+------------+----------+------------+----------------+
@@ -60,7 +60,7 @@ mái                  thật
 
 **Câu hỏi dạng này:**
 
-```text
+```plaintext
 "Bạn hãy kể về một project gần đây bạn làm?"
 "Bạn đã từng optimize performance chưa?"
 "Describe kiến trúc hệ thống bạn tự hào nhất."
@@ -68,7 +68,7 @@ mái                  thật
 
 **Interviewer đang quan sát:**
 
-```text
+```plaintext
 [ ] Ứng viên có structure câu trả lời không?
 [ ] Họ nói về problem hay chỉ nói về feature?
 [ ] Có mention metric / result không?
@@ -83,7 +83,7 @@ mái                  thật
 
 **Mục tiêu:** Chọn **1 điểm cụ thể** ứng viên đề cập và khai thác tiếp.
 
-```text
+```plaintext
 Ứng viên nói:              Interviewer drill:
 ─────────────────────────────────────────────────────────
 "Em optimize performance"  → "Optimize cái gì cụ thể?"
@@ -109,7 +109,7 @@ mái                  thật
 
 **Đây là bước phân biệt Junior vs Senior rõ nhất.**
 
-```text
+```plaintext
 +----------------------------------------------------+
 |                    WHY TEST                        |
 +----------------------------------------------------+
@@ -121,7 +121,7 @@ mái                  thật
 
 **Bộ câu hỏi WHY chuẩn:**
 
-```text
+```plaintext
 "Tại sao bạn chọn cách đó?"
 "Có cách nào khác không?"
 "Trade-off của quyết định này là gì?"
@@ -130,7 +130,7 @@ mái                  thật
 
 **Ví dụ thực tế:**
 
-```text
+```plaintext
 Ứng viên: "Em dùng NgRx để quản lý state."
 
 WHY questions:
@@ -152,7 +152,7 @@ Senior:  "App có 5 dev, state phức tạp, cần predictable
 
 **Mục tiêu:** Test giới hạn tư duy — xem ứng viên xử lý khi không có câu trả lời sẵn.
 
-```text
+```plaintext
 +------------------+--------------------------------------------+
 |  Dạng câu hỏi   |  Ví dụ                                     |
 +------------------+--------------------------------------------+
@@ -184,7 +184,7 @@ Senior:  "App có 5 dev, state phức tạp, cần predictable
 
 **Đây là câu hỏi mạnh nhất nhưng ít người biết dùng.**
 
-```text
+```plaintext
 "Nếu làm lại từ đầu, bạn sẽ làm gì khác?"
 "Quyết định nào bạn thấy mình đã sai?"
 "Bài học lớn nhất bạn rút ra từ project đó?"
@@ -192,7 +192,7 @@ Senior:  "App có 5 dev, state phức tạp, cần predictable
 
 **Tại sao câu hỏi này mạnh?**
 
-```text
+```plaintext
 +----------------------------------------------------+
 |               REFLECTION REVEALS                   |
 +----------------------------------------------------+
@@ -205,7 +205,7 @@ Senior:  "App có 5 dev, state phức tạp, cần predictable
 
 **So sánh câu trả lời:**
 
-```text
+```plaintext
 [Junior]
 "Dạ project em làm tốt lắm, không có gì cần thay đổi."
 
@@ -221,7 +221,7 @@ Senior:  "App có 5 dev, state phức tạp, cần predictable
 
 Mỗi câu hỏi được thiết kế để extract **1 signal cụ thể**:
 
-```text
+```plaintext
 +--------------------------------------+------------------------+
 |  Câu hỏi                             |  Signal cần extract    |
 +--------------------------------------+------------------------+
@@ -239,7 +239,7 @@ Mỗi câu hỏi được thiết kế để extract **1 signal cụ thể**:
 
 ## 5. Anti-Pattern: Câu Hỏi Trivia vs Signal-Based
 
-```text
+```plainplaintext
 +---------------------------------+----------------------------------+
 |  Trivia (vô nghĩa)              |  Signal-based (có giá trị)       |
 +---------------------------------+----------------------------------+
@@ -262,7 +262,7 @@ Mỗi câu hỏi được thiết kế để extract **1 signal cụ thể**:
 
 Xem cách 5 bước hoạt động liên tiếp trong thực tế với topic **WebSocket**:
 
-```text
+```plaintext
 STEP 1 — OPEN
   "Bạn kể về project gần đây nhất?"
   → "Em làm real-time dashboard dùng WebSocket..."
@@ -296,7 +296,7 @@ STEP 5 — REFLECT
 
 Bây giờ bạn đã biết interviewer đang làm gì — hãy chuẩn bị đúng cách:
 
-```text
+```plaintext
 +--------------+----------------------------------------------------+
 |  Khi bị...  |  Bạn nên...                                        |
 +--------------+----------------------------------------------------+
@@ -319,7 +319,7 @@ Bây giờ bạn đã biết interviewer đang làm gì — hãy chuẩn bị đ
 
 ## 8. Tổng Hợp: Good Interviewer Formula
 
-```text
+```plaintext
 GOOD INTERVIEWER =
   [+] Right Question     → signal-based, không trivia
   [+] Follow-up đúng     → đào vào điểm yếu/mạnh
@@ -334,7 +334,7 @@ GOOD INTERVIEWER =
 
 ## Quick Reference: 5-Step Cheat Sheet
 
-```text
+```plaintext
 +----------------------------------------------------+
 |           5-STEP QUESTIONING CHEAT SHEET           |
 +----------------------------------------------------+
