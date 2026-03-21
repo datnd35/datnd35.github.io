@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Cloud Series (Part 1) - AWS Architecture: Hướng dẫn toàn diện cho Frontend Engineer"
 description: "Tổng quan kiến trúc AWS từ cơ bản đến nâng cao - kiến thức cần thiết cho Senior Frontend Engineer muốn hiểu về Cloud"
 date: 2026-03-19
