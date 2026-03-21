@@ -1,60 +1,65 @@
 --- --- @import "minima";
 
-// ===== CONTENT CENTERING =====
-.post-content,
-.page-content .wrapper {
-  max-width: 860px;
-  margin: 0 auto;
+// ===== CENTER CONTENT =====
+.wrapper {
+  max-width: 860px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
-// ===== CODE BLOCK FIX (quan trọng nhất) =====
-pre,
-code {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace !important;
-  font-size: 13px;
-  line-height: 1.5;
-}
-
+// ===== CODE BLOCK — giữ alignment ASCII diagram =====
 pre {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 13px;
+  line-height: 1.6;
   background-color: #f6f8fa;
   border: 1px solid #e1e4e8;
   border-radius: 6px;
   padding: 16px;
   overflow-x: auto;
-  white-space: pre; // giữ spacing của ASCII diagram
+  white-space: pre;
 }
 
-// ===== MARKDOWN BODY STYLE =====
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 13px;
+}
+
+// ===== POST CONTENT STYLE =====
 .post-content {
+
+  h1,
   h2 {
-    margin-top: 2rem;
-    padding-bottom: 0.4rem;
     border-bottom: 1px solid #e1e4e8;
+    padding-bottom: 0.4rem;
+    margin-top: 2rem;
   }
 
   h3 {
     margin-top: 1.5rem;
-    color: #444;
   }
 
   blockquote {
     border-left: 4px solid #0969da;
     background: #f0f7ff;
-    padding: 8px 16px;
+    padding: 10px 16px;
     border-radius: 0 6px 6px 0;
     color: #333;
+    margin: 1rem 0;
   }
 
   table {
     width: 100%;
     border-collapse: collapse;
     margin: 1rem 0;
+    display: table;
 
     th,
     td {
       border: 1px solid #d0d7de;
       padding: 8px 12px;
-      text-align: left;
     }
 
     th {
