@@ -6,8 +6,6 @@ tags: ["interview", "career", "mindset", "questioning", "senior"]
 category: "Interview"
 ---
 
-<div class="post-wrapper">
-
 # Funnel Interview Model: Framework Hỏi Chuẩn Của Senior Interviewer
 
 > Bí mật đằng sau cách interviewer senior **"khai thác"** năng lực thật của ứng viên — học để biết họ đang làm gì với bạn, và cách bạn phản ứng đúng.
@@ -368,4 +366,20 @@ GOOD INTERVIEWER =
 | Part 4 | Behavioral Interview — STAR Stories Thực Tế                |
 | Part 5 | Negotiate Offer — Framework Đàm Phán Lương                 |
 
-</div>
+│ 5-STEP QUESTIONING CHEAT SHEET │
+│ │
+│ 1. OPEN │
+│ → Câu hỏi rộng, để ứng viên tự structure │
+│ │
+│ 2. DRILL DOWN │
+│ → Chọn 1 điểm, hỏi cụ thể, yêu cầu metric │
+│ │
+│ 3. WHY │
+│ → "Tại sao? Trade-off? Alternative?" │
+│ │
+│ 4. STRESS │
+│ → Scale, failure, constraint, conflict │
+│ │
+│ 5. REFLECT │
+│ → "Làm lại bạn đổi gì? Quyết định nào sai?" │
+└──────────────────────────────────────────────────┘
