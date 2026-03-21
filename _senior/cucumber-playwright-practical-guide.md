@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Testing Series (Part 6) - Cucumber + Playwright: Hướng dẫn thực chiến cho Frontend Engineer"
 description: "Setup và triển khai E2E testing với Cucumber + Playwright theo chuẩn production - kiến thức cần thiết cho Senior Frontend Engineer"
 date: 2026-03-18
