@@ -1,8 +1,6 @@
 ---
 title: "Interview Series (Part 2) - Funnel Interview Model: Framework Hỏi Chuẩn Của Senior Interviewer"
-description: "Bí mật đằng sau cách interviewer senior 'khai thác' năng lực thật của ứng viên — học để biết họ đang làm gì với bạn, và cách bạn phản ứng đúng"
 date: 2026-03-21
-tags: ["interview", "career", "mindset", "questioning", "senior"]
 category: "Interview"
 ---
 
