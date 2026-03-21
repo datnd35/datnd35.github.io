@@ -4,7 +4,6 @@ description: "Bí mật đằng sau cách interviewer senior 'khai thác' năng 
 date: 2026-03-21
 tags: ["interview", "career", "mindset", "questioning", "senior"]
 category: "Interview"
-layout: post
 ---
 
 <div style="max-width: 860px; margin: 0 auto; padding: 0 1.5rem;">
@@ -402,4 +401,5 @@ Bây giờ bạn đã biết interviewer đang làm gì — hãy chuẩn bị đ
 | Part 4 | Behavioral Interview — STAR Stories Thực Tế                |
 | Part 5 | Negotiate Offer — Framework Đàm Phán Lương                 |
 
+</div>
 </div>
