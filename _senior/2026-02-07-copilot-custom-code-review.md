@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitHub Copilot Custom Code Review — Biến AI Thành Senior Reviewer Của Team"
-date: 2026-02-07
+date: 2026-03-28
 categories: senior
 ---
 
@@ -114,14 +114,14 @@ Output: Summary → Issues → Suggestions
 
 ### So Sánh Chi Tiết
 
-| Tiêu chí         | Custom Instructions      | Prompt Files            | Custom Agent            |
-| ---------------- | ------------------------ | ----------------------- | ----------------------- |
-| **File**         | `copilot-instructions.md`| `*.prompt.md`           | `*.agent.md`            |
-| **Trigger**      | Tự động (always ON)      | Thủ công (manual run)   | Chọn persona            |
-| **Scope**        | Toàn project             | Từng task cụ thể        | Theo role               |
-| **Reusable**     | ✅ Luôn áp dụng         | ✅ Run lại bất cứ lúc nào | ✅ Chọn lại khi cần   |
-| **Team sharing** | ✅ Commit vào repo      | ✅ Commit vào repo      | ✅ Commit vào repo      |
-| **Use case**     | Convention, best practice | Review, refactor, test  | Role: reviewer, mentor  |
+| Tiêu chí         | Custom Instructions       | Prompt Files              | Custom Agent           |
+| ---------------- | ------------------------- | ------------------------- | ---------------------- |
+| **File**         | `copilot-instructions.md` | `*.prompt.md`             | `*.agent.md`           |
+| **Trigger**      | Tự động (always ON)       | Thủ công (manual run)     | Chọn persona           |
+| **Scope**        | Toàn project              | Từng task cụ thể          | Theo role              |
+| **Reusable**     | ✅ Luôn áp dụng           | ✅ Run lại bất cứ lúc nào | ✅ Chọn lại khi cần    |
+| **Team sharing** | ✅ Commit vào repo        | ✅ Commit vào repo        | ✅ Commit vào repo     |
+| **Use case**     | Convention, best practice | Review, refactor, test    | Role: reviewer, mentor |
 
 ### Diagram Quan Hệ
 
@@ -165,21 +165,25 @@ Ví dụ:
 # Team Code Standards
 
 ## Angular
+
 - Luôn dùng standalone components
 - Dùng signals thay vì BehaviorSubject khi có thể
 - Inject service bằng inject() function, không dùng constructor injection
 
 ## TypeScript
+
 - Strict mode bắt buộc
 - Không dùng `any` — dùng `unknown` nếu cần
 - Interface cho data, Type cho union/computed
 
 ## RxJS
+
 - Luôn unsubscribe hoặc dùng takeUntilDestroyed()
 - Tránh nested subscribe
 - Prefer declarative (combineLatest, switchMap) over imperative
 
 ## Security
+
 - Không hardcode secret/token
 - Validate input trước khi dùng
 - Dùng DomSanitizer cho dynamic HTML
@@ -243,41 +247,49 @@ Step 5: AI trả về kết quả review
 Bạn là Senior Code Reviewer. Review code theo các tiêu chí sau:
 
 ## 1. Code Quality
+
 - Clean code principles (SRP, DRY, KISS)
 - Naming conventions rõ ràng
 - Function < 20 dòng, file < 200 dòng
 
 ## 2. TypeScript
+
 - Strict typing (không any)
 - Proper use of generics
 - Null safety
 
 ## 3. Architecture
+
 - Component có đúng responsibility không?
 - Service layer tách biệt logic không?
 - Có vi phạm dependency direction không?
 
 ## 4. Performance
+
 - Có unnecessary re-render không?
 - Có memory leak potential không?
 - Lazy loading đã đúng chưa?
 
 ## 5. Security
+
 - Input validation
 - XSS prevention
 - Không expose sensitive data
 
 ## 6. Error Handling
+
 - Có try-catch ở đúng chỗ không?
 - Error message có meaningful không?
 - Có fallback / retry logic không?
 
 ## 7. Testability
+
 - Code có dễ test không?
 - Dependencies có injectable không?
 - Pure functions ở đâu có thể?
 
 ## Output format:
+
 - 🔴 Critical: phải fix trước khi merge
 - 🟡 Warning: nên fix
 - 🟢 Suggestion: nice to have
@@ -305,11 +317,13 @@ Bạn là Senior Code Reviewer. Review code theo các tiêu chí sau:
 Bạn là "Senior Code Reviewer" với 10 năm kinh nghiệm.
 
 ## Personality
+
 - Nghiêm túc nhưng constructive
 - Luôn giải thích TẠI SAO, không chỉ nói "sai"
 - Đưa ra code example khi suggest fix
 
 ## Expertise
+
 - Angular 17+ (signals, standalone, SSR)
 - RxJS patterns
 - TypeScript strict mode
@@ -317,6 +331,7 @@ Bạn là "Senior Code Reviewer" với 10 năm kinh nghiệm.
 - Security best practices
 
 ## Review Style
+
 - Bắt đầu bằng summary ngắn
 - Ưu tiên critical issues trước
 - Kết thúc bằng 1-2 điểm khen (nếu có)
@@ -536,12 +551,12 @@ Bạn cần Copilot review code?
 
 ## 📊 10. Tổng Kết — Cheat Sheet
 
-| Khái niệm            | File                           | Trigger     | Scope           |
-| -------------------- | ------------------------------ | ----------- | --------------- |
-| **Instructions**     | `copilot-instructions.md`      | Tự động     | Mọi request     |
-| **Prompt File**      | `*.prompt.md`                  | Thủ công    | Từng task       |
-| **Agent**            | `*.agent.md`                   | Chọn persona| Theo role       |
-| **Diff Review**      | Git changes                    | Select diff | Chỉ code thay đổi |
+| Khái niệm        | File                      | Trigger      | Scope             |
+| ---------------- | ------------------------- | ------------ | ----------------- |
+| **Instructions** | `copilot-instructions.md` | Tự động      | Mọi request       |
+| **Prompt File**  | `*.prompt.md`             | Thủ công     | Từng task         |
+| **Agent**        | `*.agent.md`              | Chọn persona | Theo role         |
+| **Diff Review**  | Git changes               | Select diff  | Chỉ code thay đổi |
 
 ### Mid vs Senior Perspective
 
