@@ -271,15 +271,15 @@ Worktree diagram:
 
 ## ⚖️ 5. So Sánh Hai Cách
 
-| Tiêu chí            | Review trên PR           | Checkout Local           |
-| ------------------- | ------------------------ | ------------------------ |
-| **Setup**           | Không cần                | Cần fetch + checkout     |
-| **Tốc độ**          | Nhanh                    | Chậm hơn                 |
-| **Comment**         | ✅ Line-by-line, lưu lại | ❌ Phải quay lại PR      |
-| **Chạy app**        | ❌ Không thể             | ✅ Được                  |
-| **Debug**           | ❌ Không thể             | ✅ Được                  |
-| **Test manual UI**  | ❌ Không thể             | ✅ Được                  |
-| **Phù hợp**         | Logic, style, scope      | Bug, UI, performance     |
+| Tiêu chí           | Review trên PR           | Checkout Local       |
+| ------------------ | ------------------------ | -------------------- |
+| **Setup**          | Không cần                | Cần fetch + checkout |
+| **Tốc độ**         | Nhanh                    | Chậm hơn             |
+| **Comment**        | ✅ Line-by-line, lưu lại | ❌ Phải quay lại PR  |
+| **Chạy app**       | ❌ Không thể             | ✅ Được              |
+| **Debug**          | ❌ Không thể             | ✅ Được              |
+| **Test manual UI** | ❌ Không thể             | ✅ Được              |
+| **Phù hợp**        | Logic, style, scope      | Bug, UI, performance |
 
 ### Decision Flow
 
@@ -514,15 +514,15 @@ Review diff trên PR
 
 ## 📊 10. Tổng Kết — Cheat Sheet
 
-| Tình huống                    | Reviewer làm gì?                    |
-| ----------------------------- | ----------------------------------- |
-| Review logic/style            | Comment trên PR diff                |
-| Cần verify UI/behavior        | Checkout branch → chạy local       |
-| CI fail                       | Request changes ngay, chưa review  |
-| Fix nhỏ (typo/lint)           | Push nếu team cho phép + hỏi author|
-| Fix lớn / đổi logic           | Comment + suggestion → author fix  |
-| Muốn xem "trước vs sau"      | Dùng PR diff, không undo commit    |
-| Giữ workspace sạch            | Dùng `git worktree`                |
+| Tình huống              | Reviewer làm gì?                    |
+| ----------------------- | ----------------------------------- |
+| Review logic/style      | Comment trên PR diff                |
+| Cần verify UI/behavior  | Checkout branch → chạy local        |
+| CI fail                 | Request changes ngay, chưa review   |
+| Fix nhỏ (typo/lint)     | Push nếu team cho phép + hỏi author |
+| Fix lớn / đổi logic     | Comment + suggestion → author fix   |
+| Muốn xem "trước vs sau" | Dùng PR diff, không undo commit     |
+| Giữ workspace sạch      | Dùng `git worktree`                 |
 
 ### Mid vs Senior Perspective
 
