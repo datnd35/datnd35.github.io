@@ -2,7 +2,7 @@
 layout: post
 title: "Communication Skills — Tại Sao Kỹ Thuật Giỏi Vẫn Không Thăng Tiến"
 date: 2026-03-31
-categories: senior
+categories: communication
 ---
 
 ## 🎯 Mục Tiêu Bài Viết
@@ -112,7 +112,7 @@ BLUF Template:
   ├── Lý do 1: ...
   ├── Lý do 2: ...
   └── Lý do 3: ...
-  
+
   (Nếu cần thêm chi tiết, mình có thể giải thích thêm về...)
 
 ──────────────────────────────────────────────────────────
@@ -180,7 +180,7 @@ Không phù hợp khi:
 ✅ ĐÚNG — Just-In-Time Context:
 
    (Với designer): "Animation đang chạy đúng spec.
-    Nếu muốn điều chỉnh tốc độ, cứ nói mình — 
+    Nếu muốn điều chỉnh tốc độ, cứ nói mình —
     mình sẽ update giúp."
 
    (Với manager): "Feature xong, đang QA.
@@ -289,7 +289,7 @@ cho một dev backend mới join team:
    "Bạn biết Promise rồi đúng? — async, resolve một lần."
 
    [1 layer deeper]
-   "Observable cũng async, nhưng khác ở chỗ: 
+   "Observable cũng async, nhưng khác ở chỗ:
     nó có thể emit nhiều giá trị theo thời gian,
     không chỉ resolve 1 lần."
 
@@ -308,11 +308,11 @@ cho một dev backend mới join team:
 
 ## ⚖️ 5. So Sánh 3 Methods
 
-| Method             | Khi nào dùng?                      | Mục tiêu                         |
-| ------------------ | ---------------------------------- | -------------------------------- |
-| **BLUF**           | Báo cáo, đề xuất, update nhanh    | Người nghe biết ý chính ngay     |
-| **Just-In-Time**   | Mọi giao tiếp với người khác role | Giảm overload, tăng hữu dụng     |
-| **Zoom In**        | Giải thích kỹ thuật, training      | Sâu mà vẫn dễ hiểu               |
+| Method           | Khi nào dùng?                     | Mục tiêu                     |
+| ---------------- | --------------------------------- | ---------------------------- |
+| **BLUF**         | Báo cáo, đề xuất, update nhanh    | Người nghe biết ý chính ngay |
+| **Just-In-Time** | Mọi giao tiếp với người khác role | Giảm overload, tăng hữu dụng |
+| **Zoom In**      | Giải thích kỹ thuật, training     | Sâu mà vẫn dễ hiểu           |
 
 ### Kết Hợp Cả 3
 
@@ -467,11 +467,11 @@ Template:
 | ------------------------------- | ------------------------------------- |
 | Báo cáo với manager             | BLUF trước, details nếu được hỏi      |
 | Standup / status update         | BLUF: done / doing / blocker          |
-| Code review comment             | BLUF + line số + lý do + fix gợi ý   |
+| Code review comment             | BLUF + line số + lý do + fix gợi ý    |
 | Giải thích technical với junior | Zoom In từ điều họ đã biết            |
-| Giải thích với non-tech         | BLUF + ví dụ thực tế + tránh jargon  |
+| Giải thích với non-tech         | BLUF + ví dụ thực tế + tránh jargon   |
 | Đề xuất architecture            | BLUF + Just-In-Time context theo role |
-| Giải thích sâu khi được hỏi     | Zoom In — dừng khi họ đủ để tiếp tục |
+| Giải thích sâu khi được hỏi     | Zoom In — dừng khi họ đủ để tiếp tục  |
 
 ### Mid vs Senior Perspective
 
