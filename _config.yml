@@ -84,6 +84,9 @@ collections:
   interview:
     output: true
     permalink: /:collection/:path/
+  ai:
+    output: true
+    permalink: /ai/:year/:month/:day/:title.html
 
 future: true
 
