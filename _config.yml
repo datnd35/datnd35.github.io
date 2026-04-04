@@ -27,6 +27,7 @@ header_pages:
   - vue.md
   - communication.md
   - development.md
+  - git.md
   - architecture.md
   - cloud.md
   - leadership.md
@@ -56,6 +57,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   development:
+    output: true
+    permalink: /:collection/:path/
+  git:
     output: true
     permalink: /:collection/:path/
   architecture:
