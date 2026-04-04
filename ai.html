@@ -1,31 +1,19 @@
 ---
 layout: default
-title: AI
+title: 🤖 AI
 permalink: /ai/
 ---
 
-<div class="home">
-    <h1 class="page-heading">🤖 AI</h1>
-    <p class="page-description">Ghi chép về AI tools, prompt engineering, và ứng dụng AI trong công việc kỹ thuật.</p>
+# 🤖 AI
 
-    {% if site.ai.size > 0 %}
-    <ul class="post-list">
-        {% assign sorted_posts = site.ai | sort: 'date' | reverse %}
-        {% for post in sorted_posts %}
-        <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h2>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                    {{ post.title | escape }}
-                </a>
-            </h2>
-            {% if post.excerpt %}
-            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-            {% endif %}
-        </li>
-        {% endfor %}
-    </ul>
-    {% else %}
-    <p>Chưa có bài viết nào.</p>
-    {% endif %}
-</div>
+Ghi chép về AI tools, prompt engineering, và ứng dụng AI trong công việc kỹ thuật.
+
+<ul class="post-list">
+    {% assign sorted_posts = site.ai | sort: 'date' | reverse %}
+    {% for post in sorted_posts %}
+    <li>
+        <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
