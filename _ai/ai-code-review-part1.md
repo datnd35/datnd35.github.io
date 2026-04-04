@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "AI Code Review — Tổng quan & Workflow thực chiến (Part 1)"
 date: 2025-06-10
 category: AI

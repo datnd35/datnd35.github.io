@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Claude Code - Common Workflows cho Developer thực chiến"
 date: 2025-06-10
 category: AI
