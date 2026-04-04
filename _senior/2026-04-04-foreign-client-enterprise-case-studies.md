@@ -1,17 +1,15 @@
 ---
 layout: post
-title: "Working With Enterprise Clients (GE-Style) - 18 Case Study Thực Chiến Cho Senior Frontend"
+title: "Working With Enterprise Clients - 18 Case Study Thực Chiến Cho Senior Frontend"
 date: 2026-04-04
 categories: senior
 ---
 
 ## 🎯 Mục Tiêu Bài Viết
 
-Khi làm với khách hàng nước ngoài — đặc biệt là **enterprise lớn kiểu GE** (GE Aerospace, GE Vernova, GE HealthCare) — bạn sẽ nhận ra rằng: phần khó không phải là code.
+Khi làm với khách hàng nước ngoài — đặc biệt là **các tập đoàn enterprise lớn** trong lĩnh vực công nghiệp, năng lượng, hay y tế — bạn sẽ nhận ra rằng: phần khó không phải là code.
 
 Phần khó thật sự nằm ở **communication, expectation management, process friction, ownership, và risk**.
-
-> **Lưu ý:** GE hiện nay đã tách thành các công ty độc lập: **GE Aerospace, GE Vernova, GE HealthCare**. Khi làm việc, hãy xác định đúng business context của phía khách hàng để hiểu mức độ regulation, tốc độ ra quyết định, và độ formal trong quy trình.
 
 Bài viết này tổng hợp **18 case study thực chiến** theo format:
 
@@ -621,7 +619,7 @@ Khi gặp bất kỳ situation căng nào, đi theo khung 5 bước này:
 
 ---
 
-## 🏢 Với Khách Hàng Enterprise Kiểu GE — Mindset Nên Có
+## 🏢 Với Khách Hàng Enterprise Lớn — Mindset Nên Có
 
 Khách enterprise lớn thường quan tâm mạnh tới:
 
