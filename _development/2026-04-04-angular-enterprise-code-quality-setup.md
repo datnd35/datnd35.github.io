@@ -1,16 +1,28 @@
 ---
 layout: post
-title: "Angular Enterprise: Setup Chuẩn Code Quality & Governance"
-subtitle: "Dành cho Senior FE - Prettier, ESLint, Stylelint, Husky, CI"
-description: "Hướng dẫn toàn diện setup chất lượng code enterprise-level cho Angular: từ developer IDE đến CI pipeline, phân vai cho từng tool, anti-pattern cần tránh, kết luận cho team scale"
+title: "Angular Code Quality Setup: Part 1 - Prettier, ESLint & Governance"
+subtitle: "Enterprise-level format & lint setup cho Angular"
+description: "Part 1: Setup format, lint, và governance chuẩn enterprise cho Angular. Từ IDE đến CI pipeline, phân vai cho từng tool, anti-pattern cần tránh"
 tags:
-  [angular, eslint, prettier, stylelint, husky, enterprise, code-quality, ci-cd]
+  [
+    angular,
+    eslint,
+    prettier,
+    stylelint,
+    husky,
+    enterprise,
+    code-quality,
+    ci-cd,
+    formatting,
+  ]
 categories: [Development]
 ---
 
-# Angular Enterprise: Setup Chuẩn Code Quality & Governance
+# Angular Code Quality Setup: Part 1 - Prettier, ESLint & Governance
 
 > **Mục tiêu:** Setup **chuẩn enterprise, chuyên nghiệp, dễ scale team** cho dự án Angular — từ developer IDE đến CI pipeline, đảm bảo consistency, review nhanh, và tin cậy.
+>
+> **Series:** Part 1 (Formatter & Linter Setup) → Part 2 (Advanced Patterns) → Part 3 (Monitoring & Metrics)
 
 ---
 
