@@ -24,6 +24,7 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
   - investment.md
+  - business.md
   - vue.md
   - communication.md
   - development.md
@@ -77,6 +78,9 @@ collections:
     output: true
     permalink: /senior/:title/
   investment:
+    output: true
+    permalink: /:collection/:path/
+  business:
     output: true
     permalink: /:collection/:path/
   cloud:
