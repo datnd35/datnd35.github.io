@@ -173,14 +173,14 @@ EC2 Ubuntu Server
 
 Username SSH **khác nhau tùy OS** bạn chọn khi tạo EC2:
 
-| OS | Default Username |
-|---|---|
-| **Ubuntu** | `ubuntu` |
-| **Amazon Linux** | `ec2-user` |
-| **Red Hat** | `ec2-user` hoặc `root` |
-| **CentOS** | `centos` |
-| **Debian** | `admin` hoặc `debian` |
-| **Windows** | `Administrator` |
+| OS               | Default Username       |
+| ---------------- | ---------------------- |
+| **Ubuntu**       | `ubuntu`               |
+| **Amazon Linux** | `ec2-user`             |
+| **Red Hat**      | `ec2-user` hoặc `root` |
+| **CentOS**       | `centos`               |
+| **Debian**       | `admin` hoặc `debian`  |
+| **Windows**      | `Administrator`        |
 
 > Bài này dùng **Ubuntu** → username là `ubuntu`.
 
@@ -238,15 +238,15 @@ Best Practices
 
 ## 📝 Bảng Thuật Ngữ Nhanh
 
-| Thuật ngữ | Ý nghĩa |
-|---|---|
-| **SSH** | Secure Shell — giao thức kết nối an toàn vào server từ xa |
-| **Public IP** | Địa chỉ IP để truy cập EC2 từ internet |
-| **Key Pair** | Cặp key xác thực — public key trên EC2, private key trên máy bạn |
-| **MobaXterm** | SSH client cho Windows, hỗ trợ trực tiếp file .pem |
-| **PuTTY** | SSH client phổ biến khác trên Windows, cần file .ppk |
-| **Security Group** | Firewall của EC2, cần mở port 22 để SSH |
-| **ubuntu** | Username mặc định khi SSH vào EC2 chạy Ubuntu OS |
+| Thuật ngữ          | Ý nghĩa                                                          |
+| ------------------ | ---------------------------------------------------------------- |
+| **SSH**            | Secure Shell — giao thức kết nối an toàn vào server từ xa        |
+| **Public IP**      | Địa chỉ IP để truy cập EC2 từ internet                           |
+| **Key Pair**       | Cặp key xác thực — public key trên EC2, private key trên máy bạn |
+| **MobaXterm**      | SSH client cho Windows, hỗ trợ trực tiếp file .pem               |
+| **PuTTY**          | SSH client phổ biến khác trên Windows, cần file .ppk             |
+| **Security Group** | Firewall của EC2, cần mở port 22 để SSH                          |
+| **ubuntu**         | Username mặc định khi SSH vào EC2 chạy Ubuntu OS                 |
 
 ---
 
@@ -272,4 +272,4 @@ MobaXterm
 
 Bài #05 sẽ đi vào: **AWS VPC — Mạng riêng ảo, Subnet, Internet Gateway và cách tổ chức hạ tầng mạng trên AWS.**
 
-> 🌐 *Đã biết cách tạo và SSH vào EC2 — giờ là lúc học cách tổ chức mạng để hệ thống vừa an toàn vừa hiệu quả.*
+> 🌐 _Đã biết cách tạo và SSH vào EC2 — giờ là lúc học cách tổ chức mạng để hệ thống vừa an toàn vừa hiệu quả._
