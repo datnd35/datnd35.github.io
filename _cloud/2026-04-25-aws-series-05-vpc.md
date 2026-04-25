@@ -263,12 +263,12 @@ EC2
 
 **So sánh:**
 
-| | Security Group | NACL |
-|---|---|---|
-| **Phạm vi** | Cấp EC2/instance | Cấp subnet |
-| **Stateful/Stateless** | Stateful | Stateless |
-| **Mặc định** | Deny all in, Allow all out | Allow all |
-| **Ví dụ** | Cho phép port 80 từ Load Balancer | Chặn IP độc hại vào subnet |
+|                        | Security Group                    | NACL                       |
+| ---------------------- | --------------------------------- | -------------------------- |
+| **Phạm vi**            | Cấp EC2/instance                  | Cấp subnet                 |
+| **Stateful/Stateless** | Stateful                          | Stateless                  |
+| **Mặc định**           | Deny all in, Allow all out        | Allow all                  |
+| **Ví dụ**              | Cho phép port 80 từ Load Balancer | Chặn IP độc hại vào subnet |
 
 **Ví dụ Security Group cho EC2:**
 
@@ -384,20 +384,20 @@ Response trả về user
 
 ## 🗂️ 11. Tổng Hợp Các Thành Phần VPC
 
-| Thành phần | Vai trò |
-|---|---|
-| **VPC** | Mạng riêng ảo trong AWS |
-| **CIDR** | Xác định kích thước mạng, ví dụ `172.16.0.0/16` |
-| **Subnet** | Chia nhỏ VPC thành các vùng mạng nhỏ hơn |
-| **Internet Gateway** | Cổng cho traffic từ Internet đi vào VPC |
-| **Public Subnet** | Nơi đặt Load Balancer, NAT Gateway |
-| **Private Subnet** | Nơi đặt EC2, database — cần bảo mật |
-| **Route Table** | Định nghĩa đường đi của traffic |
-| **Load Balancer** | Nhận request từ user và forward đến app |
-| **Security Group** | Firewall cấp EC2/app |
-| **NACL** | Firewall cấp subnet |
-| **NAT Gateway** | Cho private subnet đi ra Internet mà không lộ IP |
-| **VPC Flow Logs** | Ghi log traffic để debug/monitor |
+| Thành phần           | Vai trò                                          |
+| -------------------- | ------------------------------------------------ |
+| **VPC**              | Mạng riêng ảo trong AWS                          |
+| **CIDR**             | Xác định kích thước mạng, ví dụ `172.16.0.0/16`  |
+| **Subnet**           | Chia nhỏ VPC thành các vùng mạng nhỏ hơn         |
+| **Internet Gateway** | Cổng cho traffic từ Internet đi vào VPC          |
+| **Public Subnet**    | Nơi đặt Load Balancer, NAT Gateway               |
+| **Private Subnet**   | Nơi đặt EC2, database — cần bảo mật              |
+| **Route Table**      | Định nghĩa đường đi của traffic                  |
+| **Load Balancer**    | Nhận request từ user và forward đến app          |
+| **Security Group**   | Firewall cấp EC2/app                             |
+| **NACL**             | Firewall cấp subnet                              |
+| **NAT Gateway**      | Cho private subnet đi ra Internet mà không lộ IP |
+| **VPC Flow Logs**    | Ghi log traffic để debug/monitor                 |
 
 ---
 
@@ -440,4 +440,4 @@ Tóm gọn mục tiêu VPC:
 
 Bài #06 sẽ đi vào: **AWS S3 — Object Storage, cách lưu trữ file trên cloud và các use case phổ biến.**
 
-> 🗄️ *Đã có mạng rồi — giờ là lúc học cách lưu trữ dữ liệu trên AWS.*
+> 🗄️ _Đã có mạng rồi — giờ là lúc học cách lưu trữ dữ liệu trên AWS._
