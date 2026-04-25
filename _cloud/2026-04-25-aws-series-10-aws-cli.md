@@ -1,10 +1,8 @@
-    ---
-
+---
 layout: post
 title: "☁️ AWS Series #10 — AWS CLI: Làm việc với AWS từ Terminal"
 date: 2026-04-25
 categories: cloud
-
 ---
 
 > 📺 Nguồn: [AWS Zero to Hero – YouTube Series](https://www.youtube.com/watch?v=n6RWhajimZg&list=PLdpzxOOAlwvLNOxX0RfndiYSt1Le9azze)
