@@ -43,15 +43,15 @@ EC2 Application Instances  ← Private Subnet
 
 **Các thành phần trong project:**
 
-| Thành phần | Vị trí | Vai trò |
-|---|---|---|
-| Internet Gateway | VPC | Cổng vào từ Internet |
-| Application Load Balancer | Public Subnet | Nhận & phân phối traffic |
-| NAT Gateway | Public Subnet | Cho private EC2 đi ra Internet |
-| Bastion Host | Public Subnet | SSH jump vào private EC2 |
-| EC2 App Instances | Private Subnet | Chạy application |
-| Auto Scaling Group | — | Tạo & duy trì số lượng EC2 |
-| Target Group | — | Danh sách EC2 nhận traffic từ ALB |
+| Thành phần                | Vị trí         | Vai trò                           |
+| ------------------------- | -------------- | --------------------------------- |
+| Internet Gateway          | VPC            | Cổng vào từ Internet              |
+| Application Load Balancer | Public Subnet  | Nhận & phân phối traffic          |
+| NAT Gateway               | Public Subnet  | Cho private EC2 đi ra Internet    |
+| Bastion Host              | Public Subnet  | SSH jump vào private EC2          |
+| EC2 App Instances         | Private Subnet | Chạy application                  |
+| Auto Scaling Group        | —              | Tạo & duy trì số lượng EC2        |
+| Target Group              | —              | Danh sách EC2 nhận traffic từ ALB |
 
 ---
 
@@ -472,16 +472,16 @@ Internet User
 
 ## 📝 Bảng Thuật Ngữ Nhanh
 
-| Thuật ngữ | Ý nghĩa |
-|---|---|
-| **ALB** | Application Load Balancer — phân phối traffic từ Internet vào EC2 |
-| **Target Group** | Danh sách EC2 mà ALB forward request đến |
-| **Auto Scaling Group** | Tạo và duy trì số lượng EC2 tự động |
-| **Launch Template** | Bản thiết kế EC2 để Auto Scaling Group dùng |
-| **Bastion Host** | Jump server trong Public Subnet để SSH vào Private EC2 |
-| **NAT Gateway** | Cho Private EC2 đi ra Internet mà không lộ IP private |
-| **Elastic IP** | Static Public IP trong AWS, gắn vào NAT Gateway |
-| **Health Check** | Kiểm tra EC2 còn healthy không, chỉ forward traffic đến EC2 healthy |
+| Thuật ngữ              | Ý nghĩa                                                             |
+| ---------------------- | ------------------------------------------------------------------- |
+| **ALB**                | Application Load Balancer — phân phối traffic từ Internet vào EC2   |
+| **Target Group**       | Danh sách EC2 mà ALB forward request đến                            |
+| **Auto Scaling Group** | Tạo và duy trì số lượng EC2 tự động                                 |
+| **Launch Template**    | Bản thiết kế EC2 để Auto Scaling Group dùng                         |
+| **Bastion Host**       | Jump server trong Public Subnet để SSH vào Private EC2              |
+| **NAT Gateway**        | Cho Private EC2 đi ra Internet mà không lộ IP private               |
+| **Elastic IP**         | Static Public IP trong AWS, gắn vào NAT Gateway                     |
+| **Health Check**       | Kiểm tra EC2 còn healthy không, chỉ forward traffic đến EC2 healthy |
 
 ---
 
@@ -518,4 +518,4 @@ Bài #08 — Production Architecture ← Bài này tổng hợp tất cả
 
 Bài #09 sẽ đi vào: **AWS S3 — Object Storage, cách lưu trữ file trên cloud và các use case phổ biến.**
 
-> 🗄️ *Đã có kiến trúc production hoàn chỉnh — giờ là lúc học cách lưu trữ dữ liệu với AWS S3.*
+> 🗄️ _Đã có kiến trúc production hoàn chỉnh — giờ là lúc học cách lưu trữ dữ liệu với AWS S3._

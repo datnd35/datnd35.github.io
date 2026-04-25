@@ -89,7 +89,7 @@ Internet Gateway
 
 **Câu trả lời mẫu (tiếng Anh):**
 
-> *I would create a VPC with public and private subnets across at least two Availability Zones. The public subnets would host the Application Load Balancer. The private subnets would host the application servers managed by an Auto Scaling Group. Using multiple AZs improves high availability — if one AZ fails, the other continues serving traffic.*
+> _I would create a VPC with public and private subnets across at least two Availability Zones. The public subnets would host the Application Load Balancer. The private subnets would host the application servers managed by an Auto Scaling Group. Using multiple AZs improves high availability — if one AZ fails, the other continues serving traffic._
 
 ---
 
@@ -123,7 +123,7 @@ VPC
 
 **Câu trả lời mẫu:**
 
-> *I would modify the route table associated with the restricted subnet by removing the default route 0.0.0.0/0. This prevents any outbound internet traffic from that subnet. The other subnet keeps its existing route to the Internet Gateway or NAT Gateway.*
+> _I would modify the route table associated with the restricted subnet by removing the default route 0.0.0.0/0. This prevents any outbound internet traffic from that subnet. The other subnet keeps its existing route to the Internet Gateway or NAT Gateway._
 
 ---
 
@@ -172,7 +172,7 @@ Internet
 
 **Câu trả lời mẫu:**
 
-> *I would place a NAT Gateway in a public subnet and update the private subnet's route table to forward 0.0.0.0/0 to the NAT Gateway. This allows outbound internet access for package updates while blocking unsolicited inbound connections.*
+> _I would place a NAT Gateway in a public subnet and update the private subnet's route table to forward 0.0.0.0/0 to the NAT Gateway. This allows outbound internet access for package updates while blocking unsolicited inbound connections._
 
 ---
 
@@ -210,7 +210,7 @@ EC2 A ──(private IP)──► EC2 B
 
 **Câu trả lời mẫu:**
 
-> *If both instances are in the same VPC, they can communicate via private IPs as long as route tables allow local VPC traffic and Security Groups permit the required ports. For cross-VPC communication, I would use VPC Peering or Transit Gateway.*
+> _If both instances are in the same VPC, they can communicate via private IPs as long as route tables allow local VPC traffic and Security Groups permit the required ports. For cross-VPC communication, I would use VPC Peering or Transit Gateway._
 
 ---
 
@@ -249,7 +249,7 @@ Strict Network Control
 
 **Câu trả lời mẫu:**
 
-> *I would combine NACLs for subnet-level allow/deny rules and Security Groups for instance-level control. I would apply least privilege principles — only allow required ports and trusted IP ranges. Route tables would be reviewed to ensure traffic only flows through approved paths.*
+> _I would combine NACLs for subnet-level allow/deny rules and Security Groups for instance-level control. I would apply least privilege principles — only allow required ports and trusted IP ranges. Route tables would be reviewed to ensure traffic only flows through approved paths._
 
 ---
 
@@ -279,7 +279,7 @@ VPC
 
 **Câu trả lời mẫu:**
 
-> *I would create a dedicated isolated private subnet — no public IP, no route to the Internet Gateway or NAT Gateway. Access would be restricted via tight NACLs and Security Groups. Administrative access would only be allowed through a controlled path such as a Bastion Host or AWS Systems Manager.*
+> _I would create a dedicated isolated private subnet — no public IP, no route to the Internet Gateway or NAT Gateway. Access would be restricted via tight NACLs and Security Groups. Administrative access would only be allowed through a controlled path such as a Bastion Host or AWS Systems Manager._
 
 ---
 
@@ -323,7 +323,7 @@ Private EC2 → VPC Endpoint → S3
 
 **Câu trả lời mẫu:**
 
-> *I would create a VPC Endpoint for S3. This allows the application to access S3 privately through the AWS internal network without traversing the public internet. I would also apply endpoint policies to restrict which buckets and actions are permitted.*
+> _I would create a VPC Endpoint for S3. This allows the application to access S3 privately through the AWS internal network without traversing the public internet. I would also apply endpoint policies to restrict which buckets and actions are permitted._
 
 ---
 
@@ -331,13 +331,13 @@ Private EC2 → VPC Endpoint → S3
 
 **So sánh:**
 
-| Tiêu chí | Security Group | NACL |
-|---|---|---|
-| **Cấp độ** | Instance level | Subnet level |
-| **Rule type** | Allow only | Allow và Deny |
-| **Stateful/Stateless** | Stateful | Stateless |
-| **Rule order** | Không quan trọng | Rất quan trọng (số nhỏ trước) |
-| **Best use** | Bảo vệ từng EC2 | Bảo vệ cả subnet |
+| Tiêu chí               | Security Group   | NACL                          |
+| ---------------------- | ---------------- | ----------------------------- |
+| **Cấp độ**             | Instance level   | Subnet level                  |
+| **Rule type**          | Allow only       | Allow và Deny                 |
+| **Stateful/Stateless** | Stateful         | Stateless                     |
+| **Rule order**         | Không quan trọng | Rất quan trọng (số nhỏ trước) |
+| **Best use**           | Bảo vệ từng EC2  | Bảo vệ cả subnet              |
 
 **Stateful vs Stateless — Điểm dễ nhầm nhất:**
 
@@ -468,7 +468,7 @@ Bastion Host Security
 
 **Câu trả lời mẫu:**
 
-> *I would deploy a Bastion Host in a public subnet, allowing SSH only from trusted admin IP addresses. Private EC2 instances have no public IPs. Administrators connect to the Bastion Host first, then hop to private instances via private IP. I would also enable logging and restrict Security Groups so only the Bastion Host can reach private instances.*
+> _I would deploy a Bastion Host in a public subnet, allowing SSH only from trusted admin IP addresses. Private EC2 instances have no public IPs. Administrators connect to the Bastion Host first, then hop to private instances via private IP. I would also enable logging and restrict Security Groups so only the Bastion Host can reach private instances._
 
 ---
 
@@ -512,25 +512,25 @@ AWS Scenario Answer Framework
 
 ## 📝 Bảng Keyword Cần Nhớ
 
-| Yêu cầu | Giải pháp |
-|---|---|
-| **High Availability** | Multiple Availability Zones |
-| **Scalability** | Auto Scaling Group |
-| **Internet-facing** | Public Subnet + Load Balancer |
-| **Private app** | Private Subnet |
-| **Private outbound** | NAT Gateway |
-| **Block subnet Internet** | Route Table (xóa default route) |
-| **Subnet security** | NACL |
-| **Instance security** | Security Group |
-| **Private AWS service access** | VPC Endpoint |
-| **Admin SSH** | Bastion Host / SSM Session Manager |
-| **Permission management** | IAM User / Group / Role / Policy |
+| Yêu cầu                        | Giải pháp                          |
+| ------------------------------ | ---------------------------------- |
+| **High Availability**          | Multiple Availability Zones        |
+| **Scalability**                | Auto Scaling Group                 |
+| **Internet-facing**            | Public Subnet + Load Balancer      |
+| **Private app**                | Private Subnet                     |
+| **Private outbound**           | NAT Gateway                        |
+| **Block subnet Internet**      | Route Table (xóa default route)    |
+| **Subnet security**            | NACL                               |
+| **Instance security**          | Security Group                     |
+| **Private AWS service access** | VPC Endpoint                       |
+| **Admin SSH**                  | Bastion Host / SSM Session Manager |
+| **Permission management**      | IAM User / Group / Role / Policy   |
 
 ---
 
 ## 💡 Câu Trả Lời Tổng Hợp (Tiếng Anh)
 
-> *For a production-grade VPC, I would create public and private subnets across at least two AZs. Public subnets hold the Load Balancer, NAT Gateway, and Bastion Host. Private subnets hold the application servers managed by an Auto Scaling Group. Security is enforced at multiple layers: Security Groups at the instance level, NACLs at the subnet level, IAM Roles for service-to-service access, and VPC Endpoints for private AWS service access. Administrative access is controlled through a Bastion Host or AWS Systems Manager.*
+> _For a production-grade VPC, I would create public and private subnets across at least two AZs. Public subnets hold the Load Balancer, NAT Gateway, and Bastion Host. Private subnets hold the application servers managed by an Auto Scaling Group. Security is enforced at multiple layers: Security Groups at the instance level, NACLs at the subnet level, IAM Roles for service-to-service access, and VPC Endpoints for private AWS service access. Administrative access is controlled through a Bastion Host or AWS Systems Manager._
 
 ---
 
@@ -538,4 +538,4 @@ AWS Scenario Answer Framework
 
 Bài #10 sẽ đi vào: **AWS S3 — Object Storage, cách lưu trữ file trên cloud và các use case phổ biến.**
 
-> 🗄️ *Nắm vững VPC rồi — giờ là lúc học cách lưu trữ dữ liệu với AWS S3.*
+> 🗄️ _Nắm vững VPC rồi — giờ là lúc học cách lưu trữ dữ liệu với AWS S3._

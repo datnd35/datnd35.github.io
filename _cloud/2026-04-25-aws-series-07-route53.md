@@ -397,17 +397,17 @@ EC2 Application (bài #03 — EC2)
 
 ## 📝 Bảng Thuật Ngữ Nhanh
 
-| Thuật ngữ | Ý nghĩa |
-|---|---|
-| **Route 53** | DNS as a Service của AWS |
-| **DNS** | Domain Name System — chuyển domain thành IP |
-| **Domain Registration** | Mua/đăng ký domain name |
-| **Hosted Zone** | Nơi quản lý DNS records cho một domain |
-| **A Record** | Ánh xạ domain → IPv4 address |
-| **CNAME Record** | Ánh xạ domain → domain khác |
-| **Alias Record** | Ánh xạ domain → AWS resource (đặc biệt của Route 53) |
-| **Health Check** | Kiểm tra server/endpoint còn hoạt động không |
-| **Failover** | Tự động chuyển traffic khi server chính bị lỗi |
+| Thuật ngữ               | Ý nghĩa                                              |
+| ----------------------- | ---------------------------------------------------- |
+| **Route 53**            | DNS as a Service của AWS                             |
+| **DNS**                 | Domain Name System — chuyển domain thành IP          |
+| **Domain Registration** | Mua/đăng ký domain name                              |
+| **Hosted Zone**         | Nơi quản lý DNS records cho một domain               |
+| **A Record**            | Ánh xạ domain → IPv4 address                         |
+| **CNAME Record**        | Ánh xạ domain → domain khác                          |
+| **Alias Record**        | Ánh xạ domain → AWS resource (đặc biệt của Route 53) |
+| **Health Check**        | Kiểm tra server/endpoint còn hoạt động không         |
+| **Failover**            | Tự động chuyển traffic khi server chính bị lỗi       |
 
 ---
 
@@ -429,4 +429,4 @@ Request tiếp tục: User → Load Balancer → EC2 → Response
 
 Bài #08 sẽ đi vào: **AWS S3 — Object Storage, cách lưu trữ file trên cloud và các use case phổ biến.**
 
-> 🗄️ *Đã có mạng, bảo mật và domain — giờ là lúc học cách lưu trữ dữ liệu trên AWS.*
+> 🗄️ _Đã có mạng, bảo mật và domain — giờ là lúc học cách lưu trữ dữ liệu trên AWS._
