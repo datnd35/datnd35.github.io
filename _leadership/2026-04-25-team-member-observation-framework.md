@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Team Member Observation Framework cho Tech Lead"
 date: 2026-04-25
 category: leadership
