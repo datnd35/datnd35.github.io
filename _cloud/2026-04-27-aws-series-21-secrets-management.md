@@ -159,14 +159,14 @@ Vault mạnh khi tổ chức không muốn bị lock-in vào một cloud provide
 
 ## 7. So sánh 3 giải pháp
 
-| Tiêu chí | Parameter Store | Secrets Manager | HashiCorp Vault |
-|---|---|---|---|
-| Loại | AWS native | AWS native | Cloud-agnostic |
-| Phù hợp | Config / semi-sensitive | Highly sensitive | Multi-cloud / enterprise |
-| Rotation | Hạn chế | Hỗ trợ tốt (Lambda) | Hỗ trợ nâng cao |
-| Chi phí | Thấp hơn | Cao hơn | Tùy self-host / enterprise |
-| Lock-in | AWS | AWS | Không |
-| Vận hành | AWS quản lý | AWS quản lý | Cần tự vận hành (self-host) |
+| Tiêu chí | Parameter Store         | Secrets Manager     | HashiCorp Vault             |
+| -------- | ----------------------- | ------------------- | --------------------------- |
+| Loại     | AWS native              | AWS native          | Cloud-agnostic              |
+| Phù hợp  | Config / semi-sensitive | Highly sensitive    | Multi-cloud / enterprise    |
+| Rotation | Hạn chế                 | Hỗ trợ tốt (Lambda) | Hỗ trợ nâng cao             |
+| Chi phí  | Thấp hơn                | Cao hơn             | Tùy self-host / enterprise  |
+| Lock-in  | AWS                     | AWS                 | Không                       |
+| Vận hành | AWS quản lý             | AWS quản lý         | Cần tự vận hành (self-host) |
 
 ---
 

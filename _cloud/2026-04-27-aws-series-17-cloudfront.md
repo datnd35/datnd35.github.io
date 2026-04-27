@@ -231,11 +231,11 @@ CloudFront trả về: index.html
 
 ## 12. Price Class — Phạm vi Edge Location
 
-| Tùy chọn | Phù hợp | Chi phí |
-|---|---|---|
-| Use all edge locations | User toàn cầu | Cao hơn |
-| North America & Europe | User chủ yếu US/EU | Thấp hơn |
-| Phạm vi giới hạn | Demo / tiết kiệm | Thấp nhất |
+| Tùy chọn               | Phù hợp            | Chi phí   |
+| ---------------------- | ------------------ | --------- |
+| Use all edge locations | User toàn cầu      | Cao hơn   |
+| North America & Europe | User chủ yếu US/EU | Thấp hơn  |
+| Phạm vi giới hạn       | Demo / tiết kiệm   | Thấp nhất |
 
 ---
 
@@ -425,15 +425,15 @@ AWS CloudFront / CDN
 
 ## 22. Cách nhớ nhanh
 
-| Khái niệm | Ý nghĩa |
-|---|---|
-| CloudFront | CDN của AWS |
-| CDN | Mạng phân phối nội dung |
-| Origin | Nơi chứa dữ liệu gốc (S3, ALB...) |
-| Edge Location | Nơi cache nội dung gần user |
-| Distribution | Cấu hình CloudFront |
-| OAI / OAC | Cho CloudFront quyền đọc S3 private |
-| Default Root Object | File trả về khi truy cập root URL |
+| Khái niệm           | Ý nghĩa                             |
+| ------------------- | ----------------------------------- |
+| CloudFront          | CDN của AWS                         |
+| CDN                 | Mạng phân phối nội dung             |
+| Origin              | Nơi chứa dữ liệu gốc (S3, ALB...)   |
+| Edge Location       | Nơi cache nội dung gần user         |
+| Distribution        | Cấu hình CloudFront                 |
+| OAI / OAC           | Cho CloudFront quyền đọc S3 private |
+| Default Root Object | File trả về khi truy cập root URL   |
 
 ---
 

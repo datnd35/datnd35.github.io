@@ -61,14 +61,14 @@ AWS / Azure / GCP / Kubernetes / GitHub / OpenStack / Alibaba Cloud...
 
 ## 3. Terraform vs AWS Console vs CloudFormation
 
-| Tiêu chí | AWS Console | AWS CLI | CloudFormation | Terraform |
-|---|---|---|---|---|
-| Hình thức | Click tay | Commands | YAML/JSON | HCL code |
-| Review được | Không | Hạn chế | Có | Có |
-| Tái tạo lại | Khó | Có thể | Có | Có |
-| Multi-cloud | Không | Không | Không | Có |
-| Automation | Không | Có thể | Có | Có |
-| Phổ biến thị trường | Cơ bản | Cơ bản | AWS-only | Rất phổ biến |
+| Tiêu chí            | AWS Console | AWS CLI  | CloudFormation | Terraform    |
+| ------------------- | ----------- | -------- | -------------- | ------------ |
+| Hình thức           | Click tay   | Commands | YAML/JSON      | HCL code     |
+| Review được         | Không       | Hạn chế  | Có             | Có           |
+| Tái tạo lại         | Khó         | Có thể   | Có             | Có           |
+| Multi-cloud         | Không       | Không    | Không          | Có           |
+| Automation          | Không       | Có thể   | Có             | Có           |
+| Phổ biến thị trường | Cơ bản      | Cơ bản   | AWS-only       | Rất phổ biến |
 
 ---
 
@@ -490,14 +490,14 @@ State file dùng để:
 
 ## 21. Debug lỗi thường gặp
 
-| Lỗi | Nguyên nhân |
-|---|---|
-| Bucket name already exists | S3 bucket name không unique |
-| AccessDenied | IAM user thiếu permission |
-| Resource name conflict | Đã tạo trước đó chưa destroy |
-| Sai reference | Sai type/name/attribute |
-| Target unhealthy | Apache chưa chạy / sai port / SG chưa mở |
-| Syntax error | Thiếu dấu `=`, sai indentation |
+| Lỗi                        | Nguyên nhân                              |
+| -------------------------- | ---------------------------------------- |
+| Bucket name already exists | S3 bucket name không unique              |
+| AccessDenied               | IAM user thiếu permission                |
+| Resource name conflict     | Đã tạo trước đó chưa destroy             |
+| Sai reference              | Sai type/name/attribute                  |
+| Target unhealthy           | Apache chưa chạy / sai port / SG chưa mở |
+| Syntax error               | Thiếu dấu `=`, sai indentation           |
 
 **Debug flow:**
 

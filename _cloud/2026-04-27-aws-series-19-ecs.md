@@ -121,14 +121,14 @@ ECS giải quyết bằng:
 
 ## 7. Docker vs ECS
 
-| Tiêu chí | Docker (đơn lẻ) | Amazon ECS |
-|---|---|---|
-| Phạm vi | 1 machine | Multi-container / multi-host |
-| Auto healing | Không | Có |
-| Auto scaling | Không | Có |
-| Load Balancer | Không | Tích hợp ALB/NLB |
-| Logging | Thủ công | CloudWatch tích hợp |
-| Phù hợp | Local / dev | AWS production |
+| Tiêu chí      | Docker (đơn lẻ) | Amazon ECS                   |
+| ------------- | --------------- | ---------------------------- |
+| Phạm vi       | 1 machine       | Multi-container / multi-host |
+| Auto healing  | Không           | Có                           |
+| Auto scaling  | Không           | Có                           |
+| Load Balancer | Không           | Tích hợp ALB/NLB             |
+| Logging       | Thủ công        | CloudWatch tích hợp          |
+| Phù hợp       | Local / dev     | AWS production               |
 
 ---
 
@@ -153,14 +153,14 @@ ECS
 
 ## 9. ECS vs EKS
 
-| Tiêu chí | ECS | EKS |
-|---|---|---|
-| Base | AWS-native | Kubernetes |
-| Độ phức tạp | Đơn giản hơn | Phức tạp hơn |
-| Portability | AWS only | Multi-cloud friendly |
-| Ecosystem | Hạn chế hơn | Kubernetes ecosystem đầy đủ |
-| Fargate support | Có | Có |
-| Lock-in | Cao | Thấp hơn |
+| Tiêu chí        | ECS          | EKS                         |
+| --------------- | ------------ | --------------------------- |
+| Base            | AWS-native   | Kubernetes                  |
+| Độ phức tạp     | Đơn giản hơn | Phức tạp hơn                |
+| Portability     | AWS only     | Multi-cloud friendly        |
+| Ecosystem       | Hạn chế hơn  | Kubernetes ecosystem đầy đủ |
+| Fargate support | Có           | Có                          |
+| Lock-in         | Cao          | Thấp hơn                    |
 
 > **Phỏng vấn hay:** ECS đơn giản và AWS-native. EKS mạnh hơn về ecosystem, portability và Kubernetes standard.
 
@@ -221,16 +221,16 @@ Amazon ECS
 
 ## 13. Mapping Kubernetes vs ECS Concepts
 
-| Kubernetes | ECS |
-|---|---|
-| Cluster | Cluster |
-| Pod spec / Deployment | Task Definition |
-| Pod | Task |
-| Service | ECS Service |
-| Container image | Container image |
-| Ingress / LB | ECS Service + ALB/NLB |
-| Node | EC2 container instance / Fargate |
-| Config / Secret | Env vars / Secrets Manager / Parameter Store |
+| Kubernetes            | ECS                                          |
+| --------------------- | -------------------------------------------- |
+| Cluster               | Cluster                                      |
+| Pod spec / Deployment | Task Definition                              |
+| Pod                   | Task                                         |
+| Service               | ECS Service                                  |
+| Container image       | Container image                              |
+| Ingress / LB          | ECS Service + ALB/NLB                        |
+| Node                  | EC2 container instance / Fargate             |
+| Config / Secret       | Env vars / Secrets Manager / Parameter Store |
 
 > Lưu ý: ECS không dùng YAML manifest giống Kubernetes.
 
@@ -280,14 +280,14 @@ ECS Task
 
 ## 16. ECS Service vs Run Task
 
-| | Run Task | ECS Service |
-|---|---|---|
-| Mục đích | Chạy một lần | Duy trì desired count |
-| Auto restart | Không | Có |
-| Load Balancer | Không | Tích hợp ALB/NLB |
-| Rolling deployment | Không | Có |
-| Auto scaling | Không | Có |
-| Phù hợp | Demo / batch job | Production web service |
+|                    | Run Task         | ECS Service            |
+| ------------------ | ---------------- | ---------------------- |
+| Mục đích           | Chạy một lần     | Duy trì desired count  |
+| Auto restart       | Không            | Có                     |
+| Load Balancer      | Không            | Tích hợp ALB/NLB       |
+| Rolling deployment | Không            | Có                     |
+| Auto scaling       | Không            | Có                     |
+| Phù hợp            | Demo / batch job | Production web service |
 
 ---
 

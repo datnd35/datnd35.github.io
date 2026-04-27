@@ -105,14 +105,14 @@ Run container
 
 ## 5. ECR vs Docker Hub
 
-| Tiêu chí | Amazon ECR | Docker Hub |
-|---|---|---|
-| Default visibility | Private | Public (free tier) |
-| IAM integration | Native AWS IAM | Không native |
-| ECS/EKS integration | Tích hợp sâu | Cần cấu hình thêm |
-| Use case | Private production image trong AWS | Public / open-source image |
-| Quản lý quyền | IAM User / Role / Policy | Docker Hub account riêng |
-| Image scanning | Có | Có (limited free) |
+| Tiêu chí            | Amazon ECR                         | Docker Hub                 |
+| ------------------- | ---------------------------------- | -------------------------- |
+| Default visibility  | Private                            | Public (free tier)         |
+| IAM integration     | Native AWS IAM                     | Không native               |
+| ECS/EKS integration | Tích hợp sâu                       | Cần cấu hình thêm          |
+| Use case            | Private production image trong AWS | Public / open-source image |
+| Quản lý quyền       | IAM User / Role / Policy           | Docker Hub account riêng   |
+| Image scanning      | Có                                 | Có (limited free)          |
 
 > **Tóm tắt:** Docker Hub = tốt cho public/open-source. ECR = tốt cho private image trong AWS ecosystem.
 
@@ -363,14 +363,14 @@ ECS / EKS: pull image from ECR → deploy
 
 ## 20. Lỗi thường gặp khi push ECR
 
-| Lỗi | Nguyên nhân |
-|---|---|
-| `no basic auth credentials` | Chưa docker login vào ECR |
-| `denied: User is not authorized` | IAM thiếu quyền ECR |
-| `repository does not exist` | Chưa tạo repo hoặc sai region |
-| `tag does not exist` | Sai tên local image/tag |
-| `Cannot connect to Docker daemon` | Docker chưa chạy |
-| Region mismatch | Login region khác với ECR repo region |
+| Lỗi                               | Nguyên nhân                           |
+| --------------------------------- | ------------------------------------- |
+| `no basic auth credentials`       | Chưa docker login vào ECR             |
+| `denied: User is not authorized`  | IAM thiếu quyền ECR                   |
+| `repository does not exist`       | Chưa tạo repo hoặc sai region         |
+| `tag does not exist`              | Sai tên local image/tag               |
+| `Cannot connect to Docker daemon` | Docker chưa chạy                      |
+| Region mismatch                   | Login region khác với ECR repo region |
 
 ---
 

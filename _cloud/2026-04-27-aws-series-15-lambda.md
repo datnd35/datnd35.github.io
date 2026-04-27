@@ -131,14 +131,14 @@ AWS manages:
 
 ## 5. Khi nào dùng EC2? Khi nào dùng Lambda?
 
-| Tiêu chí | EC2 | Lambda |
-|---|---|---|
-| Thời gian chạy | Lâu dài 24/7 | Ngắn, theo event |
-| Quản lý server | Bạn quản lý | AWS quản lý |
-| SSH/debug | Có thể | Không trực tiếp |
-| Scale | Tự cấu hình | Tự động |
-| Chi phí nếu idle | Vẫn tính tiền | Không tính khi không chạy |
-| Use case | Web server, DB, Jenkins | Automation, event-driven task |
+| Tiêu chí         | EC2                     | Lambda                        |
+| ---------------- | ----------------------- | ----------------------------- |
+| Thời gian chạy   | Lâu dài 24/7            | Ngắn, theo event              |
+| Quản lý server   | Bạn quản lý             | AWS quản lý                   |
+| SSH/debug        | Có thể                  | Không trực tiếp               |
+| Scale            | Tự cấu hình             | Tự động                       |
+| Chi phí nếu idle | Vẫn tính tiền           | Không tính khi không chạy     |
+| Use case         | Web server, DB, Jenkins | Automation, event-driven task |
 
 **Dùng Lambda khi:**
 
@@ -609,15 +609,15 @@ AWS Lambda
 
 ## 23. Cách nhớ nhanh
 
-| Khái niệm | Ý nghĩa |
-|---|---|
-| Lambda | Chạy function không cần quản lý server |
-| EC2 | Tạo server rồi chạy app / script |
-| Trigger | Sự kiện kích hoạt function |
-| Handler | Function đầu tiên AWS gọi khi chạy |
-| IAM Role | Quyền để Lambda gọi service khác |
-| Environment Variables | Config truyền vào function |
-| Function URL | Expose Lambda qua HTTP |
+| Khái niệm             | Ý nghĩa                                |
+| --------------------- | -------------------------------------- |
+| Lambda                | Chạy function không cần quản lý server |
+| EC2                   | Tạo server rồi chạy app / script       |
+| Trigger               | Sự kiện kích hoạt function             |
+| Handler               | Function đầu tiên AWS gọi khi chạy     |
+| IAM Role              | Quyền để Lambda gọi service khác       |
+| Environment Variables | Config truyền vào function             |
+| Function URL          | Expose Lambda qua HTTP                 |
 
 ---
 

@@ -91,26 +91,26 @@ Amazon EKS
 
 ## 5. EKS với EC2 Worker Nodes vs Fargate
 
-| Tiêu chí | EC2 Worker Nodes | Fargate |
-|---|---|---|
-| Quản lý server | Bạn tự quản lý | AWS quản lý |
-| Instance type | Tùy chọn linh hoạt | Chỉ định CPU/Memory |
-| Cost optimization | Reserved / Spot instances | Pay as you use |
-| Phù hợp | Workload cần cấu hình node đặc biệt | Serverless, giảm vận hành |
-| DaemonSet | Có | Không hỗ trợ đầy đủ |
+| Tiêu chí          | EC2 Worker Nodes                    | Fargate                   |
+| ----------------- | ----------------------------------- | ------------------------- |
+| Quản lý server    | Bạn tự quản lý                      | AWS quản lý               |
+| Instance type     | Tùy chọn linh hoạt                  | Chỉ định CPU/Memory       |
+| Cost optimization | Reserved / Spot instances           | Pay as you use            |
+| Phù hợp           | Workload cần cấu hình node đặc biệt | Serverless, giảm vận hành |
+| DaemonSet         | Có                                  | Không hỗ trợ đầy đủ       |
 
 ---
 
 ## 6. EKS vs Self-managed Kubernetes vs ECS
 
-| Tiêu chí | Self-managed K8s | EKS | ECS |
-|---|---|---|---|
-| Control plane | Tự quản lý | AWS quản lý | AWS managed (không phải K8s) |
-| Kubernetes standard | Có | Có | Không |
-| Ecosystem (Helm, Argo CD) | Có | Có | Không |
-| Portability | Có | Có | AWS lock-in |
-| Độ phức tạp | Cao nhất | Trung bình | Thấp nhất |
-| Phù hợp | Tự dựng on-premise | AWS + K8s ecosystem | AWS-only đơn giản |
+| Tiêu chí                  | Self-managed K8s   | EKS                 | ECS                          |
+| ------------------------- | ------------------ | ------------------- | ---------------------------- |
+| Control plane             | Tự quản lý         | AWS quản lý         | AWS managed (không phải K8s) |
+| Kubernetes standard       | Có                 | Có                  | Không                        |
+| Ecosystem (Helm, Argo CD) | Có                 | Có                  | Không                        |
+| Portability               | Có                 | Có                  | AWS lock-in                  |
+| Độ phức tạp               | Cao nhất           | Trung bình          | Thấp nhất                    |
+| Phù hợp                   | Tự dựng on-premise | AWS + K8s ecosystem | AWS-only đơn giản            |
 
 ---
 
@@ -464,14 +464,14 @@ Ingress:
 
 ## 22. Troubleshooting thường gặp
 
-| Lỗi | Nguyên nhân |
-|---|---|
-| IAM policy already exists | Đã tạo từ lần demo trước |
-| CloudFormation stack failed | Stack conflict |
-| Controller pods not ready | OIDC / IAM chưa đúng |
-| Ingress ADDRESS empty | Controller chưa chạy / thiếu quyền |
-| Pod pending | Fargate profile chưa tạo cho namespace |
-| Wrong VPC ID / region | Sai config khi install Helm |
+| Lỗi                         | Nguyên nhân                            |
+| --------------------------- | -------------------------------------- |
+| IAM policy already exists   | Đã tạo từ lần demo trước               |
+| CloudFormation stack failed | Stack conflict                         |
+| Controller pods not ready   | OIDC / IAM chưa đúng                   |
+| Ingress ADDRESS empty       | Controller chưa chạy / thiếu quyền     |
+| Pod pending                 | Fargate profile chưa tạo cho namespace |
+| Wrong VPC ID / region       | Sai config khi install Helm            |
 
 **Debug flow:**
 

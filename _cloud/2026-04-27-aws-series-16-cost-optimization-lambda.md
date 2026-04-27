@@ -162,11 +162,11 @@ Cost Optimization Actions
 
 ## 7. Vì sao dùng Lambda thay vì EC2?
 
-| Tiêu chí | EC2 | Lambda |
-|---|---|---|
-| Phải maintain server | Có | Không |
-| Tính phí khi idle | Có | Không |
-| Cần nhớ stop/terminate | Có | Không |
+| Tiêu chí                | EC2            | Lambda      |
+| ----------------------- | -------------- | ----------- |
+| Phải maintain server    | Có             | Không       |
+| Tính phí khi idle       | Có             | Không       |
+| Cần nhớ stop/terminate  | Có             | Không       |
 | Phù hợp job ngắn + lịch | Không lý tưởng | Rất phù hợp |
 
 ```text
@@ -527,13 +527,13 @@ AWS Cloud Cost Optimization Project
 
 ## 24. Cách nhớ nhanh
 
-| Khái niệm | Ý nghĩa |
-|---|---|
+| Khái niệm      | Ý nghĩa                           |
+| -------------- | --------------------------------- |
 | Stale resource | Resource bị bỏ quên, vẫn tính phí |
-| EBS Snapshot | Bản backup của EBS volume |
-| boto3 | Python SDK gọi AWS API |
-| Dry-run mode | Chạy thử, không xóa thật |
-| Grace period | Thời gian chờ trước khi xóa |
+| EBS Snapshot   | Bản backup của EBS volume         |
+| boto3          | Python SDK gọi AWS API            |
+| Dry-run mode   | Chạy thử, không xóa thật          |
+| Grace period   | Thời gian chờ trước khi xóa       |
 
 > **Combo mạnh nhất:** Lambda + boto3 + EventBridge = tự động hóa cost optimization trên AWS.
 

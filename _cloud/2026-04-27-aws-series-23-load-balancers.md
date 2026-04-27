@@ -21,6 +21,7 @@ AWS Load Balancers
 ```
 
 > **Câu dễ nhớ:**
+>
 > - ALB = route theo HTTP path/header/host
 > - NLB = latency thấp, throughput cao, TCP/UDP
 > - GWLB = traffic qua security/network appliances
@@ -283,33 +284,33 @@ Use GWLB when:
 
 ## 7. So sánh ALB vs NLB vs GWLB
 
-| Tiêu chí | ALB | NLB | GWLB |
-|---|---|---|---|
-| OSI Layer | Layer 7 | Layer 4 | Appliance routing |
-| Protocol | HTTP/HTTPS | TCP/UDP/TLS | Varies |
-| Path routing | Có | Không | Không |
-| Host routing | Có | Không | Không |
-| Latency | Trung bình | Thấp nhất | - |
-| Use case | Web app, microservices | Game, streaming, real-time | Firewall, IDS/IPS, VPN |
-| Targets | EC2, ECS, EKS, Lambda, IP | EC2, IP, ALB | Virtual appliances |
+| Tiêu chí     | ALB                       | NLB                        | GWLB                   |
+| ------------ | ------------------------- | -------------------------- | ---------------------- |
+| OSI Layer    | Layer 7                   | Layer 4                    | Appliance routing      |
+| Protocol     | HTTP/HTTPS                | TCP/UDP/TLS                | Varies                 |
+| Path routing | Có                        | Không                      | Không                  |
+| Host routing | Có                        | Không                      | Không                  |
+| Latency      | Trung bình                | Thấp nhất                  | -                      |
+| Use case     | Web app, microservices    | Game, streaming, real-time | Firewall, IDS/IPS, VPN |
+| Targets      | EC2, ECS, EKS, Lambda, IP | EC2, IP, ALB               | Virtual appliances     |
 
 ---
 
 ## 8. Bảng chọn Load Balancer theo use case
 
-| Use Case | Load Balancer |
-|---|---|
-| Web app HTTP/HTTPS | ALB |
-| Microservices path routing | ALB |
-| API routing by host/path | ALB |
-| Canary / weighted HTTP routing | ALB |
-| Game server | NLB |
-| Video streaming | NLB |
-| TCP/UDP service | NLB |
-| Low-latency high-throughput | NLB |
-| Firewall appliance | GWLB |
-| IDS/IPS appliance | GWLB |
-| VPN / security appliance | GWLB |
+| Use Case                       | Load Balancer |
+| ------------------------------ | ------------- |
+| Web app HTTP/HTTPS             | ALB           |
+| Microservices path routing     | ALB           |
+| API routing by host/path       | ALB           |
+| Canary / weighted HTTP routing | ALB           |
+| Game server                    | NLB           |
+| Video streaming                | NLB           |
+| TCP/UDP service                | NLB           |
+| Low-latency high-throughput    | NLB           |
+| Firewall appliance             | GWLB          |
+| IDS/IPS appliance              | GWLB          |
+| VPN / security appliance       | GWLB          |
 
 ---
 
