@@ -6,7 +6,7 @@ permalink: /technical-manager/
 
 # 🧑‍💼 Technical Manager
 
-Kiến thức và kỹ năng cho Technical Manager — quản lý thời gian, kiến trúc hệ thống, xây dựng team, communication và leadership thực chiến.
+Kiến thức và kỹ năng cho Technical Manager — quản lý thời gian, kiến trúc hệ thống, xây dựng team, communication và leadership thực chiến. Link: https://www.youtube.com/@SiliconValleyCodeCampVideos
 
 <ul class="post-list">
   {% assign sorted_posts = site.technical-manager | sort: 'date' | reverse %}
