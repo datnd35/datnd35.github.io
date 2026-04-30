@@ -32,6 +32,7 @@ header_pages:
   - architecture.md
   - cloud.md
   - leadership.md
+  - technical-manager.md
   - learning.md
   - senior.md
   - interview.md
@@ -95,6 +96,9 @@ collections:
   ai:
     output: true
     permalink: /ai/:year/:month/:day/:title.html
+  technical-manager:
+    output: true
+    permalink: /:collection/:path/
 
 future: true
 
