@@ -79,12 +79,12 @@ OAuth 1 (khó hiểu, khó implement)
 OAuth 2 (đơn giản hơn, phù hợp web/mobile hiện đại)
 ```
 
-| | OAuth 1 | OAuth 2 |
-|---|---|---|
-| Độ phức tạp | Cao, khó implement | Đơn giản hơn |
-| Mobile support | Kém | Tốt |
-| Dựa trên | Signing phức tạp | HTTPS |
-| Tích hợp | Khó | Dễ kết hợp với JWT, OIDC, PKCE |
+|                | OAuth 1            | OAuth 2                        |
+| -------------- | ------------------ | ------------------------------ |
+| Độ phức tạp    | Cao, khó implement | Đơn giản hơn                   |
+| Mobile support | Kém                | Tốt                            |
+| Dựa trên       | Signing phức tạp   | HTTPS                          |
+| Tích hợp       | Khó                | Dễ kết hợp với JWT, OIDC, PKCE |
 
 ---
 
@@ -170,13 +170,13 @@ Key            →  Access Token
 
 ### Ý nghĩa từng tham số request
 
-| Tham số | Ý nghĩa |
-|---|---|
-| `client_id` | ID của app đã đăng ký với Google |
-| `redirect_uri` | URL Google redirect về sau khi xử lý |
-| `scope` | Quyền app muốn xin |
-| `response_type` | Loại response app muốn nhận |
-| `state` | Giá trị bảo mật chống CSRF attack |
+| Tham số         | Ý nghĩa                              |
+| --------------- | ------------------------------------ |
+| `client_id`     | ID của app đã đăng ký với Google     |
+| `redirect_uri`  | URL Google redirect về sau khi xử lý |
+| `scope`         | Quyền app muốn xin                   |
+| `response_type` | Loại response app muốn nhận          |
+| `state`         | Giá trị bảo mật chống CSRF attack    |
 
 ---
 
@@ -187,6 +187,7 @@ scope = profile contacts calendar.write
 ```
 
 Nghĩa là app chỉ được:
+
 - Đọc profile
 - Đọc contacts
 - **Ghi** vào calendar (không được đọc)
@@ -236,13 +237,13 @@ Token type   User info    Integrity
 }
 ```
 
-| Claim | Ý nghĩa |
-|---|---|
-| `iss` | Issuer — ai phát token |
-| `sub` | Subject — token về ai |
-| `aud` | Audience — token dành cho ai |
-| `exp` | Expiration — hết hạn lúc nào |
-| `scope` | Quyền được cấp |
+| Claim   | Ý nghĩa                      |
+| ------- | ---------------------------- |
+| `iss`   | Issuer — ai phát token       |
+| `sub`   | Subject — token về ai        |
+| `aud`   | Audience — token dành cho ai |
+| `exp`   | Expiration — hết hạn lúc nào |
+| `scope` | Quyền được cấp               |
 
 ### Signature
 
@@ -281,12 +282,12 @@ OAuth 2  = "App này có quyền làm gì?"
 OIDC     = "User này là ai?"
 ```
 
-| Tiêu chí | OAuth 2 | OpenID Connect |
-|---|---|---|
-| Mục đích | Authorization | Authentication |
-| Token chính | Access Token | ID Token |
-| Scope bắt buộc | không | `openid` |
-| Dùng cho | API access | Login / SSO |
+| Tiêu chí       | OAuth 2       | OpenID Connect |
+| -------------- | ------------- | -------------- |
+| Mục đích       | Authorization | Authentication |
+| Token chính    | Access Token  | ID Token       |
+| Scope bắt buộc | không         | `openid`       |
+| Dùng cho       | API access    | Login / SSO    |
 
 ---
 
@@ -333,11 +334,11 @@ REFRESH TOKEN
 Dùng để xin access token mới khi hết hạn
 ```
 
-| Token | Dùng để | Ai đọc | Chứa gì |
-|---|---|---|---|
-| **Access Token** | Gọi API | Resource Server | Scope, permission, expiry |
-| **ID Token** | Xác thực user | Client App | User identity claims |
-| **Refresh Token** | Xin token mới | Authorization Server | Quyền refresh |
+| Token             | Dùng để       | Ai đọc               | Chứa gì                   |
+| ----------------- | ------------- | -------------------- | ------------------------- |
+| **Access Token**  | Gọi API       | Resource Server      | Scope, permission, expiry |
+| **ID Token**      | Xác thực user | Client App           | User identity claims      |
+| **Refresh Token** | Xin token mới | Authorization Server | Quyền refresh             |
 
 ---
 
@@ -544,12 +545,12 @@ Tránh localStorage nếu có rủi ro XSS cao
 
 ## 18. Những hiểu nhầm phổ biến
 
-| Hiểu nhầm | Thực tế |
-|---|---|
-| "OAuth dùng để login" | OAuth là authorization. Login dùng OIDC |
-| "JWT là bảo mật tuyệt đối" | JWT chỉ là format. Bị leak vẫn dùng được đến khi hết hạn |
-| "Decode JWT là đủ để tin" | Phải verify signature + claims, không chỉ decode |
-| "Access token dùng để login" | Access token cho API. ID token mới cho identity |
+| Hiểu nhầm                     | Thực tế                                                     |
+| ----------------------------- | ----------------------------------------------------------- |
+| "OAuth dùng để login"         | OAuth là authorization. Login dùng OIDC                     |
+| "JWT là bảo mật tuyệt đối"    | JWT chỉ là format. Bị leak vẫn dùng được đến khi hết hạn    |
+| "Decode JWT là đủ để tin"     | Phải verify signature + claims, không chỉ decode            |
+| "Access token dùng để login"  | Access token cho API. ID token mới cho identity             |
 | "Refresh token lưu thoải mái" | Refresh token rất nhạy cảm, phải bảo vệ kỹ hơn access token |
 
 ---

@@ -40,12 +40,12 @@ language          modules, JSON,       mutation,         secure eventual
                   closures, purity     async misuse      programming
 ```
 
-| Khái niệm | Ý nghĩa |
-|---|---|
+| Khái niệm            | Ý nghĩa                                              |
+| -------------------- | ---------------------------------------------------- |
 | **JavaScript Today** | Ngôn ngữ đang chuyển tiếp sang mô hình lập trình mới |
-| **Good Parts** | Những phần tốt nên giữ và khai thác |
-| **Bad Parts** | Những phần dễ gây bug, coupling, khó maintain |
-| **Next Paradigm** | Lập trình phân tán, bảo mật, bất đồng bộ, eventual |
+| **Good Parts**       | Những phần tốt nên giữ và khai thác                  |
+| **Bad Parts**        | Những phần dễ gây bug, coupling, khó maintain        |
+| **Next Paradigm**    | Lập trình phân tán, bảo mật, bất đồng bộ, eventual   |
 
 ---
 
@@ -146,7 +146,7 @@ Dangerous for exact decimal values (money!)
 ```
 
 ```js
-0.1 + 0.2 !== 0.3  // true — đây là bug tiềm ẩn
+0.1 + 0.2 !== 0.3; // true — đây là bug tiềm ẩn
 ```
 
 ### Cách xử lý tiền đúng
@@ -189,7 +189,7 @@ if (users.length > 0) { ... }
 const user = {
   id: 1,
   name: "Dat",
-  role: "Tech Lead"
+  role: "Tech Lead",
 };
 ```
 
@@ -227,7 +227,7 @@ for (let i = 0; i < users.length; i += 1) {
 **Nên dùng:**
 
 ```js
-const names = users.map(user => user.name);
+const names = users.map((user) => user.name);
 ```
 
 > `map/filter/reduce` mô tả **muốn làm gì** — declarative, dễ đọc, dễ maintain.
@@ -245,8 +245,8 @@ NaN         →  "Kết quả số không hợp lệ"
 **Vấn đề:** JavaScript có quá nhiều cách biểu diễn "nothing":
 
 ```js
-typeof null === "object"  // bug lịch sử
-NaN === NaN              // false!
+typeof null === "object"; // bug lịch sử
+NaN === NaN; // false!
 ```
 
 **Convention nên thống nhất trong team:**
@@ -326,7 +326,7 @@ function add(a, b) {
 ```js
 let total = 0;
 function addToTotal(value) {
-  total += value;  // mutation ẩn
+  total += value; // mutation ẩn
 }
 ```
 
@@ -373,7 +373,7 @@ function createUser(name) {
     },
     sayHi() {
       return `Hi, ${name}`;
-    }
+    },
   });
 }
 ```
@@ -408,7 +408,10 @@ System cannot continue           Permission denied
 ```ts
 type Result<T> =
   | { ok: true; value: T }
-  | { ok: false; error: "VALIDATION_ERROR" | "NOT_FOUND" | "PERMISSION_DENIED" };
+  | {
+      ok: false;
+      error: "VALIDATION_ERROR" | "NOT_FOUND" | "PERMISSION_DENIED";
+    };
 ```
 
 ---
@@ -468,15 +471,15 @@ Nested deeply → Hard to handle error → Hard to read
 
 ```js
 // Sequential (slow — nếu 3 request độc lập)
-const user        = await getUser();
-const orders      = await getOrders();
+const user = await getUser();
+const orders = await getOrders();
 const permissions = await getPermissions();
 
 // Parallel (fast)
 const [user, orders, permissions] = await Promise.all([
   getUser(),
   getOrders(),
-  getPermissions()
+  getPermissions(),
 ]);
 ```
 
@@ -679,7 +682,7 @@ confusion  inconsistent   weird    side effects  tight coupling
 
 ```ts
 // Không nên
-const total = price * quantity + tax;  // floating point
+const total = price * quantity + tax; // floating point
 
 // Nên
 const totalCents = priceInCents * quantity + taxInCents;
@@ -690,26 +693,32 @@ const displayTotal = (totalCents / 100).toFixed(2);
 
 ```ts
 // Không rõ
-if (user) { showProfile(); }
+if (user) {
+  showProfile();
+}
 
 // Rõ hơn
-if (user !== undefined) { showProfile(); }
-if (userId.trim() !== "") { loadUserProfile(userId); }
+if (user !== undefined) {
+  showProfile();
+}
+if (userId.trim() !== "") {
+  loadUserProfile(userId);
+}
 ```
 
 ### Parallel async
 
 ```ts
 // Sequential — chậm nếu không phụ thuộc nhau
-const user        = await getUser();
-const orders      = await getOrders();
+const user = await getUser();
+const orders = await getOrders();
 const permissions = await getPermissions();
 
 // Parallel — nhanh hơn
 const [user, orders, permissions] = await Promise.all([
   getUser(),
   getOrders(),
-  getPermissions()
+  getPermissions(),
 ]);
 ```
 
@@ -718,7 +727,9 @@ const [user, orders, permissions] = await Promise.all([
 ```ts
 // Không tốt
 let currentUser;
-export function setCurrentUser(user) { currentUser = user; }
+export function setCurrentUser(user) {
+  currentUser = user;
+}
 
 // Tốt hơn
 // Dùng explicit state management (NgRx, Signal, Service với DI)
