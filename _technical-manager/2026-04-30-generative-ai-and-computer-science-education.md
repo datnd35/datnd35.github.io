@@ -148,12 +148,12 @@ Bias          Hallucination   Inaccuracy      Copyright risk
 Thiên kiến    Bịa thông tin   Sai số          Rủi ro bản quyền
 ```
 
-| Rủi ro | Ý nghĩa |
-|---|---|
-| **Bias** | AI học từ dữ liệu có thiên kiến → output cũng có thể thiên kiến |
-| **Hallucination** | AI có thể bịa thông tin nghe rất thuyết phục |
-| **Inaccuracy** | AI không phải calculator, có thể sai ở chỗ cần chính xác |
-| **Copyright** | Code/text AI tạo ra có thể dính vấn đề bản quyền |
+| Rủi ro            | Ý nghĩa                                                         |
+| ----------------- | --------------------------------------------------------------- |
+| **Bias**          | AI học từ dữ liệu có thiên kiến → output cũng có thể thiên kiến |
+| **Hallucination** | AI có thể bịa thông tin nghe rất thuyết phục                    |
+| **Inaccuracy**    | AI không phải calculator, có thể sai ở chỗ cần chính xác        |
+| **Copyright**     | Code/text AI tạo ra có thể dính vấn đề bản quyền                |
 
 ---
 
