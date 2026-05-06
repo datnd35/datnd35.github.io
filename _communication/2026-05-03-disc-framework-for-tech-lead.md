@@ -98,11 +98,11 @@ Ai chịu trách nhiệm?
 
 ### Cách giao tiếp
 
-| Nên | Tránh |
-|---|---|
-| Đi thẳng vào vấn đề | Giải thích quá dài, vòng vo |
-| Nói outcome trước, detail sau | Nói cảm xúc quá nhiều |
-| Đưa option rõ ràng | Thông tin mơ hồ |
+| Nên                           | Tránh                       |
+| ----------------------------- | --------------------------- |
+| Đi thẳng vào vấn đề           | Giải thích quá dài, vòng vo |
+| Nói outcome trước, detail sau | Nói cảm xúc quá nhiều       |
+| Đưa option rõ ràng            | Thông tin mơ hồ             |
 
 ### Ví dụ câu nói
 
@@ -140,11 +140,11 @@ Có thể demo sớm không?
 
 ### Cách giao tiếp
 
-| Nên | Tránh |
-|---|---|
-| Tạo không khí tích cực | Quá khô khan, chỉ nói số liệu |
-| Công nhận ý tưởng của họ trước | Dập ý tưởng quá nhanh |
-| Sau đó kéo về action cụ thể | Bỏ qua cảm xúc của họ |
+| Nên                            | Tránh                         |
+| ------------------------------ | ----------------------------- |
+| Tạo không khí tích cực         | Quá khô khan, chỉ nói số liệu |
+| Công nhận ý tưởng của họ trước | Dập ý tưởng quá nhanh         |
+| Sau đó kéo về action cụ thể    | Bỏ qua cảm xúc của họ         |
 
 ### Ví dụ câu nói
 
@@ -181,10 +181,10 @@ Có tài liệu/hướng dẫn không?
 
 ### Cách giao tiếp
 
-| Nên | Tránh |
-|---|---|
-| Nói rõ expectation, từng bước | Ép quyết định quá nhanh |
-| Cho họ cảm giác an toàn | Gây áp lực đột ngột |
+| Nên                                  | Tránh                                          |
+| ------------------------------------ | ---------------------------------------------- |
+| Nói rõ expectation, từng bước        | Ép quyết định quá nhanh                        |
+| Cho họ cảm giác an toàn              | Gây áp lực đột ngột                            |
 | Hỏi nhẹ nhàng để họ chia sẻ khó khăn | Thay đổi requirement liên tục không giải thích |
 
 ### Ví dụ câu nói
@@ -223,11 +223,11 @@ Cách này có ảnh hưởng maintainability không?
 
 ### Cách giao tiếp
 
-| Nên | Tránh |
-|---|---|
-| Chuẩn bị dữ liệu/spec rõ | Nói chung chung |
+| Nên                       | Tránh                          |
+| ------------------------- | ------------------------------ |
+| Chuẩn bị dữ liệu/spec rõ  | Nói chung chung                |
 | Nói logic, evidence, rule | Ép làm khi requirement chưa rõ |
-| Cho thời gian phân tích | "Cứ làm đi rồi tính" |
+| Cho thời gian phân tích   | "Cứ làm đi rồi tính"           |
 
 ### Ví dụ câu nói
 
@@ -240,12 +240,12 @@ Please help me review the validation logic and identify possible regression area
 
 ## 7. Bảng so sánh nhanh
 
-| Nhóm | Mạnh về | Sợ nhất | Khi giao tiếp nên | Tránh |
-|---|---|---|---|---|
-| **D** | Kết quả, quyết định | Mất kiểm soát, chậm trễ | Ngắn gọn, trực tiếp, outcome rõ | Vòng vo, quá nhiều detail |
-| **I** | Kết nối, ý tưởng | Bị bỏ qua, mất tương tác | Tích cực, công nhận ý tưởng | Quá khô khan, phủ định nhanh |
-| **S** | Ổn định, hỗ trợ | Thay đổi đột ngột, xung đột | Nhẹ nhàng, rõ từng bước | Gây áp lực mạnh |
-| **C** | Logic, chất lượng | Sai sót, thiếu dữ liệu | Có evidence, spec, rule rõ | Mơ hồ, "cứ làm đi" |
+| Nhóm  | Mạnh về             | Sợ nhất                     | Khi giao tiếp nên               | Tránh                        |
+| ----- | ------------------- | --------------------------- | ------------------------------- | ---------------------------- |
+| **D** | Kết quả, quyết định | Mất kiểm soát, chậm trễ     | Ngắn gọn, trực tiếp, outcome rõ | Vòng vo, quá nhiều detail    |
+| **I** | Kết nối, ý tưởng    | Bị bỏ qua, mất tương tác    | Tích cực, công nhận ý tưởng     | Quá khô khan, phủ định nhanh |
+| **S** | Ổn định, hỗ trợ     | Thay đổi đột ngột, xung đột | Nhẹ nhàng, rõ từng bước         | Gây áp lực mạnh              |
+| **C** | Logic, chất lượng   | Sai sót, thiếu dữ liệu      | Có evidence, spec, rule rõ      | Mơ hồ, "cứ làm đi"           |
 
 ---
 

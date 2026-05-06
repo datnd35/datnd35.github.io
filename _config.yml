@@ -99,6 +99,9 @@ collections:
   technical-manager:
     output: true
     permalink: /:collection/:path/
+  backend:
+    output: true
+    permalink: /:collection/:path/
 
 future: true
 
