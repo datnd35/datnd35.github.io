@@ -128,9 +128,9 @@ net      → networking
 Ví dụ:
 
 ```js
-const fs = require('fs');
+const fs = require("fs");
 
-fs.readFile('data.txt', 'utf8', (err, data) => {
+fs.readFile("data.txt", "utf8", (err, data) => {
   console.log(data);
 });
 ```
@@ -183,13 +183,13 @@ Sau khi xong thì callback/promise được đưa lại vào Event Loop
 # 4. Ví dụ dễ hiểu về Event Loop
 
 ```js
-console.log('A');
+console.log("A");
 
 setTimeout(() => {
-  console.log('B');
+  console.log("B");
 }, 1000);
 
-console.log('C');
+console.log("C");
 ```
 
 Kết quả:
@@ -244,16 +244,16 @@ Node.js Server
 Ví dụ API đơn giản với Express:
 
 ```js
-const express = require('express');
+const express = require("express");
 const app = express();
 
-app.get('/users', async (req, res) => {
+app.get("/users", async (req, res) => {
   const users = await getUsersFromDatabase();
   res.json(users);
 });
 
 app.listen(3000, () => {
-  console.log('Server running on port 3000');
+  console.log("Server running on port 3000");
 });
 ```
 
@@ -535,17 +535,17 @@ Node.js
 Ví dụ Browser:
 
 ```js
-document.querySelector('#btn');
+document.querySelector("#btn");
 window.location.href;
-localStorage.setItem('token', 'abc');
+localStorage.setItem("token", "abc");
 ```
 
 Ví dụ Node.js:
 
 ```js
-const fs = require('fs');
-const http = require('http');
-const path = require('path');
+const fs = require("fs");
+const http = require("http");
+const path = require("path");
 ```
 
 ---
