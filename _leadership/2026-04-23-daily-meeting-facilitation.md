@@ -3,6 +3,7 @@ layout: post
 title: "Daily Meeting Facilitation — Dẫn Dắt Họp Hàng Ngày Với Client Chuyên Nghiệp"
 date: 2026-04-23
 categories: leadership
+track: become-better-at-communication
 ---
 
 ## Mục tiêu bài viết

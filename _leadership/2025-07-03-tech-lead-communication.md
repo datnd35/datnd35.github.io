@@ -3,6 +3,7 @@ layout: post
 title: "💬 Tech Lead Communication — Translator Giữa Engineering & Business (Clarity > Intelligence)"
 date: 2025-07-03
 categories: leadership
+track: become-better-at-communication
 ---
 
 ## 🎯 Mục Tiêu Bài Viết

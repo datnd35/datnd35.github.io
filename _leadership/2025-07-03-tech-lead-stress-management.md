@@ -3,6 +3,7 @@ layout: post
 title: "🧘 Tech Lead Stress Management — Cách Xử Lý Áp Lực & Giữ Team Ổn Định"
 date: 2025-07-03
 categories: leadership
+track: work-life-balance
 ---
 
 ## 🎯 Mục Tiêu Bài Viết

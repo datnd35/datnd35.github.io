@@ -3,6 +3,7 @@ layout: post
 title: "⏱️ Tech Lead Time Management — Cách Phân Bổ Thời Gian Hiệu Quả (Coding, Meetings, Mentoring & Strategy)"
 date: 2025-07-01
 categories: leadership
+track: be-productive
 ---
 
 ## 🎯 Mục Tiêu Bài Viết

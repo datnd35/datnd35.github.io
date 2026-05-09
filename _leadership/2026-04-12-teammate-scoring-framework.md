@@ -3,6 +3,7 @@ layout: post
 title: "🎯 Framework Chấm Điểm Teammate — Đánh Giá Thực Chiến Cho Tech Lead"
 date: 2026-04-12
 categories: leadership
+track: teamwork-and-collaboration
 ---
 
 ## 🎯 Mục Tiêu Bài Viết

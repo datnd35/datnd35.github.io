@@ -3,6 +3,7 @@ layout: post
 title: "How to Become a Tech Lead — Career Path, Mindset & Responsibilities"
 date: 2025-06-28
 categories: leadership
+track: become-a-better-leader
 ---
 
 ## 🎯 Mục Tiêu Bài Viết

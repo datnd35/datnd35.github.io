@@ -3,6 +3,7 @@ layout: post
 title: "🧠 Tech Lead Decision Making — Quy Trình Ra Quyết Định Hiệu Quả (70% Rule, Trade-offs & Ownership)"
 date: 2025-07-02
 categories: leadership
+track: pragmatic-and-resourceful
 ---
 
 ## 🎯 Mục Tiêu Bài Viết

@@ -3,6 +3,7 @@ layout: post
 title: "🏛️ Quyền Lực Lãnh Đạo — 6 Nguồn Quyền Lực Và Tư Duy Lãnh Đạo Bền Vững"
 date: 2026-04-09
 categories: leadership
+track: become-a-better-leader
 ---
 
 ## 🎯 Mục Tiêu Bài Viết

@@ -2,6 +2,7 @@
 layout: post
 title: "Estimate software development time"
 categories: leadership
+track: be-productive
 ---
 
 ## 1. Các phương pháp estimate task:

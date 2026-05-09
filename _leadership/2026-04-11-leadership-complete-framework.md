@@ -3,6 +3,7 @@ layout: post
 title: "🔥 Framework Lãnh Đạo Toàn Diện — Cảm Xúc, Giao Tiếp, Phong Cách, Quyết Định"
 date: 2026-04-11
 categories: leadership
+track: become-a-better-leader
 ---
 
 ## 🎯 Mục Tiêu Bài Viết
@@ -85,12 +86,12 @@ LEADERSHIP
 
 Không có gì phá hỏng hình ảnh leader nhanh hơn việc **mất kiểm soát cảm xúc trước team**.
 
-| Phản ứng sai | Phản ứng đúng |
-|---|---|
-| Nổi nóng khi bị challenge | Lắng nghe, pause, trả lời có chọn lọc |
-| Chia sẻ lo lắng với cả team | Xử lý nội tâm, chỉ chia sẻ khi cần thiết |
-| Phàn nàn về cấp trên với team | Giữ im lặng hoặc xử lý qua kênh riêng |
-| Vui buồn quá lộ liễu | Giữ "even keel" — ổn định nhất quán |
+| Phản ứng sai                  | Phản ứng đúng                            |
+| ----------------------------- | ---------------------------------------- |
+| Nổi nóng khi bị challenge     | Lắng nghe, pause, trả lời có chọn lọc    |
+| Chia sẻ lo lắng với cả team   | Xử lý nội tâm, chỉ chia sẻ khi cần thiết |
+| Phàn nàn về cấp trên với team | Giữ im lặng hoặc xử lý qua kênh riêng    |
+| Vui buồn quá lộ liễu          | Giữ "even keel" — ổn định nhất quán      |
 
 > **Nguyên tắc:** Team nhìn vào bạn để đánh giá tình huống nghiêm trọng đến mức nào. Nếu bạn bình tĩnh, họ bình tĩnh. Nếu bạn hoảng loạn, họ hoảng loạn.
 
@@ -156,13 +157,13 @@ Leader mạnh:
 
 ### Các Thói Quen Xây Dựng Presence
 
-| Thói quen | Tác dụng |
-|---|---|
-| Pause 2-3 giây trước khi trả lời | Thể hiện sự suy nghĩ, không bốc đồng |
-| Không ngắt lời | Cho thấy bạn tôn trọng và tự tin |
-| Giọng nói chậm, rõ | Tạo cảm giác kiểm soát |
-| Tác phong gọn gàng | Tín hiệu unconscious về sự chuyên nghiệp |
-| Không check điện thoại trong họp | Respect người khác = respect bản thân |
+| Thói quen                        | Tác dụng                                 |
+| -------------------------------- | ---------------------------------------- |
+| Pause 2-3 giây trước khi trả lời | Thể hiện sự suy nghĩ, không bốc đồng     |
+| Không ngắt lời                   | Cho thấy bạn tôn trọng và tự tin         |
+| Giọng nói chậm, rõ               | Tạo cảm giác kiểm soát                   |
+| Tác phong gọn gàng               | Tín hiệu unconscious về sự chuyên nghiệp |
+| Không check điện thoại trong họp | Respect người khác = respect bản thân    |
 
 ---
 
@@ -233,12 +234,12 @@ Leader giỏi biết cái nào với ai → manage accordingly
 
 ### 7.2 Khen và Phê Bình Đúng Cách
 
-| Nguyên tắc | Áp dụng |
-|---|---|
-| **Khen công khai** | Trong meeting, Slack, email → tăng motivation |
-| **Phê bình riêng tư** | 1:1, không trước mặt người khác → giữ dignity |
-| **Khen cụ thể** | "Em handle tốt phần X vì Y" > "Em làm tốt lắm" |
-| **Phê bình hành vi, không phê bình con người** | "Việc X chưa ổn vì..." > "Em không cẩn thận" |
+| Nguyên tắc                                     | Áp dụng                                        |
+| ---------------------------------------------- | ---------------------------------------------- |
+| **Khen công khai**                             | Trong meeting, Slack, email → tăng motivation  |
+| **Phê bình riêng tư**                          | 1:1, không trước mặt người khác → giữ dignity  |
+| **Khen cụ thể**                                | "Em handle tốt phần X vì Y" > "Em làm tốt lắm" |
+| **Phê bình hành vi, không phê bình con người** | "Việc X chưa ổn vì..." > "Em không cẩn thận"   |
 
 ### 7.3 Không Bao Giờ Làm Những Điều Này
 
@@ -336,16 +337,19 @@ Leader giỏi =
 ## Checklist Hàng Ngày Cho Tech Lead
 
 **Buổi sáng (trước khi bắt đầu ngày):**
+
 - [ ] Mình có ưu tiên gì rõ ràng hôm nay không?
 - [ ] Có cuộc họp nào cần chuẩn bị không?
 - [ ] Có ai trong team đang cần hỗ trợ không?
 
 **Trong ngày:**
+
 - [ ] Mình có đang react thay vì respond không?
 - [ ] Mình có đang giải thích dài dòng không cần thiết không?
 - [ ] Mình có đang tạo bottleneck cho team không?
 
 **Cuối ngày:**
+
 - [ ] Có quyết định nào mình delay hôm nay không? Tại sao?
 - [ ] Mình có nói gì ảnh hưởng tiêu cực đến team không?
 - [ ] Mình có follow through những gì đã hứa không?

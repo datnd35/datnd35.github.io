@@ -3,6 +3,7 @@ layout: post
 title: "🧩 Tech Lead Delegation Model — Nghệ Thuật Phân Công Đúng Người, Đúng Việc"
 date: 2025-07-02
 categories: leadership
+track: become-a-better-leader
 ---
 
 ## 🎯 Mục Tiêu Bài Viết

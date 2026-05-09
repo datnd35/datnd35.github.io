@@ -4,6 +4,7 @@ title: "Team Member Observation Framework cho Tech Lead"
 date: 2026-04-25
 category: leadership
 tags: [leadership, team, observation, framework, coaching]
+track: teamwork-and-collaboration
 ---
 
 Dưới đây là **bộ khía cạnh bạn nên quan sát từng team member** để ra quyết định lead, giao việc, coaching, giữ người, kiểm soát risk và làm việc với khách hàng hiệu quả hơn.
