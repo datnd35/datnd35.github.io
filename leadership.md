@@ -408,7 +408,38 @@ permalink: /leadership/
           <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </li>{% endfor %}
-        {% if wlb_posts.size == 0 %}<li><span class="empty">Chưa có bài viết.</span></li>{% endif %}
+        {% if wlb_posts.size == 0 %}<li><span class="empty">Chưa có bài viết nội bộ.</span></li>{% endif %}
+        <!-- External articles -->
+        <li>
+          <span class="post-date">2026-01-01</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/best-engineering-leaders-know-how" target="_blank" rel="noopener">Engineering Leader Giỏi Biết Cách Tắt Máy — Ngừng Làm Việc Đúng Lúc</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-06-09</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/the-2-week-vacation-test-for-engineers" target="_blank" rel="noopener">Bài Kiểm Tra 2 Tuần Nghỉ Phép — Bạn Là Nguồn Lực Hay Nút Thắt Cổ Chai?</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-01-23</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/new-experiences-key-to-moving-forward" target="_blank" rel="noopener">Trải Nghiệm Mới → Chìa Khóa Để Tiến Bộ Trong Sự Nghiệp</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2024-12-25</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/work-life-balance-key-to-long-term" target="_blank" rel="noopener">Work-Life Balance → Chìa Khóa Cho Sự Nghiệp Bền Vững Dài Hạn</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2024-04-28</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-prevent-burning-out-in-the" target="_blank" rel="noopener">Cách Phòng Tránh Burnout Trong Ngành Engineering</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2023-09-17</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/the-importance-of-well-being-in-the" target="_blank" rel="noopener">Tầm Quan Trọng Của Well-Being Trong Ngành Engineering</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
         </ul>
       </div>
     </li>
