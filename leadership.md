@@ -336,7 +336,33 @@ permalink: /leadership/
           <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </li>{% endfor %}
-        {% if team_posts.size == 0 %}<li><span class="empty">Chưa có bài viết.</span></li>{% endif %}
+        {% if team_posts.size == 0 %}<li><span class="empty">Chưa có bài viết nội bộ.</span></li>{% endif %}
+        <!-- External articles -->
+        <li>
+          <span class="post-date">2025-—-—</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/the-tension-between-technical-and" target="_blank" rel="noopener">Căng Thẳng Giữa Người Kỹ Thuật & Không Kỹ Thuật Trong Thời Đại AI</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-—-—</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-develop-eq-as-an-engineer" target="_blank" rel="noopener">Phát Triển EQ (Trí Tuệ Cảm Xúc) Như Thế Nào Với Tư Cách Engineer / Manager</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-—-—</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/empathy-is-a-superpower-in-the-engineering" target="_blank" rel="noopener">Sự Đồng Cảm Là Siêu Năng Lực Trong Ngành Engineering</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-—-—</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/great-teams-build-great-software" target="_blank" rel="noopener">Team Xuất Sắc Mới Tạo Ra Phần Mềm Xuất Sắc</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-—-—</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/engineering-is-more-about-people" target="_blank" rel="noopener">Engineering Là Về Con Người Nhiều Hơn Về Công Nghệ</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
         </ul>
       </div>
     </li>
