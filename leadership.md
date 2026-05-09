@@ -529,6 +529,177 @@ permalink: /leadership/
     </li>
 
     <li class="lt-track-item">
+      <button class="lt-track-btn" onclick="togglePanel('panel-ai', this)">
+        Utilize AI to be a multiplier
+        <span class="arrow">▶</span>
+      </button>
+      <div id="panel-ai" class="lt-panel">
+        <ul>
+        <li>
+          <span class="post-date">2026-04-27</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/salesforce-is-going-all-in-on-ai" target="_blank" rel="noopener">3 Xu Hướng AI Quan Trọng & Cách Salesforce Engineers Sử Dụng AI</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2026-04-20</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-an-ai-native-startup-from-sf" target="_blank" rel="noopener">Một AI-Native Startup ở SF Vận Hành & Xây Dựng Sản Phẩm Như Thế Nào</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2026-04-09</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/meta-created-an-internal-leaderboard" target="_blank" rel="noopener">Meta Tạo Bảng Xếp Hạng Nội Bộ Về Mức Dùng AI Token</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2026-04-06</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-use-openclaw-as-an-engineering" target="_blank" rel="noopener">Cách Sử Dụng OpenClaw Như Một Engineering Leader</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2026-03-30</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-evaluate-ai-fluency-in-technical" target="_blank" rel="noopener">Cách Đánh Giá Mức Độ Thành Thạo AI Trong Phỏng Vấn Kỹ Thuật</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2026-03-23</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-do-ai-assisted-engineering" target="_blank" rel="noopener">Cách Làm AI-Assisted Engineering Hiệu Quả</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2026-02-23</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-openais-codex-team-works-and" target="_blank" rel="noopener">Nhóm OpenAI Codex Làm Việc & Tận Dụng AI Như Thế Nào</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2026-02-19</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-build-ai-native-engineering" target="_blank" rel="noopener">Cách Xây Dựng AI-Native Engineering Teams</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-12-22</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/ai-coding-tools-are-not-the-problem" target="_blank" rel="noopener">AI Coding Tools Không Phải Vấn Đề — Thiếu Accountability Mới Là</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-12-01</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/essential-skills-for-engineers-to" target="_blank" rel="noopener">Kỹ Năng Thiết Yếu Để Engineers Phát Triển Trong Thời Đại AI</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-11-24</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/whats-really-like-to-be-an-aiml-engineer" target="_blank" rel="noopener">Thực Tế Làm Việc Như Một AI/ML Engineer Là Như Thế Nào?</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-11-13</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/managers-have-the-right-skills-for" target="_blank" rel="noopener">Manager Có Lợi Thế Hơn IC Khi Dùng AI Coding — Đây Là Lý Do</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-10-27</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-use-ai-to-help-with-planning" target="_blank" rel="noopener">Cách Dùng AI Để Lên Kế Hoạch Dự Án Engineering</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-10-16</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/tech-lead-is-becoming-one-of-the" target="_blank" rel="noopener">Tech Lead Đang Trở Thành Vị Trí Quan Trọng Nhất Nhờ GenAI</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-10-12</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-use-ai-to-help-with-software" target="_blank" rel="noopener">Cách Dùng AI Hỗ Trợ Các Tác Vụ Software Engineering Hàng Ngày</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-10-02</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/companies-should-stop-obsessing-over" target="_blank" rel="noopener">Công Ty Nên Ngừng Ám Ảnh Về AI Tools Và Làm Điều Này Thay Thế</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-09-22</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-ai-is-impacting-engineering-leadership" target="_blank" rel="noopener">AI Đang Tác Động Đến Engineering Leadership Như Thế Nào</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-09-08</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-use-ai-to-improve-teamwork" target="_blank" rel="noopener">Cách Dùng AI Để Cải Thiện Teamwork Trong Engineering Teams</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-08-27</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/openais-product-leader-reveals-ai" target="_blank" rel="noopener">Product Leader OpenAI Tiết Lộ: Chiến Lược AI Product Cho Engineering Leaders</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-08-24</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/llms-common-terms-explained-simply" target="_blank" rel="noopener">LLMs: Giải Thích Đơn Giản Các Thuật Ngữ Phổ Biến</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-08-20</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/guide-to-rapidly-improving-ai-products-8b2" target="_blank" rel="noopener">Hướng Dẫn Cải Thiện Nhanh AI Products — Phần 2</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-08-13</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/guide-to-rapidly-improving-ai-products" target="_blank" rel="noopener">Hướng Dẫn Cải Thiện Nhanh AI Products — Phần 1</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-07-31</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/companies-should-hire-more-engineers" target="_blank" rel="noopener">Công Ty Nên Tuyển Nhiều Engineers Hơn Trong Thời Đại AI</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-07-16</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/biggest-mistakes-engineering-leaders" target="_blank" rel="noopener">Những Sai Lầm Lớn Nhất Engineering Leaders Mắc Phải Với AI</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-07-09</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/ai-evals-how-to-systematically-improve" target="_blank" rel="noopener">AI Evals: Cách Đánh Giá & Cải Thiện AI Một Cách Có Hệ Thống</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-07-07</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-measure-ai-impact-in-engineering" target="_blank" rel="noopener">Cách Đo Lường Tác Động Của AI Trong Engineering Teams</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-07-02</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/guide-to-prompt-engineering" target="_blank" rel="noopener">Hướng Dẫn Toàn Diện Về Prompt Engineering</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-06-23</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/why-51-of-engineering-leaders-believe" target="_blank" rel="noopener">Tại Sao 51% Engineering Leaders Tin AI Đang Tác Động Tiêu Cực Đến Ngành</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-05-29</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/future-proof-your-career-as-an-engineer" target="_blank" rel="noopener">Bảo Vệ Tương Lai Sự Nghiệp Của Bạn Trong Thế Giới Gen AI</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-05-18</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-hellobetter-designed-their-interview" target="_blank" rel="noopener">HelloBetter Thiết Kế Quy Trình Phỏng Vấn Chống Gian Lận AI Như Thế Nào</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-03-09</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-use-ai-to-increase-software" target="_blank" rel="noopener">Cách Dùng AI Để Tăng Năng Suất Phát Triển Phần Mềm</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-01-15</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/will-ai-replace-mid-level-engineers" target="_blank" rel="noopener">AI Có Thay Thế Mid-Level Engineers Vào Năm 2025 Không?</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('panel-prod', this)">
         Be productive
         <span class="arrow">▶</span>
