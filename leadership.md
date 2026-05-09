@@ -700,6 +700,32 @@ permalink: /leadership/
     </li>
 
     <li class="lt-track-item">
+      <button class="lt-track-btn" onclick="togglePanel('panel-product', this)">
+        Become better at being product/business-minded
+        <span class="arrow">▶</span>
+      </button>
+      <div id="panel-product" class="lt-panel">
+        <ul>
+        <li>
+          <span class="post-date">2024-10-13</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/you-have-an-ai-product-how-to-get" target="_blank" rel="noopener">Bạn Có Một AI Product — Làm Sao Để Có Người Dùng?</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2024-08-25</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/engineers-guide-to-convincing-your" target="_blank" rel="noopener">Hướng Dẫn Cho Engineer Thuyết Phục PM Ưu Tiên Technical Debt</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2023-11-26</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/a-good-engineer-thinks-like-a-product" target="_blank" rel="noopener">Một Engineer Giỏi Biết Suy Nghĩ Như Một Product Manager</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('panel-prod', this)">
         Be productive
         <span class="arrow">▶</span>
