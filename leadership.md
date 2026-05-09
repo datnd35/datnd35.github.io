@@ -368,6 +368,37 @@ permalink: /leadership/
     </li>
 
     <li class="lt-track-item">
+      <button class="lt-track-btn" onclick="togglePanel('panel-relationships', this)">
+        Build good relationships
+        <span class="arrow">▶</span>
+      </button>
+      <div id="panel-relationships" class="lt-panel">
+        <ul>
+        <li>
+          <span class="post-date">2026-01-29</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-build-a-successful-engineer" target="_blank" rel="noopener">Xây Dựng Mối Quan Hệ Engineer ↔ Manager Thành Công</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-08-07</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/seeing-the-bad-helps-you-spot-the" target="_blank" rel="noopener">Nhìn Thấy Cái Xấu Giúp Bạn Nhận Ra Cái Tốt</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2024-07-21</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-build-good-relationships-inside" target="_blank" rel="noopener">Xây Dựng Mối Quan Hệ Tốt Trong & Ngoài Engineering Team</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2024-04-01</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-manage-up-as-an-engineer-or" target="_blank" rel="noopener">Cách Quản Lý Ngược (Manage Up) Với Tư Cách Engineer hoặc Manager</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('panel-wlb', this)">
         Work-life balance
         <span class="arrow">▶</span>
