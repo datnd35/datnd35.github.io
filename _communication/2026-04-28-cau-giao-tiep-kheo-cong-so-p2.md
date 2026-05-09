@@ -1,4 +1,5 @@
 ---
+track: "workplace-communication"
 layout: post
 title: "50+ Câu Giao Tiếp Khéo Trong Công Sở (Phần 2) – EQ Response Engine"
 date: 2026-04-28

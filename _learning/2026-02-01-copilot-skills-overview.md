@@ -1,4 +1,5 @@
 ---
+track: "tools-resources"
 layout: post
 title: "Copilot Skills - Hiểu Cách AI Từ 'Chatbot' Thành 'Agent' Thực Sự"
 date: 2026-02-01

@@ -1,4 +1,5 @@
 ---
+track: "aws-advanced"
 layout: post
 title: "☁️ AWS Series #21 — Secrets Management: Parameter Store, Secrets Manager & HashiCorp Vault"
 date: 2026-04-27

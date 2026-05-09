@@ -1,4 +1,5 @@
 ---
+track: "people-leadership"
 layout: post
 title: "People Skills - Kỳ Vọng, Feedback & Xử Lý Xung Đột"
 date: 2026-02-22

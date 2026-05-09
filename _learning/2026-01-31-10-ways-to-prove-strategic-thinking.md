@@ -1,4 +1,5 @@
 ---
+track: "learning-methods"
 layout: post
 title: "10 Ways to Prove You're a Strategic Thinker - Communication Skills"
 date: 2026-01-31

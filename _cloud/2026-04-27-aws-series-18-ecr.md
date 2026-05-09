@@ -1,4 +1,5 @@
 ---
+track: "aws-advanced"
 layout: post
 title: "☁️ AWS Series #18 — Amazon ECR: Elastic Container Registry"
 date: 2026-04-27

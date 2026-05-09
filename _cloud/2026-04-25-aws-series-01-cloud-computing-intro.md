@@ -1,4 +1,5 @@
 ---
+track: "aws-core"
 layout: post
 title: "☁️ AWS Series #01 — Cloud Computing & AWS là gì? Nền tảng bạn cần hiểu trước khi bắt đầu"
 date: 2026-04-25

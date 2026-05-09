@@ -1,4 +1,5 @@
 ---
+track: "aws-core"
 layout: post
 title: "☁️ AWS Series #07 — Route 53: DNS as a Service, Domain & Hosted Zone"
 date: 2026-04-25

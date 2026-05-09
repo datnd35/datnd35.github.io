@@ -1,4 +1,5 @@
 ---
+track: "vue-core"
 layout: post
 title: "Vue.js - Docs vs API và Options API Deep Dive"
 categories: misc

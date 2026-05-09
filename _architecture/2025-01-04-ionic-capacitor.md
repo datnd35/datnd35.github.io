@@ -1,4 +1,5 @@
 ---
+track: "mobile-cross-platform"
 layout: post
 title: "Ionic Capacitor"
 categories: architecture

@@ -1,4 +1,5 @@
 ---
+track: "testing-series"
 layout: post
 title: "Testing Series (Part 2) - E2E Architecture In Practice: Page Object, Debug & Flaky Test"
 date: 2026-01-30

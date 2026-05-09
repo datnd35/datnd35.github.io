@@ -1,4 +1,5 @@
 ---
+track: "security-auth"
 layout: post
 title: "Authentication strategies"
 categories: architecture

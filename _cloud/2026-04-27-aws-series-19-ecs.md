@@ -1,4 +1,5 @@
 ---
+track: "aws-advanced"
 layout: post
 title: "☁️ AWS Series #19 — Amazon ECS: Elastic Container Service"
 date: 2026-04-27

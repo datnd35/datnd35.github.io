@@ -1,4 +1,5 @@
 ---
+track: "aws-core"
 layout: post
 title: "☁️ AWS Series #02 — IAM: Quản lý Danh tính & Phân quyền trong AWS"
 date: 2026-04-25

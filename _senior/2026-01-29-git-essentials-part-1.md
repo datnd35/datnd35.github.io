@@ -1,4 +1,5 @@
 ---
+track: "tools-workflow-senior"
 layout: post
 title: "Git Essentials Part 1 - Timeline, History & Debugging"
 date: 2026-01-29

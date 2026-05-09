@@ -1,4 +1,5 @@
 ---
+track: "aws-advanced"
 layout: post
 title: "AWS Series #28 – Cloud Migration Strategies trên AWS"
 date: 2026-04-27

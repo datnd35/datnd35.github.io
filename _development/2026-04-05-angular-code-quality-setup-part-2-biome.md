@@ -1,4 +1,5 @@
 ---
+track: "angular-code-quality"
 layout: post
 title: "Angular Code Quality Setup: Part 2 - Biome Deep Dive & When to Choose"
 subtitle: "All-in-one toolchain so sánh với Prettier + ESLint"

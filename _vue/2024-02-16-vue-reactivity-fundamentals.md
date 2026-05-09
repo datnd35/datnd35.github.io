@@ -1,4 +1,5 @@
 ---
+track: "vue-core"
 layout: post
 title: "Vue Reactivity Fundamentals"
 categories: misc

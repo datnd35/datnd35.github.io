@@ -1,4 +1,5 @@
 ---
+track: "system-design"
 layout: post
 title: "System Design Essentials - Kiến Thức Nền Tảng Cho Senior Developer"
 date: 2026-01-28

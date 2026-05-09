@@ -1,4 +1,5 @@
 ---
+track: "workplace-communication"
 layout: post
 title: "Dùng Emoji/Icon Trong Tin Nhắn Công Sở Đúng Cách"
 date: 2026-04-05

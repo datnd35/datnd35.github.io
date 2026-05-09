@@ -1,4 +1,5 @@
 ---
+track: "senior-mindset"
 layout: post
 title: "🧠 Tư Duy Phản Biện — Framework Nghĩ Kỹ Trước Khi Tin Cho Senior Engineer"
 date: 2026-04-12

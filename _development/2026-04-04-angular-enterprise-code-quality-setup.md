@@ -1,4 +1,5 @@
 ---
+track: "angular-code-quality"
 layout: post
 title: "Angular Code Quality Setup: Part 1 - Prettier, ESLint & Governance"
 subtitle: "Enterprise-level format & lint setup cho Angular"

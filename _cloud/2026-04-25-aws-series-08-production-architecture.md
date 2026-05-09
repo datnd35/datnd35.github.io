@@ -1,4 +1,5 @@
 ---
+track: "aws-core"
 layout: post
 title: "☁️ AWS Series #08 — Production-grade AWS: VPC, ALB, Auto Scaling, Bastion Host"
 date: 2026-04-25

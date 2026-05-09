@@ -1,4 +1,5 @@
 ---
+track: "senior-mindset"
 layout: post
 title: "Senior Developer Mindset - Tư Duy Của Người Lập Trình Cấp Cao"
 date: 2025-01-04

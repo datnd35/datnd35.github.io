@@ -1,4 +1,5 @@
 ---
+track: "enterprise-cross-functional"
 layout: post
 title: "Tech Lead: Nghe Hiểu Khách Hàng Accent Tây Ban Nha"
 date: 2026-04-09

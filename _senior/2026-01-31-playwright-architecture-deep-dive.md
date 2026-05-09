@@ -1,4 +1,5 @@
 ---
+track: "testing-series"
 layout: post
 title: "Testing Series (Part 3) - Playwright Deep Dive: Internal Architecture & Parallel Testing"
 date: 2026-01-31

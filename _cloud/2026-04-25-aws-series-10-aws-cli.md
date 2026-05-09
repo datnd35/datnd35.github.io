@@ -1,4 +1,5 @@
 ---
+track: "aws-core"
 layout: post
 title: "☁️ AWS Series #10 — AWS CLI: Làm việc với AWS từ Terminal"
 date: 2026-04-25

@@ -1,4 +1,5 @@
 ---
+track: "interview-mindset"
 layout: post
 title: "Interview Feedback Framework"
 date: 2026-01-27

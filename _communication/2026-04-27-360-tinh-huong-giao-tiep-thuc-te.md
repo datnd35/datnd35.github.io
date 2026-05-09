@@ -1,4 +1,5 @@
 ---
+track: "workplace-communication"
 layout: post
 title: "360 Tình Huống Giao Tiếp Thực Tế – Thu Phục Lòng Người Khi Mở Miệng"
 date: 2026-04-27

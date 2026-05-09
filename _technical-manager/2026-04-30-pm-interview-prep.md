@@ -1,4 +1,5 @@
 ---
+track: "management-skills"
 layout: post
 title: "PM Interview — Cách chuẩn bị và trả lời phỏng vấn Product Manager"
 subtitle: "Tóm tắt từ Gayle Laakmann McDowell — Behavioral, Product Design, Estimation và Case Questions"

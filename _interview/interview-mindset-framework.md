@@ -1,4 +1,5 @@
 ---
+track: "interview-mindset"
 layout: post
 title: "Interview Series (Part 1) - Framework Tư Duy Interview: Nhìn Từ Góc Độ Interviewer"
 date: 2026-03-20

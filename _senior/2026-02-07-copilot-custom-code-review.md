@@ -1,4 +1,5 @@
 ---
+track: "tools-workflow-senior"
 layout: post
 title: "GitHub Copilot Custom Code Review — Biến AI Thành Senior Reviewer Của Team"
 date: 2026-03-28

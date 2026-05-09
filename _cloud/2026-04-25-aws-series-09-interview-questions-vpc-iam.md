@@ -1,4 +1,5 @@
 ---
+track: "aws-core"
 layout: post
 title: "☁️ AWS Series #09 — Scenario-based Interview Questions: VPC, IAM, EC2, Bastion Host"
 date: 2026-04-25

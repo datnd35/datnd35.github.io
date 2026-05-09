@@ -1,4 +1,5 @@
 ---
+track: "cloud-fundamentals"
 layout: post
 title: "☸️ Kubernetes Crash Course — Architecture, Pods, Services & Deployment"
 date: 2025-06-30

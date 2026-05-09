@@ -1,4 +1,5 @@
 ---
+track: "senior-mindset"
 layout: post
 title: "System Design Thinking Cho Frontend - Cách Senior/Staff Engineer Tư Duy"
 date: 2026-03-16

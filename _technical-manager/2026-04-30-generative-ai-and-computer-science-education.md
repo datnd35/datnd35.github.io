@@ -1,4 +1,5 @@
 ---
+track: "tech-knowledge"
 layout: post
 title: "Generative AI, Computer Science và Higher Education"
 subtitle: "AI không chỉ là công cụ viết code — nó đang thay đổi cách dạy, học và vai trò kỹ sư phần mềm"

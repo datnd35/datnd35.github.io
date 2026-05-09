@@ -1,4 +1,5 @@
 ---
+track: "aws-advanced"
 layout: post
 title: "☁️ AWS Series #14 — Amazon CloudWatch: Monitoring, Logging & Alerting"
 date: 2026-04-27

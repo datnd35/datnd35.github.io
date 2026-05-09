@@ -1,4 +1,5 @@
 ---
+track: "tools-workflow-senior"
 layout: post
 title: "Senior Frontend Developer - Workflow và Trách Nhiệm"
 date: 2026-01-18

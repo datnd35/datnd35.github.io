@@ -1,4 +1,5 @@
 ---
+track: "interview-mindset"
 layout: post
 title: "Interview Series (Part 2) - Funnel Interview Model: Framework Hỏi Chuẩn Của Senior Interviewer"
 date: 2026-03-21

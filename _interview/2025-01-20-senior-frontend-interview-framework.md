@@ -1,4 +1,5 @@
 ---
+track: "frontend-interview"
 layout: post
 title: "Framework Phỏng Vấn Senior Frontend (Angular) - Hướng Dẫn Toàn Diện"
 date: 2026-03-16

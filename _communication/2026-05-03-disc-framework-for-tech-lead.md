@@ -1,4 +1,5 @@
 ---
+track: "client-stakeholder"
 layout: post
 title: "DISC Framework cho Tech Lead — Giao tiếp đúng kiểu người"
 subtitle: "Hiểu phong cách hành vi để giao task, feedback và lead team hiệu quả hơn"

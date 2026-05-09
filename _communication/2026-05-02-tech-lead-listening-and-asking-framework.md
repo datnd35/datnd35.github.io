@@ -1,4 +1,5 @@
 ---
+track: "client-stakeholder"
 layout: post
 title: "Framework L.C.R.D.A — Cách Tech Lead nghe và hỏi khách hàng hiệu quả"
 subtitle: "Khi khách trình bày, không phải hỏi nhiều — mà nghe để phát hiện rủi ro, dependency và chốt decision"

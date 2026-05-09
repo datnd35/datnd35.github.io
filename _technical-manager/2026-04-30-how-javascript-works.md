@@ -1,4 +1,5 @@
 ---
+track: "tech-knowledge"
 layout: post
 title: "How JavaScript Works"
 subtitle: "Tư duy của Douglas Crockford về JavaScript — Good Parts, Bad Parts và paradigm lập trình tương lai"

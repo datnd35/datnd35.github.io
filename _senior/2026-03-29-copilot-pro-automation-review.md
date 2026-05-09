@@ -1,4 +1,5 @@
 ---
+track: "tools-workflow-senior"
 layout: post
 title: "AI Code Review Pipeline — Từ Git Diff Đến Automation Như Big Tech"
 date: 2026-03-29

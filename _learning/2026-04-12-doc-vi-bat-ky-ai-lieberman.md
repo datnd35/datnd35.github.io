@@ -1,4 +1,5 @@
 ---
+track: "learning-methods"
 layout: post
 title: "🔍 Đọc Vị Bất Kỳ Ai — Framework Quan Sát Có Hệ Thống (David J. Lieberman)"
 date: 2026-04-12

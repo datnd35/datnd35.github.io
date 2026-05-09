@@ -1,4 +1,5 @@
 ---
+track: "aws-iac-cicd"
 layout: post
 title: "☁️ AWS Series #13 — CodePipeline: CI/CD Orchestrator trên AWS"
 date: 2026-04-25

@@ -1,4 +1,5 @@
 ---
+track: "aws-advanced"
 layout: post
 title: "☁️ AWS Series #17 — Amazon CloudFront & CDN: Host Static Website với S3"
 date: 2026-04-27

@@ -1,4 +1,5 @@
 ---
+track: "enterprise-cross-functional"
 layout: post
 title: "Leader với BA, QA, PM - 20 Case Study Thực Chiến Trong Dự Án Enterprise"
 date: 2026-04-07

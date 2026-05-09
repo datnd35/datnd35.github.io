@@ -1,4 +1,5 @@
 ---
+track: "people-leadership"
 layout: post
 title: "People Management Khi Ở Vai Trò Leader"
 date: 2026-04-06

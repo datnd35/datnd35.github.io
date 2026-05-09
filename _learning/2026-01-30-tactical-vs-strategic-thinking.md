@@ -1,4 +1,5 @@
 ---
+track: "learning-methods"
 layout: post
 title: "Tactical vs Strategic Thinking - Từ Developer Đến Tech Leader"
 date: 2026-01-30

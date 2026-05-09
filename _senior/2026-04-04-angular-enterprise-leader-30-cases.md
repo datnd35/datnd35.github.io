@@ -1,4 +1,5 @@
 ---
+track: "enterprise-cross-functional"
 layout: post
 title: "30 Case Study Thực Chiến Cho Leader Trong Dự Án Angular Enterprise"
 date: 2026-04-09

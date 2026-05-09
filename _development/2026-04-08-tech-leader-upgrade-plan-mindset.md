@@ -1,4 +1,5 @@
 ---
+track: "angular-code-quality"
 layout: post
 title: "Tech Leader Mindset: Lên Plan Cho Dự Án Upgrade Lớn"
 subtitle: "Tư duy toàn diện khi upgrade Angular từ v9 lên v18"

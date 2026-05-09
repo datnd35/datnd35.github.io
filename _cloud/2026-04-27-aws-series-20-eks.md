@@ -1,4 +1,5 @@
 ---
+track: "aws-advanced"
 layout: post
 title: "☁️ AWS Series #20 — Amazon EKS: Elastic Kubernetes Service"
 date: 2026-04-27

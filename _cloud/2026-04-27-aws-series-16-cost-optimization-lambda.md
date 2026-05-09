@@ -1,4 +1,5 @@
 ---
+track: "aws-advanced"
 layout: post
 title: "☁️ AWS Series #16 — Cloud Cost Optimization: Lambda + boto3 + EBS Snapshot Cleanup"
 date: 2026-04-27

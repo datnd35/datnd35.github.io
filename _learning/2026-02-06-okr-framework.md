@@ -1,4 +1,5 @@
 ---
+track: "learning-methods"
 layout: post
 title: "OKR Framework - Hiểu Đúng Để Dùng Đúng"
 date: 2026-02-06

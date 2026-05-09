@@ -1,4 +1,5 @@
 ---
+track: "people-leadership"
 layout: post
 title: "👥 Team Member Management Framework — Nhìn Đúng Người, Dùng Đúng Cách"
 date: 2026-04-30

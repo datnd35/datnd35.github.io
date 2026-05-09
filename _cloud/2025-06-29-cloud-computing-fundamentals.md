@@ -1,4 +1,5 @@
 ---
+track: "cloud-fundamentals"
 layout: post
 title: "☁️ Cloud Computing Fundamentals — Scaling, Load Balancing, Serverless & Hơn Thế Nữa"
 date: 2025-06-29

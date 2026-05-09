@@ -1,4 +1,5 @@
 ---
+track: "workplace-communication"
 layout: post
 title: "Framework Giao Tiếp Công Sở – Thực Chiến, EQ Cao, Ứng Biến Tốt"
 date: 2026-04-27

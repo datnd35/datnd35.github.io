@@ -1,4 +1,5 @@
 ---
+track: "vue-core"
 layout: post
 title: "Vue Class and Style Bindings"
 categories: misc

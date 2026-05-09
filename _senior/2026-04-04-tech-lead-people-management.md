@@ -1,4 +1,5 @@
 ---
+track: "people-leadership"
 layout: post
 title: "Tech Lead Quản Lý Con Người - 20 Tình Huống Thực Chiến"
 date: 2026-04-08

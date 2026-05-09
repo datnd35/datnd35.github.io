@@ -1,4 +1,5 @@
 ---
+track: "aws-core"
 layout: post
 title: "☁️ AWS Series #06 — Security Group & NACL: Hai Lớp Bảo Mật Trong VPC"
 date: 2026-04-25

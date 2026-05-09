@@ -1,4 +1,5 @@
 ---
+track: "backend-understanding"
 layout: post
 title: "Backend Thực Chiến: 20 Tình Huống FE Cần Hiểu Về BE"
 subtitle: "Từ Google Login, Async Queue, AI API đến Monitoring — tư duy backend thực tế cho frontend developer"

@@ -1,4 +1,5 @@
 ---
+track: "tools-workflow-senior"
 layout: post
 title: "Scrum vs Kanban - Hiểu Rõ 2 Framework Agile Phổ Biến Nhất"
 date: 2026-02-02

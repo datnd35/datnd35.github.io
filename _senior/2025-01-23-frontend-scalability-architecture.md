@@ -1,4 +1,5 @@
 ---
+track: "senior-mindset"
 layout: post
 title: "Frontend Scalability Architecture - Thiết Kế Hệ Thống Frontend Scale Triệu Users"
 date: 2026-03-16

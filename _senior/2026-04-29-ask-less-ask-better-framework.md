@@ -1,4 +1,5 @@
 ---
+track: "enterprise-cross-functional"
 layout: post
 title: "🎯 Ask Less, Ask Better — Framework Đọc Task Sâu & Hỏi Khách Hàng Hiệu Quả"
 date: 2026-04-29

@@ -1,4 +1,5 @@
 ---
+track: "people-leadership"
 layout: post
 title: "Team Lead Case Studies (Part 1) - Nhóm Delivery"
 date: 2026-04-04

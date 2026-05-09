@@ -1,4 +1,5 @@
 ---
+track: "aws-iac-cicd"
 layout: post
 title: "☁️ AWS Series #11 — CloudFormation: Infrastructure as Code trên AWS"
 date: 2026-04-25

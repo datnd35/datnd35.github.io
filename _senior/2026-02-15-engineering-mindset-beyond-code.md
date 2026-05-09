@@ -1,4 +1,5 @@
 ---
+track: "senior-mindset"
 layout: post
 title: "System Design Series (Part 1) - Engineering Mindset: Beyond Beautiful Code"
 date: 2026-02-15

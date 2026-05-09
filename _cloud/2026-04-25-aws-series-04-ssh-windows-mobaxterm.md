@@ -1,4 +1,5 @@
 ---
+track: "aws-core"
 layout: post
 title: "☁️ AWS Series #04 — SSH vào EC2 từ Windows bằng MobaXterm"
 date: 2026-04-25

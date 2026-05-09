@@ -1,4 +1,5 @@
 ---
+track: "workplace-communication"
 layout: post
 title: "Giao Tiếp Chuyên Nghiệp Trong Tech - Framework Áp Dụng Ngay"
 date: 2026-03-21

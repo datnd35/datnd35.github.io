@@ -1,4 +1,5 @@
 ---
+track: "aws-core"
 layout: post
 title: "☁️ AWS Series #05 — VPC: Mạng Riêng Ảo & Nền Móng Networking trong AWS"
 date: 2026-04-25

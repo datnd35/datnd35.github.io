@@ -1,4 +1,5 @@
 ---
+track: "cloud-fundamentals"
 layout: post
 title: "🐳 Docker Crash Course — Containers, Images, Dockerfile & DevOps Workflow"
 date: 2025-07-01

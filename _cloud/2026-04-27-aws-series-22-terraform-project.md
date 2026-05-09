@@ -1,4 +1,5 @@
 ---
+track: "aws-iac-cicd"
 layout: post
 title: "☁️ AWS Series #22 — Terraform Project: Automate AWS Infrastructure"
 date: 2026-04-27

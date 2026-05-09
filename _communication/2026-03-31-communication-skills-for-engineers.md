@@ -1,4 +1,5 @@
 ---
+track: "workplace-communication"
 layout: post
 title: "Communication Skills — Tại Sao Kỹ Thuật Giỏi Vẫn Không Thăng Tiến"
 date: 2026-03-31

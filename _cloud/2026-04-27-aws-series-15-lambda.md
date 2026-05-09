@@ -1,4 +1,5 @@
 ---
+track: "aws-advanced"
 layout: post
 title: "☁️ AWS Series #15 — AWS Lambda & Serverless Architecture"
 date: 2026-04-27

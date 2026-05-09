@@ -1,4 +1,5 @@
 ---
+track: "frameworks-models"
 layout: post
 title: "Nguyên tắc Kim Tự Tháp - Giao tiếp rõ ràng và hiệu quả"
 categories: communication

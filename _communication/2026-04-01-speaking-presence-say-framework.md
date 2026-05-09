@@ -1,4 +1,5 @@
 ---
+track: "speaking-presence"
 layout: post
 title: "Speaking Presence — Từ Quiet Achiever Đến Influential Engineer"
 date: 2026-04-01

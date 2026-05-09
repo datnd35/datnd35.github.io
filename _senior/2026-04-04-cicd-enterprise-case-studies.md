@@ -1,4 +1,5 @@
 ---
+track: "tools-workflow-senior"
 layout: post
 title: "CI/CD Enterprise Case Studies - Thực Chiến Cho Team Lead"
 date: 2026-04-05

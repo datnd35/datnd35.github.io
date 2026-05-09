@@ -1,4 +1,5 @@
 ---
+track: "client-stakeholder"
 layout: post
 title: "Giải Thích Estimate Với Client – Framework B-C-R-O-A"
 date: 2026-04-28

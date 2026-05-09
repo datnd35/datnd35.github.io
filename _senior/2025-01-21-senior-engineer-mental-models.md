@@ -1,4 +1,5 @@
 ---
+track: "senior-mindset"
 layout: post
 title: "10 Mental Models Cực Mạnh Mà Senior/Staff Engineer Thường Dùng"
 date: 2025-01-21

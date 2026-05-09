@@ -1,4 +1,5 @@
 ---
+track: "vue-core"
 layout: post
 title: "Vue Computed Properties"
 categories: misc

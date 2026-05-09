@@ -1,4 +1,5 @@
 ---
+track: "management-skills"
 layout: post
 title: "What Successful Architects Do"
 subtitle: "Kiến trúc sư phần mềm thành công không chỉ giỏi kỹ thuật"
