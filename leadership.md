@@ -84,6 +84,19 @@ permalink: /leadership/
 .lt-panel a:hover { color: #1a6fc4; text-decoration: underline; }
 .lt-panel .empty { font-size: 0.88rem; color: #aaa; font-style: italic; }
 
+/* ── External link badge ──────────────────────────── */
+.lt-ext-badge {
+  font-size: 0.65rem; font-weight: 600;
+  background: #fff3e0; color: #b45309;
+  border: 1px solid #fcd99a;
+  border-radius: 4px;
+  padding: 1px 5px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.lt-panel a.ext { color: #444; }
+.lt-panel a.ext:hover { color: #b45309; }
+
 /* ── Responsive ───────────────────────────────────── */
 @media (max-width: 600px) {
   .lt-panel { margin-left: 20px; padding: 12px 14px; }
@@ -125,7 +138,53 @@ permalink: /leadership/
           <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </li>{% endfor %}
-        {% if leader_posts.size == 0 %}<li><span class="empty">Chưa có bài viết.</span></li>{% endif %}
+        {% if leader_posts.size == 0 %}<li><span class="empty">Chưa có bài viết nội bộ.</span></li>{% endif %}
+        <!-- External articles -->
+        <li>
+          <span class="post-date">2026-01-15</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/avoid-the-new-leader-syndrome-as" target="_blank" rel="noopener">Tránh "Hội Chứng Lãnh Đạo Mới" Khi Trở Thành Engineering Leader</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-11-03</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/my-mistakes-and-advice-leading-engineering" target="_blank" rel="noopener">Sai Lầm & Bài Học Khi Dẫn Dắt Engineering Teams</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-09-29</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-stay-relevant-as-an-engineering" target="_blank" rel="noopener">Làm Thế Nào Để Vẫn Còn Giá Trị Khi Trao Quyền Cho Người Khác</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-07-27</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/engineer-to-leader-10-insights-to" target="_blank" rel="noopener">Từ Engineer Đến Leader: 10 Bài Học Để Bắt Đầu</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-07-13</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-engineering-leaders-stay-calm" target="_blank" rel="noopener">Cách Engineering Leader Giữ Bình Tĩnh & Hiệu Quả Khi Mọi Thứ Căng Thẳng</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-02-23</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/5-mindset-shifts-needed-to-grow-from" target="_blank" rel="noopener">5 Thay Đổi Tư Duy Cần Thiết Để Phát Triển Từ Engineer Lên Leader</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-01-12</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-create-a-culture-of-ownership" target="_blank" rel="noopener">Xây Dựng Văn Hóa Ownership Trong Engineering Team</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-01-08</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/great-engineering-leaders-create" target="_blank" rel="noopener">Engineering Leader Xuất Sắc Tạo Ra Những Leader Khác</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2023-11-12</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-make-and-embrace-changes" target="_blank" rel="noopener">Cách Tạo Ra & Đón Nhận Sự Thay Đổi Trong Tổ Chức</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
         </ul>
       </div>
     </li>
