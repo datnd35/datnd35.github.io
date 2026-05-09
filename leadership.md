@@ -462,7 +462,68 @@ permalink: /leadership/
           <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </li>{% endfor %}
-        {% if pragma_posts.size == 0 %}<li><span class="empty">Chưa có bài viết.</span></li>{% endif %}
+        {% if pragma_posts.size == 0 %}<li><span class="empty">Chưa có bài viết nội bộ.</span></li>{% endif %}
+        <!-- External articles -->
+        <li>
+          <span class="post-date">2025-12-04</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-be-pragmatic-as-an-engineer" target="_blank" rel="noopener">Cách Trở Thành Một Engineer Thực Dụng (Pragmatic Engineer)</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-11-06</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-become-a-resourceful-engineer" target="_blank" rel="noopener">Cách Trở Thành Một Engineer Biết Tận Dụng Nguồn Lực (Resourceful Engineer)</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-04-10</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-develop-a-senior-mindset" target="_blank" rel="noopener">Cách Phát Triển Tư Duy Senior Engineer</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-02-12</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-be-a-proactive-engineer" target="_blank" rel="noopener">Cách Trở Thành Một Engineer Chủ Động (Proactive Engineer)</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-01-30</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-be-a-reliable-engineer" target="_blank" rel="noopener">Cách Trở Thành Một Engineer Đáng Tin Cậy (Reliable Engineer)</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-01-05</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/5-skills-to-develop-to-grow-from" target="_blank" rel="noopener">5 Kỹ Năng Cần Phát Triển Để Thăng Tiến Từ Senior Lên Staff Engineer</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2024-10-31</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/when-should-you-buy-vs-build-in-software" target="_blank" rel="noopener">Khi Nào Nên Mua, Khi Nào Nên Tự Xây Dựng Trong Software Development?</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2024-10-27</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/simple-code-is-the-best-code" target="_blank" rel="noopener">Code Đơn Giản Là Code Tốt Nhất</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2024-08-04</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-propose-an-impactful-improvement" target="_blank" rel="noopener">Cách Đề Xuất Cải Tiến Codebase Có Tác Động Cao & Tự Mình Triển Khai</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2024-06-17</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/become-the-go-to-engineer-in-your" target="_blank" rel="noopener">Trở Thành Engineer Được Cả Tổ Chức Tìm Đến Khi Cần</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2024-05-05</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-build-credibility-in-the-engineering" target="_blank" rel="noopener">Cách Xây Dựng Uy Tín (Credibility) Trong Ngành Engineering</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2024-03-17</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/simplifying-as-much-as-possible-is" target="_blank" rel="noopener">Đơn Giản Hóa Tối Đa — Triết Lý Vàng Trong Ngành Engineering</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
         </ul>
       </div>
     </li>
