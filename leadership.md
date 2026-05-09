@@ -281,6 +281,52 @@ permalink: /leadership/
     </li>
 
     <li class="lt-track-item">
+      <button class="lt-track-btn" onclick="togglePanel('panel-great-person', this)">
+        Become a great person to work with
+        <span class="arrow">▶</span>
+      </button>
+      <div id="panel-great-person" class="lt-panel">
+        <ul>
+        <li>
+          <span class="post-date">2025-—-—</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/saying-i-dont-know-is-a-sign-of-seniority" target="_blank" rel="noopener">Nói "Tôi Không Biết" Là Dấu Hiệu Của Sự Trưởng Thành</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-—-—</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/become-an-engineering-leader-everyone" target="_blank" rel="noopener">Trở Thành Engineering Leader Mà Ai Cũng Muốn Làm Việc Cùng</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-—-—</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-can-engineers-and-pms-collaborate" target="_blank" rel="noopener">Engineer & PM Có Thể Cộng Tác Hiệu Quả Như Thế Nào?</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-—-—</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/3-main-soft-skills-a-tech-lead-needs" target="_blank" rel="noopener">3 Soft Skills Quan Trọng Nhất Mà Tech Lead Cần Phát Triển</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-—-—</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-teaching-made-me-a-better-engineer" target="_blank" rel="noopener">Dạy Người Khác Giúp Tôi Trở Thành Engineer & Manager Tốt Hơn</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-—-—</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/become-the-engineer-everyone-wants" target="_blank" rel="noopener">Trở Thành Engineer Mà Ai Cũng Muốn Làm Việc Cùng</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        <li>
+          <span class="post-date">2025-—-—</span>
+          <a class="ext" href="https://newsletter.eng-leadership.com/p/best-engineers-are-focusing-on-helping" target="_blank" rel="noopener">Những Engineer Giỏi Nhất Luôn Tập Trung Vào Việc Giúp Đỡ Người Khác</a>
+          <span class="lt-ext-badge">🔗 Eng Leadership</span>
+        </li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('panel-team', this)">
         Become better at teamwork and emotional intelligence
         <span class="arrow">▶</span>
