@@ -39,17 +39,6 @@ categories: [Leadership]
   </a>
 </div>
 
-**Đọc trực tiếp file Word đang ghi chú:**
-
-<iframe
-  src="https://onedrive.live.com/embed?cid=EEE170F7FB2933DB&resid=EEE170F7FB2933DB%21s8dbf9837793d4b8f2d143073036ffc01&authkey=NndfEh"
-  width="100%"
-  height="500px"
-  style="border:1px solid #e0e0e0; border-radius:8px; margin-bottom:24px;">
-</iframe>
-
-> 💡 Nếu iframe không hiển thị, [mở trực tiếp trên OneDrive](https://1drv.ms/w/c/eee170f7fb2933db/IQANT4e9z3kPS6EtFDD3A2_8AVNZ5-YkWIzr3-IlVfl2zLA?e=NndfEh){:target="\_blank"}.
-
 ---
 
 ## 1. Tóm tắt ngắn gọn
