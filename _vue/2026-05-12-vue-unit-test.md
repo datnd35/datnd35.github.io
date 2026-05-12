@@ -21,20 +21,20 @@ excerpt: "Hướng dẫn chuyên nghiệp về Vue.js Unit Test: kiến trúc, c
 ## 1. Unit Test là gì và nằm ở đâu trong Testing Pyramid? {#overview}
 
 \`\`\`text
-                    ┌──────────────┐
-                    │   E2E Test   │  ← Playwright / Cypress
-                    │  (chậm nhất) │    Test full user flow
-                    └──────┬───────┘
-                           │
-               ┌───────────┴────────────┐
-               │   Integration Test      │  ← Component + Store + API
-               │  (kết hợp nhiều phần)  │
-               └───────────┬────────────┘
-                           │
-          ┌────────────────┴─────────────────┐
-          │           Unit Test               │  ← Vitest + Vue Test Utils
-          │  Component / Composable / Utils   │    Nhanh nhất, feedback sớm nhất
-          └──────────────────────────────────┘
+┌──────────────┐
+│ E2E Test │ ← Playwright / Cypress
+│ (chậm nhất) │ Test full user flow
+└──────┬───────┘
+│
+┌───────────┴────────────┐
+│ Integration Test │ ← Component + Store + API
+│ (kết hợp nhiều phần) │
+└───────────┬────────────┘
+│
+┌────────────────┴─────────────────┐
+│ Unit Test │ ← Vitest + Vue Test Utils
+│ Component / Composable / Utils │ Nhanh nhất, feedback sớm nhất
+└──────────────────────────────────┘
 \`\`\`
 
 **Unit Test kiểm tra:**
@@ -57,47 +57,47 @@ excerpt: "Hướng dẫn chuyên nghiệp về Vue.js Unit Test: kiến trúc, c
 **Stack phổ biến với Vue 3 + Vite:**
 
 \`\`\`text
-Vue 3  +  Vite  +  Vitest  +  Vue Test Utils  +  jsdom
+Vue 3 + Vite + Vitest + Vue Test Utils + jsdom
 \`\`\`
 
-| Tool | Vai trò |
-|---|---|
-| **Vitest** | Test runner, assertion (`expect`), mock, spy — thiết kế cho Vite |
-| **Vue Test Utils** | Mount component, find element, trigger event, kiểm tra emit |
-| **jsdom / happy-dom** | Giả lập DOM trong Node.js |
-| **Testing Library Vue** | Test theo góc nhìn user behavior |
-| **Pinia Testing** | Mock Pinia store |
-| **MSW** | Mock API ở mức network |
+| Tool                    | Vai trò                                                          |
+| ----------------------- | ---------------------------------------------------------------- |
+| **Vitest**              | Test runner, assertion (`expect`), mock, spy — thiết kế cho Vite |
+| **Vue Test Utils**      | Mount component, find element, trigger event, kiểm tra emit      |
+| **jsdom / happy-dom**   | Giả lập DOM trong Node.js                                        |
+| **Testing Library Vue** | Test theo góc nhìn user behavior                                 |
+| **Pinia Testing**       | Mock Pinia store                                                 |
+| **MSW**                 | Mock API ở mức network                                           |
 
 **Kiến trúc tổng quan:**
 
 \`\`\`text
 ┌─────────────────────────────────────────────┐
-│              Vue Application                │
+│ Vue Application │
 └──────────────────────┬──────────────────────┘
-                       │
-          ┌────────────▼────────────┐
-          │      Unit Under Test    │
-          │  Component / Composable │
-          │  / Utility Function     │
-          └────────────┬────────────┘
-                       │
-          ┌────────────▼────────────┐
-          │  Vitest (test runner)   │
-          │  describe / it / expect │
-          │  vi.fn() / mock / spy   │
-          └────────────┬────────────┘
-                       │
-          ┌────────────▼────────────┐
-          │    Vue Test Utils       │
-          │  mount / find / trigger │
-          │  emitted / text         │
-          └────────────┬────────────┘
-                       │
-          ┌────────────▼────────────┐
-          │       Test Result       │
-          │  PASS / FAIL / Coverage │
-          └─────────────────────────┘
+│
+┌────────────▼────────────┐
+│ Unit Under Test │
+│ Component / Composable │
+│ / Utility Function │
+└────────────┬────────────┘
+│
+┌────────────▼────────────┐
+│ Vitest (test runner) │
+│ describe / it / expect │
+│ vi.fn() / mock / spy │
+└────────────┬────────────┘
+│
+┌────────────▼────────────┐
+│ Vue Test Utils │
+│ mount / find / trigger │
+│ emitted / text │
+└────────────┬────────────┘
+│
+┌────────────▼────────────┐
+│ Test Result │
+│ PASS / FAIL / Coverage │
+└─────────────────────────┘
 \`\`\`
 
 **Cấu trúc thư mục (co-location — khuyên dùng):**
@@ -105,16 +105,16 @@ Vue 3  +  Vite  +  Vitest  +  Vue Test Utils  +  jsdom
 \`\`\`text
 src/
 ├── components/
-│   ├── LoginForm.vue
-│   └── LoginForm.spec.ts     ← đặt gần source, dễ maintain
+│ ├── LoginForm.vue
+│ └── LoginForm.spec.ts ← đặt gần source, dễ maintain
 │
 ├── composables/
-│   ├── usePagination.ts
-│   └── usePagination.spec.ts
+│ ├── usePagination.ts
+│ └── usePagination.spec.ts
 │
 └── utils/
-    ├── formatDate.ts
-    └── formatDate.spec.ts
+├── formatDate.ts
+└── formatDate.spec.ts
 \`\`\`
 
 ---
@@ -122,44 +122,45 @@ src/
 ## 3. Test gì — Input / Logic / Output {#what-to-test}
 
 \`\`\`text
-        Component Input
-               │
-    ┌──────────┼──────────┐
-  Props      Slots     Store / Route / Mock API
-               │
-               ▼
-        Component Logic
-               │
-    ┌──────────┼──────────┐
-  ref/reactive computed  methods / watch / emits
-               │
-               ▼
-        Component Output
-               │
-    ┌──────────┼────────────────┐
-  DOM text  Class/attr   Event emitted / State
+Component Input
+│
+┌──────────┼──────────┐
+Props Slots Store / Route / Mock API
+│
+▼
+Component Logic
+│
+┌──────────┼──────────┐
+ref/reactive computed methods / watch / emits
+│
+▼
+Component Output
+│
+┌──────────┼────────────────┐
+DOM text Class/attr Event emitted / State
 \`\`\`
 
 **Ví dụ: LoginForm.vue**
 
 \`\`\`text
-Input                   Logic                    Output (cần test)
+Input Logic Output (cần test)
 ─────────────────────────────────────────────────────────────────
-email (rỗng)    →   validate required      →   hiện error message
-password        →   disable khi invalid    →   button bị disabled
-click Submit    →   emit khi form valid    →   emit "submit" + payload
+email (rỗng) → validate required → hiện error message
+password → disable khi invalid → button bị disabled
+click Submit → emit khi form valid → emit "submit" + payload
 \`\`\`
 
 **Những case có giá trị cao cần ưu tiên:**
 
 \`\`\`text
-1. Business logic phức tạp   → pricing, permission, validation
+
+1. Business logic phức tạp → pricing, permission, validation
 2. Component nhiều condition → loading / empty / error / success
-3. Form phức tạp             → validate, disabled, submit payload
-4. Composable tái sử dụng    → usePagination, useDebounce
-5. Bug từng xảy ra           → viết regression test
-6. Code sắp refactor         → Vue 2→3, Options→Composition API
-\`\`\`
+3. Form phức tạp → validate, disabled, submit payload
+4. Composable tái sử dụng → usePagination, useDebounce
+5. Bug từng xảy ra → viết regression test
+6. Code sắp refactor → Vue 2→3, Options→Composition API
+   \`\`\`
 
 ---
 
@@ -169,13 +170,14 @@ click Submit    →   emit khi form valid    →   emit "submit" + payload
 
 \`\`\`vue
 <template>
-  <button @click="count++">Count: {{ count }}</button>
+<button @click="count++">Count: {{ count }}</button>
 </template>
 
 <script setup>
 import { ref } from 'vue'
 const count = ref(0)
 </script>
+
 \`\`\`
 
 **Test: Counter.spec.ts**
@@ -186,16 +188,16 @@ import { describe, it, expect } from 'vitest'
 import Counter from './Counter.vue'
 
 describe('Counter.vue', () => {
-  it('should start with count 0', () => {
-    const wrapper = mount(Counter)
-    expect(wrapper.text()).toContain('Count: 0')
-  })
+it('should start with count 0', () => {
+const wrapper = mount(Counter)
+expect(wrapper.text()).toContain('Count: 0')
+})
 
-  it('should increase count when button is clicked', async () => {
-    const wrapper = mount(Counter)
-    await wrapper.find('button').trigger('click')
-    expect(wrapper.text()).toContain('Count: 1')
-  })
+it('should increase count when button is clicked', async () => {
+const wrapper = mount(Counter)
+await wrapper.find('button').trigger('click')
+expect(wrapper.text()).toContain('Count: 1')
+})
 })
 \`\`\`
 
@@ -203,13 +205,13 @@ describe('Counter.vue', () => {
 
 \`\`\`text
 mount(Counter)
-      │
-      ▼  count = 0
+│
+▼ count = 0
 Assert "Count: 0" ✔
-      │
-      ▼  trigger('click')
-      │
-      ▼  Vue reactive: count = 1
+│
+▼ trigger('click')
+│
+▼ Vue reactive: count = 1
 Assert "Count: 1" ✔
 \`\`\`
 
@@ -221,15 +223,15 @@ import { vi, describe, it, expect } from 'vitest'
 import { useUser } from './useUser'
 
 vi.mock('@/api/user', () => ({
-  fetchUser: vi.fn().mockResolvedValue({ id: 1, name: 'An' })
+fetchUser: vi.fn().mockResolvedValue({ id: 1, name: 'An' })
 }))
 
 describe('useUser', () => {
-  it('should load user data on mount', async () => {
-    const { user, loadUser } = useUser()
-    await loadUser()
-    expect(user.value?.name).toBe('An')
-  })
+it('should load user data on mount', async () => {
+const { user, loadUser } = useUser()
+await loadUser()
+expect(user.value?.name).toBe('An')
+})
 })
 \`\`\`
 
@@ -241,26 +243,26 @@ describe('useUser', () => {
 
 \`\`\`text
 Requirement / Ticket
-        │
-        ▼
+│
+▼
 Identify business rules → Define test scenarios
-        │                  (normal / edge / error / regression)
-        ▼
+│ (normal / edge / error / regression)
+▼
 Implement component / logic
-        │
-        ▼
-Write unit tests  →  Run locally
-        │
-        ▼
+│
+▼
+Write unit tests → Run locally
+│
+▼
 Code review
-  ├── Test có meaningful không?
-  ├── Test behavior hay implementation detail?
-  └── Cover edge case chưa?
-        │
-        ▼
+├── Test có meaningful không?
+├── Test behavior hay implementation detail?
+└── Cover edge case chưa?
+│
+▼
 CI/CD: lint → type check → unit test → coverage
-        │
-        ▼
+│
+▼
 Merge to main
 \`\`\`
 
@@ -290,13 +292,13 @@ it('should render empty state when list has no items')
 ## 6. Senior Mindset {#senior-mindset}
 
 \`\`\`text
-❌ Bad Mindset                    ✔ Good Mindset
+❌ Bad Mindset ✔ Good Mindset
 ──────────────────────────────────────────────────
-Test internal variables     →    Test behavior & output
-Test tên function nội bộ    →    Test business rule
-Chạy để đủ coverage %       →    Chạy để bắt regression
-Test dễ fail khi refactor   →    Refactor an toàn
-Dev sợ sửa code             →    Team tự tin release
+Test internal variables → Test behavior & output
+Test tên function nội bộ → Test business rule
+Chạy để đủ coverage % → Chạy để bắt regression
+Test dễ fail khi refactor → Refactor an toàn
+Dev sợ sửa code → Team tự tin release
 \`\`\`
 
 **Unit test dùng để:**
@@ -316,6 +318,7 @@ Dev sợ sửa code             →    Team tự tin release
 ---
 
 **Tài liệu tham khảo:**
+
 - [Vue.js - Testing Guide](https://vuejs.org/guide/scaling-up/testing)
 - [Vitest - Getting Started](https://vitest.dev/guide/)
 - [Vue Test Utils - Getting Started](https://test-utils.vuejs.org/guide/)
