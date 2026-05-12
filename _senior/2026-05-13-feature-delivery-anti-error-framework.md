@@ -1,4 +1,5 @@
 ---
+track: "tools-workflow-senior"
 layout: post
 title: "Feature Delivery Anti-Error Framework"
 subtitle: "Chiến lược hệ thống để giảm lỗi cho mọi feature — FE, BE, Integration"
