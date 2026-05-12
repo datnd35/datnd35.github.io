@@ -10,17 +10,29 @@ excerpt: "Hướng dẫn chuyên nghiệp về Vue.js Unit Test: kiến trúc, c
 # Mục lục
 
 ## [1. Vue.js Unit Test nằm ở đâu?](#testing-pyramid)
+
 ## [2. Kiến trúc Vue Unit Test chuyên nghiệp](#architecture)
+
 ## [3. Flow chạy Vue Unit Test](#flow)
+
 ## [4. Unit Test trong Vue thường test những gì?](#what-to-test)
+
 ## [5. Ví dụ cấu trúc thư mục unit test](#folder-structure)
+
 ## [6. Công cụ thường dùng](#tools)
+
 ## [7. Một ví dụ unit test đơn giản](#simple-example)
+
 ## [8. Nên test theo hướng nào?](#testing-mindset)
+
 ## [9. Các case nên viết unit test trong Vue project thực tế](#high-value-cases)
+
 ## [10. Quy trình unit test trong team chuyên nghiệp](#professional-workflow)
+
 ## [11. Checklist viết Vue Unit Test tốt](#checklist)
+
 ## [12. Vue Unit Test mindset cho Senior Frontend](#senior-mindset)
+
 ## [13. Tổng kết](#summary)
 
 ---
@@ -305,14 +317,14 @@ Cách này tiện khi muốn maintain test gần logic.
 
 ## 6. Công cụ thường dùng {#tools}
 
-| Tool | Vai trò |
-|---|---|
-| Vitest | Test runner, assertion, mock, spy |
-| Vue Test Utils | Mount và tương tác Vue component |
-| jsdom / happy-dom | Giả lập DOM trong Node.js |
-| Testing Library Vue | Test theo góc nhìn user behavior |
-| Pinia Testing | Mock store nếu dùng Pinia |
-| MSW | Mock API ở mức network |
+| Tool                | Vai trò                           |
+| ------------------- | --------------------------------- |
+| Vitest              | Test runner, assertion, mock, spy |
+| Vue Test Utils      | Mount và tương tác Vue component  |
+| jsdom / happy-dom   | Giả lập DOM trong Node.js         |
+| Testing Library Vue | Test theo góc nhìn user behavior  |
+| Pinia Testing       | Mock store nếu dùng Pinia         |
+| MSW                 | Mock API ở mức network            |
 
 Trong Vue 3 + Vite, combo phổ biến là:
 
@@ -337,36 +349,34 @@ jsdom / happy-dom
 ```vue
 <!-- Counter.vue -->
 <template>
-  <button @click="count++">
-    Count: {{ count }}
-  </button>
+  <button @click="count++">Count: {{ count }}</button>
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
-const count = ref(0)
+const count = ref(0);
 </script>
 ```
 
 **Test:**
 
 ```ts
-import { mount } from '@vue/test-utils'
-import { describe, it, expect } from 'vitest'
-import Counter from './Counter.vue'
+import { mount } from "@vue/test-utils";
+import { describe, it, expect } from "vitest";
+import Counter from "./Counter.vue";
 
-describe('Counter.vue', () => {
-  it('should increase count when user clicks button', async () => {
-    const wrapper = mount(Counter)
+describe("Counter.vue", () => {
+  it("should increase count when user clicks button", async () => {
+    const wrapper = mount(Counter);
 
-    expect(wrapper.text()).toContain('Count: 0')
+    expect(wrapper.text()).toContain("Count: 0");
 
-    await wrapper.find('button').trigger('click')
+    await wrapper.find("button").trigger("click");
 
-    expect(wrapper.text()).toContain('Count: 1')
-  })
-})
+    expect(wrapper.text()).toContain("Count: 1");
+  });
+});
 ```
 
 **Diagram của test trên:**
@@ -563,10 +573,10 @@ Merge to main branch
 **Ví dụ tên test tốt:**
 
 ```ts
-it('should show error message when email is empty')
-it('should emit submit event with form data when form is valid')
-it('should disable submit button when required fields are missing')
-it('should render empty state when user list is empty')
+it("should show error message when email is empty");
+it("should emit submit event with form data when form is valid");
+it("should disable submit button when required fields are missing");
+it("should render empty state when user list is empty");
 ```
 
 ---
@@ -648,6 +658,7 @@ và tránh bug quay lại sau khi refactor.
 ---
 
 **Tài liệu tham khảo:**
+
 - [Vue.js - Testing](https://vuejs.org/guide/scaling-up/testing)
 - [Vitest - Getting Started](https://vitest.dev/guide/)
 - [Vue Test Utils - Getting Started](https://test-utils.vuejs.org/guide/)
