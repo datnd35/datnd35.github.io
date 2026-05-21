@@ -35,6 +35,7 @@ header_pages:
   - technical-manager.md
   - learning.md
   - senior.md
+  - testing.md
   - interview.md
 
 navbar-links:
@@ -78,6 +79,9 @@ collections:
   senior:
     output: true
     permalink: /senior/:title/
+  testing:
+    output: true
+    permalink: /testing/:title/
   investment:
     output: true
     permalink: /:collection/:path/
