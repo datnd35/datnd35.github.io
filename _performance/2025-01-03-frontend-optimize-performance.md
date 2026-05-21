@@ -1,8 +1,9 @@
 ---
-track: "frontend-fundamentals"
+track: "frontend-performance"
 layout: post
-title: "Performance"
-categories: development
+title: "Frontend Performance Optimization"
+date: 2025-01-03
+categories: performance
 ---
 
 # I. Kỹ thuật

@@ -1,9 +1,9 @@
 ---
-track: "frontend-interview"
+track: "frontend-performance"
 layout: post
 title: "Performance Interview Questions"
 date: 2026-03-18
-categories: interview performance
+categories: performance
 ---
 
 Tổng hợp các câu hỏi Performance thường gặp trong phỏng vấn Frontend Developer.
