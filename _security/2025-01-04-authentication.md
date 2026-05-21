@@ -1,8 +1,9 @@
 ---
-track: "security-auth"
-layout: OAuth (Open Authorization)
+track: "authentication-authorization"
+layout: post
 title: "Authentication"
-categories: architecture
+date: 2025-01-04
+categories: security
 ---
 
 OAuth là một giao thức ủy quyền (authorization protocol) giúp ứng dụng có thể truy cập tài nguyên của người dùng trên một hệ thống khác mà không cần phải lưu trữ hoặc quản lý mật khẩu của người dùng.

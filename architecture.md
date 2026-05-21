@@ -39,7 +39,6 @@ permalink: /architecture/
 </div>
 
 {% assign all_posts = site.architecture | sort: 'date' | reverse %}
-{% assign auth_posts   = all_posts | where: "track", "security-auth" %}
 {% assign mobile_posts = all_posts | where: "track", "mobile-cross-platform" %}
 {% assign infra_posts  = all_posts | where: "track", "infra-patterns" %}
 {% assign sd_posts     = all_posts | where: "track", "system-design" %}
@@ -55,22 +54,6 @@ permalink: /architecture/
       <div class="lt-panel" id="arch-sd">
         <ul>
           {% for post in sd_posts %}
-          <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </li>
-
-    <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('arch-auth', this)">
-        Security &amp; Authentication <span class="arrow">▶</span>
-      </button>
-      <div class="lt-panel" id="arch-auth">
-        <ul>
-          {% for post in auth_posts %}
           <li>
             <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <a href="{{ post.url }}">{{ post.title }}</a>

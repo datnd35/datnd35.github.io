@@ -1,8 +1,9 @@
 ---
-track: "security-auth"
+track: "authentication-authorization"
 layout: post
 title: "Authentication strategies"
-categories: architecture
+date: 2025-01-03
+categories: security
 ---
 
 # OAuth (Open Authorization)
