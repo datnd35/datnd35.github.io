@@ -1,9 +1,9 @@
 ---
-track: "testing-series"
+track: "e2e-testing"
 layout: post
 title: "Testing Series (Part 3) - Playwright Deep Dive: Internal Architecture & Parallel Testing"
 date: 2026-01-31
-categories: senior
+categories: testing
 ---
 
 ## 🎯 Mục Tiêu Bài Viết

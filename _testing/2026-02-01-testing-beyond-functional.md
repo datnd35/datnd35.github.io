@@ -1,9 +1,9 @@
 ---
-track: "testing-series"
+track: "visual-performance-testing"
 layout: post
 title: "Testing Series (Part 4) - Beyond Functional: Visual, Accessibility, Performance & Contract Testing"
 date: 2026-02-01
-categories: senior
+categories: testing
 ---
 
 ## 🎯 Mục Tiêu Bài Viết

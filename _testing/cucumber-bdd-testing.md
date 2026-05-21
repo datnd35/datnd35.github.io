@@ -1,9 +1,9 @@
 ---
-track: "testing-series"
+track: "bdd-testing"
 layout: post
 title: "Testing Series (Part 5) - Cucumber & BDD: Viết Test Như Kể Chuyện"
 date: 2026-03-18
-categories: senior testing
+categories: testing
 ---
 
 **Cucumber** là công cụ kiểm thử theo hướng **BDD (Behavior Driven Development)** — mô tả hành vi hệ thống bằng ngôn ngữ tự nhiên (Gherkin), giúp dev, tester và business đều hiểu.

@@ -1,9 +1,9 @@
 ---
-track: "testing-series"
+track: "testing-architecture"
 layout: post
 title: "Testing Series (Part 1) - Big Picture: Testing Pyramid & E2E Nằm Ở Đâu?"
 date: 2026-01-29
-categories: senior
+categories: testing
 ---
 
 ## 🎯 Mục Tiêu Bài Viết

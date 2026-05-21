@@ -40,7 +40,6 @@ permalink: /senior/
 
 {% assign all_posts = site.senior | sort: 'date' | reverse %}
 {% assign mindset_posts    = all_posts | where: "track", "senior-mindset" %}
-{% assign testing_posts    = all_posts | where: "track", "testing-series" %}
 {% assign workflow_posts   = all_posts | where: "track", "tools-workflow-senior" %}
 {% assign people_posts     = all_posts | where: "track", "people-leadership" %}
 {% assign enterprise_posts = all_posts | where: "track", "enterprise-cross-functional" %}
@@ -56,22 +55,6 @@ permalink: /senior/
       <div class="lt-panel" id="sr-mindset">
         <ul>
           {% for post in mindset_posts %}
-          <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </li>
-
-    <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('sr-testing', this)">
-        Testing Series (Playwright, BDD, E2E, Visual) <span class="arrow">▶</span>
-      </button>
-      <div class="lt-panel" id="sr-testing">
-        <ul>
-          {% for post in testing_posts %}
           <li>
             <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <a href="{{ post.url }}">{{ post.title }}</a>
