@@ -38,6 +38,7 @@ header_pages:
   - testing.md
   - security.md
   - performance.md
+  - systems-thinking.md
   - interview.md
 
 navbar-links:
@@ -90,6 +91,9 @@ collections:
   performance:
     output: true
     permalink: /performance/:title/
+  systems-thinking:
+    output: true
+    permalink: /systems-thinking/:title/
   investment:
     output: true
     permalink: /:collection/:path/
