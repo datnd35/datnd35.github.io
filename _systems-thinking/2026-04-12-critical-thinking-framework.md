@@ -1,9 +1,9 @@
 ---
-track: "senior-mindset"
+track: "first-principles"
 layout: post
 title: "🧠 Tư Duy Phản Biện — Framework Nghĩ Kỹ Trước Khi Tin Cho Senior Engineer"
 date: 2026-04-12
-categories: senior
+categories: systems-thinking
 ---
 
 ## 🎯 Mục Tiêu Bài Viết

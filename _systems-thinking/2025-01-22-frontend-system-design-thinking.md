@@ -1,9 +1,9 @@
 ---
-track: "senior-mindset"
+track: "mental-models"
 layout: post
 title: "System Design Thinking Cho Frontend - Cách Senior/Staff Engineer Tư Duy"
 date: 2026-03-16
-categories: senior
+categories: systems-thinking
 tags: [system-design, frontend, architecture, angular, senior]
 ---
 
