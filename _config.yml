@@ -36,6 +36,7 @@ header_pages:
   - learning.md
   - senior.md
   - testing.md
+  - security.md
   - interview.md
 
 navbar-links:
@@ -82,6 +83,9 @@ collections:
   testing:
     output: true
     permalink: /testing/:title/
+  security:
+    output: true
+    permalink: /security/:title/
   investment:
     output: true
     permalink: /:collection/:path/
