@@ -221,7 +221,7 @@ DEEP RESEARCH
 Ví dụ: "Thời tiết ảnh hưởng du lịch Dubai thế nào?"
 ```
 
-**Lưu ý với web search:** AI có thể lấy nguồn cũ, nguồn kém uy tín, hoặc hiểu sai nguồn. Khi hỏi vấn đề quan trọng, hãy yêu cầu: *"dùng nguồn chính thức, nguồn mới, trích dẫn rõ, so sánh nhiều nguồn"*.
+**Lưu ý với web search:** AI có thể lấy nguồn cũ, nguồn kém uy tín, hoặc hiểu sai nguồn. Khi hỏi vấn đề quan trọng, hãy yêu cầu: _"dùng nguồn chính thức, nguồn mới, trích dẫn rõ, so sánh nhiều nguồn"_.
 
 ---
 

@@ -3,7 +3,8 @@ layout: post
 title: "Systems Thinking: Feedback Loops, Policy Resistance và Tư Duy Hệ Thống Thực Chiến"
 date: 2026-05-22
 categories: systems-thinking
-tags: [systems-thinking, feedback-loop, policy-resistance, mental-models, tech-lead]
+tags:
+  [systems-thinking, feedback-loop, policy-resistance, mental-models, tech-lead]
 track: feedback-loops
 ---
 
@@ -413,9 +414,11 @@ Client pushes even harder
 **Cách phản hồi theo Systems Thinking:**
 
 ❌ Đừng nói:
+
 > "Yes, we will do it faster."
 
 ✅ Hãy nói:
+
 > "Em đồng ý mình cần tối ưu tốc độ delivery. Tuy nhiên, với phần này có khả năng ảnh hưởng đến các flow liên quan, nên em đề xuất mình clarify scope, identify impacted areas và thống nhất minimum validation trước khi implement để tránh rework sau này."
 
 ---
