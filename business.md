@@ -76,6 +76,19 @@ permalink: /business/
 .lt-panel a:hover { color: #1a6fc4; text-decoration: underline; }
 .lt-panel .empty { font-size: 0.88rem; color: #aaa; font-style: italic; }
 
+/* ── Important badge ──────────────────────────────── */
+.imp-badge {
+  font-size: 0.62rem; font-weight: 700;
+  background: #fff8e1; color: #b45309;
+  border: 1px solid #fcd34d;
+  border-radius: 4px;
+  padding: 1px 6px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  letter-spacing: 0.02em;
+}
+.lt-panel li.important-post { background: #fffdf0; margin: 0 -4px; padding-left: 4px; padding-right: 4px; border-radius: 4px; }
+
 /* ── Responsive ───────────────────────────────────── */
 @media (max-width: 600px) {
   .lt-panel { margin-left: 20px; padding: 12px 14px; }
@@ -130,9 +143,10 @@ permalink: /business/
         <span class="arrow">▶</span>
       </button>
       <div id="panel-ck" class="lt-panel">
-        <ul>{% for post in ck_posts %}<li>
+        <ul>{% for post in ck_posts %}<li{% if post.important %} class="important-post"{% endif %}>
           <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% if post.important %}<span class="imp-badge">⭐ Quan trọng</span>{% endif %}
         </li>{% endfor %}
         {% if ck_posts.size == 0 %}<li><span class="empty">Chưa có bài viết.</span></li>{% endif %}
         </ul>

@@ -4,6 +4,7 @@ title: "Bản Đồ Kiến Thức Kinh Tế & Đầu Tư — Học Gì, Học Th
 date: 2026-04-27
 categories: investment
 tab: chung-khoan
+important: true
 ---
 
 Nếu mục tiêu của bạn là **hiểu bức tranh dòng tiền, đầu tư, kinh doanh và ra quyết định cá nhân tốt hơn**, đây là toàn bộ bản đồ kiến thức cần nắm.

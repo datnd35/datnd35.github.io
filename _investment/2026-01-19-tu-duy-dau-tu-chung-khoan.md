@@ -4,6 +4,7 @@ title: "Tư Duy Đầu Tư Chứng Khoán - Hệ Thống Tư Duy Toàn Diện"
 date: 2026-01-19
 categories: investment
 tab: chung-khoan
+important: true
 ---
 
 ## 📈 Xây Dựng Hệ Thống Tư Duy Đầu Tư Bền Vững
