@@ -5,7 +5,10 @@ date: 2026-06-09
 categories: investment
 tab: chung-khoan
 important: true
+facebook_video: "https://web.facebook.com/share/v/18gAVgXSdE/?mibextid=wwXIfr&_rdc=1&_rdr"
 ---
+
+> 📹 **Video giải thích:** [Xem trên Facebook](https://web.facebook.com/share/v/18gAVgXSdE/?mibextid=wwXIfr&_rdc=1&_rdr){:target="\_blank" rel="noopener"}
 
 Nhiều người mua cổ phiếu chỉ nhìn giá tăng giảm mỗi ngày, nhưng lại quên câu hỏi quan trọng nhất:
 
