@@ -3,6 +3,7 @@ layout: post
 title: "Bản Đồ Kiến Thức Kinh Tế & Đầu Tư — Học Gì, Học Theo Thứ Tự Nào?"
 date: 2026-04-27
 categories: investment
+tab: chung-khoan
 ---
 
 Nếu mục tiêu của bạn là **hiểu bức tranh dòng tiền, đầu tư, kinh doanh và ra quyết định cá nhân tốt hơn**, đây là toàn bộ bản đồ kiến thức cần nắm.
@@ -220,11 +221,11 @@ Bán tài sản → Giá tài sản giảm → Khủng hoảng nợ
 Người gửi tiền → Ngân hàng → Cho người khác vay → Tiền đi vào kinh tế
 ```
 
-| Ngân hàng cho vay nhiều | Ngân hàng siết cho vay |
-|---|---|
-| Tín dụng tăng | Tín dụng giảm |
+| Ngân hàng cho vay nhiều  | Ngân hàng siết cho vay |
+| ------------------------ | ---------------------- |
+| Tín dụng tăng            | Tín dụng giảm          |
 | Tiêu dùng và đầu tư tăng | Doanh nghiệp thiếu vốn |
-| Giá tài sản dễ tăng | BĐS, chứng khoán yếu |
+| Giá tài sản dễ tăng      | BĐS, chứng khoán yếu   |
 
 ---
 
@@ -244,11 +245,11 @@ Cổ phiếu là quyền sở hữu một phần doanh nghiệp. Khi mua cần h
 
 **Ba báo cáo tài chính cốt lõi:**
 
-| Báo cáo | Câu hỏi trả lời |
-|---|---|
-| Kết quả kinh doanh | Công ty lời hay lỗ? |
-| Bảng cân đối kế toán | Tài sản, nợ, vốn chủ như thế nào? |
-| Lưu chuyển tiền tệ | Tiền thật có chảy vào công ty không? |
+| Báo cáo              | Câu hỏi trả lời                      |
+| -------------------- | ------------------------------------ |
+| Kết quả kinh doanh   | Công ty lời hay lỗ?                  |
+| Bảng cân đối kế toán | Tài sản, nợ, vốn chủ như thế nào?    |
+| Lưu chuyển tiền tệ   | Tiền thật có chảy vào công ty không? |
 
 > **Điểm quan trọng:** Lợi nhuận có thể đẹp trên giấy. Dòng tiền mới cho thấy doanh nghiệp có thật sự khỏe không.
 
@@ -272,9 +273,9 @@ Rủi ro cần biết:
 - Điều khoản không rõ ràng
 ```
 
-| Loại | Đặc điểm |
-|---|---|
-| Trái phiếu chính phủ | An toàn hơn |
+| Loại                    | Đặc điểm                                |
+| ----------------------- | --------------------------------------- |
+| Trái phiếu chính phủ    | An toàn hơn                             |
 | Trái phiếu doanh nghiệp | Rủi ro cao hơn, cần xem khả năng trả nợ |
 
 ---
@@ -494,14 +495,14 @@ Lợi nhuận danh nghĩa
 
 Mỗi ngành có chu kỳ riêng, không thể nhìn chung:
 
-| Ngành | Phụ thuộc chính |
-|---|---|
-| Ngân hàng | Tín dụng, nợ xấu, lãi suất |
-| Bất động sản | Pháp lý, tín dụng, lãi suất, dân số |
-| Bán lẻ | Sức mua người tiêu dùng |
-| Công nghệ | Tăng trưởng, nhân sự, vốn đầu tư |
-| Dầu khí | Giá dầu, địa chính trị |
-| Xuất khẩu | Tỷ giá, đơn hàng quốc tế, nhu cầu thế giới |
+| Ngành        | Phụ thuộc chính                            |
+| ------------ | ------------------------------------------ |
+| Ngân hàng    | Tín dụng, nợ xấu, lãi suất                 |
+| Bất động sản | Pháp lý, tín dụng, lãi suất, dân số        |
+| Bán lẻ       | Sức mua người tiêu dùng                    |
+| Công nghệ    | Tăng trưởng, nhân sự, vốn đầu tư           |
+| Dầu khí      | Giá dầu, địa chính trị                     |
+| Xuất khẩu    | Tỷ giá, đơn hàng quốc tế, nhu cầu thế giới |
 
 ---
 

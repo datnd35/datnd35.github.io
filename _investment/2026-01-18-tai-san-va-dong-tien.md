@@ -3,6 +3,7 @@ layout: post
 title: "Ôm Tài Sản Nhưng Thiếu Dòng Tiền - Tại Sao 95% Đám Đông Chết Ngạt"
 date: 2026-01-18
 categories: investment
+tab: tai-chinh
 ---
 
 ## 💰 Hiện Tượng: Giàu Trên Giấy, Nghèo Trong Túi

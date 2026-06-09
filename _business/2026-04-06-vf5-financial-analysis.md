@@ -3,6 +3,7 @@ layout: post
 title: "VF 5 Cho Thuê Dài Hạn — Bài Toán Tài Chính Chi Tiết"
 date: 2026-04-06
 categories: business
+tab: xe-cho-thue
 ---
 
 > Bài toán tính theo hướng **bảo thủ**: không dựa vào miễn phí sạc sau 30/06/2027, có trích quỹ hao mòn hàng tháng. Số liệu từ trang sản phẩm VinFast, quy định phí nhà nước hiện hành.

@@ -3,6 +3,7 @@ layout: post
 title: "VF 5 Cho Thuê — Xử Lý Phạt Nguội Tài Xế Theo 4 Tầng"
 date: 2026-04-06
 categories: business
+tab: xe-cho-thue
 ---
 
 > **Đừng để "phạt nguội nhiều" trở thành rủi ro mở.** Hãy biến nó thành trigger chấm dứt hợp đồng + quyền thu hồi xe + quyền khấu trừ cọc. Phạt nguội được gửi đến **chủ phương tiện** — nếu không xử lý, xe có thể bị **cảnh báo đăng kiểm**, thậm chí chỉ được cấp tem ngắn hạn 15 ngày.

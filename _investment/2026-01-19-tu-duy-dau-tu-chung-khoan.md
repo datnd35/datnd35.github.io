@@ -3,6 +3,7 @@ layout: post
 title: "Tư Duy Đầu Tư Chứng Khoán - Hệ Thống Tư Duy Toàn Diện"
 date: 2026-01-19
 categories: investment
+tab: chung-khoan
 ---
 
 ## 📈 Xây Dựng Hệ Thống Tư Duy Đầu Tư Bền Vững

@@ -3,6 +3,7 @@ layout: post
 title: "Cơ Chế Rò Rỉ - Đôi Khi Bạn Không Thiếu Tiền, Mà Chỉ Vì Chưa Học Cách Giữ Tiền"
 date: 2026-01-25
 categories: investment
+tab: tai-chinh
 ---
 
 ## 💧 Tiền Không Biến Mất - Nó Bị Rò Rỉ
@@ -107,15 +108,16 @@ TIỀN KHÔNG BIẾN MẤT – NÓ BỊ RÒ RỈ
 
 ### Sự Thật Phũ Phàng
 
-| Nghĩ rằng | Thực tế |
-|-----------|---------|
-| "Tôi thiếu tiền" | Tôi thiếu **hệ thống giữ tiền** |
-| "Tôi cần lương cao hơn" | Tôi cần **kiểm soát chi tiêu** |
-| "Tiền không đủ sống" | Tiền **bị rò rỉ** mỗi ngày |
+| Nghĩ rằng               | Thực tế                         |
+| ----------------------- | ------------------------------- |
+| "Tôi thiếu tiền"        | Tôi thiếu **hệ thống giữ tiền** |
+| "Tôi cần lương cao hơn" | Tôi cần **kiểm soát chi tiêu**  |
+| "Tiền không đủ sống"    | Tiền **bị rò rỉ** mỗi ngày      |
 
 ### Case Study: Anh A vs Anh B
 
 **Anh A:**
+
 ```
 Lương: 20 triệu/tháng
 Cuối tháng: Hết sạch
@@ -123,6 +125,7 @@ Tiết kiệm: 0 đồng
 ```
 
 **Anh B:**
+
 ```
 Lương: 20 triệu/tháng
 Cuối tháng: Còn 6 triệu
@@ -138,19 +141,20 @@ Tiết kiệm: 6 triệu/tháng
 ### Loại 1: Rò Rỉ Nhỏ - Lặp Lại (Nguy Hiểm Nhất)
 
 #### Đặc Điểm
+
 - Số tiền nhỏ mỗi lần
 - Lặp lại liên tục
 - Không chú ý = không kiểm soát
 
 #### Ví Dụ Thực Tế
 
-| Khoản chi | Tiền/lần | Tần suất | Tổng/tháng | Tổng/năm |
-|-----------|----------|----------|------------|----------|
-| Cà phê sáng | 30k | 22 ngày | 660k | 7.9 triệu |
-| Grab thay xe bus | 40k | 20 ngày | 800k | 9.6 triệu |
-| Gọi đồ ăn trưa | 50k | 15 ngày | 750k | 9 triệu |
-| Snack chiều | 20k | 20 ngày | 400k | 4.8 triệu |
-| **TỔNG** | | | **2.6 triệu** | **31.3 triệu** |
+| Khoản chi        | Tiền/lần | Tần suất | Tổng/tháng    | Tổng/năm       |
+| ---------------- | -------- | -------- | ------------- | -------------- |
+| Cà phê sáng      | 30k      | 22 ngày  | 660k          | 7.9 triệu      |
+| Grab thay xe bus | 40k      | 20 ngày  | 800k          | 9.6 triệu      |
+| Gọi đồ ăn trưa   | 50k      | 15 ngày  | 750k          | 9 triệu        |
+| Snack chiều      | 20k      | 20 ngày  | 400k          | 4.8 triệu      |
+| **TỔNG**         |          |          | **2.6 triệu** | **31.3 triệu** |
 
 → **31.3 triệu/năm = Gần 3 tháng lương!**
 
@@ -217,6 +221,7 @@ Thêm 1 điểm rò rỉ cố định
 #### 1. Mua Tài Sản Không Tạo Dòng Tiền
 
 **Case Study: Mua Xe**
+
 ```
 Mua xe 600 triệu:
 ├── Vay: 400 triệu
@@ -403,12 +408,14 @@ QUAY LẠI BƯỚC 1
 ### Ví Dụ Minh Họa
 
 **Thu nhập 15 triệu:**
+
 ```
 Chi tiêu: 13 triệu
 Tiết kiệm: 2 triệu
 ```
 
 **Thu nhập tăng 30 triệu:**
+
 ```
 Chi tiêu: 28 triệu (tăng 115%)
 Tiết kiệm: 2 triệu (không đổi)
@@ -454,6 +461,7 @@ THU NHẬP (100%)
 #### Chi Tiết Từng Tài Khoản
 
 **1. Tài Khoản Chi Tiêu (50%)**
+
 ```
 Dùng cho:
 ├── Ăn uống
@@ -466,6 +474,7 @@ QUY TẮC: Hết tài khoản này = DỪNG CHI
 ```
 
 **2. Tài Khoản Dự Phòng (20%)**
+
 ```
 Mục tiêu: 6-12 tháng chi phí
 
@@ -479,6 +488,7 @@ TUYỆT ĐỐI không động vào trừ khẩn cấp
 ```
 
 **3. Tài Khoản Đầu Tư (30%)**
+
 ```
 Dùng cho:
 ├── Cổ phiếu
@@ -571,13 +581,13 @@ CUỐI THÁNG:
 
 ### Tư Duy Cũ vs Tư Duy Mới
 
-| Tư duy cũ | Tư duy mới |
-|-----------|-----------|
-| "Giàu = Kiếm nhiều" | "Giàu = Giữ nhiều" |
-| "Lương cao = Giàu" | "Tiết kiệm cao = Giàu" |
-| "Tiền để tiêu" | "Tiền để sinh tiền" |
+| Tư duy cũ               | Tư duy mới              |
+| ----------------------- | ----------------------- |
+| "Giàu = Kiếm nhiều"     | "Giàu = Giữ nhiều"      |
+| "Lương cao = Giàu"      | "Tiết kiệm cao = Giàu"  |
+| "Tiền để tiêu"          | "Tiền để sinh tiền"     |
 | "Tiết kiệm sau khi chi" | "Chi sau khi tiết kiệm" |
-| "Mua vì thích" | "Mua vì cần" |
+| "Mua vì thích"          | "Mua vì cần"            |
 
 ### 3 Nhận Thức Quan Trọng
 
@@ -620,11 +630,13 @@ Tăng tài sản:
 ### Tuần 1: Phát Hiện Rò Rỉ
 
 **Nhiệm vụ:**
+
 - Ghi lại TỪNG ĐỒNG chi tiêu trong 7 ngày
 - Dùng app hoặc sổ tay
 - Không bỏ sót bất cứ khoản nào
 
 **Mẫu ghi chép:**
+
 ```
 Ngày 1:
 ├── 7h: Cà phê - 30k
@@ -639,6 +651,7 @@ Ngày 1:
 ### Tuần 2: Tính Toán Rò Rỉ
 
 **Công thức:**
+
 ```
 Rò rỉ hàng năm = (Chi tiêu nhỏ × Tần suất) × 365
 
@@ -650,6 +663,7 @@ Cà phê 30k × 22 ngày/tháng × 12 tháng
 ### Tuần 3: Vá Lỗ Thủng
 
 **Chọn 3 điểm rò rỉ lớn nhất và vá:**
+
 ```
 Ví dụ:
 1. Cà phê sáng → Pha cà phê tại nhà
@@ -667,11 +681,13 @@ Ví dụ:
 ### Tuần 4: Thiết Lập Hệ Thống
 
 **Mở 3 tài khoản:**
+
 1. Tài khoản Chi tiêu
 2. Tài khoản Dự phòng
 3. Tài khoản Đầu tư
 
 **Cài đặt auto transfer:**
+
 - 20% → Dự phòng
 - 30% → Đầu tư
 - 50% → Chi tiêu
@@ -680,17 +696,17 @@ Ví dụ:
 
 ## 📊 Bảng Theo Dõi Rò Rỉ (Template)
 
-### Tháng: __________
+### Tháng: ****\_\_****
 
-| Loại rò rỉ | Số tiền | Tần suất | Tổng/tháng | Cần thiết? | Hành động |
-|------------|---------|----------|------------|-----------|-----------|
-| Cà phê sáng | 30k | 22 lần | 660k | Không | Pha tại nhà |
-| Netflix | 260k | 1 | 260k | Không | Hủy |
-| ... | | | | | |
+| Loại rò rỉ  | Số tiền | Tần suất | Tổng/tháng | Cần thiết? | Hành động   |
+| ----------- | ------- | -------- | ---------- | ---------- | ----------- |
+| Cà phê sáng | 30k     | 22 lần   | 660k       | Không      | Pha tại nhà |
+| Netflix     | 260k    | 1        | 260k       | Không      | Hủy         |
+| ...         |         |          |            |            |             |
 
-**Tổng rò rỉ tháng này:** ________  
-**Mục tiêu giảm:** ________  
-**Tiết kiệm được:** ________
+**Tổng rò rỉ tháng này:** **\_\_\_\_**  
+**Mục tiêu giảm:** **\_\_\_\_**  
+**Tiết kiệm được:** **\_\_\_\_**
 
 ---
 

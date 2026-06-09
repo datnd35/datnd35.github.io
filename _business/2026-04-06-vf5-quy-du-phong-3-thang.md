@@ -3,6 +3,7 @@ layout: post
 title: "VF 5 Cho Thuê — Vốn Dự Phòng 3 Tháng & Phân Tích Case 100 Triệu"
 date: 2026-04-06
 categories: business
+tab: xe-cho-thue
 ---
 
 > Quỹ dự phòng là thứ quyết định mô hình này **bền hay vỡ** ngay tháng đầu có sự cố. Bài này tính cụ thể cho case **trả trước 100 triệu, vay phần còn lại**.

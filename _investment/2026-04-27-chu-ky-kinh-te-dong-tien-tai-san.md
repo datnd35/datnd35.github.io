@@ -3,6 +3,7 @@ layout: post
 title: "Chu Kỳ Kinh Tế, Dòng Tiền & Tài Sản Trú Ẩn — Bức Tranh Tổng Quan Dễ Hình Dung"
 date: 2026-04-27
 categories: investment
+tab: chung-khoan
 ---
 
 Dưới đây là bức tranh tổng quan về **chu kỳ kinh tế, dòng tiền, tài sản trú ẩn và cách hiểu thị trường** theo kiểu dễ hình dung.

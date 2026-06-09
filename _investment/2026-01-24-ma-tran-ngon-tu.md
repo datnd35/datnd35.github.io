@@ -3,6 +3,7 @@ layout: post
 title: "Ma Trận Ngôn Từ - Cách Truyền Thông Vũ Khí Hóa Ngôn Ngữ Để Lập Trình Não Bộ"
 date: 2026-01-24
 categories: investment
+tab: tai-chinh
 ---
 
 ## 🎭 Ngôn Ngữ - Vũ Khí Thầm Lặng Nhất

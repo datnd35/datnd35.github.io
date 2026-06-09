@@ -3,6 +3,7 @@ layout: post
 title: "VF 5 Cho Thuê — Tiền Cọc Nên Lấy Bao Nhiêu Tháng?"
 date: 2026-04-06
 categories: business
+tab: xe-cho-thue
 ---
 
 > Pháp luật **không ấn định cọc phải là mấy tháng** — đây là biện pháp bảo đảm do hai bên tự thỏa thuận. Bài này đưa ra khuyến nghị vận hành thực tế cho mô hình **chủ xe cho tài xế thuê dài hạn chạy dịch vụ**.

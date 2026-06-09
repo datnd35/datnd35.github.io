@@ -3,6 +3,7 @@ layout: post
 title: "Chu Kỳ Bất Động Sản - Ma Trận Nợ Nần Biến Đám Đông Thành Nô Lệ Ngân Hàng"
 date: 2026-01-22
 categories: investment
+tab: tai-chinh
 ---
 
 ## 🏠 Ma Trận Nợ Nần - Cú Lừa Vĩ Đại

@@ -3,6 +3,7 @@ layout: post
 title: "Mô Hình Mua VF 5 → Cho Thuê Dài Hạn → Tài Xế Chạy Grab / Xanh SM"
 date: 2026-04-06
 categories: business
+tab: xe-cho-thue
 ---
 
 > Đây là bản phân tích theo flow thực tế cho người muốn đầu tư xe điện cho thuê kinh doanh. Số liệu được tổng hợp từ các nguồn công khai tính đến tháng 4/2026.
@@ -22,13 +23,14 @@ Chủ xe mua VF 5 → Cho tài xế thuê dài hạn → Tài xế chạy Grab /
 
 ## Bước 1 — Quyết định mô hình
 
-| Vai trò | Người |
-|---------|-------|
-| Chủ xe (bỏ vốn, giữ tài sản) | Bạn |
-| Tài xế vận hành hằng ngày | Người thuê xe |
-| Kênh kiếm tiền | Grab hoặc Xanh SM / Car Platform |
+| Vai trò                      | Người                            |
+| ---------------------------- | -------------------------------- |
+| Chủ xe (bỏ vốn, giữ tài sản) | Bạn                              |
+| Tài xế vận hành hằng ngày    | Người thuê xe                    |
+| Kênh kiếm tiền               | Grab hoặc Xanh SM / Car Platform |
 
 **Lưu ý chọn kênh:**
+
 - **Grab**: mô hình đối tác cá nhân, tài xế tự đăng ký, xe thuộc sở hữu chủ xe
 - **Xanh SM Car Platform**: cần xác nhận trực tiếp với Xanh SM về mô hình "chủ xe cho người khác thuê chạy dưới tài khoản đối tác" — **nên có văn bản xác nhận trước khi mua xe**
 
@@ -55,29 +57,32 @@ Chủ xe mua VF 5 → Cho tài xế thuê dài hạn → Tài xế chạy Grab /
 - CCCD / lý lịch tư pháp / mã số thuế (tùy nền tảng)
 
 ### Grab cụ thể
+
 - Xe không quá **11 năm** với GrabCar
 - Tối đa **2 tài xế** hoạt động trên cùng 1 xe
 - Bổ sung hồ sơ **phù hiệu hợp đồng** khi đăng ký
 
 ### Hợp đồng thuê xe với tài xế
+
 - Phải có **hợp đồng thuê xe rõ ràng** — cam kết trách nhiệm, quyền thu hồi xe, xử lý vi phạm
 
 ---
 
 ## Bước 4 — Chi phí đầu vào
 
-| Hạng mục | Số liệu tham khảo |
-|----------|------------------|
-| Giá xe VF 5 | **529 triệu đồng** (theo trang sản phẩm VinFast) |
-| Lệ phí trước bạ | **Miễn đến 28/02/2027** (xe điện chạy pin) |
-| Biển số (khu vực I) | **14 triệu đồng** |
-| Biển số (khu vực II) | **140.000 đồng** |
-| Bảo hiểm TNDS bắt buộc (xe KD vận tải < 6 chỗ) | ~**831.600 đồng/năm** (đã VAT) |
-| Phí sử dụng đường bộ (< 10 chỗ, KD) | **180.000 đồng/tháng** (~2,16 triệu/năm) |
-| Camera / GPS / phụ kiện quản lý | Tùy chọn |
-| Vốn dự phòng | Nên chuẩn bị **1–3 tháng** chi phí vận hành |
+| Hạng mục                                       | Số liệu tham khảo                                |
+| ---------------------------------------------- | ------------------------------------------------ |
+| Giá xe VF 5                                    | **529 triệu đồng** (theo trang sản phẩm VinFast) |
+| Lệ phí trước bạ                                | **Miễn đến 28/02/2027** (xe điện chạy pin)       |
+| Biển số (khu vực I)                            | **14 triệu đồng**                                |
+| Biển số (khu vực II)                           | **140.000 đồng**                                 |
+| Bảo hiểm TNDS bắt buộc (xe KD vận tải < 6 chỗ) | ~**831.600 đồng/năm** (đã VAT)                   |
+| Phí sử dụng đường bộ (< 10 chỗ, KD)            | **180.000 đồng/tháng** (~2,16 triệu/năm)         |
+| Camera / GPS / phụ kiện quản lý                | Tùy chọn                                         |
+| Vốn dự phòng                                   | Nên chuẩn bị **1–3 tháng** chi phí vận hành      |
 
 **Thông số kỹ thuật VF 5:**
+
 - Pin khả dụng: **37,23 kWh**
 - Tiêu thụ điện: **13 kWh / 100 km**
 - Sạc nhanh: **10% → 70% trong 33 phút**
@@ -87,16 +92,16 @@ Chủ xe mua VF 5 → Cho tài xế thuê dài hạn → Tài xế chạy Grab /
 
 ## Bước 5 — Hợp đồng cho thuê xe (điều khoản cần có)
 
-| Điều khoản | Nội dung |
-|-----------|---------|
-| Tiền cọc | Đủ để cover ít nhất 1 tháng thuê + rủi ro |
-| Giá thuê tháng | Phải cover toàn bộ chi phí + lợi nhuận |
-| Giới hạn km | Theo ngày hoặc theo tháng |
-| Tiền sạc | Tài xế tự chịu hay chủ xe hỗ trợ? |
-| Bảo dưỡng / lốp / phanh / vệ sinh | Phân định rõ ai chịu từng loại |
-| Phạt nguội / tai nạn / khóa app | Quy định xử lý cụ thể |
-| Quyền thu hồi xe | Điều kiện và quy trình thu hồi |
-| Tài xế nghỉ ngang | Thời gian báo trước, xử lý cọc |
+| Điều khoản                        | Nội dung                                  |
+| --------------------------------- | ----------------------------------------- |
+| Tiền cọc                          | Đủ để cover ít nhất 1 tháng thuê + rủi ro |
+| Giá thuê tháng                    | Phải cover toàn bộ chi phí + lợi nhuận    |
+| Giới hạn km                       | Theo ngày hoặc theo tháng                 |
+| Tiền sạc                          | Tài xế tự chịu hay chủ xe hỗ trợ?         |
+| Bảo dưỡng / lốp / phanh / vệ sinh | Phân định rõ ai chịu từng loại            |
+| Phạt nguội / tai nạn / khóa app   | Quy định xử lý cụ thể                     |
+| Quyền thu hồi xe                  | Điều kiện và quy trình thu hồi            |
+| Tài xế nghỉ ngang                 | Thời gian báo trước, xử lý cọc            |
 
 ---
 
@@ -128,6 +133,7 @@ TIỀN RA
 ```
 
 **Ước tính chi phí điện:**
+
 > Chi phí điện / 100 km = **13 kWh × đơn giá sạc (VND/kWh)**
 
 Với sạc tại trạm VinFast, bạn cần kiểm tra bảng giá hiện hành để tính chính xác.
@@ -136,13 +142,13 @@ Với sạc tại trạm VinFast, bạn cần kiểm tra bảng giá hiện hàn
 
 ## Bước 8 — Điểm sống còn của mô hình
 
-| # | Yếu tố | Ghi chú |
-|---|--------|---------|
-| 1 | Tìm được tài xế **ổn định** | Tài xế nghỉ ngang = xe nằm bãi = mất doanh thu |
-| 2 | Hợp đồng **đủ chặt** | Phân định trách nhiệm rõ tránh tranh chấp |
-| 3 | Xe **không nằm xưởng** quá lâu | Cần bảo dưỡng đúng lịch, xử lý sự cố nhanh |
-| 4 | Kiểm soát **phạt nguội / tai nạn** | Chi phí này có thể ăn hết lợi nhuận nếu không quản lý |
-| 5 | Giá thuê tháng **đủ cover** toàn bộ chi phí + lợi nhuận | Tính đủ trước khi ký hợp đồng |
+| #   | Yếu tố                                                  | Ghi chú                                               |
+| --- | ------------------------------------------------------- | ----------------------------------------------------- |
+| 1   | Tìm được tài xế **ổn định**                             | Tài xế nghỉ ngang = xe nằm bãi = mất doanh thu        |
+| 2   | Hợp đồng **đủ chặt**                                    | Phân định trách nhiệm rõ tránh tranh chấp             |
+| 3   | Xe **không nằm xưởng** quá lâu                          | Cần bảo dưỡng đúng lịch, xử lý sự cố nhanh            |
+| 4   | Kiểm soát **phạt nguội / tai nạn**                      | Chi phí này có thể ăn hết lợi nhuận nếu không quản lý |
+| 5   | Giá thuê tháng **đủ cover** toàn bộ chi phí + lợi nhuận | Tính đủ trước khi ký hợp đồng                         |
 
 ---
 

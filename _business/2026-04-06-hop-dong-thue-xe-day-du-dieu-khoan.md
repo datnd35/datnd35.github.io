@@ -3,6 +3,7 @@ layout: post
 title: "Chuẩn Bị Hợp Đồng Thuê Xe Ô Tô Dài Hạn Đủ Điều Khoản"
 date: 2026-04-06
 categories: business
+tab: xe-cho-thue
 ---
 
 > Bài này dành cho người mua xe cho tài xế thuê chạy dịch vụ (Grab / Xanh SM). Hợp đồng là thứ bảo vệ bạn khi mọi thứ không đi đúng kế hoạch — nên soát kỹ trước khi ký, tốt nhất là có luật sư rà.

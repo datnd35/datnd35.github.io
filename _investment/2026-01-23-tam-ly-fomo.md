@@ -3,6 +3,7 @@ layout: post
 title: "Bản Chất Tâm Lý FOMO - Cách Định Chế Tài Chính Thao Túng & Tại Sao 90% Người Thua"
 date: 2026-01-23
 categories: investment
+tab: chung-khoan
 ---
 
 ## 🧠 FOMO - Vũ Khí Tâm Lý Mạnh Nhất Của Hệ Thống Tài Chính
