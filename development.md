@@ -43,6 +43,7 @@ permalink: /development/
 {% assign tools_posts   = all_posts | where: "track", "tools-workflow" %}
 {% assign angular_posts = all_posts | where: "track", "angular-code-quality" %}
 {% assign be_posts      = all_posts | where: "track", "backend-understanding" %}
+{% assign sd_posts      = site.architecture | where: "track", "system-design" | sort: 'date' | reverse %}
 
 <div class="lt-section">
   <h2>💻 Development Tracks</h2>
@@ -108,6 +109,23 @@ permalink: /development/
             <a href="{{ post.url }}">{{ post.title }}</a>
           </li>
           {% endfor %}
+        </ul>
+      </div>
+    </li>
+
+    <li class="lt-track-item">
+      <button class="lt-track-btn" onclick="togglePanel('dev-sd', this)">
+        🏗️ System Design <span class="arrow">▶</span>
+      </button>
+      <div class="lt-panel" id="dev-sd">
+        <ul>
+          {% for post in sd_posts %}
+          <li>
+            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+          {% if sd_posts.size == 0 %}<li><span style="font-size:0.88rem;color:#aaa;font-style:italic;">Chưa có bài viết.</span></li>{% endif %}
         </ul>
       </div>
     </li>
