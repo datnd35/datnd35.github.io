@@ -39,7 +39,8 @@ permalink: /vue/
 </div>
 
 {% assign all_posts = site.vue | sort: 'date' | reverse %}
-{% assign vue_core_posts = all_posts | where: "track", "vue-core" %}
+{% assign vue_core_posts    = all_posts | where: "track", "vue-core" %}
+{% assign vue_tooling_posts = all_posts | where: "track", "vue-tooling" %}
 
 <div class="lt-section">
   <h2>💚 Vue Tracks</h2>
@@ -57,6 +58,23 @@ permalink: /vue/
             <a href="{{ post.url }}">{{ post.title }}</a>
           </li>
           {% endfor %}
+        </ul>
+      </div>
+    </li>
+
+    <li class="lt-track-item">
+      <button class="lt-track-btn" onclick="togglePanel('vue-tooling', this)">
+        🔧 Tooling & CI/CD <span class="arrow">▶</span>
+      </button>
+      <div class="lt-panel" id="vue-tooling">
+        <ul>
+          {% for post in vue_tooling_posts %}
+          <li>
+            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+          {% if vue_tooling_posts.size == 0 %}<li><span style="font-size:0.88rem;color:#aaa;font-style:italic;">Chưa có bài viết.</span></li>{% endif %}
         </ul>
       </div>
     </li>
