@@ -5,43 +5,51 @@ permalink: /vscode/
 ---
 
 <style>
+    /* ── Page ─────────────────────────────────────────── */
     .lt-page {
         max-width: 720px;
         margin: 0 auto;
         padding: 48px 0 64px;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
 
+    /* ── Hero ─────────────────────────────────────────── */
     .lt-hero {
         margin-bottom: 32px;
     }
 
     .lt-hero h1 {
         font-size: 1.9rem;
-        font-weight: 800;
-        margin-bottom: 12px;
+        font-weight: 700;
+        margin-bottom: 10px;
         line-height: 1.25;
+        color: #111;
+        letter-spacing: -0.5px;
     }
 
     .lt-hero p {
         color: #555;
-        font-size: 1rem;
+        font-size: 0.97rem;
         line-height: 1.65;
         margin: 0;
     }
 
+    /* ── Section ──────────────────────────────────────── */
     .lt-section {
         margin-bottom: 40px;
     }
 
     .lt-section h2 {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
         font-weight: 700;
-        margin-bottom: 16px;
+        color: #111;
+        margin-bottom: 14px;
         margin-top: 0;
-        padding-bottom: 10px;
-        border-bottom: 2px solid #eee;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #e8e8e8;
     }
 
+    /* ── Track list ───────────────────────────────────── */
     .lt-track-list {
         list-style: none;
         padding: 0;
@@ -51,47 +59,50 @@ permalink: /vscode/
 
     .lt-track-item {
         counter-increment: track-counter;
-        margin-bottom: 4px;
+        margin-bottom: 3px;
     }
 
     .lt-track-btn {
         display: flex;
         align-items: center;
-        gap: 12px;
+        gap: 10px;
         width: 100%;
         background: none;
         border: none;
         text-align: left;
         cursor: pointer;
-        padding: 10px 14px;
-        border-radius: 8px;
-        font-size: 1rem;
-        color: #1a6fc4;
-        transition: background .15s;
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-size: 0.93rem;
+        font-family: inherit;
+        color: #555;
+        transition: background .15s, color .15s;
     }
 
     .lt-track-btn:hover {
         background: #f0f6ff;
-        text-decoration: underline;
+        color: #1a6fc4;
+        text-decoration: none;
     }
 
     .lt-track-btn.active {
-        background: #e8f1ff;
+        background: #f0f6ff;
         font-weight: 600;
-        color: #1050a0;
+        color: #1a6fc4;
     }
 
     .lt-track-btn::before {
         content: counter(track-counter) ".";
-        min-width: 22px;
+        min-width: 20px;
         font-weight: 700;
-        color: #333;
+        color: #828282;
+        font-size: 0.82rem;
     }
 
     .lt-track-btn .arrow {
         margin-left: auto;
-        font-size: 0.8rem;
-        color: #999;
+        font-size: 0.75rem;
+        color: #bbb;
         transition: transform .2s;
     }
 
@@ -99,24 +110,25 @@ permalink: /vscode/
         transform: rotate(90deg);
     }
 
+    /* ── Post panel ───────────────────────────────────── */
     .lt-panel {
         display: none;
-        margin: 2px 0 6px 36px;
-        padding: 16px 20px;
+        margin: 2px 0 6px 32px;
+        padding: 14px 18px;
         background: #fafbff;
-        border-left: 3px solid #4f8ef7;
-        border-radius: 0 8px 8px 0;
-        animation: fadeIn .2s ease;
+        border-left: 2px solid #e8e8e8;
+        border-radius: 0 6px 6px 0;
+        animation: ltFadeIn .2s ease;
     }
 
     .lt-panel.visible {
         display: block;
     }
 
-    @keyframes fadeIn {
+    @keyframes ltFadeIn {
         from {
             opacity: 0;
-            transform: translateY(6px);
+            transform: translateY(5px);
         }
 
         to {
@@ -135,8 +147,8 @@ permalink: /vscode/
         display: flex;
         align-items: baseline;
         gap: 12px;
-        padding: 8px 0;
-        border-bottom: 1px solid #eef1f8;
+        padding: 7px 0;
+        border-bottom: 1px solid #eef0f5;
     }
 
     .lt-panel li:last-child {
@@ -145,16 +157,16 @@ permalink: /vscode/
 
     .lt-panel .post-date {
         font-size: 0.76rem;
-        color: #aaa;
+        color: #bbb;
         white-space: nowrap;
         min-width: 78px;
     }
 
     .lt-panel a {
-        font-size: 0.9rem;
-        color: #222;
+        font-size: 0.88rem;
+        color: #333;
         text-decoration: none;
-        line-height: 1.45;
+        line-height: 1.5;
     }
 
     .lt-panel a:hover {
@@ -163,24 +175,24 @@ permalink: /vscode/
     }
 
     .lt-panel .empty {
-        font-size: 0.88rem;
-        color: #aaa;
+        font-size: 0.85rem;
+        color: #bbb;
         font-style: italic;
     }
 
     .lt-panel .track-desc {
         font-size: 0.82rem;
-        color: #777;
+        color: #828282;
         margin-bottom: 12px;
         padding-bottom: 10px;
-        border-bottom: 1px dashed #e0e5f0;
-        line-height: 1.5;
+        border-bottom: 1px solid #eef0f5;
+        line-height: 1.6;
     }
 
     @media (max-width: 600px) {
         .lt-panel {
-            margin-left: 20px;
-            padding: 12px 14px;
+            margin-left: 16px;
+            padding: 10px 12px;
         }
     }
 </style>
