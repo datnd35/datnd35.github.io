@@ -2,9 +2,10 @@
 layout: post
 title: "Claude Code - Common Workflows cho Developer thực chiến"
 date: 2025-06-10
-category: AI
+categories: ai
 tags: [claude, ai, workflow, developer-tools]
 description: "Hướng dẫn chi tiết các workflow phổ biến khi dùng Claude Code: khám phá codebase, fix bug, refactor, test, tạo PR, worktrees và tự động hóa."
+track: "ai-tools"
 ---
 
 # Claude Code — Common Workflows

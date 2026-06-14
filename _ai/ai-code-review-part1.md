@@ -2,9 +2,10 @@
 layout: post
 title: "AI Code Review — Tổng quan & Workflow thực chiến (Part 1)"
 date: 2025-06-10
-category: AI
+categories: ai
 tags: [ai, code-review, workflow, developer-tools, ci-cd]
 description: "AI Code Review là gì, hoạt động ra sao, 4 pitfalls phổ biến và cách tích hợp hiệu quả vào PR, IDE, CI/CD."
+track: "ai-tools"
 ---
 
 # AI Code Review — Part 1: Tổng quan & Workflow thực chiến

@@ -2,9 +2,10 @@
 layout: post
 title: "AI Code Refactoring — Làm sạch bên trong, giữ nguyên bên ngoài"
 date: 2026-04-04
-category: AI
+categories: ai
 tags: [ai, refactoring, code-quality, technical-debt, developer-tools]
 description: "AI Code Refactoring là gì, hoạt động ra sao, các kỹ thuật phía sau (AST, LST, RL), khi nào dùng, và ranh giới giữa AI và human."
+track: "ai-tools"
 ---
 
 # AI Code Refactoring — Làm sạch bên trong, giữ nguyên bên ngoài

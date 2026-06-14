@@ -3,6 +3,7 @@ layout: post
 title: "AI vs Traditional Programming — Hiểu Từ Gốc"
 date: 2026-04-02
 categories: ai
+track: "llm"
 ---
 
 ## 🎯 Mục Tiêu Bài Viết

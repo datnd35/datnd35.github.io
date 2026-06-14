@@ -3,6 +3,7 @@ layout: post
 title: "AI in Software Development — Từ Code Generation Đến Toàn Bộ SDLC"
 date: 2026-04-03
 categories: ai
+track: "ai-tools"
 ---
 
 ## 🎯 Mục Tiêu Bài Viết
@@ -284,14 +285,14 @@ Nói gọn:
 
 ## 📊 9. Tổng Kết — Cheat Sheet
 
-| Khái niệm            | Giải thích ngắn                                          |
-| -------------------- | -------------------------------------------------------- |
-| Code Generation      | AI sinh code từ mô tả tự nhiên, autocomplete            |
-| AI-powered SDLC      | AI hỗ trợ toàn bộ vòng đời, không chỉ viết code         |
-| Orchestrator         | Vai trò mới của engineer — điều phối AI + ra quyết định |
-| Democratization      | AI giúp non-dev cũng có thể tham gia tạo phần mềm       |
-| Overreliance         | Rủi ro khi phụ thuộc AI quá mức, yếu kỹ năng nền        |
-| Human Oversight      | Con người vẫn phải kiểm soát, đánh giá, quyết định cuối |
+| Khái niệm       | Giải thích ngắn                                         |
+| --------------- | ------------------------------------------------------- |
+| Code Generation | AI sinh code từ mô tả tự nhiên, autocomplete            |
+| AI-powered SDLC | AI hỗ trợ toàn bộ vòng đời, không chỉ viết code         |
+| Orchestrator    | Vai trò mới của engineer — điều phối AI + ra quyết định |
+| Democratization | AI giúp non-dev cũng có thể tham gia tạo phần mềm       |
+| Overreliance    | Rủi ro khi phụ thuộc AI quá mức, yếu kỹ năng nền        |
+| Human Oversight | Con người vẫn phải kiểm soát, đánh giá, quyết định cuối |
 
 ---
 
