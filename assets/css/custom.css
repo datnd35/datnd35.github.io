@@ -18,28 +18,31 @@
    ========================================== */
 
 /* Post title */
-.post-title,
-.post-content h1 {
+article.post .post-title,
+article.post .post-content h1 {
+  font-size: 2.15rem;
   font-weight: 700;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.4px;
+  line-height: 1.2;
   color: #111;
 }
 
-/* Post date / meta — matches nav font-size */
-.post-meta {
+/* Post date / meta — matches nav tone */
+article.post .post-meta {
   font-size: 0.82rem;
   color: #828282;
 }
 
 /* Body text */
-.post-content {
+article.post .post-content {
   color: #333;
   line-height: 1.7;
   font-size: 1rem;
 }
 
 /* H2 — matches header separator border */
-.post-content h2 {
+article.post .post-content h2 {
+  font-size: 1.7rem;
   font-weight: 700;
   color: #111;
   border-bottom: 1px solid #e8e8e8;
@@ -47,16 +50,27 @@
 }
 
 /* H3 */
-.post-content h3 {
+article.post .post-content h3 {
+  font-size: 1.35rem;
   font-weight: 600;
   color: #222;
 }
 
 /* H4–H6 */
-.post-content h4,
-.post-content h5,
-.post-content h6 {
+article.post .post-content h4,
+article.post .post-content h5,
+article.post .post-content h6 {
   font-weight: 600;
+  color: #333;
+}
+
+article.post .post-content h4 { font-size: 1.18rem; }
+article.post .post-content h5 { font-size: 1.05rem; }
+article.post .post-content h6 { font-size: 0.98rem; }
+
+article.post .post-content p,
+article.post .post-content li {
+  font-size: 1rem;
   color: #333;
 }
 
@@ -301,6 +315,20 @@
 }
 
 @media screen and (max-width: 600px) {
+  article.post .post-title,
+  article.post .post-content h1 {
+    font-size: 1.8rem;
+    line-height: 1.25;
+  }
+
+  article.post .post-content h2 {
+    font-size: 1.35rem;
+  }
+
+  article.post .post-content h3 {
+    font-size: 1.15rem;
+  }
+
   .compact-toc h2 {
     font-size: 0.95rem;
   }
