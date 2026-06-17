@@ -2,17 +2,10 @@
 layout: post
 title: "Case Study Senior FE với Client: Agent + Custom Instructions + AI Workflow"
 date: 2026-06-18
-categories: ai
+categories: vscode
 tags:
-  [
-    ai,
-    senior-frontend,
-    azure-devops,
-    workflow,
-    client-communication,
-    code-review,
-  ]
-track: "ai-tools"
+  [senior-frontend, azure-devops, workflow, client-communication, code-review]
+track: "agent-customization"
 ---
 
 Dưới đây là một **case study thực tế theo kiểu Senior Frontend làm việc với client**, dùng **Agent + Custom Instructions + AI tools** trong quy trình phát triển phần mềm.
