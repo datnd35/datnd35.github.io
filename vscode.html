@@ -205,7 +205,8 @@ permalink: /vscode/
             phát triển phần mềm với VS Code.</p>
     </div>
 
-    {% assign all_vscode = site.vscode | sort: 'date' | reverse %}
+    {% assign ai_vscode_posts = site.ai | where_exp: "post", "post.categories contains 'vscode'" %}
+    {% assign all_vscode = site.vscode | concat: ai_vscode_posts | sort: 'date' | reverse %}
     {% assign agent_customization_posts = all_vscode | where: "track", "agent-customization" %}
     {% assign using_chat_posts = all_vscode | where: "track", "using-chat" %}
     {% assign vscode_setup_posts = all_vscode | where: "track", "vscode-setup" %}
