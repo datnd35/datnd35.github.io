@@ -7,16 +7,6 @@ tags: [ai, sdd, spec, software-engineering, product-thinking, architecture]
 track: "ai-tools"
 ---
 
----
-
-layout: post
-title: "AI-Assisted Software Development — Từ Context, Skills Đến Kiểm Thử Đối Chiếu"
-date: 2026-06-20
-categories: [ai, software-development]
-track: "ai-assisted-development"
-
----
-
 ## 🎯 Mục Tiêu Bài Viết
 
 Hiểu cách đưa AI vào quy trình phát triển phần mềm một cách có kiểm soát — không chỉ để sinh code nhanh hơn, mà còn để AI hiểu đúng business logic, tuân thủ convention, lập kế hoạch rõ ràng và tự chứng minh rằng code mới không làm thay đổi hành vi cũ.
