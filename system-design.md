@@ -28,22 +28,22 @@ permalink: /system-design/
 </div>
 
 {% assign sd_posts = site.architecture | where: "track", "system-design" | sort: 'date' | reverse %}
-{% assign ch1_posts = sd_posts | where_exp: "post", "post.chapter == 1 or post.chapter == '1'" %}
-{% assign ch2_posts = sd_posts | where_exp: "post", "post.chapter == 2 or post.chapter == '2'" %}
-{% assign ch3_posts = sd_posts | where_exp: "post", "post.chapter == 3 or post.chapter == '3'" %}
-{% assign ch4_posts = sd_posts | where_exp: "post", "post.chapter == 4 or post.chapter == '4'" %}
-{% assign ch5_posts = sd_posts | where_exp: "post", "post.chapter == 5 or post.chapter == '5'" %}
-{% assign ch6_posts = sd_posts | where_exp: "post", "post.chapter == 6 or post.chapter == '6'" %}
-{% assign ch7_posts = sd_posts | where_exp: "post", "post.chapter == 7 or post.chapter == '7'" %}
-{% assign ch8_posts = sd_posts | where_exp: "post", "post.chapter == 8 or post.chapter == '8'" %}
-{% assign ch9_posts = sd_posts | where_exp: "post", "post.chapter == 9 or post.chapter == '9'" %}
-{% assign ch10_posts = sd_posts | where_exp: "post", "post.chapter == 10 or post.chapter == '10'" %}
-{% assign ch11_posts = sd_posts | where_exp: "post", "post.chapter == 11 or post.chapter == '11'" %}
-{% assign ch12_posts = sd_posts | where_exp: "post", "post.chapter == 12 or post.chapter == '12'" %}
-{% assign ch13_posts = sd_posts | where_exp: "post", "post.chapter == 13 or post.chapter == '13'" %}
-{% assign ch14_posts = sd_posts | where_exp: "post", "post.chapter == 14 or post.chapter == '14'" %}
-{% assign ch15_posts = sd_posts | where_exp: "post", "post.chapter == 15 or post.chapter == '15'" %}
-{% assign ch16_posts = sd_posts | where_exp: "post", "post.chapter == 16 or post.chapter == '16'" %}
+{% assign ch1_posts = sd_posts | where: "chapter", "1" %}
+{% assign ch2_posts = sd_posts | where: "chapter", "2" %}
+{% assign ch3_posts = sd_posts | where: "chapter", "3" %}
+{% assign ch4_posts = sd_posts | where: "chapter", "4" %}
+{% assign ch5_posts = sd_posts | where: "chapter", "5" %}
+{% assign ch6_posts = sd_posts | where: "chapter", "6" %}
+{% assign ch7_posts = sd_posts | where: "chapter", "7" %}
+{% assign ch8_posts = sd_posts | where: "chapter", "8" %}
+{% assign ch9_posts = sd_posts | where: "chapter", "9" %}
+{% assign ch10_posts = sd_posts | where: "chapter", "10" %}
+{% assign ch11_posts = sd_posts | where: "chapter", "11" %}
+{% assign ch12_posts = sd_posts | where: "chapter", "12" %}
+{% assign ch13_posts = sd_posts | where: "chapter", "13" %}
+{% assign ch14_posts = sd_posts | where: "chapter", "14" %}
+{% assign ch15_posts = sd_posts | where: "chapter", "15" %}
+{% assign ch16_posts = sd_posts | where: "chapter", "16" %}
 
 <div class="lt-section">
   <h2>1. Chương 1 — Mở rộng hệ thống từ Zero đến hàng triệu người dùng</h2>
