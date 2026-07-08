@@ -4,6 +4,7 @@ title: "System Design — Scale from Zero to Millions of Users"
 date: 2026-06-10
 categories: architecture
 track: "system-design"
+chapter: 1
 ---
 
 > 📖 **Nguồn tham khảo:** [System Design Interview – Scale from Zero to Millions of Users](https://docs.google.com/document/d/1A89PVlfSU_iJhjkZUK4ZfJ686ew-TNns3idG6AVhKtY/edit?tab=t.0#heading=h.4rtxul8hb2o6){:target="\_blank" rel="noopener"}
