@@ -9,8 +9,6 @@ tags:
 categories: [Communication]
 ---
 
-# Senior Mentor Hiệu Quả — Đừng Giải Thay, Hãy Gợi Mở
-
 Điều rất nhiều senior gặp phải là:
 
 > **"Mình biết lời giải nên vô thức muốn dẫn luôn đến lời giải."**
