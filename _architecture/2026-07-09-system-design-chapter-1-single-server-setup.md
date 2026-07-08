@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "System Design Chương 1 — Single Server Setup"
+title: "Single Server Setup"
 date: 2026-07-09
 categories: architecture
 track: "system-design"
@@ -17,8 +17,6 @@ tags:
     distributed-systems,
   ]
 ---
-
-# System Design Chương 1 — Single Server Setup
 
 > **"A journey of a thousand miles begins with a single step."**
 >

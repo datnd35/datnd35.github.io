@@ -46,7 +46,7 @@ permalink: /system-design/
 {% assign ch16_posts = sd_posts | where: "chapter", "16" %}
 
 <div class="lt-section">
-  <h2>1. Chương 1 — Mở rộng hệ thống từ Zero đến hàng triệu người dùng</h2>
+  <h2>1. Mở rộng hệ thống từ Zero đến hàng triệu người dùng</h2>
   <ul class="lt-track-list">
     {% for post in ch1_posts %}
     <li class="lt-track-item">
@@ -58,7 +58,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>2. Chương 2 — Ước lượng nhanh bằng Back-of-the-Envelope</h2>
+  <h2>2. Ước lượng nhanh bằng Back-of-the-Envelope</h2>
   <ul class="lt-track-list">
     {% for post in ch2_posts %}
     <li class="lt-track-item">
@@ -70,7 +70,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>3. Chương 3 — Framework cho phỏng vấn System Design</h2>
+  <h2>3. Framework cho phỏng vấn System Design</h2>
   <ul class="lt-track-list">
     {% for post in ch3_posts %}
     <li class="lt-track-item">
@@ -82,7 +82,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>4. Chương 4 — Thiết kế Rate Limiter</h2>
+  <h2>4. Thiết kế Rate Limiter</h2>
   <ul class="lt-track-list">
     {% for post in ch4_posts %}
     <li class="lt-track-item"><a class="lt-track-link" href="{{ post.url | relative_url }}">{{ post.title }} <span class="arrow">▶</span></a></li>
@@ -92,7 +92,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>5. Chương 5 — Thiết kế Consistent Hashing</h2>
+  <h2>5. Thiết kế Consistent Hashing</h2>
   <ul class="lt-track-list">
     {% for post in ch5_posts %}
     <li class="lt-track-item"><a class="lt-track-link" href="{{ post.url | relative_url }}">{{ post.title }} <span class="arrow">▶</span></a></li>
@@ -102,7 +102,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>6. Chương 6 — Thiết kế Key-Value Store</h2>
+  <h2>6. Thiết kế Key-Value Store</h2>
   <ul class="lt-track-list">
     {% for post in ch6_posts %}
     <li class="lt-track-item"><a class="lt-track-link" href="{{ post.url | relative_url }}">{{ post.title }} <span class="arrow">▶</span></a></li>
@@ -112,7 +112,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>7. Chương 7 — Thiết kế bộ sinh ID duy nhất trong hệ thống phân tán</h2>
+  <h2>7. Thiết kế bộ sinh ID duy nhất trong hệ thống phân tán</h2>
   <ul class="lt-track-list">
     {% for post in ch7_posts %}
     <li class="lt-track-item"><a class="lt-track-link" href="{{ post.url | relative_url }}">{{ post.title }} <span class="arrow">▶</span></a></li>
@@ -122,7 +122,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>8. Chương 8 — Thiết kế URL Shortener</h2>
+  <h2>8. Thiết kế URL Shortener</h2>
   <ul class="lt-track-list">
     {% for post in ch8_posts %}
     <li class="lt-track-item"><a class="lt-track-link" href="{{ post.url | relative_url }}">{{ post.title }} <span class="arrow">▶</span></a></li>
@@ -132,7 +132,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>9. Chương 9 — Thiết kế Web Crawler</h2>
+  <h2>9. Thiết kế Web Crawler</h2>
   <ul class="lt-track-list">
     {% for post in ch9_posts %}
     <li class="lt-track-item"><a class="lt-track-link" href="{{ post.url | relative_url }}">{{ post.title }} <span class="arrow">▶</span></a></li>
@@ -142,7 +142,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>10. Chương 10 — Thiết kế Notification System</h2>
+  <h2>10. Thiết kế Notification System</h2>
   <ul class="lt-track-list">
     {% for post in ch10_posts %}
     <li class="lt-track-item"><a class="lt-track-link" href="{{ post.url | relative_url }}">{{ post.title }} <span class="arrow">▶</span></a></li>
@@ -152,7 +152,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>11. Chương 11 — Thiết kế News Feed System</h2>
+  <h2>11. Thiết kế News Feed System</h2>
   <ul class="lt-track-list">
     {% for post in ch11_posts %}
     <li class="lt-track-item"><a class="lt-track-link" href="{{ post.url | relative_url }}">{{ post.title }} <span class="arrow">▶</span></a></li>
@@ -162,7 +162,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>12. Chương 12 — Thiết kế Chat System</h2>
+  <h2>12. Thiết kế Chat System</h2>
   <ul class="lt-track-list">
     {% for post in ch12_posts %}
     <li class="lt-track-item"><a class="lt-track-link" href="{{ post.url | relative_url }}">{{ post.title }} <span class="arrow">▶</span></a></li>
@@ -172,7 +172,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>13. Chương 13 — Thiết kế Search Autocomplete System</h2>
+  <h2>13. Thiết kế Search Autocomplete System</h2>
   <ul class="lt-track-list">
     {% for post in ch13_posts %}
     <li class="lt-track-item"><a class="lt-track-link" href="{{ post.url | relative_url }}">{{ post.title }} <span class="arrow">▶</span></a></li>
@@ -182,7 +182,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>14. Chương 14 — Thiết kế YouTube</h2>
+  <h2>14. Thiết kế YouTube</h2>
   <ul class="lt-track-list">
     {% for post in ch14_posts %}
     <li class="lt-track-item"><a class="lt-track-link" href="{{ post.url | relative_url }}">{{ post.title }} <span class="arrow">▶</span></a></li>
@@ -192,7 +192,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>15. Chương 15 — Thiết kế Google Drive</h2>
+  <h2>15. Thiết kế Google Drive</h2>
   <ul class="lt-track-list">
     {% for post in ch15_posts %}
     <li class="lt-track-item"><a class="lt-track-link" href="{{ post.url | relative_url }}">{{ post.title }} <span class="arrow">▶</span></a></li>
@@ -202,7 +202,7 @@ permalink: /system-design/
 </div>
 
 <div class="lt-section">
-  <h2>16. Chương 16 — The Learning Continues (Afterword)</h2>
+  <h2>16. The Learning Continues (Afterword)</h2>
   <ul class="lt-track-list">
     {% for post in ch16_posts %}
     <li class="lt-track-item"><a class="lt-track-link" href="{{ post.url | relative_url }}">{{ post.title }} <span class="arrow">▶</span></a></li>
