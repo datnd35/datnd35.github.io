@@ -16,6 +16,7 @@ Create a new System Design post for this repo.
   - `categories: architecture`
   - `track: "system-design"`
   - `chapter: "<1..16>"` (string, not number)
+  - `chapter_order: <number>` (thứ tự hiển thị trong chapter, tăng dần)
   - optional `description`, `tags`
 
 ## Content format
@@ -46,6 +47,7 @@ Include:
 ## Integration checks
 
 - Ensure post appears in `/system-design/` chapter grouping via `chapter` value.
+- Ensure post order in chapter is correct via `chapter_order` (e.g., bài mới nằm dưới bài trước).
 - Check changed files for errors.
 - Keep checklist as internal verification only (do not render checklist section in post content).
 

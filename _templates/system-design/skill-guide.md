@@ -7,6 +7,7 @@ Mục tiêu: tất cả bài System Design có cấu trúc đồng nhất, dễ 
 1. Front matter
    - `track: "system-design"`
    - `chapter: "1".."16"` (để map đúng group trong `system-design.md`)
+   - `chapter_order: <số thứ tự trong chapter>` (ví dụ: 1, 2, 3... để đảm bảo bài mới nằm đúng vị trí)
    - `title` ngắn gọn, tránh tiền tố lặp kiểu `System Design Chương X — ...`
 
 2. Cấu trúc nội dung
@@ -43,6 +44,7 @@ Mục tiêu: tất cả bài System Design có cấu trúc đồng nhất, dễ 
 
 - [ ] Title ngắn gọn, không lặp prefix dư thừa.
 - [ ] Có `track: system-design` và `chapter` đúng.
+- [ ] Có `chapter_order` đúng thứ tự mong muốn trong chapter.
 - [ ] Ít nhất 1 diagram text trong bài.
 - [ ] API/JSON block format hợp lệ.
 - [ ] Bài xuất hiện đúng chapter trong `/system-design/`.

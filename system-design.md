@@ -28,7 +28,7 @@ permalink: /system-design/
 </div>
 
 {% assign sd_posts = site.architecture | where: "track", "system-design" | sort: 'date' | reverse %}
-{% assign ch1_posts = sd_posts | where: "chapter", "1" %}
+{% assign ch1_posts = sd_posts | where: "chapter", "1" | sort: "chapter_order" %}
 {% assign ch2_posts = sd_posts | where: "chapter", "2" %}
 {% assign ch3_posts = sd_posts | where: "chapter", "3" %}
 {% assign ch4_posts = sd_posts | where: "chapter", "4" %}

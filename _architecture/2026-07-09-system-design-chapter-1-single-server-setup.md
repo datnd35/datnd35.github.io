@@ -5,6 +5,7 @@ date: 2026-07-09
 categories: architecture
 track: "system-design"
 chapter: "1"
+chapter_order: 1
 description: "Bài mở đầu về kiến trúc single server: request flow, traffic sources và cách web/mobile giao tiếp với server qua HTTP + JSON."
 tags:
   [

@@ -5,6 +5,7 @@ date: 2026-07-09
 categories: architecture
 track: "system-design"
 chapter: "1"
+chapter_order: 2
 description: "Tách web tier và data tier, chọn SQL/NoSQL phù hợp, và hiểu khác biệt giữa vertical vs horizontal scaling trước khi đưa load balancer vào hệ thống."
 tags: [system-design, database, scaling, load-balancer, rdbms, nosql]
 ---
