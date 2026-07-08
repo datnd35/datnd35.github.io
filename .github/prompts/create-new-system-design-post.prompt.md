@@ -33,23 +33,24 @@ Use structure from `_templates/system-design/post-template.md`:
 Include:
 
 - at least one `Figure` section
-- at least one text diagram block (` ```text `)
+- at least one text diagram block (` ```text `) generated from uploaded image/context
 - one API example + one JSON response
 
 ## Image convention
 
 - Image folder: `assets/images/system-design/chXX-<slug>/`
 - File names: `figure-1-1.png`, `figure-1-2.png`, ...
-- If image does not exist yet, still insert markdown placeholders with alt text.
+- Do NOT add upload instructions or image placeholder markdown into the post body.
+- If user provides image/context, convert it to a concise text diagram in the article.
 
 ## Integration checks
 
 - Ensure post appears in `/system-design/` chapter grouping via `chapter` value.
 - Check changed files for errors.
+- Keep checklist as internal verification only (do not render checklist section in post content).
 
 ## Final response format
 
 - What was created
 - Chapter mapping used
-- Any placeholder images to upload
 - Verification result

@@ -37,10 +37,6 @@ Việc tách tầng giúp mỗi phần được scale độc lập và dễ tố
 
 ### Figure 1-3 — Web tier tách khỏi Data tier
 
-> Upload ảnh vào: `assets/images/system-design/ch01-database-tier-and-scaling/`
-
-![Figure 1-3 - Web tier and Data tier separation](/assets/images/system-design/ch01-database-tier-and-scaling/figure-1-3.png)
-
 ### Diagram (text-generated)
 
 ```text
@@ -130,14 +126,3 @@ Ví dụ response:
 - SQL là lựa chọn mặc định tốt cho phần lớn sản phẩm; NoSQL phù hợp khi workload đặc thù cần latency thấp, dữ liệu lớn/phi cấu trúc.
 - Scale-up đơn giản nhưng có giới hạn; scale-out phù hợp dài hạn cho hệ thống lớn.
 - Khi user truy cập trực tiếp một web server, downtime hoặc quá tải sẽ gây gián đoạn — **load balancer** là kỹ thuật tiếp theo để xử lý vấn đề này.
-
----
-
-## 7) Checklist trước khi publish
-
-- [x] Title ngắn gọn, không lặp prefix dư thừa.
-- [x] Có `track: system-design` và `chapter` đúng.
-- [x] Ít nhất 1 diagram text trong bài.
-- [ ] Ảnh `figure-1-3.png` đã upload đúng thư mục.
-- [x] API/JSON block format hợp lệ.
-- [x] Bài sẽ xuất hiện đúng chapter trong `/system-design/`.

@@ -29,10 +29,6 @@ Mô tả ngắn bối cảnh và giới hạn bài toán.
 
 ### Figure 1-1 — <Tên hình>
 
-> Upload ảnh vào: `assets/images/system-design/chXX-<slug>/`
-
-![Figure 1-1 - <alt text>](/assets/images/system-design/chXX-<slug>/figure-1-1.png)
-
 ### Diagram (text-generated)
 
 ```text
@@ -47,8 +43,6 @@ Mô tả ngắn bối cảnh và giới hạn bài toán.
 ## 3) Request/Data flow
 
 ### Figure 1-2 — <Tên hình>
-
-![Figure 1-2 - <alt text>](/assets/images/system-design/chXX-<slug>/figure-1-2.png)
 
 ```text
 1) User -> DNS
@@ -92,14 +86,3 @@ Ví dụ response:
 - Key takeaway 1
 - Key takeaway 2
 - Key takeaway 3
-
----
-
-## 7) Checklist trước khi publish
-
-- [ ] Title ngắn gọn, không lặp prefix dư thừa.
-- [ ] Có `track: system-design` và `chapter` đúng.
-- [ ] Ít nhất 1 diagram text trong bài.
-- [ ] Ảnh đã upload đúng thư mục và alt text rõ.
-- [ ] API/JSON block format hợp lệ.
-- [ ] Bài xuất hiện đúng chapter trong `/system-design/`.
