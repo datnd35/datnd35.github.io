@@ -6,7 +6,16 @@ categories: architecture
 track: "system-design"
 chapter: 1
 description: "Bài mở đầu về kiến trúc single server: request flow, traffic sources và cách web/mobile giao tiếp với server qua HTTP + JSON."
-tags: [system-design, single-server, architecture, http, dns, json, distributed-systems]
+tags:
+  [
+    system-design,
+    single-server,
+    architecture,
+    http,
+    dns,
+    json,
+    distributed-systems,
+  ]
 ---
 
 # System Design Chương 1 — Single Server Setup
@@ -163,18 +172,15 @@ Ví dụ response JSON:
 ```json
 {
   "id": 12,
-   "firstName": "John",
-   "lastName": "Smith",
-   "address": {
-      "streetAddress": "21 2nd Street",
-      "city": "New York",
-      "state": "NY",
-      "postalCode": 10021
-   },
-   "phoneNumbers": [
-      "212 555-1234",
-      "646 555-4567"
-   ]
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": 10021
+  },
+  "phoneNumbers": ["212 555-1234", "646 555-4567"]
 }
 ```
 
