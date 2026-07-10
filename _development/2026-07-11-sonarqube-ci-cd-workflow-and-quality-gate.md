@@ -526,14 +526,14 @@ coverage/lcov.info
 
 ## 7. Tóm tắt vai trò từng thành phần
 
-| Thành phần           | Vai trò                                                                                                       |
-| -------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Developer**        | Viết và commit code.                                                                                          |
-| **Git Repository**   | Lưu trữ mã nguồn và kích hoạt pipeline khi có thay đổi.                                                       |
-| **CI/CD**            | Build, chạy test, tạo báo cáo coverage và gọi Sonar Scanner.                                                  |
-| **Sonar Scanner**    | Thu thập mã nguồn và báo cáo (coverage, test) rồi gửi lên SonarQube.                                          |
+| Thành phần           | Vai trò                                                                                                      |
+| -------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Developer**        | Viết và commit code.                                                                                         |
+| **Git Repository**   | Lưu trữ mã nguồn và kích hoạt pipeline khi có thay đổi.                                                      |
+| **CI/CD**            | Build, chạy test, tạo báo cáo coverage và gọi Sonar Scanner.                                                 |
+| **Sonar Scanner**    | Thu thập mã nguồn và báo cáo (coverage, test) rồi gửi lên SonarQube.                                         |
 | **SonarQube Server** | Phân tích chất lượng mã: Bugs, Vulnerabilities, Code Smells, Duplications, Coverage và áp dụng Quality Gate. |
-| **PostgreSQL**       | Lưu lịch sử phân tích, cấu hình, quy tắc và kết quả.                                                          |
+| **PostgreSQL**       | Lưu lịch sử phân tích, cấu hình, quy tắc và kết quả.                                                         |
 | **Dashboard**        | Hiển thị báo cáo chi tiết để Developer, Tech Lead và Manager theo dõi và xử lý vấn đề.                       |
 | **Quality Gate**     | Đưa ra quyết định PASS/FAIL; nếu không đạt, pipeline có thể dừng và không cho phép triển khai.               |
 
