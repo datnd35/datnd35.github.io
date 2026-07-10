@@ -19,8 +19,6 @@ tags:
 categories: [Development]
 ---
 
-# SonarQube trong CI/CD: Kiến trúc, Luồng hoạt động và Quality Gate
-
 > Mục tiêu của bài viết là giúp team nhìn rõ **toàn bộ vòng đời kiểm soát code quality**: từ lúc developer push code cho đến khi pipeline quyết định **deploy hay dừng** dựa trên Quality Gate.
 
 ---
