@@ -1,5 +1,5 @@
 ---
-track: "tools-workflow"
+track: "angular-code-quality"
 layout: post
 title: "SonarQube trong CI/CD: Kiến trúc, Luồng hoạt động và Quality Gate"
 subtitle: "Hiểu end-to-end cách SonarQube bảo vệ chất lượng mã nguồn trong pipeline"
