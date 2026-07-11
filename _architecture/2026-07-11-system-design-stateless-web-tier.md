@@ -148,11 +148,11 @@ Ví dụ response JSON:
 
 ## 5) Trade-offs
 
-| Option | Ưu điểm | Nhược điểm | Khi nào dùng |
-| ------ | ------- | ---------- | ------------ |
-| Stateful web tier | Triển khai ban đầu nhanh, đơn giản cho hệ nhỏ | Phụ thuộc sticky session, scale/failover khó, coupling cao | MVP nhỏ, ít user, 1-2 server |
-| Stateless + shared relational DB | Dễ scale web tier, consistency mạnh | Có thể tăng tải DB, cần index/tuning | Workload vừa, transaction rõ |
-| Stateless + NoSQL/Redis session store | Scale ngang tốt, latency thấp, phù hợp session data | Cần chiến lược TTL, replication, backup | Hệ lớn, traffic biến động, cần autoscaling |
+| Option                                | Ưu điểm                                             | Nhược điểm                                                 | Khi nào dùng                               |
+| ------------------------------------- | --------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------ |
+| Stateful web tier                     | Triển khai ban đầu nhanh, đơn giản cho hệ nhỏ       | Phụ thuộc sticky session, scale/failover khó, coupling cao | MVP nhỏ, ít user, 1-2 server               |
+| Stateless + shared relational DB      | Dễ scale web tier, consistency mạnh                 | Có thể tăng tải DB, cần index/tuning                       | Workload vừa, transaction rõ               |
+| Stateless + NoSQL/Redis session store | Scale ngang tốt, latency thấp, phù hợp session data | Cần chiến lược TTL, replication, backup                    | Hệ lớn, traffic biến động, cần autoscaling |
 
 Các điểm cần lưu ý vận hành:
 
