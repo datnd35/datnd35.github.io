@@ -5,6 +5,7 @@ title: "System Design Essentials - Kiến Thức Nền Tảng Cho Senior Develop
 date: 2026-01-28
 categories: architecture
 chapter: "3"
+chapter_order: 1
 ---
 
 [video - System Design Explained: APIs, Databases, Caching, CDNs, Load Balancing & Production Infra](https://www.youtube.com/watch?v=adOkTjIIDnk)
