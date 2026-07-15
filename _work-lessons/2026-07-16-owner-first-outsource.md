@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bài Học Work Lesson: Đừng Hỏi "Ai Biết" Trước, Hãy Xác Định Owner Trước"
+title: 'Bài Học Work Lesson: Đừng Hỏi "Ai Biết" Trước, Hãy Xác Định Owner Trước'
 date: 2026-07-16
 categories: work-lessons
 tags: [outsource, ownership, communication, pm, escalation]
