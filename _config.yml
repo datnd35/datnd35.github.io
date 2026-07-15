@@ -124,6 +124,9 @@ collections:
   vscode:
     output: true
     permalink: /:collection/:path/
+  work-lessons:
+    output: true
+    permalink: /work-lessons/:title/
 
 future: true
 

@@ -28,123 +28,55 @@ permalink: /work-lessons/
 .lt-panel .post-date { font-size: 0.76rem; color: #aaa; white-space: nowrap; min-width: 78px; }
 .lt-panel a { font-size: 0.9rem; color: #222; text-decoration: none; line-height: 1.45; }
 .lt-panel a:hover { color: #1a6fc4; text-decoration: underline; }
-.lt-empty { font-size: 0.88rem; color: #aaa; font-style: italic; }
+.lt-panel .empty { font-size: 0.88rem; color: #aaa; font-style: italic; }
 @media (max-width: 600px) { .lt-panel { margin-left: 20px; padding: 12px 14px; } }
 </style>
 
 <div class="lt-page">
 
 <div class="lt-hero">
-  <h1>Learning Tracks: Work Lessons</h1>
-  <p>Tổng hợp bài học đi làm thực chiến: giao tiếp, lãnh đạo, quản lý kỹ thuật, hiệu suất và tư duy hệ thống.</p>
+	<h1>Work Lessons</h1>
+	<p>Những bài học thực chiến tại môi trường dự án: ownership, cách phối hợp đúng người, escalation hợp lý, và xử lý tình huống để tiết kiệm thời gian cho team.</p>
 </div>
 
-{% assign leadership_posts = site.leadership | sort: 'date' | reverse %}
-{% assign communication_posts = site.communication | sort: 'date' | reverse %}
-{% assign manager_posts = site.technical-manager | sort: 'date' | reverse %}
-{% assign performance_posts = site.performance | sort: 'date' | reverse %}
-{% assign systems_posts = site.systems-thinking | sort: 'date' | reverse %}
+{% assign all_posts = site["work-lessons"] | sort: 'date' | reverse %}
+{% assign owner_posts = all_posts | where: "track", "ownership-outsource" %}
 
 <div class="lt-section">
-  <h2>💼 Work Lessons Tracks</h2>
-  <ul class="lt-track-list">
+	<h2>💼 Outsourcing &amp; Ownership</h2>
+	<ul class="lt-track-list">
 
-    <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('wl-leadership', this)">
-        Leadership in Real Work <span class="arrow">▶</span>
-      </button>
-      <div class="lt-panel" id="wl-leadership">
-        <ul>
-          {% for post in leadership_posts %}
-          <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-          {% if leadership_posts.size == 0 %}<li><span class="lt-empty">Chưa có bài viết.</span></li>{% endif %}
-        </ul>
-      </div>
-    </li>
+    	<li class="lt-track-item">
+    		<button class="lt-track-btn" onclick="togglePanel('wl-owner', this)">
+    			Xác định Owner để xử lý việc nhanh hơn <span class="arrow">▶</span>
+    		</button>
+    		<div class="lt-panel" id="wl-owner">
+    			<ul>
+    				{% for post in owner_posts %}
+    				<li>
+    					<span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    					<a href="{{ post.url }}">{{ post.title }}</a>
+    				</li>
+    				{% endfor %}
+    				{% if owner_posts.size == 0 %}
+    				<li><span class="empty">Chưa có bài viết trong track này.</span></li>
+    				{% endif %}
+    			</ul>
+    		</div>
+    	</li>
 
-    <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('wl-communication', this)">
-        Communication & Collaboration <span class="arrow">▶</span>
-      </button>
-      <div class="lt-panel" id="wl-communication">
-        <ul>
-          {% for post in communication_posts %}
-          <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-          {% if communication_posts.size == 0 %}<li><span class="lt-empty">Chưa có bài viết.</span></li>{% endif %}
-        </ul>
-      </div>
-    </li>
+    </ul>
 
-    <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('wl-manager', this)">
-        Technical Management <span class="arrow">▶</span>
-      </button>
-      <div class="lt-panel" id="wl-manager">
-        <ul>
-          {% for post in manager_posts %}
-          <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-          {% if manager_posts.size == 0 %}<li><span class="lt-empty">Chưa có bài viết.</span></li>{% endif %}
-        </ul>
-      </div>
-    </li>
-
-    <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('wl-performance', this)">
-        Performance & Execution <span class="arrow">▶</span>
-      </button>
-      <div class="lt-panel" id="wl-performance">
-        <ul>
-          {% for post in performance_posts %}
-          <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-          {% if performance_posts.size == 0 %}<li><span class="lt-empty">Chưa có bài viết.</span></li>{% endif %}
-        </ul>
-      </div>
-    </li>
-
-    <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('wl-systems', this)">
-        Systems Thinking at Work <span class="arrow">▶</span>
-      </button>
-      <div class="lt-panel" id="wl-systems">
-        <ul>
-          {% for post in systems_posts %}
-          <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-          {% if systems_posts.size == 0 %}<li><span class="lt-empty">Chưa có bài viết.</span></li>{% endif %}
-        </ul>
-      </div>
-    </li>
-
-  </ul>
 </div>
 
 </div>
 
 <script>
 function togglePanel(panelId, btn) {
-  var panel = document.getElementById(panelId);
-  var isVisible = panel.classList.contains('visible');
-  document.querySelectorAll('.lt-panel').forEach(function(p){ p.classList.remove('visible'); });
-  document.querySelectorAll('.lt-track-btn').forEach(function(b){ b.classList.remove('active'); });
-  if (!isVisible) { panel.classList.add('visible'); btn.classList.add('active'); }
+	var panel = document.getElementById(panelId);
+	var isVisible = panel.classList.contains('visible');
+	document.querySelectorAll('.lt-panel').forEach(function(p){ p.classList.remove('visible'); });
+	document.querySelectorAll('.lt-track-btn').forEach(function(b){ b.classList.remove('active'); });
+	if (!isVisible) { panel.classList.add('visible'); btn.classList.add('active'); }
 }
 </script>
