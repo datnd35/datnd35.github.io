@@ -247,7 +247,7 @@ Ví dụ:
 
 1. Điền form theo yêu cầu của khách hàng.
 2. Nhắn PM: “FYI, customer asked me to submit this form because my Copilot quota was reduced.”
-3. Nếu cần biết nguyên nhân, hỏi trực tiếp người quản lý account phía khách hàng (ví dụ: Alex).
+3. Nếu cần biết nguyên nhân, hỏi trực tiếp người quản lý account phía khách hàng .
 4. Không chờ PM trả lời nếu PM không phải owner của hệ thống đó.
 
 ---
