@@ -7,7 +7,16 @@ track: "system-design"
 chapter: "6"
 chapter_order: 7
 description: "Kiến trúc tổng thể của distributed key-value store: coordinator node, consistent hashing ring, decentralized design và các responsibilities của mỗi node — từ Client API đến storage engine."
-tags: [system-design, key-value-store, architecture, coordinator, consistent-hashing, decentralized, distributed-systems]
+tags:
+  [
+    system-design,
+    key-value-store,
+    architecture,
+    coordinator,
+    consistent-hashing,
+    decentralized,
+    distributed-systems,
+  ]
 ---
 
 > **CHAPTER 6: DESIGN A KEY-VALUE STORE**
@@ -24,6 +33,7 @@ tags: [system-design, key-value-store, architecture, coordinator, consistent-has
 ## 1) Context
 
 Sau khi đã đi qua tất cả các kỹ thuật:
+
 - Data partition (consistent hashing)
 - Data replication (N replicas)
 - Consistency (quorum, W/R/N)
@@ -192,14 +202,62 @@ GET /api/v1/cluster/topology
   "replicationFactor": 3,
   "totalNodes": 8,
   "nodes": [
-    { "id": "n0", "ip": "10.0.0.1", "status": "online", "virtualNodes": 200, "ringPosition": "12.5%" },
-    { "id": "n1", "ip": "10.0.0.2", "status": "online", "virtualNodes": 200, "ringPosition": "25.0%" },
-    { "id": "n2", "ip": "10.0.0.3", "status": "online", "virtualNodes": 200, "ringPosition": "37.5%" },
-    { "id": "n3", "ip": "10.0.0.4", "status": "online", "virtualNodes": 200, "ringPosition": "50.0%" },
-    { "id": "n4", "ip": "10.0.0.5", "status": "online", "virtualNodes": 200, "ringPosition": "62.5%" },
-    { "id": "n5", "ip": "10.0.0.6", "status": "online", "virtualNodes": 200, "ringPosition": "75.0%" },
-    { "id": "n6", "ip": "10.0.0.7", "status": "online", "virtualNodes": 200, "ringPosition": "87.5%" },
-    { "id": "n7", "ip": "10.0.0.8", "status": "online", "virtualNodes": 200, "ringPosition": "100.0%" }
+    {
+      "id": "n0",
+      "ip": "10.0.0.1",
+      "status": "online",
+      "virtualNodes": 200,
+      "ringPosition": "12.5%"
+    },
+    {
+      "id": "n1",
+      "ip": "10.0.0.2",
+      "status": "online",
+      "virtualNodes": 200,
+      "ringPosition": "25.0%"
+    },
+    {
+      "id": "n2",
+      "ip": "10.0.0.3",
+      "status": "online",
+      "virtualNodes": 200,
+      "ringPosition": "37.5%"
+    },
+    {
+      "id": "n3",
+      "ip": "10.0.0.4",
+      "status": "online",
+      "virtualNodes": 200,
+      "ringPosition": "50.0%"
+    },
+    {
+      "id": "n4",
+      "ip": "10.0.0.5",
+      "status": "online",
+      "virtualNodes": 200,
+      "ringPosition": "62.5%"
+    },
+    {
+      "id": "n5",
+      "ip": "10.0.0.6",
+      "status": "online",
+      "virtualNodes": 200,
+      "ringPosition": "75.0%"
+    },
+    {
+      "id": "n6",
+      "ip": "10.0.0.7",
+      "status": "online",
+      "virtualNodes": 200,
+      "ringPosition": "87.5%"
+    },
+    {
+      "id": "n7",
+      "ip": "10.0.0.8",
+      "status": "online",
+      "virtualNodes": 200,
+      "ringPosition": "100.0%"
+    }
   ],
   "decentralized": true,
   "singlePointOfFailure": false
@@ -210,14 +268,14 @@ GET /api/v1/cluster/topology
 
 ## 5) Trade-offs
 
-| Thiết kế | Centralized (có master) | Decentralized (peer-to-peer) |
-| --- | --- | --- |
-| SPOF | Có — master là SPOF | Không — mọi node đều bình đẳng |
-| Routing | Đơn giản — client hỏi master | Phức tạp hơn — coordinator tự tính |
-| Scalability | Bị giới hạn bởi master | Scale tuyến tính với số node |
-| Consistency | Dễ đảm bảo (master là source of truth) | Cần quorum, vector clock |
-| Fault tolerance | Thấp nếu master down | Cao — node nào cũng thay thế được |
-| Ví dụ | Redis Cluster (với primary/replica) | Amazon Dynamo, Cassandra |
+| Thiết kế        | Centralized (có master)                | Decentralized (peer-to-peer)       |
+| --------------- | -------------------------------------- | ---------------------------------- |
+| SPOF            | Có — master là SPOF                    | Không — mọi node đều bình đẳng     |
+| Routing         | Đơn giản — client hỏi master           | Phức tạp hơn — coordinator tự tính |
+| Scalability     | Bị giới hạn bởi master                 | Scale tuyến tính với số node       |
+| Consistency     | Dễ đảm bảo (master là source of truth) | Cần quorum, vector clock           |
+| Fault tolerance | Thấp nếu master down                   | Cao — node nào cũng thay thế được  |
+| Ví dụ           | Redis Cluster (với primary/replica)    | Amazon Dynamo, Cassandra           |
 
 ---
 
