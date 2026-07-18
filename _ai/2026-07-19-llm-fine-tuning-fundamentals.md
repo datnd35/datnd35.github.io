@@ -6,6 +6,9 @@ categories: ai
 tags:
   [ai, llm, fine-tuning, machine-learning, nlp, bert, gpt, foundation-models]
 track: "ai-tools"
+references:
+  - title: "LM Fine-Tune with your custom data"
+    url: "https://www.udemy.com/course/llm-fine-tune/"
 ---
 
 ## Fine-tuning là gì và tại sao cần?
