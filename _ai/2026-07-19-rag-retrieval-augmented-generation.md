@@ -13,7 +13,7 @@ tags:
     llm,
     chromadb,
   ]
-track: "ai-tools"
+track: "rag"
 references:
   - title: "LM Fine-Tune with your custom data"
     url: "https://www.udemy.com/course/llm-fine-tune/"
