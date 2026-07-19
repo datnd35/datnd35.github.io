@@ -5,7 +5,7 @@ date: 2026-07-19
 categories: ai
 tags:
   [ai, llm, fine-tuning, quantization, machine-learning, fp32, fp16, int8, nlp]
-track: "ai-tools"
+track: "fine-tuning"
 references:
   - title: "LM Fine-Tune with your custom data"
     url: "https://www.udemy.com/course/llm-fine-tune/"
