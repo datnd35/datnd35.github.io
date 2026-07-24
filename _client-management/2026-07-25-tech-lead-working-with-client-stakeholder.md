@@ -24,10 +24,10 @@ Tech lead nghĩ:
 
 Ví dụ, khi production bị lỗi, đừng chờ ai giao việc. Thay vào đó:
 
-* Điều tra ngay.
-* Thu thập thông tin.
-* Đề xuất giải pháp.
-* Cập nhật tiến độ liên tục.
+- Điều tra ngay.
+- Thu thập thông tin.
+- Đề xuất giải pháp.
+- Cập nhật tiến độ liên tục.
 
 Client đánh giá cao người **chủ động chịu trách nhiệm**.
 
@@ -57,11 +57,11 @@ Client thường không quan tâm đến Angular, React, Kubernetes hay database
 
 Họ quan tâm đến:
 
-* Trải nghiệm người dùng
-* Ngày giao hàng
-* Chi phí
-* Rủi ro
-* Chất lượng
+- Trải nghiệm người dùng
+- Ngày giao hàng
+- Chi phí
+- Rủi ro
+- Chất lượng
 
 ❌ Thay vì:
 
@@ -87,9 +87,9 @@ Họ quan tâm đến:
 
 > "We have three options:
 >
-> * Quick patch (1 day)
-> * Replace the library (4 days)
-> * Redesign this module (2 weeks)
+> - Quick patch (1 day)
+> - Replace the library (4 days)
+> - Redesign this module (2 weeks)
 >
 > I recommend option 2 because it balances cost and long-term maintenance."
 
@@ -101,11 +101,11 @@ Client thuê engineer có kinh nghiệm để **đưa ra phán đoán**, không 
 
 Niềm tin đến từ sự nhất quán:
 
-* Giữ lời hứa.
-* Thừa nhận sai lầm nhanh chóng.
-* Không che giấu sự không chắc chắn.
-* Follow up các action items.
-* Ghi lại các quyết định quan trọng.
+- Giữ lời hứa.
+- Thừa nhận sai lầm nhanh chóng.
+- Không che giấu sự không chắc chắn.
+- Follow up các action items.
+- Ghi lại các quyết định quan trọng.
 
 Nếu bạn chưa biết, hoàn toàn chuyên nghiệp khi nói:
 
@@ -125,10 +125,10 @@ Họ nghĩ:
 
 Đôi khi điều đó có nghĩa là đề xuất:
 
-* Kiến trúc tốt hơn
-* Chi phí thấp hơn
-* Triển khai đơn giản hơn
-* Loại bỏ tính năng không cần thiết
+- Kiến trúc tốt hơn
+- Chi phí thấp hơn
+- Triển khai đơn giản hơn
+- Loại bỏ tính năng không cần thiết
 
 Client nhớ đến những người **cải thiện sản phẩm**, không chỉ những người hoàn thành ticket.
 
@@ -170,11 +170,11 @@ Review & rút kinh nghiệm
 
 Trước mỗi cuộc họp, hãy tự hỏi:
 
-* Mình có hiểu client đang cố đạt được điều gì không?
-* Những rủi ro nào mình cần đề cập?
-* Những quyết định nào client cần từ mình?
-* Mình có mang theo giải pháp thay vì chỉ nêu vấn đề không?
-* Những action items nào mình sẽ chịu trách nhiệm sau buổi họp này?
+- Mình có hiểu client đang cố đạt được điều gì không?
+- Những rủi ro nào mình cần đề cập?
+- Những quyết định nào client cần từ mình?
+- Mình có mang theo giải pháp thay vì chỉ nêu vấn đề không?
+- Những action items nào mình sẽ chịu trách nhiệm sau buổi họp này?
 
 ---
 

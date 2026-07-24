@@ -15,7 +15,7 @@ tags:
     meeting,
     english,
   ]
-categories: [Communication]
+categories: [client-management]
 ---
 
 # Framework L.C.R.D.A — Cách Tech Lead nghe và hỏi khách hàng

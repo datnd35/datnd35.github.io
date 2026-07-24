@@ -3,7 +3,7 @@ track: "client-stakeholder"
 layout: post
 title: "Giải Thích Estimate Với Client – Framework B-C-R-O-A"
 date: 2026-04-28
-categories: communication
+categories: client-management
 ---
 
 > Khi client hỏi "Why is the estimate so high?" — đừng **defend**, hãy **explain**.

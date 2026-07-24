@@ -14,7 +14,7 @@ tags:
     team-management,
     soft-skills,
   ]
-categories: [Communication]
+categories: [client-management]
 ---
 
 # DISC Framework cho Tech Lead — Giao tiếp đúng kiểu người

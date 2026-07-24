@@ -27,6 +27,7 @@ header_pages:
   - business.md
   - vue.md
   - communication.md
+  - client-management.md
   - development.md
   - git.md
   - architecture.md
@@ -63,6 +64,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   communication:
+    output: true
+    permalink: /:collection/:path/
+  client-management:
     output: true
     permalink: /:collection/:path/
   development:

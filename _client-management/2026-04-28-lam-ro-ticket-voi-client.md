@@ -3,7 +3,7 @@ track: "client-stakeholder"
 layout: post
 title: "Làm Rõ Ticket Với Client – Framework C-A-Q-C"
 date: 2026-04-28
-categories: communication
+categories: client-management
 ---
 
 > Khi ticket chưa rõ, đừng hỏi kiểu **"I don't understand this ticket"** —

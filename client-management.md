@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 🗣️ Communication
-permalink: /communication/
+title: 🤝 Client Management
+permalink: /client-management/
 ---
 
 <style>
@@ -28,67 +28,30 @@ permalink: /communication/
 .lt-panel .post-date { font-size: 0.76rem; color: #aaa; white-space: nowrap; min-width: 78px; }
 .lt-panel a { font-size: 0.9rem; color: #222; text-decoration: none; line-height: 1.45; }
 .lt-panel a:hover { color: #1a6fc4; text-decoration: underline; }
-.lt-ext-badge { font-size: 0.65rem; font-weight: 600; background: #fff3e0; color: #b45309; border: 1px solid #fcd99a; border-radius: 4px; padding: 1px 5px; white-space: nowrap; flex-shrink: 0; }
-.lt-panel a.ext { color: #444; }
-.lt-panel a.ext:hover { color: #b45309; }
 @media (max-width: 600px) { .lt-panel { margin-left: 20px; padding: 12px 14px; } }
 </style>
 
 <div class="lt-page">
 
 <div class="lt-hero">
-  <h1>Learning Tracks: Communication Skills</h1>
-  <p>Các track học giao tiếp có cấu trúc — từ frameworks nền tảng đến kỹ năng thực chiến trong công việc hàng ngày.</p>
+  <h1>Client Management</h1>
+  <p>Các kỹ năng và framework giúp Tech Lead làm việc hiệu quả với client & stakeholder — từ giao tiếp, estimate, làm rõ yêu cầu đến xây dựng niềm tin lâu dài.</p>
 </div>
 
-{% assign all_posts = site.communication | sort: 'date' | reverse %}
-{% assign framework_posts = all_posts | where: "track", "frameworks-models" %}
-{% assign speaking_posts  = all_posts | where: "track", "speaking-presence" %}
-{% assign workplace_posts = all_posts | where: "track", "workplace-communication" %}
+{% assign all_posts = site.client-management | sort: 'date' | reverse %}
+{% assign client_posts = all_posts | where: "track", "client-stakeholder" %}
 
 <div class="lt-section">
-  <h2>📚 Communication Tracks</h2>
+  <h2>🤝 Client Management Tracks</h2>
   <ul class="lt-track-list">
 
     <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('comm-frameworks', this)">
-        Frameworks &amp; Models Giao Tiếp <span class="arrow">▶</span>
+      <button class="lt-track-btn" onclick="togglePanel('client-stakeholder', this)">
+        Giao Tiếp Với Client &amp; Stakeholder <span class="arrow">▶</span>
       </button>
-      <div class="lt-panel" id="comm-frameworks">
+      <div class="lt-panel" id="client-stakeholder">
         <ul>
-          {% for post in framework_posts %}
-          <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </li>
-
-    <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('comm-speaking', this)">
-        Speaking &amp; Presentation <span class="arrow">▶</span>
-      </button>
-      <div class="lt-panel" id="comm-speaking">
-        <ul>
-          {% for post in speaking_posts %}
-          <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </li>
-
-    <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('comm-workplace', this)">
-        Giao Tiếp Chuyên Nghiệp Trong Công Sở <span class="arrow">▶</span>
-      </button>
-      <div class="lt-panel" id="comm-workplace">
-        <ul>
-          {% for post in workplace_posts %}
+          {% for post in client_posts %}
           <li>
             <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <a href="{{ post.url }}">{{ post.title }}</a>
