@@ -34,12 +34,13 @@ permalink: /client-management/
 <div class="lt-page">
 
 <div class="lt-hero">
-  <h1>Client Management</h1>
-  <p>Các kỹ năng và framework giúp Tech Lead làm việc hiệu quả với client & stakeholder — từ giao tiếp, estimate, làm rõ yêu cầu đến xây dựng niềm tin lâu dài.</p>
+  <h1>Client Management &amp; Negotiation</h1>
+  <p>Các kỹ năng và framework giúp Tech Lead làm việc hiệu quả với client & stakeholder — từ giao tiếp, đàm phán, làm rõ yêu cầu đến xây dựng niềm tin lâu dài.</p>
 </div>
 
 {% assign all_posts = site.client-management | sort: 'date' | reverse %}
 {% assign client_posts = all_posts | where: "track", "client-stakeholder" %}
+{% assign negotiation_posts = all_posts | where: "track", "negotiation" %}
 
 <div class="lt-section">
   <h2>🤝 Client Management Tracks</h2>
@@ -52,6 +53,22 @@ permalink: /client-management/
       <div class="lt-panel" id="client-stakeholder">
         <ul>
           {% for post in client_posts %}
+          <li>
+            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+
+    <li class="lt-track-item">
+      <button class="lt-track-btn" onclick="togglePanel('client-negotiation', this)">
+        Negotiation Với Client <span class="arrow">▶</span>
+      </button>
+      <div class="lt-panel" id="client-negotiation">
+        <ul>
+          {% for post in negotiation_posts %}
           <li>
             <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <a href="{{ post.url }}">{{ post.title }}</a>
