@@ -5,14 +5,7 @@ date: 2026-07-26
 track: "technical-sharing"
 categories: [weekly-tech-talk]
 tags:
-  [
-    tech-lead,
-    technical-sharing,
-    qa,
-    communication,
-    decision-making,
-    trade-off,
-  ]
+  [tech-lead, technical-sharing, qa, communication, decision-making, trade-off]
 description: "Framework Q-CARE giúp Tech Lead phân tích ý định đằng sau câu hỏi, trả lời mạch lạc và biến Q&A thành thảo luận kỹ thuật có giá trị."
 ---
 
