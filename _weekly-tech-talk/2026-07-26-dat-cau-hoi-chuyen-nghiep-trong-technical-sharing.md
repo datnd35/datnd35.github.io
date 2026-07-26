@@ -16,8 +16,6 @@ tags:
 description: "Framework thực tế giúp Tech Lead đặt câu hỏi ngắn gọn, đúng trọng tâm và khai thác được quyết định, trade-off, scale, cost trong các buổi technical sharing."
 ---
 
-# Đặt câu hỏi chuyên nghiệp trong Technical Sharing
-
 ## Góc nhìn dành cho Tech Lead làm việc với khách hàng quốc tế
 
 Trong môi trường kỹ thuật, **người giỏi không phải người hỏi nhiều nhất** mà là người **hỏi đúng câu, đúng thời điểm, đúng mục tiêu**.
