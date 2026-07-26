@@ -131,6 +131,9 @@ collections:
   work-lessons:
     output: true
     permalink: /work-lessons/:title/
+  weekly-tech-talk:
+    output: true
+    permalink: /weekly-tech-talk/:title/
 
 future: true
 
