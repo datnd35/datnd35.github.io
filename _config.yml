@@ -32,6 +32,7 @@ header_pages:
   - git.md
   - architecture.md
   - system-design.md
+  - software-architecture.md
   - cloud.md
   - leadership.md
   - technical-manager.md
