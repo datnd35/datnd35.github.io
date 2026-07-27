@@ -60,7 +60,7 @@ permalink: /software-architecture/
 <div class="lt-page">
   <div class="lt-hero">
     <h1>Course content: Software Architecture</h1>
-    <p>Danh mục kiến thức Software Architecture theo section. Hiện tại đã có cấu trúc tab con, chưa thêm bài viết.</p>
+    <p>Danh mục kiến thức Software Architecture theo section, bao gồm các bài viết thực chiến cho từng chủ đề.</p>
   </div>
 
 {% assign all_posts = site.architecture | where: "track", "software-architecture" | sort: 'date' | reverse %}
