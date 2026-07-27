@@ -66,24 +66,24 @@ permalink: /work-lessons/
     		</div>
     	</li>
 
-		<li class="lt-track-item">
-			<button class="lt-track-btn" onclick="togglePanel('wl-kmap', this)">
-				Project Knowledge Map cho Tech Lead <span class="arrow">▶</span>
-			</button>
-			<div class="lt-panel" id="wl-kmap">
-				<ul>
-					{% for post in map_posts %}
-					<li>
-						<span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-						<a href="{{ post.url }}">{{ post.title }}</a>
-					</li>
-					{% endfor %}
-					{% if map_posts.size == 0 %}
-					<li><span class="empty">Chưa có bài viết trong track này.</span></li>
-					{% endif %}
-				</ul>
-			</div>
-		</li>
+    	<li class="lt-track-item">
+    		<button class="lt-track-btn" onclick="togglePanel('wl-kmap', this)">
+    			Project Knowledge Map cho Tech Lead <span class="arrow">▶</span>
+    		</button>
+    		<div class="lt-panel" id="wl-kmap">
+    			<ul>
+    				{% for post in map_posts %}
+    				<li>
+    					<span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    					<a href="{{ post.url }}">{{ post.title }}</a>
+    				</li>
+    				{% endfor %}
+    				{% if map_posts.size == 0 %}
+    				<li><span class="empty">Chưa có bài viết trong track này.</span></li>
+    				{% endif %}
+    			</ul>
+    		</div>
+    	</li>
 
     </ul>
 
