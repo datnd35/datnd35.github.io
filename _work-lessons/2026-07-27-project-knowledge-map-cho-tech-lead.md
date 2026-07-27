@@ -3,7 +3,14 @@ layout: post
 title: 'Bài Học Work Lesson: Từ "Làm 1-2 Slide" Đến Project Knowledge Map Cho Team'
 date: 2026-07-27
 categories: work-lessons
-tags: [frontend-lead, project-discovery, knowledge-map, business-understanding, onboarding]
+tags:
+  [
+    frontend-lead,
+    project-discovery,
+    knowledge-map,
+    business-understanding,
+    onboarding,
+  ]
 track: project-knowledge-map
 ---
 
