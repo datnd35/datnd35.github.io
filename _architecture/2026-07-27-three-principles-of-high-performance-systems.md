@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Three Principles of High Performance Systems"
+title: "Performance Principles"
 date: 2026-07-27
 categories: architecture
 track: "software-architecture"
