@@ -30,7 +30,7 @@ Mình xem đó là cơ hội để tạo một **Project Knowledge Map** có th�
 - Hiểu ai sử dụng.
 - Có nguồn tham khảo rõ ràng.
 
-Trong bối cảnh tài liệu ít (như dự án MAX-4), thì **source code chính là source of truth**.
+Trong bối cảnh tài liệu ít (như dự án Project-A), thì **source code chính là source of truth**.
 
 ---
 
@@ -112,10 +112,10 @@ Business
                            +------ User Value
 ```
 
-Ví dụ với MAX-4:
+Ví dụ với Project-A:
 
 ```text
-MAX-4
+Project-A
 ↓
 Energy Management Platform
 ↓
@@ -377,7 +377,7 @@ Một sơ đồ tổng hợp giúp stakeholder nào cũng đọc được:
 ## Phase 10 — Knowledge Map (deliverable có thể tái sử dụng lâu dài)
 
 ```text
-MAX-4
+Project-A
 │
 ├── Business
 │      ├── Domain
