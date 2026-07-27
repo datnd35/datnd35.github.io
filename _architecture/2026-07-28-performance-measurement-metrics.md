@@ -22,8 +22,6 @@ tags:
   ]
 ---
 
-# 📊 Performance Measurement Metrics
-
 ## Muốn tối ưu hiệu năng, trước tiên hãy đo đúng thứ cần đo
 
 Peter Drucker từng nói:
