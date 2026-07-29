@@ -63,7 +63,7 @@ permalink: /software-architecture/
     <p>Danh mục kiến thức Software Architecture theo section, bao gồm các bài viết thực chiến cho từng chủ đề.</p>
   </div>
 
-{% assign all_posts = site.architecture | where: "track", "software-architecture" | sort: 'date' | reverse %}
+{% assign all_posts = site.architecture | where: "track", "software-architecture" | sort: 'url' %}
 {% assign intro_posts       = all_posts | where: "section", "introduction" %}
 {% assign performance_posts = all_posts | where: "section", "performance" %}
 {% assign scalability_posts = all_posts | where: "section", "scalability" %}

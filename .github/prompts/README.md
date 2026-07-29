@@ -15,3 +15,4 @@ These prompt files can be used from Copilot Chat as slash commands.
 - Prompt files are stored in `.github/prompts/*.prompt.md`.
 - Keep `chapter` as **string** (`"1".."16"`) for System Design posts.
 - Reuse template: `_templates/system-design/post-template.md`.
+- For track/section listing pages, default order is **oldest → newest** (new posts appear at the bottom) unless explicitly requested otherwise.

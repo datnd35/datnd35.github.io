@@ -18,6 +18,7 @@ Create a new blog post in this repository with consistent format.
 6. Add at least one text diagram block (` ```text `).
 7. If images are needed, use `assets/images/<collection-or-topic>/<slug>/` and reference with clear alt text.
 8. After creating files, check for errors in changed files.
+9. When creating/updating listing pages for a track/section, default to showing posts from oldest → newest so newer posts appear at the bottom (avoid `| reverse` unless user explicitly asks newest-first).
 
 ## Output behavior
 
