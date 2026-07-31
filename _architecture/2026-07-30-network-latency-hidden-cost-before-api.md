@@ -20,8 +20,6 @@ tags:
   ]
 ---
 
-# From Developer to Architect #3: Understanding **Network Latency** – The Hidden Cost Before Your API Even Starts Working
-
 > _"Sometimes your API is fast, your database is optimized, but users still experience slow responses. The bottleneck isn't your code—it's the network."_
 
 Ở bài trước, chúng ta đã tìm hiểu **Serial Request Latency** – thời gian xử lý của một request.
