@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Symmetric Key Cryptography – Mã hóa khóa đối xứng"
+title: "Network Security - Symmetric Key Cryptography"
 date: 2026-08-13 09:00:00 +0700
 categories: architecture
 track: "software-architecture"
