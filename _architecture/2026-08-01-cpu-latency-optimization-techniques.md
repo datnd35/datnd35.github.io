@@ -279,11 +279,11 @@ Better Query         Async I/O          CPU Quota
                  Lower CPU Latency
 ```
 
-| Kỹ thuật                               | Mục tiêu                                                                                                              |
-| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Efficient Algorithms & Queries**     | Giảm số lượng phép tính CPU và tối ưu cách database xử lý truy vấn                                                    |
-| **Batch I/O**                          | Gom nhiều thao tác I/O thành một lần để giảm Network Latency và Context Switching                                     |
-| **Async I/O**                          | Chuyển các tác vụ I/O sang thread khác, giúp Main Thread không bị block                                               |
-| **Single-threaded Event Loop**         | Main Thread chỉ xử lý business logic; I/O giao cho async worker (Node.js, NGINX, VoltDB)                             |
-| **Thread Pool Optimization**           | Không tạo quá nhiều thread; chọn kích thước phù hợp với số CPU Core và loại workload để tránh Context Switching quá mức |
-| **Virtual Environment / Process Isolation** | Chạy process trong môi trường cô lập với CPU & Memory quota để tránh tranh chấp tài nguyên và CPU starvation    |
+| Kỹ thuật                                    | Mục tiêu                                                                                                                |
+| ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Efficient Algorithms & Queries**          | Giảm số lượng phép tính CPU và tối ưu cách database xử lý truy vấn                                                      |
+| **Batch I/O**                               | Gom nhiều thao tác I/O thành một lần để giảm Network Latency và Context Switching                                       |
+| **Async I/O**                               | Chuyển các tác vụ I/O sang thread khác, giúp Main Thread không bị block                                                 |
+| **Single-threaded Event Loop**              | Main Thread chỉ xử lý business logic; I/O giao cho async worker (Node.js, NGINX, VoltDB)                                |
+| **Thread Pool Optimization**                | Không tạo quá nhiều thread; chọn kích thước phù hợp với số CPU Core và loại workload để tránh Context Switching quá mức |
+| **Virtual Environment / Process Isolation** | Chạy process trong môi trường cô lập với CPU & Memory quota để tránh tranh chấp tài nguyên và CPU starvation            |
