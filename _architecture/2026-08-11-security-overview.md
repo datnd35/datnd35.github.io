@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Security Overview – Tổng quan chương Security"
+title: "Security Overview"
 date: 2026-08-11 09:00:00 +0700
 categories: architecture
 track: "software-architecture"

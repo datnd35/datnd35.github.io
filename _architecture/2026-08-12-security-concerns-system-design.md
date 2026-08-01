@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Security Concerns trong System Design"
+title: "Security Objectives"
 date: 2026-08-12 09:00:00 +0700
 categories: architecture
 track: "software-architecture"
