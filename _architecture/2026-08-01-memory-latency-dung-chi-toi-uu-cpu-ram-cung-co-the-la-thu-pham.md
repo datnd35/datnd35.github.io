@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Memory Latency – Đừng chỉ tối ưu CPU, RAM cũng có thể là thủ phạm"
+title: "Memory Access Latency"
 date: 2026-08-01
 categories: architecture
 track: "software-architecture"

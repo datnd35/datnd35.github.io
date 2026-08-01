@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Các kỹ thuật giảm Memory Latency và tối ưu sử dụng Memory"
+title: "Minimizing Memory Access Latency"
 date: 2026-08-01
 categories: architecture
 track: "software-architecture"
