@@ -20,8 +20,6 @@ tags:
   ]
 ---
 
-# 🔒 Pessimistic Locking – Khóa trước, làm sau
-
 Sau khi biết cách giảm Lock Contention, bài này bắt đầu giới thiệu **2 chiến lược khóa dữ liệu** khi nhiều thread cùng truy cập tài nguyên dùng chung:
 
 ```text
