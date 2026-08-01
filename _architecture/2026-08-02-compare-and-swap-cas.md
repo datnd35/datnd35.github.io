@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Compare-And-Swap (CAS) – Lock-Free Synchronization"
-date: 2026-08-02 12:00:00 +0700
+date: 2026-08-02 13:00:00 +0700
 categories: architecture
 track: "software-architecture"
 section: "performance"
