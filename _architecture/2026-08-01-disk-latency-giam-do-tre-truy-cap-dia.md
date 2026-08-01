@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Disk Latency – Giảm độ trễ truy cập đĩa"
+title: "Disk Access Latency"
 date: 2026-08-01
 categories: architecture
 track: "software-architecture"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Các kỹ thuật giảm CPU Latency"
+title: "Minimizing CPU Processing Latency"
 date: 2026-08-01
 categories: architecture
 track: "software-architecture"

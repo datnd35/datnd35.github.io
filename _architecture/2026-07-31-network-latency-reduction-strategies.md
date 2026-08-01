@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Các cách giảm Network Latency"
+title: "Minimizing Network Transfer Latency"
 date: 2026-07-31
 categories: architecture
 track: "software-architecture"

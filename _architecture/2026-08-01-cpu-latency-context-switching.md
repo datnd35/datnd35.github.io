@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CPU Latency & Context Switching – Kẻ thù thầm lặng của hiệu năng"
+title: "CPU Processing Latency"
 date: 2026-08-01
 categories: architecture
 track: "software-architecture"
@@ -18,8 +18,6 @@ tags:
     tech-lead,
   ]
 ---
-
-# ⚡ CPU Latency & Context Switching – Kẻ thù thầm lặng của hiệu năng
 
 CPU Latency chủ yếu đến từ **2 nguyên nhân**:
 

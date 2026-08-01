@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Các kỹ thuật giảm Disk Latency"
+title: "Minimizing Disk Latency"
 date: 2026-08-01
 categories: architecture
 track: "software-architecture"
