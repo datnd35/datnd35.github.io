@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Các kỹ thuật giảm Lock Contention"
+title: "Minimizing Locking Related Contention"
 date: 2026-08-02 11:00:00 +0700
 categories: architecture
 track: "software-architecture"
