@@ -59,7 +59,7 @@ permalink: /software-architecture/
 
 <div class="lt-page">
   <div class="lt-hero">
-    <h1>Course content: Software Architecture</h1>
+    <h1>Software Architecture</h1>
     <p>Danh mục kiến thức Software Architecture theo section, bao gồm các bài viết thực chiến cho từng chủ đề.</p>
   </div>
 
