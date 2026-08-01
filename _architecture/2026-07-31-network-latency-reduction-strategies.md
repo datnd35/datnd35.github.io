@@ -252,14 +252,14 @@ Phù hợp khi có nhiều kết nối HTTPS ngắn/lặp lại giữa các thà
 
 ## 4) Bảng tổng hợp kỹ thuật
 
-| Latency             | Kỹ thuật                      | Ý tưởng cốt lõi                    |
-| ------------------- | ----------------------------- | ---------------------------------- |
-| Connection Creation | Connection Pool               | Tái sử dụng connection             |
-| Connection Creation | HTTP Keep-Alive               | Một TCP dùng cho nhiều request     |
-| Connection Creation | SSL Session Cache             | Tái sử dụng kết quả SSL Handshake  |
-| Data Transfer       | Cache                         | Không truyền nếu không cần         |
-| Data Transfer       | Compression (Gzip/Brotli)     | Truyền ít byte hơn                 |
-| Data Transfer       | Binary Protocol (gRPC/Thrift) | Payload nhỏ, parse/transfer nhanh  |
+| Latency             | Kỹ thuật                      | Ý tưởng cốt lõi                   |
+| ------------------- | ----------------------------- | --------------------------------- |
+| Connection Creation | Connection Pool               | Tái sử dụng connection            |
+| Connection Creation | HTTP Keep-Alive               | Một TCP dùng cho nhiều request    |
+| Connection Creation | SSL Session Cache             | Tái sử dụng kết quả SSL Handshake |
+| Data Transfer       | Cache                         | Không truyền nếu không cần        |
+| Data Transfer       | Compression (Gzip/Brotli)     | Truyền ít byte hơn                |
+| Data Transfer       | Binary Protocol (gRPC/Thrift) | Payload nhỏ, parse/transfer nhanh |
 
 ---
 
