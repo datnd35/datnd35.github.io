@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Coherence Latency trong Concurrent Systems"
-date: 2026-08-01 14:00:00 +0700
+date: 2026-08-04 14:00:00 +0700
 categories: architecture
 track: "software-architecture"
 section: "performance"
