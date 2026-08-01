@@ -2,7 +2,7 @@
 layout: post
 title: "Deadlock trong hệ thống Concurrent"
 date: 2026-08-02 14:00:00 +0700
-categories: performance
+categories: architecture
 track: "software-architecture"
 section: "performance"
 description: "Deadlock không chỉ làm hệ thống chậm mà còn có thể khiến toàn bộ hệ thống dừng hoạt động. Tìm hiểu hai loại Deadlock phổ biến và cách phòng tránh hiệu quả."
