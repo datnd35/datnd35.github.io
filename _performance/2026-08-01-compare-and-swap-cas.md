@@ -2,7 +2,7 @@
 layout: post
 title: "Compare-And-Swap (CAS) – Lock-Free Synchronization"
 date: 2026-08-01 12:00:00 +0700
-categories: performance
+categories: architecture
 track: "software-architecture"
 section: "performance"
 description: "CAS là cơ chế đồng bộ không dùng Exclusive Lock, được CPU hỗ trợ ở mức phần cứng. Đây là nền tảng của Optimistic Locking – chỉ cập nhật khi dữ liệu vẫn đúng với lúc đọc, nếu không thì retry."
