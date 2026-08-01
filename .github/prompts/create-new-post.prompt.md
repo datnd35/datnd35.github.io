@@ -8,7 +8,7 @@ Create a new blog post in this repository with consistent format.
 ## Requirements
 
 1. Detect target collection from user intent (examples: `_architecture`, `_communication`, `_ai`, `_backend`, etc.).
-2. Create filename using date prefix: `YYYY-MM-DD-slug.md`.
+2. Create filename using date prefix: `YYYY-MM-DD-slug.md`. Set the `date` front matter field with full datetime and timezone: `YYYY-MM-DD HH:MM:SS +0700`.
 3. Use consistent front matter based on collection conventions in this repo.
 4. Write concise, scannable Vietnamese-first content (keep English technical terms when clearer).
 5. If this is a System Design post:

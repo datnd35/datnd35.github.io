@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "<Tiêu đề ngắn gọn>"
-date: YYYY-MM-DD
+date: YYYY-MM-DD HH:MM:SS +0700
 categories: architecture
 track: "system-design"
 chapter: "<1..16>"
