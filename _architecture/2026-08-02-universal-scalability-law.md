@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Universal Scalability Law (USL) – Khi thêm CPU lại làm hệ thống chậm hơn"
+title: "Gunther's Universal Scalability Law (USL) – Khi thêm CPU lại làm hệ thống chậm hơn"
 date: 2026-08-02
 categories: architecture
 track: "software-architecture"

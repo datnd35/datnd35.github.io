@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Các giải pháp giảm Contention trong hệ thống"
+title: "Minimizing Shared Resource Contention"
 date: 2026-08-02 10:00:00 +0700
 categories: architecture
 track: "software-architecture"

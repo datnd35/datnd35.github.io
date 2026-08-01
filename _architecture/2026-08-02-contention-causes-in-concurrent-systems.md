@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Các nguyên nhân gây Contention trong hệ thống"
+title: "Shared Resources Contention"
 date: 2026-08-02 09:00:00 +0700
 categories: architecture
 track: "software-architecture"
