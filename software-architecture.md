@@ -61,6 +61,7 @@ permalink: /software-architecture/
   <div class="lt-hero">
     <h1>Software Architecture</h1>
     <p>Danh mục kiến thức Software Architecture theo section, bao gồm các bài viết thực chiến cho từng chủ đề.</p>
+    <p style="margin-top: 10px;"><a href="https://www.udemy.com/course/developer-to-architect/learn/lecture/24967758#overview" target="_blank" rel="noopener noreferrer" style="color: #1a6fc4; font-size: 0.95rem;">🎬 Xem video khóa học trên Udemy</a></p>
   </div>
 
 {% assign all_posts = site.architecture | where: "track", "software-architecture" | sort: 'url' %}
