@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "RabbitMQ Architecture — Exchange, Persistence, Replication và At-least-once Delivery"
+title: "RabbitMQ Architecture"
 date: 2026-08-08 10:00:00 +0700
 categories: architecture
 track: "software-architecture"
