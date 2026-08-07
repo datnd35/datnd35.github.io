@@ -64,7 +64,7 @@ permalink: /software-architecture/
     <p style="margin-top: 10px;"><a href="https://www.udemy.com/course/developer-to-architect/learn/lecture/24967758#overview" target="_blank" rel="noopener noreferrer" style="color: #1a6fc4; font-size: 0.95rem;">🎬 Xem video khóa học trên Udemy</a></p>
   </div>
 
-{% assign all_posts = site.architecture | where: "track", "software-architecture" | sort: 'url' %}
+{% assign all_posts = site.architecture | where: "track", "software-architecture" | sort: 'date' %}
 {% assign intro_posts       = all_posts | where: "section", "introduction" %}
 {% assign performance_posts = all_posts | where: "section", "performance" %}
 {% assign scalability_posts = all_posts | where: "section", "scalability" %}
