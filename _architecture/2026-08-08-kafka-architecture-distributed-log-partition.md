@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kafka Architecture — Distributed Log, Partition và Horizontal Scaling"
+title: "Kafka Architecture"
 date: 2026-08-08 11:00:00 +0700
 categories: architecture
 track: "software-architecture"
