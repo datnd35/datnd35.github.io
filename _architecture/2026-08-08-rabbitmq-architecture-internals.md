@@ -309,21 +309,21 @@ Lecture đưa mốc RabbitMQ có thể đạt khoảng **~50K messages/second** 
 
 ## 10) Tóm tắt — Những gì cần nhớ
 
-| Concept | Ý nghĩa |
-| ------- | ------- |
-| **Exchange** | Router quyết định message đi Queue nào |
-| **Queue** | Buffer giữ message chờ Consumer |
-| **Transient** | Không persist → nhanh nhưng có thể mất message |
-| **Persistent** | Lưu disk → tăng reliability |
-| **ACK** | Consumer xác nhận đã xử lý |
-| **At-least-once** | Có thể deliver message nhiều lần |
-| **Idempotency** | Consumer phải chịu được xử lý lại |
-| **Message Ordering** | Deliver theo đúng thứ tự |
-| **Replication** | Tăng HA, không phải scale ngang |
-| **Master** | Xử lý tất cả state-changing operations |
-| **Slave** | Replica/backup |
-| **Horizontal scaling** | RabbitMQ không mạnh ở điểm này |
-| **Kafka** | Phù hợp hơn với high-scale streaming |
+| Concept                | Ý nghĩa                                        |
+| ---------------------- | ---------------------------------------------- |
+| **Exchange**           | Router quyết định message đi Queue nào         |
+| **Queue**              | Buffer giữ message chờ Consumer                |
+| **Transient**          | Không persist → nhanh nhưng có thể mất message |
+| **Persistent**         | Lưu disk → tăng reliability                    |
+| **ACK**                | Consumer xác nhận đã xử lý                     |
+| **At-least-once**      | Có thể deliver message nhiều lần               |
+| **Idempotency**        | Consumer phải chịu được xử lý lại              |
+| **Message Ordering**   | Deliver theo đúng thứ tự                       |
+| **Replication**        | Tăng HA, không phải scale ngang                |
+| **Master**             | Xử lý tất cả state-changing operations         |
+| **Slave**              | Replica/backup                                 |
+| **Horizontal scaling** | RabbitMQ không mạnh ở điểm này                 |
+| **Kafka**              | Phù hợp hơn với high-scale streaming           |
 
 ---
 
