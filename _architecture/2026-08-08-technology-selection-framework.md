@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Technology Selection Framework — Cách Architect Chọn Technology"
+title: "Module contents overview"
 date: 2026-08-08 08:00:00 +0700
 categories: architecture
 track: "software-architecture"
