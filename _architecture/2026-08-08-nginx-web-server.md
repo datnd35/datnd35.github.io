@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nginx"
-date: 2026-08-08 10:30:00 +0700
+date: 2026-08-08 09:15:00 +0700
 categories: architecture
 track: "software-architecture"
 section: "technology-stack"

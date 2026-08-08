@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Apache Web Server Architecture"
-date: 2026-08-08 09:30:00 +0700
+date: 2026-08-08 09:05:00 +0700
 categories: architecture
 track: "software-architecture"
 section: "technology-stack"

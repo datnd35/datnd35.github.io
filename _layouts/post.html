@@ -21,9 +21,52 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-  {%- include disqus_comments.html -%}
+  {%- assign nav_docs = site[page.collection] | default: site.posts | sort: 'date' -%}
+  {%- if page.track -%}
+  {%- assign nav_docs = nav_docs | where: 'track', page.track -%}
+  {%- endif -%}
+  {%- if page.section -%}
+  {%- assign nav_docs = nav_docs | where: 'section', page.section -%}
   {%- endif -%}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  {%- assign current_index = -1 -%}
+  {%- for doc in nav_docs -%}
+  {%- if doc.url == page.url -%}
+  {%- assign current_index = forloop.index0 -%}
+  {%- endif -%}
+  {%- endfor -%}
+
+  {%- if current_index >= 0 -%}
+  {%- assign total_count = nav_docs | size -%}
+  {%- assign prev_index = current_index | minus: 1 -%}
+  {%- assign next_index = current_index | plus: 1 -%}
+  {%- assign prev_doc = nil -%}
+  {%- assign next_doc = nil -%}
+  {%- if prev_index >= 0 -%}
+  {%- assign prev_doc = nav_docs[prev_index] -%}
+  {%- endif -%}
+  {%- if next_index < total_count -%} {%- assign next_doc=nav_docs[next_index] -%} {%- endif -%} <nav class="post-nav"
+    aria-label="Post navigation">
+    <p class="post-nav__position">Bài {{ current_index | plus: 1 }} / {{ total_count }}</p>
+    <div class="post-nav__actions">
+      {%- if prev_doc -%}
+      <a class="post-nav__btn" href="{{ prev_doc.url | relative_url }}" rel="prev">← Bài trước</a>
+      {%- else -%}
+      <span class="post-nav__btn is-disabled" aria-disabled="true">← Bài trước</span>
+      {%- endif -%}
+
+      {%- if next_doc -%}
+      <a class="post-nav__btn" href="{{ next_doc.url | relative_url }}" rel="next">Bài tiếp theo →</a>
+      {%- else -%}
+      <span class="post-nav__btn is-disabled" aria-disabled="true">Bài tiếp theo →</span>
+      {%- endif -%}
+    </div>
+    </nav>
+    {%- endif -%}
+
+    {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+    {%- endif -%}
+
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

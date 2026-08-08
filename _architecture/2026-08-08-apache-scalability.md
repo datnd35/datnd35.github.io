@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Apache Scalability"
-date: 2026-08-08 10:00:00 +0700
+date: 2026-08-08 09:10:00 +0700
 categories: architecture
 track: "software-architecture"
 section: "technology-stack"
