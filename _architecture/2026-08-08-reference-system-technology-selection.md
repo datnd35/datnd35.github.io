@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reference System for using tech platform"
+title: "Reference system for using tech platform"
 date: 2026-08-08 08:30:00 +0700
 categories: architecture
 track: "software-architecture"
