@@ -52,11 +52,12 @@ layout: default
       {%- if prev_doc -%}
       <a class="post-nav__btn" href="{{ prev_doc.url | relative_url }}" rel="prev">← Bài trước</a>
       {%- else -%}
-      <span class="post-nav__btn is-disabled" aria-disabled="true">← Bài trước</span>
+      <span class="post-nav__btn is-disabled" style="margin-right: 5px;" aria-disabled="true">← Bài trước</span>
       {%- endif -%}
 
       {%- if next_doc -%}
-      <a class="post-nav__btn" href="{{ next_doc.url | relative_url }}" rel="next">Bài tiếp theo →</a>
+      <a class="post-nav__btn" style="margin-left: 5px;" href="{{ next_doc.url | relative_url }}" rel="next">Bài tiếp
+        theo →</a>
       {%- else -%}
       <span class="post-nav__btn is-disabled" aria-disabled="true">Bài tiếp theo →</span>
       {%- endif -%}
