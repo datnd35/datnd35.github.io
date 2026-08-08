@@ -20,6 +20,8 @@ tags:
 
 > **Nguồn tham khảo:** [Udemy — Developer to Architect Series](https://www.udemy.com/course/developer-to-architect/learn/lecture/24967758#overview)
 
+![Web Applications Architecture Diagram](/assets/images/architecture/web-applications-architecture-challenges/web-applications-diagram.png)
+
 ## Mục tiêu bài viết
 
 - Hiểu vị trí của Web Application trong kiến trúc tổng thể.
