@@ -168,18 +168,3 @@ Server             → runtime
 ```
 
 Đây là cách tách lớp rõ ràng, dễ scale và dễ audit trong CI/CD.
-
-## 🔒 Ghi chú khi viết public post
-
-Để tránh lộ thông tin nội bộ, nên generic hóa:
-
-- Tên công ty / tổ chức
-- Tên project/repository
-- URL registry
-- Tên image thật
-- Tên server/inventory
-- Tên workflow nội bộ
-- Secret/SSH key names
-- Environment identifiers nội bộ
-
-Nhờ vậy bài vẫn giữ nguyên technical logic, nhưng không làm lộ infrastructure thật.
