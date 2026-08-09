@@ -101,6 +101,14 @@ FROM <private-registry>/<company-base-image>:node_12_xx_xx
 
 `FROM` xác định runtime nền tảng mà app sử dụng. Team thường chuẩn hóa image base để các project có môi trường thống nhất.
 
+Nói ngắn gọn để tránh nhầm:
+
+> **`FROM` không phải là copy source code.**
+>
+> **Nó cũng không phải là chạy application.**
+>
+> **Nó chỉ nói: "Image mới của tôi sẽ bắt đầu từ image này."**
+
 ```text
 Company Base Image
         │
