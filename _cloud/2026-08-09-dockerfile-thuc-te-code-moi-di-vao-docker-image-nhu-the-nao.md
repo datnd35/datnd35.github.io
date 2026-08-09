@@ -2,7 +2,7 @@
 track: "devops-cicd"
 layout: post
 title: "🐳 Dockerfile ở project thực tế"
-date: 2026-08-09 16:30:00 +0700
+date: 2026-08-09 09:00:00 +0700
 categories: cloud
 tags:
   [
