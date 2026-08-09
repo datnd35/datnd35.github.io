@@ -38,7 +38,7 @@ permalink: /security/
   <p>Kiến thức thực chiến về bảo mật phần mềm — từ Web Security, Authentication, Authorization đến OWASP, Cryptography và Secure Coding Practices.</p>
 </div>
 
-{% assign all_posts = site.security | sort: 'date' | reverse %}
+{% assign all_posts = site.security | sort: 'date' %}
 {% assign web_posts       = all_posts | where: "track", "web-security" %}
 {% assign auth_posts      = all_posts | where: "track", "authentication-authorization" %}
 {% assign owasp_posts     = all_posts | where: "track", "owasp" %}
@@ -46,10 +46,16 @@ permalink: /security/
 {% assign secure_posts    = all_posts | where: "track", "secure-coding" %}
 {% assign devsecops_posts = all_posts | where: "track", "devsecops" %}
 
+{% assign section1_count = web_posts.size | plus: owasp_posts.size | plus: auth_posts.size %}
+{% assign section2_count = secure_posts.size | plus: crypto_posts.size | plus: devsecops_posts.size %}
+
+{% if section1_count > 0 %}
+
 <div class="lt-section">
   <h2>1. Web &amp; Application Security</h2>
   <ul class="lt-track-list">
 
+    {% if web_posts.size > 0 %}
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('sec-web', this)">
         Web Security Fundamentals <span class="arrow">▶</span>
@@ -65,7 +71,9 @@ permalink: /security/
         </ul>
       </div>
     </li>
+    {% endif %}
 
+    {% if owasp_posts.size > 0 %}
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('sec-owasp', this)">
         OWASP Top 10 <span class="arrow">▶</span>
@@ -81,7 +89,9 @@ permalink: /security/
         </ul>
       </div>
     </li>
+    {% endif %}
 
+    {% if auth_posts.size > 0 %}
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('sec-auth', this)">
         Authentication &amp; Authorization (JWT, OAuth2, RBAC) <span class="arrow">▶</span>
@@ -97,14 +107,19 @@ permalink: /security/
         </ul>
       </div>
     </li>
+    {% endif %}
 
   </ul>
 </div>
+{% endif %}
+
+{% if section2_count > 0 %}
 
 <div class="lt-section">
   <h2>2. Secure Development</h2>
   <ul class="lt-track-list">
 
+    {% if secure_posts.size > 0 %}
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('sec-coding', this)">
         Secure Coding Practices <span class="arrow">▶</span>
@@ -120,7 +135,9 @@ permalink: /security/
         </ul>
       </div>
     </li>
+    {% endif %}
 
+    {% if crypto_posts.size > 0 %}
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('sec-crypto', this)">
         Cryptography &amp; Hashing <span class="arrow">▶</span>
@@ -136,7 +153,9 @@ permalink: /security/
         </ul>
       </div>
     </li>
+    {% endif %}
 
+    {% if devsecops_posts.size > 0 %}
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('sec-devsecops', this)">
         DevSecOps &amp; Security in CI/CD <span class="arrow">▶</span>
@@ -152,9 +171,11 @@ permalink: /security/
         </ul>
       </div>
     </li>
+    {% endif %}
 
   </ul>
 </div>
+{% endif %}
 
 </div>
 
