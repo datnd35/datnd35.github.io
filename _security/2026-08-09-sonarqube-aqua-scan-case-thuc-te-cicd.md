@@ -16,8 +16,6 @@ tags:
   ]
 ---
 
-# 🔐 SonarQube & Aqua Scan trong CI/CD – một case thực tế
-
 Trong một project thực tế mình đang làm, **Quality & Security** được kiểm tra ở nhiều lớp. Hai workflow đáng chú ý là **SonarQube Scan** và **Aqua Scan**.
 
 Có thể hình dung architecture như sau:
@@ -42,14 +40,18 @@ Có thể hình dung architecture như sau:
                                                   ▼
                                       ┌─────────────────────┐
                                       │   Aqua Scan         │
-                                      │     Workflow        │
+                                                         │   PR Workflow       │
                                       └──────────┬──────────┘
                                                  │
                                                  ▼
                                       Shared Reusable Workflow
                                                  │
                                                  ▼
-                                            Aqua Scan
+                                                         Aqua / Trivy FS Scan
+                                                                         │
+                                                         ┌──────────┼──────────┐
+                                                         ▼          ▼          ▼
+                                                      Vuln      Secret    Misconfig
 
 
         SonarQube Flow
@@ -116,6 +118,26 @@ pull_request:
 
 Tức là Aqua không chạy ở mọi thời điểm, mà tập trung vào giai đoạn code chuẩn bị được **review và merge**.
 
+**Trong case này, Aqua không scan Docker image tại bước Pull Request.** Workflow checkout source code của PR và thực hiện filesystem scan bằng Aqua/Trivy.
+
+```text
+Pull Request
+   │
+   ▼
+Checkout Source
+   │
+   ▼
+Aqua / Trivy FS Scan
+   │
+ ┌───┼───────────────┐
+ ▼   ▼               ▼
+Vuln Secret      Misconfig
+ │
+ ├── Dependencies
+ ├── SAST
+ └── Reachability
+```
+
 ```text
 Developer
     │
@@ -170,7 +192,7 @@ Aqua Scan lại 🔄
 
 ## 🎯 Tư duy phía sau
 
-Thay vì scan ở mọi nơi, team đặt Aqua vào một **quality/security gate quan trọng trước merge**:
+Thay vì scan ở mọi nơi, team đặt Aqua vào một **security check quan trọng trước merge**:
 
 ```text
                  Developer
@@ -186,6 +208,9 @@ Thay vì scan ở mọi nơi, team đặt Aqua vào một **quality/security gat
               │  Aqua Scan   │
               └──────┬───────┘
                      │
+         ▼
+         Security Result
+         │
               ┌──────┴──────┐
               │             │
              PASS          FAIL
@@ -202,22 +227,50 @@ Thay vì scan ở mọi nơi, team đặt Aqua vào một **quality/security gat
 
 Aqua khi đó không chỉ là scanner, mà là một phần của DevSecOps process.
 
+## 🐳 Còn Docker Image Scan thì sao?
+
+Aqua/Trivy cũng có thể được dùng để scan Docker image sau khi image được build. Tuy nhiên, đó là một security checkpoint khác với PR filesystem scan ở trên.
+
+```text
+PR Stage
+──────────────
+PR
+ ↓
+Aqua FS Scan
+ ↓
+Source / Dependencies / Secrets
+```
+
+```text
+Build Stage
+──────────────
+Docker Build
+ ↓
+Docker Image
+ ↓
+Aqua Image Scan
+```
+
 ## 🧩 SonarQube vs Aqua
 
 ```text
-                 CI/CD Security
-                       │
-             ┌─────────┴─────────┐
-             │                   │
-             ▼                   ▼
-         SonarQube              Aqua
-             │                   │
-             ▼                   ▼
-        Source Code         Container/Image
-             │                   │
-             ▼                   ▼
-     Code Quality &        Security Scan
-        Security
+             CI/CD Quality & Security
+                     │
+          ┌─────────────┴─────────────┐
+          │                           │
+          ▼                           ▼
+       SonarQube                     Aqua
+          │                           │
+          ▼                           ▼
+      Source Code              PR Filesystem
+          │                           │
+      ┌─────┴─────┐              ┌─────┴─────┐
+      ▼           ▼              ▼           ▼
+    Quality    Security       Vuln/Deps    Secrets
+                              Misconfig    SAST
+                                      Reachability
+      ▼
+   Coverage
 ```
 
 **SonarQube:**
@@ -226,6 +279,11 @@ Aqua khi đó không chỉ là scanner, mà là một phần của DevSecOps pro
 
 **Aqua:**
 
-> "Artifact/container có security risk không?"
+> "Thay đổi trong PR có security risk nào mà scanner có thể phát hiện không?"
 
-Hai lớp này bổ sung cho nhau để đưa **Security vào ngay trước khi thay đổi được merge và tiếp tục đi xuống CI/CD pipeline**.
+Hai workflow này bổ sung cho nhau ở các góc độ khác nhau:
+
+- **SonarQube** giúp đánh giá chất lượng và security của source code, đồng thời dùng coverage report để cung cấp thêm thông tin về test coverage.
+- **Aqua** trong workflow PR của project này tập trung vào security scanning trên filesystem của PR: vulnerability, dependencies, secret, misconfiguration, SAST và reachability.
+
+Việc đưa các kiểm tra này vào CI/CD giúp team phát hiện vấn đề sớm hơn, thay vì chờ đến các bước build hoặc deployment mới phát hiện.

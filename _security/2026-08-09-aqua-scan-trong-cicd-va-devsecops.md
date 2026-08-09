@@ -7,8 +7,6 @@ categories: security
 tags: ["DevSecOps", "AquaSecurity", "Trivy", "Docker", "CICD", "CloudSecurity"]
 ---
 
-## 🔐 Aqua Scan là gì? Và nó nằm ở đâu trong CI/CD?
-
 Khi xây dựng CI/CD pipeline, việc code build thành công chưa có nghĩa là ứng dụng đã an toàn.
 
 Security issue có thể xuất hiện từ:

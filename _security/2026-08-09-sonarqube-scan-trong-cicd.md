@@ -17,8 +17,6 @@ tags:
   ]
 ---
 
-## 🔍 SonarQube Scan là gì? Và nó nằm ở đâu trong CI/CD?
-
 Ở bài trước, chúng ta nói về **Aqua Scan** – tập trung kiểm tra container/image.
 
 Nhưng trước khi application được build thành Docker image, một câu hỏi khác cần được trả lời:
