@@ -9,201 +9,240 @@ tags: ["DevSecOps", "AquaSecurity", "Trivy", "Docker", "CICD", "CloudSecurity"]
 
 ## 🔐 Aqua Scan là gì? Và nó nằm ở đâu trong CI/CD?
 
-Khi xây dựng CI/CD pipeline, việc **build được một Docker image chưa có nghĩa là image đó an toàn**.
+Khi xây dựng CI/CD pipeline, việc code build thành công chưa có nghĩa là ứng dụng đã an toàn.
 
-Một image có thể chứa:
+Security issue có thể xuất hiện từ:
 
-- 🔴 Vulnerability trong OS packages
-- 🔴 Vulnerability trong npm/pip/maven dependencies
-- 🔴 Secret bị commit nhầm
-- 🔴 Package có security risk
+- 🔴 Source code
+- 🔴 Dependencies
+- 🔴 Secrets bị commit nhầm
 - 🔴 Configuration không an toàn
+- 🔴 Container image sau khi build
 
-Đây là lúc các tool như **Aqua Security / Trivy** trở nên hữu ích.
+Vì vậy, security scanning thường được đưa trực tiếp vào CI/CD để phát hiện vấn đề càng sớm càng tốt. Trong project thực tế mình đang làm, **Aqua/Trivy được dùng như một lớp scan ngay tại Pull Request**.
 
-## 🏗️ Aqua Scan trong CI/CD
+## 🔎 Trong project thực tế, Aqua được chạy ở đâu?
 
-Có thể hình dung flow đơn giản như sau:
+Workflow thực tế được trigger khi Pull Request ở các trạng thái:
+
+- `opened`
+- `synchronize`
+- `reopened`
+
+Flow tổng quát:
 
 ```text
-              Developer
-                  │
-                  ▼
-             Git Push / PR
-                  │
-                  ▼
-        ┌──────────────────┐
-        │     CI Pipeline  │
-        └────────┬─────────┘
-                 │
-                 ▼
-          ┌──────────────┐
-          │ Build Image  │
-          │   Docker     │
-          └──────┬───────┘
-                 │
-                 ▼
-        ┌──────────────────┐
-        │    Aqua Scan     │
-        │                  │
-        │ Vulnerabilities  │
-        │ Dependencies     │
-        │ Secrets          │
-        │ Misconfigurations│
-        └────────┬─────────┘
-                 │
-          ┌──────┴───────┐
-          │              │
-       PASS ✅        FAIL ❌
-          │              │
-          ▼              ▼
-   Push to Registry   Stop Pipeline
-          │
-          ▼
-       Deploy
+Developer
+    │
+    ▼
+Create / Update PR
+    │
+    ▼
+┌──────────────────────┐
+│   Aqua PR Scan       │
+└──────────┬───────────┘
+           │
+           ▼
+     Checkout Source
+           │
+           ▼
+      Aqua / Trivy
+           │
+     ┌─────┼─────────────┐
+     │     │             │
+     ▼     ▼             ▼
+   Vuln  Secret      Misconfiguration
+     │
+     ├── Dependencies
+     ├── SAST
+     └── Reachability
 ```
 
-## 🔍 Aqua Scan thực hiện gì?
+Điểm quan trọng: workflow này là **filesystem scan trên source đã checkout**, không phải image scan.
 
-Sau khi Docker image được build, scanner sẽ phân tích image và các thành phần bên trong:
+Ví dụ command thường gặp:
+
+```bash
+trivy fs \
+  --scanners misconfig,vuln,secret \
+  --sast \
+  --reachability \
+  .
+```
+
+## 🔍 Aqua Scan có thể kiểm tra những gì?
+
+Aqua/Trivy có thể được dùng theo nhiều cách tùy cách cấu hình pipeline.
+
+### Với PR scan trong project này
 
 ```text
-Docker Image
+Repository / Filesystem
 │
-├── Application
-│   └── Node.js / Java / Python...
-│
+├── Source Code
 ├── Dependencies
-│   ├── npm packages
-│   ├── Maven packages
-│   └── pip packages
-│
-├── OS Packages
-│   ├── Ubuntu
-│   ├── Alpine
-│   └── Debian
-│
-└── Configuration
+├── package-lock.json
+├── Configuration
+└── Other Files
+        │
+        ▼
+   Aqua / Trivy
+        │
+        ├── Vulnerabilities
+        ├── Secrets
+        ├── Misconfigurations
+        ├── SAST
+        └── Reachability
 ```
 
-Scanner sẽ đối chiếu các package/version này với vulnerability databases để tìm những vấn đề đã biết.
+Workflow log cho thấy các scanner cho vulnerability, misconfiguration, secret được bật; đồng thời có thêm SAST và reachability để tăng độ hữu ích của kết quả.
 
-Ví dụ output:
+## 🤔 Tại sao scan ngay ở Pull Request?
+
+Lý do lớn nhất là rút ngắn feedback loop: issue được phát hiện càng sớm thì chi phí sửa càng thấp.
 
 ```text
-express        4.x
-lodash         4.x
-openssl        3.x
-curl           8.x
-        │
-        ▼
-     Aqua Scan
-        │
-        ▼
-┌─────────────────────────┐
-│ CRITICAL    → 2         │
-│ HIGH        → 5         │
-│ MEDIUM      → 12        │
-│ LOW         → 8         │
-└─────────────────────────┘
+                 Cost of Fix
+                     ▲
+                     │                 Production
+                     │                    ●
+                     │                /
+                     │             /
+                     │          ●
+                     │       Build
+                     │    /
+                     │ ●
+                     │ PR
+                     └──────────────────────►
+                           Time
 ```
 
-## 🚦 Quan trọng nhất: Scan không chỉ để "báo lỗi"
+Thay vì chờ đến build/deploy mới phát hiện vulnerability hoặc secret, team có thể xử lý ngay từ lúc PR được tạo hoặc cập nhật. Đây cũng là tinh thần cốt lõi của DevSecOps: **shift security left**.
 
-Trong CI/CD, chúng ta thường kết hợp scanner với **security gate**.
+## 🐳 Một use case khác: Container/Image Scan
 
-Ví dụ:
-
-```yaml
-- name: Scan Docker Image
-  run: |
-    trivy image my-app:${{ github.sha }}
-
-- name: Security Gate
-  if: failure()
-  run: |
-    echo "Security vulnerability detected!"
-    exit 1
-```
-
-Hoặc policy có thể quy định:
+Image scan vẫn rất quan trọng, nhưng là một checkpoint khác với PR filesystem scan.
 
 ```text
-CRITICAL vulnerability
-        │
-        ▼
-   Pipeline FAIL ❌
+Source Code
+    │
+    ▼
+Build Docker Image
+    │
+    ▼
+Aqua / Trivy Image Scan
+    │
+    ▼
+Security Gate
+    │
+ ┌──┴──┐
+PASS  FAIL
+ │      │
+ ▼      ▼
+Push   Stop
+```
 
-HIGH vulnerability
-        │
-        ▼
-   Depends on policy
+Nói ngắn gọn:
+
+```text
+Aqua PR Scan
+      ≠
+Aqua Image Scan
+```
+
+Nhưng cả hai đều có thể cùng tồn tại như nhiều lớp security trong CI/CD.
+
+## 🚦 Security Gate: nên hiểu như policy có thể cấu hình
+
+Scanner không chỉ để “báo lỗi”. Nó thường đi kèm security gate để quyết định pass/fail pipeline theo policy của từng team.
+
+Ví dụ policy (mang tính minh họa):
+
+```text
+CRITICAL
+    ↓
+FAIL ❌
+
+HIGH
+    ↓
+Depends on policy
 
 MEDIUM / LOW
-        │
-        ▼
-   Usually allow
+    ↓
+Depends on policy
 ```
 
-Điều này giúp security được kiểm tra **ngay trong quá trình development**, thay vì chờ đến production mới phát hiện.
+Quan trọng là tách bạch:
 
-## 💡 Một điểm rất quan trọng
+- **Case thực tế của project**: PR filesystem scan với Aqua/Trivy.
+- **Kiến thức tổng quát**: có thể thêm image scan và security gate ở các stage khác.
 
-Aqua Scan không phải là “lá chắn tuyệt đối”.
+## 🧩 Aqua trong bức tranh CI/CD Security
 
-Security scanning chủ yếu giúp phát hiện **known vulnerabilities** và các vấn đề mà scanner có khả năng nhận diện.
-
-Một hệ thống production vẫn cần kết hợp nhiều lớp:
+Security scanning không phải “lá chắn tuyệt đối”, mà là một lớp trong defense-in-depth.
 
 ```text
-                CI/CD
-                  │
-        ┌─────────┴─────────┐
-        │                   │
-   Code Scanning       Dependency Scan
-        │                   │
-        ├─────────┬─────────┤
-                  │
-             Aqua / Trivy
-                  │
-        ┌─────────┴─────────┐
-        │                   │
-   Container Scan      Secret Scan
-        │                   │
-        └─────────┬─────────┘
-                  │
-             Security Gate
-                  │
-                  ▼
-               Deploy 🚀
+                 CI/CD Security
+                       │
+          ┌────────────┴────────────┐
+          │                         │
+          ▼                         ▼
+      PR Security              Image Security
+          │                         │
+          ▼                         ▼
+   Source / Dependencies      Docker Image
+          │                         │
+          └────────────┬────────────┘
+                       ▼
+                  Aqua / Trivy
+                       │
+                       ▼
+                 Security Gate
 ```
+
+Ngoài Aqua/Trivy, team vẫn nên kết hợp thêm các lớp khác như code quality scan, runtime protection, monitoring và incident response.
 
 ## 🎯 Kết luận
 
-Nếu CI/CD chỉ có:
+Aqua không chỉ là “tool scan Docker image”. Trong thực tế, nó có thể nằm ở nhiều điểm trong pipeline.
+
+Với case ở bài này, điểm nhấn là:
 
 ```text
-Code → Build → Deploy
+PR → Aqua/Trivy fs scan → Feedback sớm → Fix trước khi merge
 ```
 
-thì chúng ta đang kiểm tra chủ yếu **"ứng dụng có chạy được không?"**
-
-Khi thêm security scanning:
+Khi pipeline có thêm security scanning và security gate, team không chỉ hỏi:
 
 ```text
-Code
-  ↓
-Build
-  ↓
-Scan 🔍
-  ↓
-Security Gate 🛡️
-  ↓
-Deploy 🚀
+Code có chạy được không?
 ```
 
-thì pipeline bắt đầu kiểm tra thêm:
+Mà còn hỏi thêm:
 
-> **"Ứng dụng có đủ an toàn để deploy không?"**
+```text
+Code có đủ an toàn để đi tiếp không?
+```
 
-Đó chính là một trong những bước quan trọng để đưa **DevSecOps** vào CI/CD.
+Đó là bước chuyển quan trọng từ CI/CD truyền thống sang mindset DevSecOps.
+
+---
+
+Nếu bạn đang theo dõi series CI/CD Quality & Security, có thể xem hai mảng này như sau:
+
+```text
+             CI/CD Quality & Security
+                       │
+             ┌─────────┴─────────┐
+             │                   │
+             ▼                   ▼
+         SonarQube             Aqua
+             │                   │
+             ▼                   ▼
+       Source Quality       Security Analysis
+             │                   │
+       Code Smell          Vulnerability
+       Bugs                Secrets
+       Coverage            Misconfiguration
+                           Dependencies
+```
