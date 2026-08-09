@@ -4,7 +4,17 @@ layout: post
 title: "SonarQube Scan là gì? Và nó nằm ở đâu trong CI/CD"
 date: 2026-08-09 10:30:00 +0700
 categories: security
-tags: ["SonarQube", "DevSecOps", "CICD", "CodeQuality", "Docker", "Kubernetes", "Security", "CleanCode"]
+tags:
+  [
+    "SonarQube",
+    "DevSecOps",
+    "CICD",
+    "CodeQuality",
+    "Docker",
+    "Kubernetes",
+    "Security",
+    "CleanCode",
+  ]
 ---
 
 ## 🔍 SonarQube Scan là gì? Và nó nằm ở đâu trong CI/CD?
@@ -81,17 +91,15 @@ Ví dụ:
 
 ```javascript
 function getUser(id) {
-    const user = db.query(
-        "SELECT * FROM users WHERE id = " + id
-    );
+  const user = db.query("SELECT * FROM users WHERE id = " + id);
 
-    return user;
+  return user;
 }
 ```
 
 SonarQube có thể phát hiện đây là pattern có khả năng dẫn tới **SQL Injection**.
 
-Thay vì chỉ nhìn: *"Code chạy được"*, chúng ta muốn biết thêm: *"Code có an toàn, maintainable và ít technical debt không?"*
+Thay vì chỉ nhìn: _"Code chạy được"_, chúng ta muốn biết thêm: _"Code có an toàn, maintainable và ít technical debt không?"_
 
 ## 🛡️ Quality Gate
 
