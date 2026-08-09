@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 🏗️ Architecture
+title: 📱 Mobile
 permalink: /architecture/
 ---
 
@@ -34,50 +34,16 @@ permalink: /architecture/
 <div class="lt-page">
 
 <div class="lt-hero">
-  <h1>Learning Tracks: Architecture</h1>
-  <p>System Design, Software Architecture, scalability và các patterns kiến trúc phần mềm hiện đại.</p>
+  <h1>Learning Tracks: Mobile</h1>
+  <p>Mobile development, hybrid app architecture và cross-platform best practices với Ionic + Capacitor.</p>
 </div>
 
 {% assign all_posts = site.architecture | sort: 'date' | reverse %}
 {% assign mobile_posts = all_posts | where: "track", "mobile-cross-platform" %}
-{% assign infra_posts  = all_posts | where: "track", "infra-patterns" %}
-{% assign sd_posts     = all_posts | where: "track", "system-design" %}
 
 <div class="lt-section">
-  <h2>🏗️ Architecture Tracks</h2>
+  <h2>📱 Mobile Track</h2>
   <ul class="lt-track-list">
-
-    <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('arch-sd', this)">
-        System Design <span class="arrow">▶</span>
-      </button>
-      <div class="lt-panel" id="arch-sd">
-        <ul>
-          {% for post in sd_posts %}
-          <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </li>
-
-    <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('arch-infra', this)">
-        Infrastructure Patterns (Docker, SOLID, Redis) <span class="arrow">▶</span>
-      </button>
-      <div class="lt-panel" id="arch-infra">
-        <ul>
-          {% for post in infra_posts %}
-          <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </li>
 
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('arch-mobile', this)">
