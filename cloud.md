@@ -38,11 +38,12 @@ permalink: /cloud/
   <p>AWS, Docker, Kubernetes, CI/CD, Infrastructure as Code — học Cloud theo lộ trình có hệ thống từ nền tảng đến thực chiến.</p>
 </div>
 
-{% assign all_posts = site.cloud | sort: 'date' | reverse %}
+{% assign all_posts = site.cloud | sort: 'date' %}
 {% assign cloud_fund_posts = all_posts | where: "track", "cloud-fundamentals" %}
 {% assign aws_core_posts   = all_posts | where: "track", "aws-core" %}
 {% assign aws_adv_posts    = all_posts | where: "track", "aws-advanced" %}
 {% assign aws_iac_posts    = all_posts | where: "track", "aws-iac-cicd" %}
+{% assign devops_posts     = all_posts | where: "track", "devops-cicd" %}
 
 <div class="lt-section">
   <h2>☁️ Cloud Tracks</h2>
@@ -103,6 +104,29 @@ permalink: /cloud/
       <div class="lt-panel" id="cloud-iac">
         <ul>
           {% for post in aws_iac_posts %}
+          <li>
+            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+
+  </ul>
+</div>
+
+<div class="lt-section">
+  <h2>🛠️ DevOps Tracks</h2>
+  <ul class="lt-track-list">
+
+    <li class="lt-track-item">
+      <button class="lt-track-btn" onclick="togglePanel('devops-cicd', this)">
+        CI/CD thực chiến (GitHub Actions, Docker, Ansible) <span class="arrow">▶</span>
+      </button>
+      <div class="lt-panel" id="devops-cicd">
+        <ul>
+          {% for post in devops_posts %}
           <li>
             <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <a href="{{ post.url }}">{{ post.title }}</a>
