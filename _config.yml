@@ -23,6 +23,7 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
+  - tam-ly-hoc.md
   - investment.md
   - business.md
   - vue.md
@@ -135,6 +136,9 @@ collections:
   weekly-tech-talk:
     output: true
     permalink: /weekly-tech-talk/:title/
+  psychology:
+    output: true
+    permalink: /:collection/:path/
 
 future: true
 
