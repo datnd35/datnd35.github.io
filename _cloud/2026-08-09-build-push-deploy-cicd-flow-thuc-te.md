@@ -168,3 +168,13 @@ Server             → runtime
 ```
 
 Đây là cách tách lớp rõ ràng, dễ scale và dễ audit trong CI/CD.
+
+## 🔗 Bài liên quan
+
+{% assign aqua_post = site.security | where_exp: "p", "p.title contains 'Aqua Scan là gì?'" | first %}
+{% assign sonar_post = site.security | where_exp: "p", "p.title contains 'SonarQube Scan là gì?'" | first %}
+{% assign case_post = site.security | where_exp: "p", "p.title contains 'SonarQube & Aqua Scan trong CI/CD'" | first %}
+
+- **2026-08-09** — [Aqua Scan là gì? Và nó nằm ở đâu trong CI/CD]({{ aqua_post.url }})
+- **2026-08-09** — [SonarQube Scan là gì? Và nó nằm ở đâu trong CI/CD]({{ sonar_post.url }})
+- **2026-08-09** — [SonarQube & Aqua Scan trong CI/CD – một case thực tế]({{ case_post.url }})
