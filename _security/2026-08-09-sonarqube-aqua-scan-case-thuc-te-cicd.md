@@ -16,274 +16,107 @@ tags:
   ]
 ---
 
-Trong một project thực tế mình đang làm, **Quality & Security** được kiểm tra ở nhiều lớp. Hai workflow đáng chú ý là **SonarQube Scan** và **Aqua Scan**.
+# 🔐 SonarQube & Aqua Scan trong CI/CD – một case thực tế
 
-Có thể hình dung architecture như sau:
+Trong project này, mình dùng cả **SonarQube** và **Aqua/Trivy** ở giai đoạn PR. Nhìn bề ngoài có vẻ trùng nhau vì cả hai cùng “đụng” vào source code, nhưng mục tiêu khác nhau.
 
 ```text
-                         ┌──────────────────────┐
-                         │   Git Repository     │
-                         └──────────┬───────────┘
-                                    │
-                         ┌──────────┴──────────┐
-                         │                     │
-                         ▼                     ▼
-                  SonarQube Workflow      Pull Request
-                         │                     │
-              ┌──────────┴──────────┐         │
-              │                     │         │
-              ▼                     ▼         ▼
-       Manual Trigger        Reusable Call   opened
-                                              synchronize
-                                              reopened
-                                                  │
-                                                  ▼
-                                      ┌─────────────────────┐
-                                      │   Aqua Scan         │
-                                                         │   PR Workflow       │
-                                      └──────────┬──────────┘
-                                                 │
-                                                 ▼
-                                      Shared Reusable Workflow
-                                                 │
-                                                 ▼
-                                                         Aqua / Trivy FS Scan
-                                                                         │
-                                                         ┌──────────┼──────────┐
-                                                         ▼          ▼          ▼
-                                                      Vuln      Secret    Misconfig
-
-
-        SonarQube Flow
-              │
-              ▼
-     ┌──────────────────┐
-     │ Self-hosted      │
-     │ Runner           │
-     └────────┬─────────┘
-              │
-       ┌──────┴───────┐
-       ▼              ▼
- Source Code    coverage/lcov.info
-       │              │
-       └──────┬───────┘
-              ▼
-       ┌──────────────┐
-       │  SonarQube   │
-       │     Scan     │
-       └──────┬───────┘
-              ▼
-       Quality & Security
-          Analysis
+                    Source Code / PR
+                          │
+             ┌────────────┴────────────┐
+             │                         │
+             ▼                         ▼
+        SonarQube                    Aqua
+             │                         │
+             ▼                         ▼
+      Code Analysis              Security Scanning
+             │                         │
+     ┌───────┼───────┐          ┌──────┼────────┐
+     ▼       ▼       ▼          ▼      ▼        ▼
+   Bugs   Code Smell Security   Vuln  Secret  Misconfig
+             │                         │
+             ▼                         ├── SAST
+         Coverage                      └── Reachability
 ```
 
-## 🔍 SonarQube Scan
+## 🔍 SonarQube trong workflow này
 
-SonarQube tập trung vào **source code**.
-
-Flow đơn giản:
+SonarQube nhận:
 
 ```text
 Source Code
-     │
-     ├──────────────┐
-     │              │
-     ▼              ▼
- Code          Coverage Report
-     │              │
-     └───────┬──────┘
-             ▼
-        SonarQube
-             │
-             ▼
-   Quality & Security Analysis
+    +
+coverage/lcov.info
+    ↓
+SonarQube
 ```
 
-Coverage report được lấy từ artifact của bước test trước đó:
+Trọng tâm là **code quality + code security**: bug, code smell, security issue, coverage.
 
-- Nếu `lcov.info` tồn tại → SonarQube có thêm coverage data.
-- Nếu không tồn tại → scan vẫn chạy, nhưng thiếu coverage information.
+## 🛡️ Aqua/Trivy trong workflow này
 
-## 🛡️ Tại sao Aqua Scan lại chạy khi có Pull Request?
+Aqua được trigger theo PR lifecycle (`opened`, `synchronize`, `reopened`) và chạy **filesystem scan** trên code đã checkout.
 
-Aqua workflow được trigger bởi Pull Request lifecycle:
-
-```yaml
-pull_request:
-  types:
-    - opened
-    - synchronize
-    - reopened
+```bash
+trivy fs \
+  --scanners misconfig,vuln,secret \
+  --sast \
+  --reachability \
+  .
 ```
 
-Tức là Aqua không chạy ở mọi thời điểm, mà tập trung vào giai đoạn code chuẩn bị được **review và merge**.
+Nghĩa là trong case này, Aqua tập trung vào:
 
-**Trong case này, Aqua không scan Docker image tại bước Pull Request.** Workflow checkout source code của PR và thực hiện filesystem scan bằng Aqua/Trivy.
+- vulnerability (đặc biệt dependency)
+- secret
+- misconfiguration
+- SAST
+- reachability
+
+> Trong workflow PR này, Aqua **không mặc định là image scan**.
+
+## 🤝 Vì sao chạy cả hai?
+
+Không phải:
+
+> SonarQube scan code, Aqua scan container.
+
+Mà là:
+
+> SonarQube và Aqua có overlap một phần, nhưng phục vụ mục tiêu khác nhau trong quality/security.
 
 ```text
-Pull Request
-   │
-   ▼
-Checkout Source
-   │
-   ▼
-Aqua / Trivy FS Scan
-   │
- ┌───┼───────────────┐
- ▼   ▼               ▼
-Vuln Secret      Misconfig
- │
- ├── Dependencies
- ├── SAST
- └── Reachability
+                  Pull Request
+                       │
+             ┌─────────┴─────────┐
+             │                   │
+             ▼                   ▼
+        SonarQube              Aqua
+             │                   │
+      "Code này có           "Có security
+       vấn đề gì?"            risk gì?"
+             │                   │
+       ┌─────┼─────┐       ┌─────┼─────┐
+       ▼     ▼     ▼       ▼     ▼     ▼
+      Bug  Smell Security  Vuln Secret Config
+                       │
+                       ├── Dependency
+                       ├── SAST
+                       └── Reachability
 ```
-
-```text
-Developer
-    │
-    ▼
-Create PR
-    │
-    ▼
-Aqua Scan 🔍
-    │
-    ├── Security OK ✅
-    │       │
-    │       ▼
-    │     Review
-    │       │
-    │       ▼
-    │     Merge
-    │
-    └── Vulnerability ❌
-            │
-            ▼
-       Fix & Push
-            │
-            ▼
-       Aqua Scan 🔄
-```
-
-### `synchronize` đặc biệt quan trọng
-
-Khi PR được update bằng commit mới, event `synchronize` sẽ trigger scan lại:
-
-```text
-Commit A
-   │
-   ▼
-Pull Request
-   │
-   ▼
-Aqua Scan
-
-Commit A → Commit B
-        │
-        ▼
-PR updated
-   │
-synchronize
-   │
-   ▼
-Aqua Scan lại 🔄
-```
-
-Điều này đảm bảo security check luôn bám theo nội dung mới nhất của PR.
-
-## 🎯 Tư duy phía sau
-
-Thay vì scan ở mọi nơi, team đặt Aqua vào một **security check quan trọng trước merge**:
-
-```text
-                 Developer
-                     │
-                     ▼
-                  Coding
-                     │
-                     ▼
-                Pull Request
-                     │
-                     ▼
-              ┌──────────────┐
-              │  Aqua Scan   │
-              └──────┬───────┘
-                     │
-         ▼
-         Security Result
-         │
-              ┌──────┴──────┐
-              │             │
-             PASS          FAIL
-              │             │
-              ▼             ▼
-           Review         Fix Code
-              │             │
-              ▼             └──────► Scan again
-            Merge
-              │
-              ▼
-          Deployment
-```
-
-Aqua khi đó không chỉ là scanner, mà là một phần của DevSecOps process.
 
 ## 🐳 Còn Docker Image Scan thì sao?
 
-Aqua/Trivy cũng có thể được dùng để scan Docker image sau khi image được build. Tuy nhiên, đó là một security checkpoint khác với PR filesystem scan ở trên.
+Aqua/Trivy vẫn có thể scan Docker image ở build stage, nhưng đó là **checkpoint khác** với PR filesystem scan trong bài này.
 
 ```text
-PR Stage
-──────────────
-PR
- ↓
-Aqua FS Scan
- ↓
-Source / Dependencies / Secrets
+PR Stage:      PR -> Aqua FS Scan -> Source/Dependency/Security findings
+Build Stage:   Docker Build -> Aqua Image Scan -> Image findings
 ```
 
-```text
-Build Stage
-──────────────
-Docker Build
- ↓
-Docker Image
- ↓
-Aqua Image Scan
-```
+## ✅ Kết luận ngắn
 
-## 🧩 SonarQube vs Aqua
+- **SonarQube:** “Code có vấn đề về quality hoặc security không?”
+- **Aqua:** “Source, dependencies và thành phần liên quan trong PR có security risk nào không?”
 
-```text
-             CI/CD Quality & Security
-                     │
-          ┌─────────────┴─────────────┐
-          │                           │
-          ▼                           ▼
-       SonarQube                     Aqua
-          │                           │
-          ▼                           ▼
-      Source Code              PR Filesystem
-          │                           │
-      ┌─────┴─────┐              ┌─────┴─────┐
-      ▼           ▼              ▼           ▼
-    Quality    Security       Vuln/Deps    Secrets
-                              Misconfig    SAST
-                                      Reachability
-      ▼
-   Coverage
-```
-
-**SonarQube:**
-
-> "Code có vấn đề về quality hoặc security không?"
-
-**Aqua:**
-
-> "Thay đổi trong PR có security risk nào mà scanner có thể phát hiện không?"
-
-Hai workflow này bổ sung cho nhau ở các góc độ khác nhau:
-
-- **SonarQube** giúp đánh giá chất lượng và security của source code, đồng thời dùng coverage report để cung cấp thêm thông tin về test coverage.
-- **Aqua** trong workflow PR của project này tập trung vào security scanning trên filesystem của PR: vulnerability, dependencies, secret, misconfiguration, SAST và reachability.
-
-Việc đưa các kiểm tra này vào CI/CD giúp team phát hiện vấn đề sớm hơn, thay vì chờ đến các bước build hoặc deployment mới phát hiện.
+Hai workflow này bổ sung cho nhau, giúp phát hiện vấn đề sớm trước merge thay vì đợi tới build/deploy.
