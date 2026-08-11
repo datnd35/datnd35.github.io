@@ -1,10 +1,11 @@
 ---
 layout: post
-track: "cryptography"
 title: "Symmetric Key Encryption"
 date: 2026-08-11 14:30:00 +0700
-categories: security
-published: false
+categories: architecture
+track: "software-architecture"
+section: "security"
+description: "Giải thích Symmetric Key Encryption trong network security: cách hoạt động, ưu điểm hiệu năng, và hạn chế lớn nhất là bài toán chia sẻ key với client không tin cậy."
 ---
 
 ## Vì sao phải học encryption trước khi học network security?

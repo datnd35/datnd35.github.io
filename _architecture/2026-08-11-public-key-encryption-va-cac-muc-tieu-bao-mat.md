@@ -1,10 +1,11 @@
 ---
 layout: post
-track: "cryptography"
 title: "Public Key Encryption"
 date: 2026-08-11 16:10:00 +0700
-categories: security
-published: false
+categories: architecture
+track: "software-architecture"
+section: "security"
+description: "Public Key Encryption giải quyết bài toán key distribution của Symmetric Encryption, đồng thời cung cấp confidentiality, authentication, integrity và non-repudiation khi dùng đúng cách."
 ---
 
 ## Vì sao cần Public Key Encryption?
