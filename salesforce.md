@@ -78,7 +78,7 @@ permalink: /salesforce/
   <p>Learning path về Salesforce cho dev/tech lead: platform fundamentals, development, integration và delivery practice.</p>
 </div>
 
-{% assign all_posts = site.salesforce | sort: 'date' | reverse %}
+{% assign all_posts = site.salesforce | sort: 'date' %}
 {% assign sf_fundamentals = all_posts | where: "track", "fundamentals" %}
 {% assign sf_dev = all_posts | where: "track", "development" %}
 {% assign sf_integration = all_posts | where: "track", "integration" %}
@@ -87,6 +87,7 @@ permalink: /salesforce/
   <h2>☁️ Salesforce Tracks</h2>
   <ul class="lt-track-list">
 
+    {% if sf_fundamentals.size > 0 %}
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('sf-fundamentals', this)">
         Fundamentals (Org, Data Model, Security) <span class="arrow">▶</span>
@@ -99,11 +100,12 @@ permalink: /salesforce/
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </li>
           {% endfor %}
-          {% if sf_fundamentals.size == 0 %}<li><span class="empty">Chưa có bài viết.</span></li>{% endif %}
         </ul>
       </div>
     </li>
+    {% endif %}
 
+    {% if sf_dev.size > 0 %}
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('sf-development', this)">
         Development (Apex, LWC, Automation) <span class="arrow">▶</span>
@@ -116,11 +118,12 @@ permalink: /salesforce/
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </li>
           {% endfor %}
-          {% if sf_dev.size == 0 %}<li><span class="empty">Chưa có bài viết.</span></li>{% endif %}
         </ul>
       </div>
     </li>
+    {% endif %}
 
+    {% if sf_integration.size > 0 %}
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('sf-integration', this)">
         Integration & Delivery (API, Auth, CI/CD) <span class="arrow">▶</span>
@@ -133,10 +136,18 @@ permalink: /salesforce/
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </li>
           {% endfor %}
-          {% if sf_integration.size == 0 %}<li><span class="empty">Chưa có bài viết.</span></li>{% endif %}
         </ul>
       </div>
     </li>
+    {% endif %}
+
+    {% if sf_fundamentals.size == 0 and sf_dev.size == 0 and sf_integration.size == 0 %}
+    <li class="lt-track-item">
+      <div class="lt-panel visible" style="margin-left: 0; border-left: 0; padding-left: 0; background: transparent;">
+        <span class="empty">Chưa có bài viết cho Salesforce.</span>
+      </div>
+    </li>
+    {% endif %}
 
   </ul>
 </div>
