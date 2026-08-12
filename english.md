@@ -64,10 +64,16 @@ permalink: /english/
   </div>
 
 {% assign all_posts = site.english | sort: 'date' | reverse %}
-{% assign system_posts = all_posts | where_exp: "post", "post.title contains 'Deep Learning' or post.title contains 'Short Stories'" %}
+{% assign system_deep_learning_posts = all_posts | where_exp: "post", "post.title contains 'Deep Learning'" %}
+{% assign system_short_stories_posts = all_posts | where_exp: "post", "post.title contains 'Short Stories'" %}
+{% assign system_posts = system_deep_learning_posts | concat: system_short_stories_posts | uniq %}
 {% assign pronunciation_posts = all_posts | where_exp: "post", "post.title contains 'Pronunciation'" %}
-{% assign vocabulary_posts = all_posts | where_exp: "post", "post.title contains 'Từ Vựng' or post.title contains 'Vocabulary'" %}
-{% assign communication_posts = all_posts | where_exp: "post", "post.title contains 'Communication' or post.title contains 'Interview'" %}
+{% assign vocabulary_tuvung_posts = all_posts | where_exp: "post", "post.title contains 'Từ Vựng'" %}
+{% assign vocabulary_vocab_posts = all_posts | where_exp: "post", "post.title contains 'Vocabulary'" %}
+{% assign vocabulary_posts = vocabulary_tuvung_posts | concat: vocabulary_vocab_posts | uniq %}
+{% assign communication_comm_posts = all_posts | where_exp: "post", "post.title contains 'Communication'" %}
+{% assign communication_interview_posts = all_posts | where_exp: "post", "post.title contains 'Interview'" %}
+{% assign communication_posts = communication_comm_posts | concat: communication_interview_posts | uniq %}
 
   <ul class="en-list">
     <li class="en-item">

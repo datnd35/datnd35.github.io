@@ -734,9 +734,13 @@ Không màu mè. Không cache. Chạy là chạy.
 
 Ví dụ:
 
+{% raw %}
+
 ```html
 <p>{{ randomNumber() }}</p>
 ```
+
+{% endraw %}
 
 ```js
 methods: {

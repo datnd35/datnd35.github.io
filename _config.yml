@@ -35,6 +35,7 @@ header_pages:
   - system-design.md
   - software-architecture.md
   - cloud.md
+  - salesforce.md
   - leadership.md
   - technical-manager.md
   - learning.md
@@ -110,6 +111,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   cloud:
+    output: true
+    permalink: /:collection/:path/
+  salesforce:
     output: true
     permalink: /:collection/:path/
   english:

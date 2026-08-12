@@ -173,9 +173,11 @@ excerpt: "Tìm hiểu về computed properties trong Vue.js, caching, writable c
 
 - Giả sử có một bài toán đơn giản: hiển thị tên đầy đủ dựa trên tên và họ.
 - Dùng template expression:
+  {% raw %}
   ```html
   <span>{{ firstName + ' ' + lastName }}</span>
   ```
+  {% endraw %}
 - Vấn đề:
   - Nếu tên hoặc họ thay đổi, Vue sẽ phải re-render toàn bộ phần tử.
   - Không tối ưu cho hiệu suất.

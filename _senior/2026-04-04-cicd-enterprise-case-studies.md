@@ -472,6 +472,8 @@ jobs:
 
 Tận dụng cache để giảm thời gian:
 
+{% raw %}
+
 ```yaml
 - uses: actions/cache@v4
   with:
@@ -479,6 +481,8 @@ Tận dụng cache để giảm thời gian:
     key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
     restore-keys: ${{ runner.os }}-node-
 ```
+
+{% endraw %}
 
 Dùng `paths` filter để chỉ chạy khi file liên quan thay đổi:
 
@@ -1200,6 +1204,8 @@ Dùng Helm hooks để chạy DB migration, preload config, backup/restore — n
 
 Hiểu rõ hook lifecycle và dùng có kỷ luật:
 
+{% raw %}
+
 ```yaml
 # Job chạy migration TRƯỚC khi upgrade deployment
 apiVersion: batch/v1
@@ -1222,6 +1228,8 @@ spec:
             - secretRef:
                 name: db-secret
 ```
+
+{% endraw %}
 
 Nguyên tắc dùng hooks:
 
