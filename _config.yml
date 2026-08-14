@@ -35,6 +35,7 @@ header_pages:
   - system-design.md
   - software-architecture.md
   - cloud.md
+  - ansible.md
   - salesforce.md
   - leadership.md
   - technical-manager.md
@@ -111,6 +112,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   cloud:
+    output: true
+    permalink: /:collection/:path/
+  ansible:
     output: true
     permalink: /:collection/:path/
   salesforce:
