@@ -92,15 +92,21 @@ permalink: /ansible/
 </div>
 
 {% assign all_posts = site.ansible | sort: 'date' %}
-{% assign s1_intro = all_posts | where_exp: "post", "post.track == 'introduction'" %}
-{% assign s2_config = all_posts | where_exp: "post", "post.track == 'configuration-basic-concepts' or post.track == 'fundamentals'" %}
-{% assign s3_inventory = all_posts | where_exp: "post", "post.track == 'inventory'" %}
-{% assign s4_variables = all_posts | where_exp: "post", "post.track == 'variables'" %}
-{% assign s5_playbooks = all_posts | where_exp: "post", "post.track == 'playbooks'" %}
-{% assign s6_modules = all_posts | where_exp: "post", "post.track == 'modules'" %}
-{% assign s7_roles = all_posts | where_exp: "post", "post.track == 'handlers-roles-collections' or post.track == 'automation'" %}
-{% assign s8_advanced = all_posts | where_exp: "post", "post.track == 'advanced-topics' or post.track == 'infra-delivery'" %}
-{% assign s9_appendix = all_posts | where_exp: "post", "post.track == 'appendix'" %}
+{% assign s1_intro = all_posts | where: "track", "introduction" %}
+{% assign s2_config_primary = all_posts | where: "track", "configuration-basic-concepts" %}
+{% assign s2_config_legacy = all_posts | where: "track", "fundamentals" %}
+{% assign s2_config = s2_config_primary | concat: s2_config_legacy %}
+{% assign s3_inventory = all_posts | where: "track", "inventory" %}
+{% assign s4_variables = all_posts | where: "track", "variables" %}
+{% assign s5_playbooks = all_posts | where: "track", "playbooks" %}
+{% assign s6_modules = all_posts | where: "track", "modules" %}
+{% assign s7_roles_primary = all_posts | where: "track", "handlers-roles-collections" %}
+{% assign s7_roles_legacy = all_posts | where: "track", "automation" %}
+{% assign s7_roles = s7_roles_primary | concat: s7_roles_legacy %}
+{% assign s8_advanced_primary = all_posts | where: "track", "advanced-topics" %}
+{% assign s8_advanced_legacy = all_posts | where: "track", "infra-delivery" %}
+{% assign s8_advanced = s8_advanced_primary | concat: s8_advanced_legacy %}
+{% assign s9_appendix = all_posts | where: "track", "appendix" %}
 
 <div class="lt-section">
   <h2>📚 Ansible Course Sections</h2>
