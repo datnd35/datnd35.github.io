@@ -26,6 +26,7 @@ header_pages:
   - tam-ly-hoc.md
   - investment.md
   - business.md
+  - kubernetes.md
   - vue.md
   - communication.md
   - client-management.md
@@ -112,6 +113,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   cloud:
+    output: true
+    permalink: /:collection/:path/
+  kubernetes:
     output: true
     permalink: /:collection/:path/
   ansible:
