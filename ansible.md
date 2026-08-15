@@ -17,47 +17,40 @@ permalink: /ansible/
   border-bottom: 2px solid #eee;
 }
 
-.lt-track-list { list-style: none; padding: 0; margin: 0; }
-.lt-track-item { margin-bottom: 8px; border: 1px solid #eceef3; border-radius: 10px; overflow: hidden; }
+.lt-track-list { list-style: none; padding: 0; margin: 0; counter-reset: track-counter; }
+.lt-track-item { counter-increment: track-counter; margin-bottom: 4px; }
 
 .lt-track-btn {
   display: flex; align-items: center; gap: 12px;
   width: 100%; background: none; border: none;
   text-align: left; cursor: pointer;
-  padding: 14px 16px;
-  font-size: 1rem; color: #1f2a44;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 1rem; color: #1a6fc4;
   transition: background .15s;
 }
-.lt-track-btn:hover { background: #f7faff; }
-.lt-track-btn.active { background: #eef5ff; }
-
-.lt-track-content {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-.lt-track-title {
-  font-size: 1.05rem;
+.lt-track-btn:hover { background: #f0f6ff; text-decoration: underline; }
+.lt-track-btn.active { background: #e8f1ff; font-weight: 600; color: #1050a0; }
+.lt-track-btn::before {
+  content: counter(track-counter) ".";
+  min-width: 22px;
   font-weight: 700;
-  line-height: 1.3;
+  color: #333;
 }
-.lt-track-meta {
-  font-size: 0.95rem;
-  color: #556;
 }
-.lt-track-btn .arrow {
-  margin-left: auto;
-  font-size: 0.9rem;
+  margin-left: auto; font-size: 0.8rem;
+  color: #999;
   color: #889;
   transition: transform .2s;
 }
 .lt-track-btn.active .arrow { transform: rotate(90deg); }
 
 .lt-panel {
-  display: none;
-  margin: 0;
+  margin: 2px 0 6px 36px;
+  padding: 16px 20px;
   padding: 8px 16px 16px;
-  background: #fafbff;
+  border-left: 3px solid #4f8ef7;
+  border-radius: 0 8px 8px 0;
   border-top: 1px solid #e7eefb;
   animation: fadeIn .2s ease;
 }
@@ -75,12 +68,17 @@ permalink: /ansible/
 .lt-panel a:hover { color: #1a6fc4; text-decoration: underline; }
 .lt-panel .empty { font-size: 0.88rem; color: #aaa; font-style: italic; }
 
+.lt-featured {
+  background: #f8fbff;
+  border-left: 4px solid #4f8ef7;
+  padding: 14px 16px;
+  border-radius: 8px;
+}
+.lt-featured ul { list-style: none; padding: 0; margin: 0; }
+.lt-featured li { display: flex; align-items: baseline; gap: 12px; }
+
 @media (max-width: 600px) {
-  .lt-page { padding-top: 24px; }
-  .lt-track-btn { padding: 12px 14px; }
-  .lt-track-title { font-size: 1rem; }
-  .lt-track-meta { font-size: 0.9rem; }
-  .lt-panel { padding: 8px 14px 14px; }
+  .lt-panel { margin-left: 20px; padding: 12px 14px; }
 }
 </style>
 
@@ -88,10 +86,11 @@ permalink: /ansible/
 
 <div class="lt-hero">
   <h1>⚙️ Ansible</h1>
-  <p>Lộ trình Ansible được chia theo các section giống course: từ nền tảng đến các chủ đề nâng cao để bạn học theo từng lớp rõ ràng.</p>
+  <p>Lộ trình Ansible từ cơ bản đến nâng cao, tách rõ phần học theo section và bài mở đầu để bạn theo dõi dễ hơn.</p>
 </div>
 
 {% assign all_posts = site.ansible | sort: 'date' %}
+{% assign featured_posts = all_posts | where: "track", "featured" | reverse %}
 {% assign s1_intro = all_posts | where: "track", "introduction" %}
 {% assign s2_config_primary = all_posts | where: "track", "configuration-basic-concepts" %}
 {% assign s2_config_legacy = all_posts | where: "track", "fundamentals" %}
@@ -109,15 +108,28 @@ permalink: /ansible/
 {% assign s9_appendix = all_posts | where: "track", "appendix" %}
 
 <div class="lt-section">
+  <h2>⭐ Bài mở đầu</h2>
+  <div class="lt-featured">
+    <ul>
+      {% for post in featured_posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+      {% if featured_posts.size == 0 %}
+      <li><span class="empty">Chưa có bài mở đầu.</span></li>
+      {% endif %}
+    </ul>
+  </div>
+</div>
+
+<div class="lt-section">
   <h2>📚 Ansible Course Sections</h2>
   <ul class="lt-track-list">
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('ansible-s1-introduction', this)">
-        <span class="lt-track-content">
-          <span class="lt-track-title">Section 1: Introduction</span>
-          <span class="lt-track-meta">{{ s1_intro.size }}/4 | 8min</span>
-        </span>
-        <span class="arrow">⌄</span>
+        Section 1: Introduction ({{ s1_intro.size }}/4 | 8min) <span class="arrow">▶</span>
       </button>
       <div class="lt-panel" id="ansible-s1-introduction">
         <ul>
@@ -136,11 +148,7 @@ permalink: /ansible/
 
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('ansible-s2-configuration', this)">
-        <span class="lt-track-content">
-          <span class="lt-track-title">Section 2: Configuration and Basic Concepts</span>
-          <span class="lt-track-meta">{{ s2_config.size }}/5 | 21min</span>
-        </span>
-        <span class="arrow">⌄</span>
+        Section 2: Configuration and Basic Concepts ({{ s2_config.size }}/5 | 21min) <span class="arrow">▶</span>
       </button>
       <div class="lt-panel" id="ansible-s2-configuration">
         <ul>
@@ -159,11 +167,7 @@ permalink: /ansible/
 
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('ansible-s3-inventory', this)">
-        <span class="lt-track-content">
-          <span class="lt-track-title">Section 3: Ansible Inventory</span>
-          <span class="lt-track-meta">{{ s3_inventory.size }}/4 | 9min</span>
-        </span>
-        <span class="arrow">⌄</span>
+        Section 3: Ansible Inventory ({{ s3_inventory.size }}/4 | 9min) <span class="arrow">▶</span>
       </button>
       <div class="lt-panel" id="ansible-s3-inventory">
         <ul>
@@ -182,11 +186,7 @@ permalink: /ansible/
 
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('ansible-s4-variables', this)">
-        <span class="lt-track-content">
-          <span class="lt-track-title">Section 4: Ansible Variables</span>
-          <span class="lt-track-meta">{{ s4_variables.size }}/7 | 23min</span>
-        </span>
-        <span class="arrow">⌄</span>
+        Section 4: Ansible Variables ({{ s4_variables.size }}/7 | 23min) <span class="arrow">▶</span>
       </button>
       <div class="lt-panel" id="ansible-s4-variables">
         <ul>
@@ -205,11 +205,7 @@ permalink: /ansible/
 
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('ansible-s5-playbooks', this)">
-        <span class="lt-track-content">
-          <span class="lt-track-title">Section 5: Ansible Playbooks</span>
-          <span class="lt-track-meta">{{ s5_playbooks.size }}/9 | 27min</span>
-        </span>
-        <span class="arrow">⌄</span>
+        Section 5: Ansible Playbooks ({{ s5_playbooks.size }}/9 | 27min) <span class="arrow">▶</span>
       </button>
       <div class="lt-panel" id="ansible-s5-playbooks">
         <ul>
@@ -228,11 +224,7 @@ permalink: /ansible/
 
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('ansible-s6-modules', this)">
-        <span class="lt-track-content">
-          <span class="lt-track-title">Section 6: Ansible Modules</span>
-          <span class="lt-track-meta">{{ s6_modules.size }}/5 | 18min</span>
-        </span>
-        <span class="arrow">⌄</span>
+        Section 6: Ansible Modules ({{ s6_modules.size }}/5 | 18min) <span class="arrow">▶</span>
       </button>
       <div class="lt-panel" id="ansible-s6-modules">
         <ul>
@@ -251,11 +243,7 @@ permalink: /ansible/
 
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('ansible-s7-roles', this)">
-        <span class="lt-track-content">
-          <span class="lt-track-title">Section 7: Ansible Handlers, Roles and Collections</span>
-          <span class="lt-track-meta">{{ s7_roles.size }}/4 | 14min</span>
-        </span>
-        <span class="arrow">⌄</span>
+        Section 7: Ansible Handlers, Roles and Collections ({{ s7_roles.size }}/4 | 14min) <span class="arrow">▶</span>
       </button>
       <div class="lt-panel" id="ansible-s7-roles">
         <ul>
@@ -274,11 +262,7 @@ permalink: /ansible/
 
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('ansible-s8-advanced', this)">
-        <span class="lt-track-content">
-          <span class="lt-track-title">Section 8: Advanced Topics</span>
-          <span class="lt-track-meta">{{ s8_advanced.size }}/4 | 13min</span>
-        </span>
-        <span class="arrow">⌄</span>
+        Section 8: Advanced Topics ({{ s8_advanced.size }}/4 | 13min) <span class="arrow">▶</span>
       </button>
       <div class="lt-panel" id="ansible-s8-advanced">
         <ul>
@@ -297,11 +281,7 @@ permalink: /ansible/
 
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('ansible-s9-appendix', this)">
-        <span class="lt-track-content">
-          <span class="lt-track-title">Section 9: Appendix</span>
-          <span class="lt-track-meta">{{ s9_appendix.size }}/6 | 19min</span>
-        </span>
-        <span class="arrow">⌄</span>
+        Section 9: Appendix ({{ s9_appendix.size }}/6 | 19min) <span class="arrow">▶</span>
       </button>
       <div class="lt-panel" id="ansible-s9-appendix">
         <ul>

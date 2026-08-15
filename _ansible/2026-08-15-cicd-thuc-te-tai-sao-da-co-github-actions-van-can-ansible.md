@@ -3,7 +3,7 @@ layout: post
 title: "🚀 CI/CD thực tế: Tại sao đã có GitHub Actions vẫn cần Ansible?"
 date: 2026-08-15 09:30:00 +0700
 categories: ansible
-track: "infra-delivery"
+track: "featured"
 tags: [ansible, github-actions, cicd, docker, devops, deployment, architecture]
 description: "Giải thích rõ vai trò tách biệt giữa GitHub Actions và Ansible trong CI/CD thực tế: orchestration vs deployment."
 ---
