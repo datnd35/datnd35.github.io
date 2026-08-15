@@ -17,8 +17,8 @@ permalink: /ansible/
   border-bottom: 2px solid #eee;
 }
 
-.lt-track-list { list-style: none; padding: 0; margin: 0; counter-reset: track-counter; }
-.lt-track-item { counter-increment: track-counter; margin-bottom: 4px; }
+.lt-track-list { list-style: none; padding: 0; margin: 0; }
+.lt-track-item { margin-bottom: 4px; }
 
 .lt-track-btn {
   display: flex; align-items: center; gap: 12px;
@@ -31,27 +31,20 @@ permalink: /ansible/
 }
 .lt-track-btn:hover { background: #f0f6ff; text-decoration: underline; }
 .lt-track-btn.active { background: #e8f1ff; font-weight: 600; color: #1050a0; }
-.lt-track-btn::before {
-  content: counter(track-counter) ".";
-  min-width: 22px;
-  font-weight: 700;
-  color: #333;
-}
-}
+.lt-track-btn .arrow {
   margin-left: auto; font-size: 0.8rem;
   color: #999;
-  color: #889;
   transition: transform .2s;
 }
 .lt-track-btn.active .arrow { transform: rotate(90deg); }
 
 .lt-panel {
+  display: none;
   margin: 2px 0 6px 36px;
   padding: 16px 20px;
-  padding: 8px 16px 16px;
+  background: #fafbff;
   border-left: 3px solid #4f8ef7;
   border-radius: 0 8px 8px 0;
-  border-top: 1px solid #e7eefb;
   animation: fadeIn .2s ease;
 }
 .lt-panel.visible { display: block; }
