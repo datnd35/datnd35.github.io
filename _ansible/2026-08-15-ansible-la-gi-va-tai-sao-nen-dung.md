@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🎯 Ansible là gì và tại sao team vận hành nên dùng sớm?"
+title: "Introduction to Ansible "
 date: 2026-08-15 11:10:00 +0700
 categories: ansible
 track: "introduction"
