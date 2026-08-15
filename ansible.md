@@ -79,7 +79,7 @@ permalink: /ansible/
 
 <div class="lt-hero">
   <h1>⚙️ Ansible</h1>
-  <p>Lộ trình Ansible từ cơ bản đến nâng cao, tách rõ phần học theo section và bài mở đầu để bạn theo dõi dễ hơn.</p>
+  <p>Lộ trình Ansible từ cơ bản đến nâng cao, tách rõ phần học theo section và bài mở đầu để bạn theo dõi dễ hơn. <a href="https://www.udemy.com/course/learn-ansible/learn/lecture/7133390#overview" target="_blank" rel="noopener noreferrer">Xem video bài học</a>.</p>
 </div>
 
 {% assign all_posts = site.ansible | sort: 'date' %}
