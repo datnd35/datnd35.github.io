@@ -57,7 +57,7 @@ permalink: /kubernetes/
 
 <div class="lt-section">
   <h2>
-    [Kubernetes for the Absolute Beginners - Hands-on](https://www.udemy.com/course/learn-kubernetes/?couponCode=KEEPLEARNING){:target="_blank"}
+    <a href="https://www.udemy.com/course/learn-kubernetes/?couponCode=KEEPLEARNING" target="_blank">Kubernetes for the Absolute Beginners - Hands-on</a>
   </h2>
   <ul class="lt-track-list">
     <li class="lt-track-item">
