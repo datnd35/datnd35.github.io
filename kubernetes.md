@@ -10,7 +10,11 @@ permalink: /kubernetes/
 .lt-hero h1 { font-size: 1.9rem; font-weight: 800; margin-bottom: 12px; line-height: 1.25; }
 .lt-hero p  { color: #555; font-size: 1rem; line-height: 1.65; margin: 0; }
 .lt-section { margin-bottom: 40px; }
-.lt-section h2 { font-size: 1.25rem; font-weight: 700; margin-bottom: 16px; margin-top: 0; padding-bottom: 10px; border-bottom: 2px solid #eee; }
+.lt-section h2 { font-size: 1.25rem; font-weight: 700; margin-bottom: 16px; margin-top: 0; padding-bottom: 10px; border-bottom: 2px solid #eee; display: flex; align-items: center; gap: 12px; }
+.lt-section h2 a { color: inherit; text-decoration: none; flex: 1; transition: color .2s; }
+.lt-section h2 a:hover { color: #1a6fc4; }
+.lt-section h2 .course-link { display: inline-flex; align-items: center; gap: 6px; padding: 4px 8px; background: #f0f6ff; border-radius: 4px; font-size: 0.85rem; color: #1a6fc4; text-decoration: none; transition: background .2s; white-space: nowrap; }
+.lt-section h2 .course-link:hover { background: #e8f1ff; }
 .lt-track-list { list-style: none; padding: 0; margin: 0; counter-reset: track-counter; }
 .lt-track-item { counter-increment: track-counter; margin-bottom: 4px; }
 .lt-track-btn { display: flex; align-items: center; gap: 12px; width: 100%; background: none; border: none; text-align: left; cursor: pointer; padding: 10px 14px; border-radius: 8px; font-size: 1rem; color: #1a6fc4; transition: background .15s; }
@@ -52,7 +56,10 @@ permalink: /kubernetes/
 {% assign sec10_posts = all_posts | where: "track", "section-10-conclusion" %}
 
 <div class="lt-section">
-  <h2><a href="https://www.udemy.com/course/learn-ansible/learn/lecture/7040832#overview" target="_blank" style="color: inherit; text-decoration: none;">Ansible for the Absolute Beginner - Hands-On - DevOps</a></h2>
+  <h2>
+    <a href="https://www.udemy.com/course/learn-ansible/learn/lecture/7040832#overview" target="_blank">Ansible for the Absolute Beginner - Hands-On - DevOps</a>
+    <a href="https://www.udemy.com/course/learn-ansible/learn/lecture/7040832#overview" target="_blank" class="course-link" title="Go to Udemy course">🔗 Course</a>
+  </h2>
   <ul class="lt-track-list">
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('k8s-sec-1', this)">Section 1: Introduction <span class="arrow">▶</span></button>
