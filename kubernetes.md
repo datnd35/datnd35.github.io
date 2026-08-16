@@ -52,7 +52,7 @@ permalink: /kubernetes/
 {% assign sec10_posts = all_posts | where: "track", "section-10-conclusion" %}
 
 <div class="lt-section">
-  <h2>Course content</h2>
+  <h2><a href="https://www.udemy.com/course/learn-ansible/learn/lecture/7040832#overview" target="_blank" style="color: inherit; text-decoration: none;">Ansible for the Absolute Beginner - Hands-On - DevOps</a></h2>
   <ul class="lt-track-list">
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('k8s-sec-1', this)">Section 1: Introduction <span class="arrow">▶</span></button>
