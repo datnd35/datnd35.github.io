@@ -37,6 +37,7 @@ header_pages:
   - software-architecture.md
   - cloud.md
   - ansible.md
+  - nginx.md
   - salesforce.md
   - leadership.md
   - technical-manager.md
@@ -116,6 +117,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   kubernetes:
+    output: true
+    permalink: /:collection/:path/
+  nginx:
     output: true
     permalink: /:collection/:path/
   ansible:
