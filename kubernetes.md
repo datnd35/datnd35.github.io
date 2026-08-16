@@ -57,8 +57,7 @@ permalink: /kubernetes/
 
 <div class="lt-section">
   <h2>
-    <a href="https://www.udemy.com/course/learn-ansible/learn/lecture/7040832#overview" target="_blank">Ansible for the Absolute Beginner - Hands-On - DevOps</a>
-    <a href="https://www.udemy.com/course/learn-ansible/learn/lecture/7040832#overview" target="_blank" class="course-link" title="Go to Udemy course">🔗 Course</a>
+    [Kubernetes for the Absolute Beginners - Hands-on](https://www.udemy.com/course/learn-kubernetes/?couponCode=KEEPLEARNING){:target="_blank"}
   </h2>
   <ul class="lt-track-list">
     <li class="lt-track-item">
