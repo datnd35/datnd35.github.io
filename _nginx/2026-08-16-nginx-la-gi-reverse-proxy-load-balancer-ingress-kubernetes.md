@@ -19,6 +19,8 @@ NGINX thường được dùng cho:
 - 🔒 SSL/TLS termination: xử lý HTTPS
 - ☸️ Kubernetes Ingress Controller
 
+> 🔗 **Project demo:** [k8s-voting-demo](https://github.com/datnd35/k8s-voting-demo)
+
 ---
 
 ## 1) Nếu chưa có NGINX
