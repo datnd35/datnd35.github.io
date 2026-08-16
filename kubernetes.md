@@ -59,6 +59,9 @@ permalink: /kubernetes/
   <h2>
     <a href="https://www.udemy.com/course/learn-kubernetes/?couponCode=KEEPLEARNING" target="_blank">Kubernetes for the Absolute Beginners - Hands-on</a>
   </h2>
+  <h3>
+    <a href="https://github.com/datnd35/k8s-voting-demo" target="_blank">Project demo</a>
+  </h3>
   <ul class="lt-track-list">
     <li class="lt-track-item">
       <button class="lt-track-btn" onclick="togglePanel('k8s-sec-1', this)">Section 1: Introduction <span class="arrow">▶</span></button>
