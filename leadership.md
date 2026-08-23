@@ -37,14 +37,15 @@ permalink: /leadership/
 .lt-track-btn {
   display: flex; align-items: center; gap: 12px;
   width: 100%; background: none; border: none;
-  text-align: left; cursor: pointer;
+  text-align: left; cursor: default;
   padding: 10px 14px;
   border-radius: 8px;
-  font-size: 1rem; color: #1a6fc4;
-  transition: background .15s;
+  font-size: 1rem; color: #1f2937;
+  font-weight: 600;
+  pointer-events: none;
 }
-.lt-track-btn:hover { background: #f0f6ff; text-decoration: underline; }
-.lt-track-btn.active { background: #e8f1ff; font-weight: 600; color: #1050a0; }
+.lt-track-btn:hover { background: none; text-decoration: none; }
+.lt-track-btn.active { background: none; font-weight: 600; color: #1f2937; }
 
 .lt-track-btn::before {
   content: counter(track-counter) ".";
@@ -56,17 +57,18 @@ permalink: /leadership/
   margin-left: auto; font-size: 0.8rem;
   color: #999; transition: transform .2s;
 }
+.lt-track-btn .arrow { display: none; }
 .lt-track-btn.active .arrow { transform: rotate(90deg); }
 
 /* ── Post panel ───────────────────────────────────── */
 .lt-panel {
-  display: none;
+  display: block;
   margin: 2px 0 6px 36px;
   padding: 16px 20px;
   background: #fafbff;
   border-left: 3px solid #4f8ef7;
   border-radius: 0 8px 8px 0;
-  animation: fadeIn .2s ease;
+  animation: none;
 }
 .lt-panel.visible { display: block; }
 @keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
@@ -625,15 +627,15 @@ permalink: /leadership/
 
 <script>
 function togglePanel(panelId, btn) {
-  var panel = document.getElementById(panelId);
-  var isOpen = panel.classList.contains('visible');
-
-  document.querySelectorAll('.lt-panel').forEach(function(p) { p.classList.remove('visible'); });
-  document.querySelectorAll('.lt-track-btn').forEach(function(b) { b.classList.remove('active'); });
-
-  if (!isOpen) {
-    panel.classList.add('visible');
-    btn.classList.add('active');
-  }
+  return;
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.lt-panel li').forEach(function (item) {
+    var badge = item.querySelector('.lt-ext-badge');
+    if (badge && badge.textContent && badge.textContent.indexOf('Eng Leadership') !== -1) {
+      item.remove();
+    }
+  });
+});
 </script>
