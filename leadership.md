@@ -139,52 +139,6 @@ permalink: /leadership/
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </li>{% endfor %}
         {% if leader_posts.size == 0 %}<li><span class="empty">Chưa có bài viết nội bộ.</span></li>{% endif %}
-        <!-- External articles -->
-        <li>
-          <span class="post-date">2026-01-15</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/avoid-the-new-leader-syndrome-as" target="_blank" rel="noopener">Tránh "Hội Chứng Lãnh Đạo Mới" Khi Trở Thành Engineering Leader</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-11-03</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/my-mistakes-and-advice-leading-engineering" target="_blank" rel="noopener">Sai Lầm & Bài Học Khi Dẫn Dắt Engineering Teams</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-09-29</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-stay-relevant-as-an-engineering" target="_blank" rel="noopener">Làm Thế Nào Để Vẫn Còn Giá Trị Khi Trao Quyền Cho Người Khác</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-07-27</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/engineer-to-leader-10-insights-to" target="_blank" rel="noopener">Từ Engineer Đến Leader: 10 Bài Học Để Bắt Đầu</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-07-13</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-engineering-leaders-stay-calm" target="_blank" rel="noopener">Cách Engineering Leader Giữ Bình Tĩnh & Hiệu Quả Khi Mọi Thứ Căng Thẳng</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-02-23</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/5-mindset-shifts-needed-to-grow-from" target="_blank" rel="noopener">5 Thay Đổi Tư Duy Cần Thiết Để Phát Triển Từ Engineer Lên Leader</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-01-12</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-create-a-culture-of-ownership" target="_blank" rel="noopener">Xây Dựng Văn Hóa Ownership Trong Engineering Team</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-01-08</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/great-engineering-leaders-create" target="_blank" rel="noopener">Engineering Leader Xuất Sắc Tạo Ra Những Leader Khác</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2023-11-12</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-make-and-embrace-changes" target="_blank" rel="noopener">Cách Tạo Ra & Đón Nhận Sự Thay Đổi Trong Tổ Chức</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
         </ul>
       </div>
     </li>
@@ -200,82 +154,6 @@ permalink: /leadership/
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </li>{% endfor %}
         {% if comm_posts.size == 0 %}<li><span class="empty">Chưa có bài viết nội bộ.</span></li>{% endif %}
-        <!-- External articles -->
-        <li>
-          <span class="post-date">2026-02-05</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/building-social-capital-guide-for" target="_blank" rel="noopener">Xây Dựng Social Capital — Hướng Dẫn Cho Engineers & Engineering Leaders</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-12-18</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-start-with-public-speaking" target="_blank" rel="noopener">Bắt Đầu Public Speaking Như Thế Nào — Hướng Dẫn Từng Bước</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-11-10</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-give-constructive-feedback" target="_blank" rel="noopener">Cách Đưa Ra Feedback Xây Dựng Với Sự Tự Tin</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-10-09</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-build-trust-as-an-engineering-514" target="_blank" rel="noopener">Xây Dựng Niềm Tin — Phần 2: Lập Kế Hoạch & Thực Thi</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-06-26</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/engineering-leaders-guide-to-managing" target="_blank" rel="noopener">Hướng Dẫn Quản Lý Kỳ Vọng AI Không Thực Tế Cho Engineering Leader</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-06-19</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/become-more-social-as-an-engineer" target="_blank" rel="noopener">Trở Nên Hòa Đồng Hơn Với Tư Cách Là Một Engineer</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-05-22</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/not-communicating-your-impact-is" target="_blank" rel="noopener">Không Truyền Đạt Được Impact Của Bạn Đang Giết Chết Sự Nghiệp</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-05-08</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-gain-respect-from-your-peers" target="_blank" rel="noopener">Làm Thế Nào Để Được Đồng Nghiệp & Leadership Tôn Trọng</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-05-01</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/the-importance-of-writing-in-the" target="_blank" rel="noopener">Tầm Quan Trọng Của Kỹ Năng Viết Trong Ngành Engineering</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-03-27</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/selling-isnt-just-for-sales-why-engineers" target="_blank" rel="noopener">Bán Hàng Không Chỉ Dành Cho Sales — Engineers & Managers Cũng Cần</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2025-03-06</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-communicate-with-stakeholders" target="_blank" rel="noopener">Cách Giao Tiếp Với Stakeholders Đúng Cách</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2026-02-06</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-build-trust-as-an-engineering" target="_blank" rel="noopener">Xây Dựng Niềm Tin Với Tư Cách Là Một Engineering Leader</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2024-07-07</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/how-to-let-your-manager-know-about" target="_blank" rel="noopener">Cách Chia Sẻ Mục Tiêu & Khát Vọng Của Bạn Với Manager</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2024-02-18</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/the-importance-of-forming-opinions" target="_blank" rel="noopener">Tầm Quan Trọng Của Việc Có Chính Kiến Trong Ngành Engineering</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
-        <li>
-          <span class="post-date">2024-01-21</span>
-          <a class="ext" href="https://newsletter.eng-leadership.com/p/keep-a-brag-list-of-the-wins-you" target="_blank" rel="noopener">Lưu Lại Những Thành Tích Của Bạn — Bạn Sẽ Cảm Ơn Mình Sau Này</a>
-          <span class="lt-ext-badge">🔗 Eng Leadership</span>
-        </li>
         </ul>
       </div>
     </li>
