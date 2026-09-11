@@ -38,9 +38,10 @@ permalink: /client-management/
   <p>Các kỹ năng và framework giúp Tech Lead làm việc hiệu quả với client & stakeholder — từ giao tiếp, đàm phán, làm rõ yêu cầu đến xây dựng niềm tin lâu dài.</p>
 </div>
 
-{% assign all_posts = site.client-management | sort: 'date' | reverse %}
+{% assign all_posts = site.client-management | sort: 'date' %}
 {% assign client_posts = all_posts | where: "track", "client-stakeholder" %}
 {% assign negotiation_posts = all_posts | where: "track", "negotiation" %}
+{% assign vocabulary_posts = all_posts | where: "track", "vocabulary" %}
 
 <div class="lt-section">
   <h2>🤝 Client Management Tracks</h2>
@@ -74,6 +75,28 @@ permalink: /client-management/
             <a href="{{ post.url }}">{{ post.title }}</a>
           </li>
           {% endfor %}
+        </ul>
+      </div>
+    </li>
+
+    <li class="lt-track-item">
+      <button class="lt-track-btn" onclick="togglePanel('client-vocabulary', this)">
+        Vocabulary Sau Meeting <span class="arrow">▶</span>
+      </button>
+      <div class="lt-panel" id="client-vocabulary">
+        <ul>
+          {% for post in vocabulary_posts %}
+          <li>
+            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+          {% if vocabulary_posts.size == 0 %}
+          <li>
+            <span class="post-date">—</span>
+            <span>Chưa có note vocabulary nào. Hãy thêm post mới với <code>track: "vocabulary"</code>.</span>
+          </li>
+          {% endif %}
         </ul>
       </div>
     </li>
