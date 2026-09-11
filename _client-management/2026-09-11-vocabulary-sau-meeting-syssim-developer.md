@@ -6,7 +6,7 @@ subtitle: "Technical terms + câu mẫu giúp giao tiếp rõ hơn với client 
 description: "Danh sách từ vựng thực tế sau meeting: technical, UI/frontend, filtering/data selection, và câu mẫu áp dụng ngay trong discussion với client."
 date: 2026-09-11 10:15:00 +0700
 categories: [client-management]
-tags: [vocabulary, client-communication, , tech-lead, international-team]
+tags: [vocabulary, client-communication, tech-lead, international-team]
 ---
 
 Post này là nơi mình lưu **take note vocabulary sau mỗi buổi meeting** để dùng lại cho các buổi refinement, kickoff, và technical discussion.
