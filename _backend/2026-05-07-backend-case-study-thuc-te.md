@@ -1,5 +1,6 @@
 ---
 layout: post
+track: "be-general"
 title: "Backend Case Study - Các vấn đề thực tế và cách giải quyết"
 date: 2026-05-07
 categories: backend case-study
