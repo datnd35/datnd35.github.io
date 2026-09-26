@@ -90,6 +90,9 @@ collections:
   learning:
     output: true
     permalink: /:collection/:path/
+  java-spring-boot:
+    output: true
+    permalink: /:collection/:path/
   experiences:
     output: true
   senior:

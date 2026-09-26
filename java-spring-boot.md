@@ -4,7 +4,7 @@ title: ☕ Java-spring boot
 permalink: /java-spring-boot/
 ---
 
-{%- assign all_posts = site.java-spring-boot | default: empty -%}
+{%- assign all_posts = site['java-spring-boot'] | default: empty -%}
 
 {%- if all_posts.size > 0 -%}
 
