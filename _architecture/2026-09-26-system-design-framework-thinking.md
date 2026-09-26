@@ -170,12 +170,12 @@ Mục tiêu của ví dụ này không phải "API hóa" mọi quyết định, 
 
 ## 5) Trade-offs
 
-| Option | Ưu điểm | Nhược điểm | Khi nào dùng |
-| ------ | ------- | ---------- | ------------ |
-| Học thuộc nhiều frameworks rời rạc | Cảm giác biết nhiều mô hình | Khó retrieve khi gặp tình huống thật; dễ quên | Chỉ phù hợp giai đoạn làm quen thuật ngữ |
+| Option                                    | Ưu điểm                                          | Nhược điểm                                         | Khi nào dùng                                                         |
+| ----------------------------------------- | ------------------------------------------------ | -------------------------------------------------- | -------------------------------------------------------------------- |
+| Học thuộc nhiều frameworks rời rạc        | Cảm giác biết nhiều mô hình                      | Khó retrieve khi gặp tình huống thật; dễ quên      | Chỉ phù hợp giai đoạn làm quen thuật ngữ                             |
 | Framework thinking theo context/situation | Truy hồi nhanh hơn, trả lời rõ hơn, áp dụng được | Cần thời gian xây hệ thống ghi chú và gắn use case | Dùng khi cần ra quyết định thực tế (product/architecture/leadership) |
-| Giữ toàn bộ trong đầu | Không cần công cụ ngoài | Cognitive load cao, dễ mất kết nối giữa ý tưởng | Chỉ phù hợp scope nhỏ, ít biến số |
-| External brain (paper/notebook/Obsidian) | Giải phóng bộ nhớ làm việc, tăng khả năng nối ý | Cần kỷ luật cập nhật và review định kỳ | Dùng khi tích lũy nhiều framework qua thời gian |
+| Giữ toàn bộ trong đầu                     | Không cần công cụ ngoài                          | Cognitive load cao, dễ mất kết nối giữa ý tưởng    | Chỉ phù hợp scope nhỏ, ít biến số                                    |
+| External brain (paper/notebook/Obsidian)  | Giải phóng bộ nhớ làm việc, tăng khả năng nối ý  | Cần kỷ luật cập nhật và review định kỳ             | Dùng khi tích lũy nhiều framework qua thời gian                      |
 
 Một insight then chốt từ transcript: **đừng chỉ gom framework theo subject**, hãy gắn theo **situation nơi bạn sẽ dùng**.
 
