@@ -38,7 +38,7 @@ permalink: /systems-thinking/
   <p>Tư duy hệ thống trong kỹ thuật phần mềm — từ Mental Models, First Principles Thinking, Feedback Loops đến Root Cause Analysis, Decision Making và Complex System Design.</p>
 </div>
 
-{% assign all_posts = site.systems-thinking | sort: 'date' | reverse %}
+{% assign all_posts = site.systems-thinking | sort: 'date' %}
 {% assign mental_posts    = all_posts | where: "track", "mental-models" %}
 {% assign firstp_posts    = all_posts | where: "track", "first-principles" %}
 {% assign feedback_posts  = all_posts | where: "track", "feedback-loops" %}

@@ -3,12 +3,13 @@ layout: post
 title: "Nói nhanh, nghĩ rõ với 4 câu hỏi khung tư duy"
 date: 2026-09-26 09:00:00 +0700
 categories: systems-thinking
+track: "first-principles"
 description: "Cách phản xạ nhanh trong hội thoại bằng framework thinking: từ first principles đến 4 câu hỏi để điều hướng cuộc trò chuyện."
 tags:
   [
     systems-thinking,
+      first-principles,
     framework-thinking,
-    first-principles,
     communication,
     mental-models,
   ]
