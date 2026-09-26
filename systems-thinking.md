@@ -43,18 +43,16 @@ permalink: /systems-thinking/
 {% assign firstp_posts    = all_posts | where: "track", "first-principles" %}
 {% assign feedback_posts  = all_posts | where: "track", "feedback-loops" %}
 {% assign rca_posts       = all_posts | where: "track", "root-cause-analysis" %}
-{% assign decision_posts  = all_posts | where: "track", "decision-making" %}
-{% assign complex_posts   = all_posts | where: "track", "complex-systems" %}
 
 <div class="lt-section">
   <h2>1. Thinking Frameworks</h2>
   <ul class="lt-track-list">
 
     <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('st-mental', this)">
+      <button class="lt-track-btn active" onclick="togglePanel('st-mental', this)">
         Mental Models for Engineers <span class="arrow">▶</span>
       </button>
-      <div class="lt-panel" id="st-mental">
+      <div class="lt-panel visible" id="st-mental">
         <ul>
           {% for post in mental_posts %}
           <li>
@@ -67,28 +65,12 @@ permalink: /systems-thinking/
     </li>
 
     <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('st-firstp', this)">
+      <button class="lt-track-btn active" onclick="togglePanel('st-firstp', this)">
         First Principles Thinking <span class="arrow">▶</span>
       </button>
-      <div class="lt-panel" id="st-firstp">
+      <div class="lt-panel visible" id="st-firstp">
         <ul>
           {% for post in firstp_posts %}
-          <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </li>
-
-    <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('st-decision', this)">
-        Decision Making &amp; Trade-offs <span class="arrow">▶</span>
-      </button>
-      <div class="lt-panel" id="st-decision">
-        <ul>
-          {% for post in decision_posts %}
           <li>
             <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <a href="{{ post.url }}">{{ post.title }}</a>
@@ -106,10 +88,10 @@ permalink: /systems-thinking/
   <ul class="lt-track-list">
 
     <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('st-feedback', this)">
+      <button class="lt-track-btn active" onclick="togglePanel('st-feedback', this)">
         Feedback Loops &amp; System Dynamics <span class="arrow">▶</span>
       </button>
-      <div class="lt-panel" id="st-feedback">
+      <div class="lt-panel visible" id="st-feedback">
         <ul>
           {% for post in feedback_posts %}
           <li>
@@ -122,28 +104,12 @@ permalink: /systems-thinking/
     </li>
 
     <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('st-rca', this)">
+      <button class="lt-track-btn active" onclick="togglePanel('st-rca', this)">
         Root Cause Analysis &amp; Debugging Thinking <span class="arrow">▶</span>
       </button>
-      <div class="lt-panel" id="st-rca">
+      <div class="lt-panel visible" id="st-rca">
         <ul>
           {% for post in rca_posts %}
-          <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </li>
-
-    <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('st-complex', this)">
-        Complex Systems &amp; Emergent Behavior <span class="arrow">▶</span>
-      </button>
-      <div class="lt-panel" id="st-complex">
-        <ul>
-          {% for post in complex_posts %}
           <li>
             <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <a href="{{ post.url }}">{{ post.title }}</a>
@@ -162,8 +128,12 @@ permalink: /systems-thinking/
 function togglePanel(panelId, btn) {
   var panel = document.getElementById(panelId);
   var isVisible = panel.classList.contains('visible');
-  document.querySelectorAll('.lt-panel').forEach(function(p){ p.classList.remove('visible'); });
-  document.querySelectorAll('.lt-track-btn').forEach(function(b){ b.classList.remove('active'); });
-  if (!isVisible) { panel.classList.add('visible'); btn.classList.add('active'); }
+  if (isVisible) {
+    panel.classList.remove('visible');
+    btn.classList.remove('active');
+  } else {
+    panel.classList.add('visible');
+    btn.classList.add('active');
+  }
 }
 </script>
