@@ -4,7 +4,14 @@ title: "Nói nhanh, nghĩ rõ với 4 câu hỏi khung tư duy"
 date: 2026-09-26 09:00:00 +0700
 categories: systems-thinking
 description: "Cách phản xạ nhanh trong hội thoại bằng framework thinking: từ first principles đến 4 câu hỏi để điều hướng cuộc trò chuyện."
-tags: [systems-thinking, framework-thinking, first-principles, communication, mental-models]
+tags:
+  [
+    systems-thinking,
+    framework-thinking,
+    first-principles,
+    communication,
+    mental-models,
+  ]
 ---
 
 > **Nguồn tham khảo:** https://www.youtube.com/watch?v=lcyHC9HLTzc&t=5s
@@ -22,6 +29,7 @@ tags: [systems-thinking, framework-thinking, first-principles, communication, me
 Không phải do IQ thấp. Vấn đề thường là ta chưa rèn tư duy theo **cấu trúc**.
 
 Khi không có cấu trúc, não sẽ:
+
 - bám vào chi tiết rời rạc,
 - chạy theo hướng câu hỏi của người khác,
 - mất vài giây quý giá để “nghĩ xem mình muốn nói gì”.
@@ -35,15 +43,18 @@ Trong tình huống đó, nguyên tắc quan trọng là: **steer, don’t follo
 Điểm mấu chốt của phản xạ nhanh là có “khung” để bám vào.
 
 Ví dụ kinh điển:
+
 - `Revenue = Units × Price`
 - `Profit = Revenue - Cost`
 
 Khi có người hỏi “Làm sao kiếm nhiều tiền hơn?”, bạn không bị lạc trong hàng chục ý tưởng rời rạc nữa. Bạn quay về đúng các đòn bẩy gốc:
+
 - tăng số lượng bán (units),
 - tăng giá (price),
 - hoặc làm cả hai.
 
 Tương tự với lợi nhuận:
+
 - tăng revenue,
 - hoặc giảm cost (fixed cost / marginal cost).
 
