@@ -3,7 +3,19 @@ layout: post
 title: "🚀 Guava Cache: Vì sao Cache có thể giúp hệ thống xử lý nhiều Request hơn?"
 date: 2026-09-26 09:00:00 +0700
 categories: [java-spring-boot]
-tags: [Java, SpringBoot, Guava, Cache, Redis, SystemDesign, Backend, Performance, Scalability, SoftwareEngineering]
+tags:
+  [
+    Java,
+    SpringBoot,
+    Guava,
+    Cache,
+    Redis,
+    SystemDesign,
+    Backend,
+    Performance,
+    Scalability,
+    SoftwareEngineering,
+  ]
 ---
 
 Mình sẽ viết theo kiểu **bài technical post dễ đọc**, đi từ vấn đề → cách Guava Cache giải quyết → flow → ví dụ → khi nào dùng → điểm cần nhớ.
@@ -353,16 +365,16 @@ App
 
 Ưu điểm:
 
-* ⚡ Rất nhanh
-* Không cần network
-* Đơn giản
-* Giảm tải Database
+- ⚡ Rất nhanh
+- Không cần network
+- Đơn giản
+- Giảm tải Database
 
 Nhược điểm:
 
-* Cache nằm trong từng application instance
-* Restart app → mất cache
-* Không share giữa nhiều instance
+- Cache nằm trong từng application instance
+- Restart app → mất cache
+- Không share giữa nhiều instance
 
 ---
 
@@ -378,9 +390,9 @@ Nhược điểm:
 
 Ưu điểm:
 
-* Shared cache
-* Phù hợp nhiều application instances
-* Cache có thể tồn tại độc lập với application
+- Shared cache
+- Phù hợp nhiều application instances
+- Cache có thể tồn tại độc lập với application
 
 Nhưng:
 
