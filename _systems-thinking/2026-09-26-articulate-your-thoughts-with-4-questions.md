@@ -8,7 +8,7 @@ description: "Cách phản xạ nhanh trong hội thoại bằng framework think
 tags:
   [
     systems-thinking,
-      first-principles,
+    first-principles,
     framework-thinking,
     communication,
     mental-models,
