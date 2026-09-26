@@ -51,10 +51,10 @@ permalink: /communication/
   <ul class="lt-track-list">
 
     <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('comm-frameworks', this)">
+      <button class="lt-track-btn active" onclick="togglePanel('comm-frameworks', this)">
         Frameworks &amp; Models Giao Tiếp <span class="arrow">▶</span>
       </button>
-      <div class="lt-panel" id="comm-frameworks">
+      <div class="lt-panel visible" id="comm-frameworks">
         <ul>
           {% for post in framework_posts %}
           <li>
@@ -67,10 +67,10 @@ permalink: /communication/
     </li>
 
     <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('comm-speaking', this)">
+      <button class="lt-track-btn active" onclick="togglePanel('comm-speaking', this)">
         Speaking &amp; Presentation <span class="arrow">▶</span>
       </button>
-      <div class="lt-panel" id="comm-speaking">
+      <div class="lt-panel visible" id="comm-speaking">
         <ul>
           {% for post in speaking_posts %}
           <li>
@@ -83,10 +83,10 @@ permalink: /communication/
     </li>
 
     <li class="lt-track-item">
-      <button class="lt-track-btn" onclick="togglePanel('comm-workplace', this)">
+      <button class="lt-track-btn active" onclick="togglePanel('comm-workplace', this)">
         Giao Tiếp Chuyên Nghiệp Trong Công Sở <span class="arrow">▶</span>
       </button>
-      <div class="lt-panel" id="comm-workplace">
+      <div class="lt-panel visible" id="comm-workplace">
         <ul>
           {% for post in workplace_posts %}
           <li>
