@@ -3,7 +3,21 @@ layout: post
 title: "k6 là gì? Công cụ giúp bạn biết API chịu tải đến đâu"
 date: 2026-09-26 09:00:00 +0700
 categories: [java-spring-boot]
-tags: [k6, load-testing, performance-testing, spring-boot, java, backend, system-design, guava-cache, redis, prometheus, grafana, software-engineering]
+tags:
+  [
+    k6,
+    load-testing,
+    performance-testing,
+    spring-boot,
+    java,
+    backend,
+    system-design,
+    guava-cache,
+    redis,
+    prometheus,
+    grafana,
+    software-engineering,
+  ]
 description: "Tìm hiểu k6 từ cơ bản đến thực chiến: k6 dùng để làm gì, hoạt động thế nào, đọc metric ra sao và áp dụng vào project Spring Boot."
 ---
 
@@ -184,15 +198,15 @@ thì:
 Một script rất đơn giản:
 
 ```javascript
-import http from 'k6/http';
+import http from "k6/http";
 
 export const options = {
   vus: 100,
-  duration: '30s',
+  duration: "30s",
 };
 
 export default function () {
-  http.get('http://localhost:8080/products/123');
+  http.get("http://localhost:8080/products/123");
 }
 ```
 
