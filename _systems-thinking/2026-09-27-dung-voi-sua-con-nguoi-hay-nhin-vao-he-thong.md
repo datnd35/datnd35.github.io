@@ -3,7 +3,14 @@ layout: post
 title: "🧠 Đừng vội sửa con người — hãy nhìn vào hệ thống"
 date: 2026-09-27
 categories: [systems-thinking]
-tags: [systems-thinking, structure-generates-behavior, feedback-loop, stock-and-flow, leadership]
+tags:
+  [
+    systems-thinking,
+    structure-generates-behavior,
+    feedback-loop,
+    stock-and-flow,
+    leadership,
+  ]
 ---
 
 Có một câu rất đáng nhớ trong Systems Thinking:
