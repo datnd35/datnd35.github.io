@@ -3,6 +3,7 @@ layout: post
 title: "🧠 Đừng vội sửa con người — hãy nhìn vào hệ thống"
 date: 2026-09-27
 categories: [systems-thinking]
+track: root-cause-analysis
 tags:
   [
     systems-thinking,

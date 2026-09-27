@@ -3,6 +3,7 @@ layout: post
 title: "🧠 Hiểu con người trước khi cố gắng thay đổi họ"
 date: 2026-09-27
 categories: [systems-thinking]
+track: feedback-loops
 tags: [system-thinking, feedback, motivation, second-order-thinking, leadership]
 ---
 
