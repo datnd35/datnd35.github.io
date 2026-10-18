@@ -10,7 +10,7 @@ Trong quá trình sử dụng GitHub Copilot để hỗ trợ phát triển ph�
 
 **AI có thể giúp chúng ta review code nhanh hơn, nhưng không đồng nghĩa với việc chúng ta đang review code tốt hơn.**
 
-Nếu chỉ đưa Pull Request cho AI và hỏi *“Review this PR”*, chúng ta có thể nhận được rất nhiều nhận xét về naming, code smells, duplicated code hay refactoring.
+Nếu chỉ đưa Pull Request cho AI và hỏi _“Review this PR”_, chúng ta có thể nhận được rất nhiều nhận xét về naming, code smells, duplicated code hay refactoring.
 
 Nhưng liệu những nhận xét đó có thực sự giúp hệ thống tốt hơn?
 
@@ -21,18 +21,21 @@ Mình nghĩ rằng, để sử dụng AI hiệu quả trong Code Review, chúng 
 AI đặc biệt hữu ích với những công việc có thể chuẩn hóa thành các quy tắc và checklist.
 
 🔹 **Coding Standards**
+
 - Naming convention và code formatting.
 - Unused imports và biến không cần thiết.
 - Magic numbers và duplicated code.
 - Hàm quá dài hoặc có quá nhiều trách nhiệm.
 
 🔹 **Code Quality**
+
 - Phát hiện code smells.
 - Đề xuất cải thiện readability.
 - Kiểm tra error handling.
 - Phát hiện các trường hợp thiếu unit tests.
 
 🔹 **Security & Performance**
+
 - Nhận diện các dấu hiệu có nguy cơ gây lỗi bảo mật.
 - Phát hiện những thao tác có thể gây performance issues.
 - Kiểm tra các trường hợp xử lý dữ liệu chưa an toàn.
@@ -46,7 +49,7 @@ Một đoạn code có thể đúng về mặt kỹ thuật nhưng vẫn sai v�
 Ví dụ:
 
 ```typescript
-if (equipment.status !== 'ACTIVE') {
+if (equipment.status !== "ACTIVE") {
   return;
 }
 ```
@@ -144,11 +147,13 @@ Tất nhiên, checklist tốt không đảm bảo AI sẽ tìm được mọi l�
 Hãy thử so sánh:
 
 **Trước khi sử dụng AI**
+
 - Dành nhiều thời gian cho naming và formatting.
 - Phải kiểm tra thủ công những lỗi lặp đi lặp lại.
 - Dễ bỏ qua các chi tiết nhỏ khi review nhiều PR.
 
 **Khi kết hợp AI đúng cách**
+
 - Tự động hóa một phần kiểm tra cơ học.
 - Chuẩn hóa tiêu chí review giữa các thành viên.
 - Có thêm thời gian để phân tích business logic.
@@ -166,11 +171,11 @@ Một reviewer giỏi không phải là người tìm được nhiều lỗi nh�
 
 Vì vậy, câu hỏi không nên chỉ là:
 
-❌ *How can AI review my code?*
+❌ _How can AI review my code?_
 
 Mà nên là:
 
-✅ *How can I use AI to become a better code reviewer?*
+✅ _How can I use AI to become a better code reviewer?_
 
 Đó mới là cách mình muốn tiếp cận AI trong Software Engineering: không phụ thuộc vào AI, mà sử dụng AI để nâng cao năng lực của chính mình.
 
