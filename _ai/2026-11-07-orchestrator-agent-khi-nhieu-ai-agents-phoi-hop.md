@@ -14,7 +14,7 @@ tags:
     ai-engineering,
     software-architecture,
   ]
-track: "ai-tools"
+track: "orchestrator-agent"
 ---
 
 Chúng ta đã đi qua một số khái niệm quan trọng trong hệ sinh thái AI:

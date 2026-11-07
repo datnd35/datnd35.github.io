@@ -200,6 +200,7 @@ permalink: /ai/
   {% assign mcp_posts = all_ai | where: "track", "mcp" %}
   {% assign fine_tuning_posts = all_ai | where: "track", "fine-tuning" %}
   {% assign tools_posts = all_ai | where: "track", "ai-tools" %}
+  {% assign orchestrator_posts = all_ai | where: "track", "orchestrator-agent" %}
 
   <!-- SECTION 1: Nền tảng AI -->
   <div class="lt-section">
@@ -328,6 +329,26 @@ permalink: /ai/
             </li>
             {% endfor %}
             {% if tools_posts.size == 0 %}<li><span class="empty">Chưa có bài viết.</span></li>{% endif %}
+          </ul>
+        </div>
+      </li>
+
+      <li class="lt-track-item">
+        <button class="lt-track-btn" onclick="togglePanel('ai-orchestrator', this)">
+          🤖 Orchestrator Agent
+          <span class="arrow">▶</span>
+        </button>
+        <div class="lt-panel" id="ai-orchestrator">
+          <p class="track-desc">Nhiều AI Agents phối hợp để giải quyết bài toán lớn: workflow, tích hợp API/data và
+            orchestration framework.</p>
+          <ul>
+            {% for post in orchestrator_posts %}
+            <li>
+              <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+            {% if orchestrator_posts.size == 0 %}<li><span class="empty">Chưa có bài viết.</span></li>{% endif %}
           </ul>
         </div>
       </li>
