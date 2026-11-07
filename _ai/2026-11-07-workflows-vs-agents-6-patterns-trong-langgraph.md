@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building Effective AI Agents - Các kiến trúc và patterns"
-date: 2026-11-07
+date: 2026-11-07 02:00:00
 categories: ai
 tags:
   [
