@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LangGraph Fundamentals: StateGraph, Nodes, Edges và Workflow Execution"
+title: "Introduction to LangGraph - Cách LangGraph vận hành"
 date: 2026-11-07
 categories: ai
 tags:

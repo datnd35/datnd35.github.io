@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orchestrator Agent – Khi nhiều AI Agents phối hợp để giải quyết một bài toán lớn"
+title: "Orchestrator Agent"
 date: 2026-11-07
 categories: ai
 tags:
