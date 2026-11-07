@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building Effective AI Agents: Workflows vs Agents – 6 Patterns quan trọng trong LangGraph"
+title: "Building Effective AI Agents - Các kiến trúc và patterns"
 date: 2026-11-07
 categories: ai
 tags:
